@@ -1,0 +1,21 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border: 1px solid #333;
+  box-shadow: 1px 1px 5px #333;
+  display: block;
+}
