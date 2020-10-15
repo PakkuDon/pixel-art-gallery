@@ -23,4 +23,12 @@ export default [
     `,
     date: '2020-10-14',
   },
+  {
+    src: 'img/20201015-lospecdaily.png',
+    description: `
+      Lospec Dailies prompt: #dog
+      Palette: [Cave Rock](https://lospec.com/palette-list/cave-rock)
+    `,
+    date: '2020-10-15',
+  },
 ]
