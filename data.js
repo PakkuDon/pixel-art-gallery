@@ -31,4 +31,12 @@ export default [
     `,
     date: '2020-10-15',
   },
+  {
+    src: 'img/20201017-lospecdaily.png',
+    description: `
+      Lospec Dailies prompt: #tree
+      Palette: [Touhou PC-9801](https://lospec.com/palette-list/touhou-pc-9801)
+    `,
+    date: '2020-10-17',
+  },
 ]
