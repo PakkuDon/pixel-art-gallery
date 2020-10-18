@@ -39,4 +39,12 @@ export default [
     `,
     date: '2020-10-17',
   },
+  {
+    src: 'img/20201018-lospecdaily.png',
+    description: `
+      Lospec Dailies prompt: #create
+      Palette: [Arbitration-26 Palette](https://lospec.com/palette-list/arbitration-26)
+    `,
+    date: '2020-10-18',
+  },
 ]
