@@ -47,4 +47,12 @@ export default [
     `,
     date: '2020-10-18',
   },
+  {
+    src: 'img/20201019-lospecdaily.png',
+    description: `
+      Lospec Dailies prompt: #fish
+      Palette: [gamer19](https://lospec.com/palette-list/gamer19)
+    `,
+    date: '2020-10-19',
+  },
 ]
