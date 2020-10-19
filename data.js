@@ -55,4 +55,12 @@ export default [
     `,
     date: '2020-10-19',
   },
+  {
+    src: 'img/20201020-lospecdaily.png',
+    description: `
+      Lospec Dailies prompt: #dog
+      Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
+    `,
+    date: '2020-10-20',
+  },
 ]
