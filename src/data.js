@@ -63,4 +63,13 @@ export default [
     `,
     date: '2020-10-20',
   },
+  {
+    src: 'img/20201024-pixeldailies.png',
+    description: `
+      Pixel Dailies prompt: #television
+      Palette: [EG32](https://lospec.com/palette-list/eg32)
+      Trivia: First pixel art that I've created in [GIMP](https://www.gimp.org/)
+    `,
+    date: '2020-10-24',
+  },
 ]
