@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 
 import './styles.css'
@@ -8,17 +8,21 @@ const extractFilename = path => (
   path.split(/[/.]/g)[1]
 )
 
-const App = () => (
-  <div>
+const App = () => {
+  const [selectedImage, setSelectedImage] = useState(null)
+
+  return (
     <div>
-      <ul>
-        {pixelArtEntries.map(({ src }) => (
-          <li key={src}>{extractFilename(src)}</li>
-        ))}
-      </ul>
+      <div>
+        <ul>
+          {pixelArtEntries.map((entry) => (
+            <li key={entry.src} onClick={() => setSelectedImage(entry)}>{extractFilename(entry.src)}</li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 ReactDOM.render(
   <App />,
