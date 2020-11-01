@@ -1,8 +1,14 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
+import marked from 'marked'
 
 import './styles.css'
 import pixelArtEntries from './data'
+
+marked.setOptions({
+  breaks: true,
+  gfm: true,
+})
 
 const extractFilename = path => (
   path.split(/[/.]/g)[1]
@@ -23,7 +29,7 @@ const App = () => {
       <div>
         <img src={selectedImage && selectedImage.src} alt={selectedImage && selectedImage.src} />
         <div>
-          <p>{selectedImage && selectedImage.description}</p>
+          <p dangerouslySetInnerHTML={{ __html: selectedImage && marked(selectedImage.description.replace(/ +/g, ' '))}} />
           <p>{selectedImage && selectedImage.date}</p>
         </div>
       </div>
