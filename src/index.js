@@ -19,14 +19,14 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <div>
+      <div className="card">
         <ul>
           {pixelArtEntries.map((entry) => (
             <li key={entry.src} onClick={() => setSelectedImage(entry)}>{extractFilename(entry.src)}</li>
           ))}
         </ul>
       </div>
-      <div>
+      <div className="card">
         <img src={selectedImage && selectedImage.src} alt={selectedImage && selectedImage.src} />
         <div>
           <p dangerouslySetInnerHTML={{ __html: selectedImage && marked(selectedImage.description.replace(/ +/g, ' '))}} />

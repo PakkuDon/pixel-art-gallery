@@ -6,12 +6,27 @@
 
 html {
   font-family: sans-serif;
+  height: 100vh;
 }
 
 body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  width: 80vw;
+}
+
+.card {
+  border: 1px solid #333;
+  box-shadow: 5px 5px 5px #999;
+  padding: 1em;
 }
 
 img {
