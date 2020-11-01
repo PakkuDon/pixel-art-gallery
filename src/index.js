@@ -18,7 +18,7 @@ const App = () => {
   const [selectedImage, setSelectedImage] = useState(null)
 
   return (
-    <div>
+    <React.Fragment>
       <div>
         <ul>
           {pixelArtEntries.map((entry) => (
@@ -33,7 +33,7 @@ const App = () => {
           <p>{selectedImage && selectedImage.date}</p>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 
