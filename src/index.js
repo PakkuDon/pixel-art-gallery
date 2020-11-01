@@ -20,6 +20,13 @@ const App = () => {
           ))}
         </ul>
       </div>
+      <div>
+        <img src={selectedImage && selectedImage.src} alt={selectedImage && selectedImage.src} />
+        <div>
+          <p>{selectedImage && selectedImage.description}</p>
+          <p>{selectedImage && selectedImage.date}</p>
+        </div>
+      </div>
     </div>
   )
 }
