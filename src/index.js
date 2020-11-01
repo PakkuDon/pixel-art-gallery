@@ -11,7 +11,7 @@ marked.setOptions({
 })
 
 const extractFilename = path => (
-  path.split(/[/.]/g)[1]
+  path.split(/[/.]/g)[0]
 )
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
         </ul>
       </div>
       <div className="card">
-        <img src={selectedImage && selectedImage.src} alt={selectedImage && selectedImage.src} />
+        <img src={selectedImage && `img/${selectedImage.src}`} alt={selectedImage && selectedImage.src} />
         <div>
           <p dangerouslySetInnerHTML={{ __html: selectedImage && marked(selectedImage.description.replace(/ +/g, ' '))}} />
           <p>{selectedImage && selectedImage.date}</p>
