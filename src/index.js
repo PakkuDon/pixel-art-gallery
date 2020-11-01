@@ -15,7 +15,7 @@ const extractFilename = path => (
 )
 
 const App = () => {
-  const [selectedImage, setSelectedImage] = useState(null)
+  const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
 
   return (
     <React.Fragment>
