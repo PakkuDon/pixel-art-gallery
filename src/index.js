@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
-import { BrowserRouter as Router } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import PixelArtGallery from "./PixelArtGallery"
 import "./styles.css"
@@ -8,7 +8,11 @@ import "./styles.css"
 const App = () => {
   return (
     <Router>
-      <PixelArtGallery />
+      <Switch>
+        <Route path="/:id?">
+          <PixelArtGallery />
+        </Route>
+      </Switch>
     </Router>
   )
 }
