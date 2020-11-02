@@ -13,7 +13,7 @@ marked.setOptions({
   gfm: true,
 })
 
-const extractFilename = (path) => path.split(/[/.]/g)[0]
+const extractFilename = (path) => path.split(".")[0]
 
 const App = () => {
   const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
