@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config config/production.config.js",
+    "build": "./script/build.sh",
     "dev": "webpack serve  --config config/development.config.js",
     "format": "prettier --write ."
   },
