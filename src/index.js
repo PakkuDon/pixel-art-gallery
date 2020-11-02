@@ -1,20 +1,14 @@
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
-import { BrowserRouter as Router, Link } from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 
-import Sidebar from "./components/Sidebar"
-import ImageDetails from "./components/ImageDetails"
-
+import PixelArtGallery from "./PixelArtGallery"
 import "./styles.css"
-import pixelArtEntries from "./data"
 
 const App = () => {
-  const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
-
   return (
     <Router>
-      <Sidebar entries={pixelArtEntries} onImageSelect={setSelectedImage} />
-      <ImageDetails image={selectedImage} />
+      <PixelArtGallery />
     </Router>
   )
 }
