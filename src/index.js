@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
+import { BrowserRouter as Router, Link } from "react-router-dom"
 import marked from "marked"
 
 import Card from "./components/Card"
@@ -18,12 +19,14 @@ const App = () => {
   const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
 
   return (
-    <React.Fragment>
+    <Router>
       <Card>
         <ul>
           {pixelArtEntries.map((entry) => (
             <li key={entry.src} onClick={() => setSelectedImage(entry)}>
-              {extractFilename(entry.src)}
+              <Link to={`/${extractFilename(entry.src)}`}>
+                {extractFilename(entry.src)}
+              </Link>
             </li>
           ))}
         </ul>
@@ -39,7 +42,7 @@ const App = () => {
           <p>{selectedImage.date}</p>
         </div>
       </Card>
-    </React.Fragment>
+    </Router>
   )
 }
 
