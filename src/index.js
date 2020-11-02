@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom"
 import marked from "marked"
 
 import Card from "./components/Card"
+import Sidebar from "./components/Sidebar"
 
 import "./styles.css"
 import pixelArtEntries from "./data"
@@ -13,24 +14,12 @@ marked.setOptions({
   gfm: true,
 })
 
-const extractFilename = (path) => path.split(".")[0]
-
 const App = () => {
   const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
 
   return (
     <Router>
-      <Card>
-        <ul>
-          {pixelArtEntries.map((entry) => (
-            <li key={entry.src} onClick={() => setSelectedImage(entry)}>
-              <Link to={`/${extractFilename(entry.src)}`}>
-                {extractFilename(entry.src)}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Card>
+      <Sidebar entries={pixelArtEntries} onImageSelect={setSelectedImage} />
       <Card>
         <img src={`img/${selectedImage.src}`} alt={selectedImage.src} />
         <div>
