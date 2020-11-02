@@ -27,10 +27,10 @@ const App = () => {
         </ul>
       </div>
       <div className="card">
-        <img src={selectedImage && `img/${selectedImage.src}`} alt={selectedImage && selectedImage.src} />
+        <img src={`img/${selectedImage.src}`} alt={selectedImage.src} />
         <div>
-          <p dangerouslySetInnerHTML={{ __html: selectedImage && marked(selectedImage.description.replace(/ +/g, ' '))}} />
-          <p>{selectedImage && selectedImage.date}</p>
+          <p dangerouslySetInnerHTML={{ __html: marked(selectedImage.description.replace(/ +/g, ' '))}} />
+          <p>{selectedImage.date}</p>
         </div>
       </div>
     </React.Fragment>
