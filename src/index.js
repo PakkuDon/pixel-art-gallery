@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import ReactDOM from "react-dom"
 import marked from "marked"
 
+import Card from "./components/Card"
+
 import "./styles.css"
 import pixelArtEntries from "./data"
 
@@ -17,7 +19,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <div className="card">
+      <Card>
         <ul>
           {pixelArtEntries.map((entry) => (
             <li key={entry.src} onClick={() => setSelectedImage(entry)}>
@@ -25,8 +27,8 @@ const App = () => {
             </li>
           ))}
         </ul>
-      </div>
-      <div className="card">
+      </Card>
+      <Card>
         <img src={`img/${selectedImage.src}`} alt={selectedImage.src} />
         <div>
           <p
@@ -36,7 +38,7 @@ const App = () => {
           />
           <p>{selectedImage.date}</p>
         </div>
-      </div>
+      </Card>
     </React.Fragment>
   )
 }

@@ -23,12 +23,6 @@ body {
   width: 80vw;
 }
 
-.card {
-  border: 1px solid #333;
-  box-shadow: 5px 5px 5px #999;
-  padding: 1em;
-}
-
 img {
   border: 1px solid #333;
   box-shadow: 1px 1px 5px #333;
