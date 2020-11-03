@@ -13,7 +13,8 @@ const PixelArtGallery = () => {
   useEffect(() => {
     if (id && selectedImage?.src !== id) {
       setSelectedImage(
-        pixelArtEntries.find((image) => id === extractFilename(image.src))
+        pixelArtEntries.find((image) => id === extractFilename(image.src)) ??
+          pixelArtEntries[0]
       )
     }
   }, [])
