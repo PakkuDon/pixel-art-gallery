@@ -1,9 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
+import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
-
-const extractFilename = (path) => path.split(".")[0]
 
 const Sidebar = ({ entries, onImageSelect }) => (
   <Card>
