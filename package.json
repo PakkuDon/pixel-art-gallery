@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "./script/build.sh",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "yarn build",
     "dev": "webpack serve  --config config/development.config.js",
     "format": "prettier --write ."
   },
@@ -16,6 +18,7 @@
     "babel-loader": "^8.1.0",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "css-loader": "^5.0.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.0",
     "prettier": "^2.1.2",
     "style-loader": "^2.0.0",
