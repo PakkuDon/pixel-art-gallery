@@ -1,1 +1,1 @@
-# Pixel Art Collection
+# Pixel Art Gallery
