@@ -72,4 +72,14 @@ export default [
     `,
     date: "2020-10-24",
   },
+  {
+    src: "20201104-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #halloween
+      Palette: [DRZ15A](https://lospec.com/palette-list/drz15a)
+
+      Bit belated, but Happy Halloween!
+    `,
+    date: "2020-11-04",
+  },
 ]
