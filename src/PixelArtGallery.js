@@ -11,13 +11,23 @@ const PixelArtGallery = () => {
   const { id } = useParams()
 
   useEffect(() => {
+    let selectedFilename
     if (id && selectedImage?.src !== id) {
+      selectedFilename = id
+    } else if (document.referrer) {
+      selectedFilename = document.referrer.split("/").pop()
+    }
+
+    if (selectedFilename) {
       setSelectedImage(
-        pixelArtEntries.find((image) => id === extractFilename(image.src)) ??
-          pixelArtEntries[0]
+        pixelArtEntries.find(
+          (image) => selectedFilename === extractFilename(image.src)
+        ) ?? pixelArtEntries[0]
       )
     }
   }, [])
+
+  console.log(document.referrer)
 
   return (
     <React.Fragment>
