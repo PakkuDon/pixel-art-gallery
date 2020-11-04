@@ -6,8 +6,11 @@ import PixelArtGallery from "./PixelArtGallery"
 import "./styles.css"
 
 const App = () => {
+  const basename = location.hostname.includes("github")
+    ? "pixel-art-gallery"
+    : ""
   return (
-    <Router basename="./">
+    <Router basename={basename}>
       <Switch>
         <Route path="/:id?">
           <PixelArtGallery />
