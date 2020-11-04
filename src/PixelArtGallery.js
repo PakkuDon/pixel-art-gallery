@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { useParams } from "react-router-dom"
+import { useHistory, useParams } from "react-router-dom"
 
 import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
@@ -9,6 +9,7 @@ import pixelArtEntries from "./data"
 const PixelArtGallery = () => {
   const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
   const { id } = useParams()
+  const history = useHistory()
 
   useEffect(() => {
     let selectedFilename
@@ -24,6 +25,7 @@ const PixelArtGallery = () => {
           (image) => selectedFilename === extractFilename(image.src)
         ) ?? pixelArtEntries[0]
       )
+      history.replace(`/${selectedFilename}`)
     }
   }, [])
 
