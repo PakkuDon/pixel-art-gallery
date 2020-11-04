@@ -7,7 +7,7 @@ import "./styles.css"
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="./">
       <Switch>
         <Route path="/:id?">
           <PixelArtGallery />
