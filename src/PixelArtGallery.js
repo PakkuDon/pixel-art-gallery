@@ -27,7 +27,7 @@ const PixelArtGallery = () => {
       )
       history.replace(`/${selectedFilename}`)
     }
-  }, [])
+  }, [id])
 
   return (
     <div className="sidebar-layout">
