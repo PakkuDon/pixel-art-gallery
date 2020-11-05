@@ -7,7 +7,7 @@ import extractFilename from "./extractFilename"
 pixelArtEntries.forEach((pixelArt) => {
   const filename = extractFilename(pixelArt.src)
   const outputFilePath = path.join(__dirname, `../../dist/${filename}.html`)
-
+  const metaDescription = pixelArt.description.split("\n")[1].trim()
   const html = `
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +16,7 @@ pixelArtEntries.forEach((pixelArt) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pixel Art Gallery - ${filename}</title>
     <meta property="og:image" content="https://pakkudon.github.io/pixel-art-gallery/img/${pixelArt.src}" />
+    <meta property="og:description" content="${metaDescription}" />
   </head>
   <body>
     <p>
