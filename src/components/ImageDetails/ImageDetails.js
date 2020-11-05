@@ -11,14 +11,12 @@ marked.setOptions({
 const ImageDetails = ({ image }) => (
   <Card>
     <img src={`img/${image.src}`} alt={image.src} />
-    <div>
-      <p
-        dangerouslySetInnerHTML={{
-          __html: marked(image.description.replace(/ +/g, " ")),
-        }}
-      />
-      <p>{image.date}</p>
-    </div>
+    <div
+      dangerouslySetInnerHTML={{
+        __html: marked(image.description.replace(/ +/g, " ")),
+      }}
+    />
+    <p>{image.date}</p>
   </Card>
 )
 
