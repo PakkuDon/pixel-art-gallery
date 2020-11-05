@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import PixelArtGallery from "./PixelArtGallery"
+import Card from "./components/Card"
 import "normalize.css"
 import "./styles.css"
 
@@ -17,6 +18,18 @@ const App = () => {
           <PixelArtGallery />
         </Route>
       </Switch>
+      <Card>
+        <footer className="footer">
+          Source code on{" "}
+          <a
+            href="https://github.com/PakkuDon/pixel-art-gallery"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </footer>
+      </Card>
     </Router>
   )
 }

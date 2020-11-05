@@ -32,10 +32,10 @@ const PixelArtGallery = () => {
   console.log(document.referrer)
 
   return (
-    <React.Fragment>
+    <div className="sidebar-layout">
       <Sidebar entries={pixelArtEntries} onImageSelect={setSelectedImage} />
       <ImageDetails image={selectedImage} />
-    </React.Fragment>
+    </div>
   )
 }
 

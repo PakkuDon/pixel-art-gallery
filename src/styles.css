@@ -17,10 +17,18 @@ body {
 }
 
 #app {
+  width: 80vw;
+}
+
+.sidebar-layout {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1em;
-  width: 80vw;
+  margin: 1em 0;
+}
+
+.footer {
+  text-align: right;
 }
 
 img {
