@@ -29,8 +29,6 @@ const PixelArtGallery = () => {
     }
   }, [])
 
-  console.log(document.referrer)
-
   return (
     <div className="sidebar-layout">
       <Sidebar entries={pixelArtEntries} onImageSelect={setSelectedImage} />
