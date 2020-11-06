@@ -82,4 +82,12 @@ export default [
     `,
     date: "2020-11-04",
   },
+  {
+    src: "20201106-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #mushroom
+      Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
+    `,
+    date: "2020-11-07",
+  },
 ]
