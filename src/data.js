@@ -90,4 +90,12 @@ export default [
     `,
     date: "2020-11-07",
   },
+  {
+    src: "20201108-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #clouds
+      Palette: [Bubblegum 16](https://lospec.com/palette-list/bubblegum-16)
+    `,
+    date: "2020-11-08",
+  },
 ]
