@@ -98,4 +98,23 @@ export default [
     `,
     date: "2020-11-08",
   },
+  {
+    src: "20201108-vic-covid19-press.png",
+    description: `
+      "Everyone right to go?"
+      Palette: Sampled from a past press conference: #490172, #D8C8E3, 
+      #F9F9FE, #000000, #262926, #797977, #C8C7D1, #EDC4A6
+
+      With today's press conference came the announcement that the border between 
+      Metro and Regional Victoria along with the 25km travel limit will be lifted from 
+      11:59 PM tonight as Victoria recorded its ninth consecutive day of zero 
+      new coronavirus cases and no deaths. 
+      
+      We also bid farewell to the signature purple wall which had been a 
+      feature across Daniel Andrews' 120 consecutive press conferences. 
+      The wall which bore the words "Staying Apart Keeps Us Together"
+      has now been replaced with another saying "Stay Safe, Stay Open"
+    `,
+    date: "2020-11-08",
+  },
 ]
