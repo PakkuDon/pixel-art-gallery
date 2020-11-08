@@ -5,7 +5,7 @@ export default [
       Lospec Dailies prompt: #magic
       Palette: [MonoMetalic](https://lospec.com/palette-list/monometalic)
     `,
-    date: "2020-10-10",
+    date: "2020-10-10 22:48",
   },
   {
     src: "20201012-lospecdaily.png",
@@ -13,7 +13,7 @@ export default [
       Lospec Dailies prompt: #landscape
       Palette: [Nintendo Gameboy (Black Zero)](https://lospec.com/palette-list/nintendo-gameboy-black-zero)
     `,
-    date: "2020-10-12",
+    date: "2020-10-12 23:29",
   },
   {
     src: "20201014-lospecdaily.png",
@@ -21,7 +21,7 @@ export default [
       Lospec Dailies prompt: #rock
       Palette: [1bit Monitor Glow](https://lospec.com/palette-list/1bit-monitor-glow)
     `,
-    date: "2020-10-14",
+    date: "2020-10-14 00:23",
   },
   {
     src: "20201015-lospecdaily.png",
@@ -29,7 +29,7 @@ export default [
       Lospec Dailies prompt: #dog
       Palette: [Cave Rock](https://lospec.com/palette-list/cave-rock)
     `,
-    date: "2020-10-15",
+    date: "2020-10-15 23:59",
   },
   {
     src: "20201017-lospecdaily.png",
@@ -37,7 +37,7 @@ export default [
       Lospec Dailies prompt: #tree
       Palette: [Touhou PC-9801](https://lospec.com/palette-list/touhou-pc-9801)
     `,
-    date: "2020-10-17",
+    date: "2020-10-17 19:50",
   },
   {
     src: "20201018-lospecdaily.png",
@@ -45,7 +45,7 @@ export default [
       Lospec Dailies prompt: #create
       Palette: [Arbitration-26 Palette](https://lospec.com/palette-list/arbitration-26)
     `,
-    date: "2020-10-18",
+    date: "2020-10-18 17:51",
   },
   {
     src: "20201019-lospecdaily.png",
@@ -53,7 +53,7 @@ export default [
       Lospec Dailies prompt: #fish
       Palette: [gamer19](https://lospec.com/palette-list/gamer19)
     `,
-    date: "2020-10-19",
+    date: "2020-10-19 21:06",
   },
   {
     src: "20201020-lospecdaily.png",
@@ -61,7 +61,7 @@ export default [
       Lospec Dailies prompt: #dog
       Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
     `,
-    date: "2020-10-20",
+    date: "2020-10-20 00:48",
   },
   {
     src: "20201024-pixeldailies.png",
@@ -70,7 +70,7 @@ export default [
       Palette: [EG32](https://lospec.com/palette-list/eg32)
       Trivia: First pixel art that I've created in [GIMP](https://www.gimp.org/)
     `,
-    date: "2020-10-24",
+    date: "2020-10-24 23:59",
   },
   {
     src: "20201104-pixeldailies.png",
@@ -80,7 +80,7 @@ export default [
 
       Bit belated, but Happy Halloween!
     `,
-    date: "2020-11-04",
+    date: "2020-11-04 00:49",
   },
   {
     src: "20201106-lospecdaily.png",
@@ -88,7 +88,7 @@ export default [
       Lospec Dailies prompt: #mushroom
       Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
     `,
-    date: "2020-11-06",
+    date: "2020-11-06 23:58",
   },
   {
     src: "20201108-lospecdaily.png",
@@ -96,7 +96,7 @@ export default [
       Lospec Dailies prompt: #clouds
       Palette: [Bubblegum 16](https://lospec.com/palette-list/bubblegum-16)
     `,
-    date: "2020-11-08",
+    date: "2020-11-08 00:19",
   },
   {
     src: "20201108-vic-covid19-press.png",
@@ -115,7 +115,7 @@ export default [
       The wall which bore the words "Staying Apart Keeps Us Together"
       has now been replaced with another saying "Stay Safe, Stay Open"
     `,
-    date: "2020-11-08",
+    date: "2020-11-08 23:09",
   },
   {
     src: "20201108-vic-covid19-pressv2.png",
@@ -126,6 +126,6 @@ export default [
       Palette: Sampled from a past press conference: #D7D8D3, #3C8897,
       #F9F9FE, #000000, #2D2F3F, #797977, #C8C7D1, #EDC4A6
     `,
-    date: "2020-11-08",
+    date: "2020-11-08 23:27",
   },
 ]
