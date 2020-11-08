@@ -117,4 +117,15 @@ export default [
     `,
     date: "2020-11-08",
   },
+  {
+    src: "20201108-vic-covid19-pressv2.png",
+    description: `
+      Recolour of 20201108-vic-covid19-press featuring the new wall as
+      seen at the press conference on November 8 2020.
+
+      Palette: Sampled from a past press conference: #D7D8D3, #3C8897,
+      #F9F9FE, #000000, #2D2F3F, #797977, #C8C7D1, #EDC4A6
+    `,
+    date: "2020-11-08",
+  },
 ]
