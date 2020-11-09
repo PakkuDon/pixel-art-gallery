@@ -128,4 +128,18 @@ export default [
     `,
     date: "2020-11-08 23:27",
   },
+  {
+    src: "20201110-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Birds, restriction: 4 colors max
+
+      One of the peregrine falcon chicks from Collins St, Melbourne.
+      Their feathers have changed a lot recently but they still have some fluff.
+
+      You can find the livestream at https://www.367collinsfalcons.com.au/
+
+      Palette: #4F4948, #D9B670, #9EA29F, #EDF0EB
+    `,
+    date: "2020-11-10 00:13",
+  },
 ]
