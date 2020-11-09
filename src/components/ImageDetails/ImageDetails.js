@@ -16,7 +16,7 @@ const ImageDetails = ({ image }) => (
         __html: marked(image.description.replace(/ +/g, " ")),
       }}
     />
-    <p>{image.date}</p>
+    <p>- Posted {image.date}</p>
   </Card>
 )
 
