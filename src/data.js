@@ -142,4 +142,12 @@ export default [
     `,
     date: "2020-11-10 00:13",
   },
+  {
+    src: "20201111-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #house
+      Palette: [Slurry GB](https://lospec.com/palette-list/slurry-gb)
+    `,
+    date: "2020-11-11 13:42",
+  },
 ]
