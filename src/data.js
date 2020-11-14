@@ -150,4 +150,12 @@ export default [
     `,
     date: "2020-11-11 13:42",
   },
+  {
+    src: "20201114-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #water
+      Palette: [Kirby 15](https://lospec.com/palette-list/kirby-15)
+    `,
+    date: "2020-11-14 23:23",
+  },
 ]
