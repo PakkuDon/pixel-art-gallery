@@ -31,7 +31,11 @@ const PixelArtGallery = () => {
 
   return (
     <div className="sidebar-layout">
-      <Sidebar entries={pixelArtEntries} onImageSelect={setSelectedImage} />
+      <Sidebar
+        entries={pixelArtEntries}
+        onImageSelect={setSelectedImage}
+        selectedImage={selectedImage}
+      />
       <ImageDetails image={selectedImage} />
     </div>
   )
