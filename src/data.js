@@ -158,4 +158,12 @@ export default [
     `,
     date: "2020-11-14 23:23",
   },
+  {
+    src: "20201116-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: Set of #ChocolateDesserts. Restriction: Each dessert must be 32x32 pixels or less and contain chocolate
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2020-11-16 01:04",
+  },
 ]
