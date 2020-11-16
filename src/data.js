@@ -166,4 +166,12 @@ export default [
     `,
     date: "2020-11-16 01:04",
   },
+  {
+    src: "20201117-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #cityscape
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2020-11-17 01:11",
+  },
 ]
