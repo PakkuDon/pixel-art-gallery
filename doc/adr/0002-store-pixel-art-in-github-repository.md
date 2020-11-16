@@ -20,3 +20,4 @@ I also figured I could make another side project out of this.
 ## Consequences
 
 - Images and their associated metadata will be stored under version control so that they can be revised or reverted with relative ease.
+- As new images will be added in git commits my Github contribution graph may still appear green even if I haven't coded at all.
