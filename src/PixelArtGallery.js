@@ -6,8 +6,10 @@ import ImageDetails from "./components/ImageDetails"
 import extractFilename from "./util/extractFilename"
 import pixelArtEntries from "./data"
 
+const entries = pixelArtEntries.reverse()
+
 const PixelArtGallery = () => {
-  const [selectedImage, setSelectedImage] = useState(pixelArtEntries[0])
+  const [selectedImage, setSelectedImage] = useState(entries[0])
   const { id } = useParams()
   const history = useHistory()
 
@@ -21,9 +23,9 @@ const PixelArtGallery = () => {
 
     if (selectedFilename) {
       setSelectedImage(
-        pixelArtEntries.find(
+        entries.find(
           (image) => selectedFilename === extractFilename(image.src)
-        ) ?? pixelArtEntries[0]
+        ) ?? entries[0]
       )
       history.replace(`/${selectedFilename}`)
     }
@@ -32,7 +34,7 @@ const PixelArtGallery = () => {
   return (
     <div className="sidebar-layout">
       <Sidebar
-        entries={pixelArtEntries}
+        entries={entries}
         onImageSelect={setSelectedImage}
         selectedImage={selectedImage}
       />
