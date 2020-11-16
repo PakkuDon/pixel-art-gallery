@@ -9,6 +9,7 @@ Accepted
 ## Context
 
 This application only has two functions:
+
 - Display past pixel art entries
 - Display details for selected pixel art entry
 
