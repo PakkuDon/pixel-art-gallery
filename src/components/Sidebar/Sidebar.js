@@ -16,7 +16,6 @@ const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
           <li
             key={entry.src}
             className={filename === selectedFilename && "selected"}
-            onClick={() => onImageSelect(entry)}
           >
             <Link to={`/${extractFilename(entry.src)}`}>{filename}</Link>
           </li>
