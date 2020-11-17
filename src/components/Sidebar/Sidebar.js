@@ -7,7 +7,27 @@ import "./Sidebar.css"
 
 const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
   <Card>
-    <ul>
+    <div className="entriesDropdown">
+      <select
+        onChange={(event) => {
+          const selectedOption = entries.find(
+            (entry) =>
+              extractFilename(entry.src) === extractFilename(event.target.value)
+          )
+          onImageSelect(selectedOption)
+        }}
+      >
+        {entries.map((entry) => {
+          const filename = extractFilename(entry.src)
+          return (
+            <option key={`option-${filename}`} value={filename}>
+              {filename}
+            </option>
+          )
+        })}
+      </select>
+    </div>
+    <ul className="entriesList">
       {entries.map((entry) => {
         const filename = extractFilename(entry.src)
         const selectedFilename = extractFilename(selectedImage.src)
