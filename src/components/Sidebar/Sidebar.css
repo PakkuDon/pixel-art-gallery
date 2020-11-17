@@ -10,7 +10,7 @@
   display: none;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 720px) {
   .entriesDropdown {
     display: none;
   }

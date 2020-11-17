@@ -28,7 +28,7 @@ a:hover {
   width: 80vw;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 720px) {
   .sidebar-layout {
     display: grid;
     grid-template-columns: 1fr 2fr;
