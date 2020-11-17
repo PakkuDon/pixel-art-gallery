@@ -28,11 +28,13 @@ a:hover {
   width: 80vw;
 }
 
-.sidebar-layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 1em;
-  margin: 1em 0;
+@media (min-width: 640px) {
+  .sidebar-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+    margin: 1em 0;
+  }
 }
 
 .footer {
