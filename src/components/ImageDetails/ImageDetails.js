@@ -2,6 +2,7 @@ import React from "react"
 import marked from "marked"
 
 import Card from "../Card"
+import "./ImageDetails.css"
 
 marked.setOptions({
   breaks: true,
@@ -10,7 +11,7 @@ marked.setOptions({
 
 const ImageDetails = ({ image }) => (
   <Card>
-    <img src={`img/${image.src}`} alt={image.src} />
+    <img src={`img/${image.src}`} alt={image.src} className="pixelArt" />
     <div
       dangerouslySetInnerHTML={{
         __html: marked(image.description.replace(/ +/g, " ")),
