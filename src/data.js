@@ -186,4 +186,12 @@ export default [
     `,
     date: "2020-11-19 13:56",
   },
+  {
+    src: "20201120-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #waffle
+      Palette: [Cheese Palette](https://lospec.com/palette-list/cheese-palette)
+    `,
+    date: "2020-11-20 01:13",
+  },
 ]
