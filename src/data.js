@@ -174,4 +174,16 @@ export default [
     `,
     date: "2020-11-17 01:11",
   },
+  {
+    src: "20201119-diagram.png",
+    description: `
+      C4 Container Diagram
+      Palette: #ffffff, #428dd4, #07437b, #999999, #686868
+
+      I may have made this to mess with someone.
+      You can learn more about the C4 model for visualising software architecture
+      at [c4model.com](https://c4model.com/)
+    `,
+    date: "2020-11-19 01:56",
+  },
 ]
