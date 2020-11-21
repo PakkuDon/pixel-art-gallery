@@ -194,4 +194,12 @@ export default [
     `,
     date: "2020-11-20 01:13",
   },
+  {
+    src: "20201121-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #scarab
+      Palette: [Irenaart 22](https://lospec.com/palette-list/irenaart-22)
+    `,
+    date: "2020-11-21 23:23",
+  },
 ]
