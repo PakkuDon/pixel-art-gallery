@@ -202,4 +202,12 @@ export default [
     `,
     date: "2020-11-21 23:23",
   },
+  {
+    src: "20201122-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #landscape
+      Palette: [DarkPastel-36](https://lospec.com/palette-list/darkpastel-36)
+    `,
+    date: "2020-11-22 23:25",
+  },
 ]
