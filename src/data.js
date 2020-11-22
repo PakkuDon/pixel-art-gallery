@@ -207,6 +207,8 @@ export default [
     description: `
       Lospec Dailies prompt: #landscape
       Palette: [DarkPastel-36](https://lospec.com/palette-list/darkpastel-36)
+
+      The Nobbies, Phillip Island, Australia
     `,
     date: "2020-11-22 23:25",
   },
