@@ -16,6 +16,7 @@ const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
           )
           onImageSelect(selectedOption)
         }}
+        value={extractFilename(selectedImage?.src)}
       >
         {entries.map((entry) => {
           const filename = extractFilename(entry.src)
