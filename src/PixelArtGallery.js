@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useCallback } from "react"
 import { useHistory, useParams } from "react-router-dom"
 
 import Sidebar from "./components/Sidebar"
@@ -31,11 +31,16 @@ const PixelArtGallery = () => {
     }
   }, [id])
 
+  const onImageSelect = useCallback((image) => {
+    const selectedFilename = extractFilename(image.src)
+    history.replace(`/${selectedFilename}`)
+  })
+
   return (
     <div className="sidebar-layout">
       <Sidebar
         entries={entries}
-        onImageSelect={setSelectedImage}
+        onImageSelect={onImageSelect}
         selectedImage={selectedImage}
       />
       <ImageDetails image={selectedImage} />
