@@ -212,4 +212,14 @@ export default [
     `,
     date: "2020-11-22 23:25",
   },
+  {
+    src: "20201124-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #bird
+      Palette: [Combi 16](https://lospec.com/palette-list/combi-16)
+
+      House sparrow
+    `,
+    date: "2020-11-24 23:02",
+  },
 ]
