@@ -222,4 +222,12 @@ export default [
     `,
     date: "2020-11-24 23:02",
   },
+  {
+    src: "20201126-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #fire
+      Palette: [Golden Helmet](https://lospec.com/palette-list/golden-helmet)
+    `,
+    date: "2020-11-26 23:12",
+  },
 ]
