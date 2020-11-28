@@ -1,3 +1,19 @@
+.image-details {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.scrollable-content {
+  overflow: auto;
+}
+
+.image-viewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pixelArt {
   image-rendering: pixelated;
 }
