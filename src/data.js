@@ -6,6 +6,7 @@ export default [
       Palette: [MonoMetalic](https://lospec.com/palette-list/monometalic)
     `,
     date: "2020-10-10 22:48",
+    tags: ["lospecdailies", "magic"],
   },
   {
     src: "20201012-lospecdaily.png",
@@ -14,6 +15,7 @@ export default [
       Palette: [Nintendo Gameboy (Black Zero)](https://lospec.com/palette-list/nintendo-gameboy-black-zero)
     `,
     date: "2020-10-12 23:29",
+    tags: ["lospecdailies", "landscape"],
   },
   {
     src: "20201014-lospecdaily.png",
@@ -22,6 +24,7 @@ export default [
       Palette: [1bit Monitor Glow](https://lospec.com/palette-list/1bit-monitor-glow)
     `,
     date: "2020-10-14 00:23",
+    tags: ["lospecdailies", "rock"],
   },
   {
     src: "20201015-lospecdaily.png",
@@ -30,6 +33,7 @@ export default [
       Palette: [Cave Rock](https://lospec.com/palette-list/cave-rock)
     `,
     date: "2020-10-15 23:59",
+    tags: ["lospecdailies", "dog"],
   },
   {
     src: "20201017-lospecdaily.png",
@@ -38,6 +42,7 @@ export default [
       Palette: [Touhou PC-9801](https://lospec.com/palette-list/touhou-pc-9801)
     `,
     date: "2020-10-17 19:50",
+    tags: ["lospecdailies", "tree"],
   },
   {
     src: "20201018-lospecdaily.png",
@@ -46,6 +51,7 @@ export default [
       Palette: [Arbitration-26 Palette](https://lospec.com/palette-list/arbitration-26)
     `,
     date: "2020-10-18 17:51",
+    tags: ["lospecdailies", "create"],
   },
   {
     src: "20201019-lospecdaily.png",
@@ -54,6 +60,7 @@ export default [
       Palette: [gamer19](https://lospec.com/palette-list/gamer19)
     `,
     date: "2020-10-19 21:06",
+    tags: ["lospecdailies", "fish"],
   },
   {
     src: "20201020-lospecdaily.png",
@@ -62,6 +69,7 @@ export default [
       Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
     `,
     date: "2020-10-20 00:48",
+    tags: ["lospecdailies", "dog"],
   },
   {
     src: "20201024-pixeldailies.png",
@@ -71,6 +79,7 @@ export default [
       Trivia: First pixel art that I've created in [GIMP](https://www.gimp.org/)
     `,
     date: "2020-10-24 23:59",
+    tags: ["pixel_dailies", "television"],
   },
   {
     src: "20201104-pixeldailies.png",
@@ -81,6 +90,7 @@ export default [
       Bit belated, but Happy Halloween!
     `,
     date: "2020-11-04 00:49",
+    tags: ["pixel_dailies", "halloween"],
   },
   {
     src: "20201106-lospecdaily.png",
@@ -89,6 +99,7 @@ export default [
       Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
     `,
     date: "2020-11-06 23:58",
+    tags: ["lospecdailies", "mushroom"],
   },
   {
     src: "20201108-lospecdaily.png",
@@ -97,6 +108,7 @@ export default [
       Palette: [Bubblegum 16](https://lospec.com/palette-list/bubblegum-16)
     `,
     date: "2020-11-08 00:19",
+    tags: ["lospecdailies", "clouds"],
   },
   {
     src: "20201108-vic-covid19-press.png",
@@ -116,6 +128,7 @@ export default [
       has now been replaced with another saying "Stay Safe, Stay Open"
     `,
     date: "2020-11-08 23:09",
+    tags: ["covid-19"],
   },
   {
     src: "20201108-vic-covid19-pressv2.png",
@@ -127,6 +140,7 @@ export default [
       #F9F9FE, #000000, #2D2F3F, #797977, #C8C7D1, #EDC4A6
     `,
     date: "2020-11-08 23:27",
+    tags: ["covid-19"],
   },
   {
     src: "20201110-pixeldailies.png",
@@ -141,6 +155,7 @@ export default [
       Palette: #4F4948, #D9B670, #9EA29F, #EDF0EB
     `,
     date: "2020-11-10 00:13",
+    tags: ["pixel_dailies", "bird"],
   },
   {
     src: "20201111-lospecdaily.png",
@@ -149,6 +164,7 @@ export default [
       Palette: [Slurry GB](https://lospec.com/palette-list/slurry-gb)
     `,
     date: "2020-11-11 13:42",
+    tags: ["lospecdailies", "house"],
   },
   {
     src: "20201114-lospecdaily.png",
@@ -157,6 +173,7 @@ export default [
       Palette: [Kirby 15](https://lospec.com/palette-list/kirby-15)
     `,
     date: "2020-11-14 23:23",
+    tags: ["lospecdailies", "water"],
   },
   {
     src: "20201116-pixeldailies.png",
@@ -165,6 +182,7 @@ export default [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
     date: "2020-11-16 01:04",
+    tags: ["pixel_dailies", "set", "food"],
   },
   {
     src: "20201117-pixeldailies.png",
@@ -173,6 +191,7 @@ export default [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
     date: "2020-11-17 01:11",
+    tags: ["pixel_dailies", "cityscape"],
   },
   {
     src: "20201119-diagram.png",
@@ -185,6 +204,7 @@ export default [
       at [c4model.com](https://c4model.com/)
     `,
     date: "2020-11-19 13:56",
+    tags: ["diagram"],
   },
   {
     src: "20201120-pixeldailies.png",
@@ -193,6 +213,7 @@ export default [
       Palette: [Cheese Palette](https://lospec.com/palette-list/cheese-palette)
     `,
     date: "2020-11-20 01:13",
+    tags: ["pixel_dailies", "waffle"],
   },
   {
     src: "20201121-pixeldailies.png",
@@ -201,6 +222,7 @@ export default [
       Palette: [Irenaart 22](https://lospec.com/palette-list/irenaart-22)
     `,
     date: "2020-11-21 23:23",
+    tags: ["pixel_dailies", "scarab"],
   },
   {
     src: "20201122-lospecdaily.png",
@@ -211,6 +233,7 @@ export default [
       The Nobbies, Phillip Island, Australia
     `,
     date: "2020-11-22 23:25",
+    tags: ["lospecdailies", "landscape"],
   },
   {
     src: "20201124-lospecdaily.png",
@@ -221,6 +244,7 @@ export default [
       House sparrow
     `,
     date: "2020-11-24 23:02",
+    tags: ["lospecdailies", "bird"],
   },
   {
     src: "20201126-lospecdaily.png",
@@ -229,6 +253,7 @@ export default [
       Palette: [Golden Helmet](https://lospec.com/palette-list/golden-helmet)
     `,
     date: "2020-11-26 23:12",
+    tags: ["lospecdailies", "fire"],
   },
   {
     src: "20201128-pixeldailies.png",
@@ -237,5 +262,6 @@ export default [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
     date: "2020-11-28 23:02",
+    tags: ["pixel_dailies", "set", "bear"],
   },
 ]
