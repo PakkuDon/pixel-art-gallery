@@ -230,4 +230,12 @@ export default [
     `,
     date: "2020-11-26 23:12",
   },
+  {
+    src: "20201128-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: Set of #bears, restriction: 32x32px or less per bear
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2020-11-28 23:02",
+  },
 ]
