@@ -1,7 +1,6 @@
 .image-details {
-  height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 .scrollable-content {
@@ -14,6 +13,22 @@
   align-items: center;
 }
 
+.image-metadata {
+  max-height: 100%;
+}
+
 .pixelArt {
   image-rendering: pixelated;
+}
+
+.description {
+  max-height: 120px;
+  max-height: 20vh;
+}
+
+@media (min-width: 720px) {
+  .description {
+    max-height: 320px;
+    max-height: 10vh;
+  }
 }

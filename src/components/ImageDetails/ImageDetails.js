@@ -23,7 +23,7 @@ const ImageDetails = ({ image }) => {
             style={{ transform: `scale(${zoom / 100})` }}
           />
         </div>
-        <div className="image-metadata scrollable-content">
+        <div className="image-metadata">
           <label>
             Zoom
             <input
@@ -37,6 +37,7 @@ const ImageDetails = ({ image }) => {
           </label>
           <output>{zoom}%</output>
           <div
+            className="description scrollable-content"
             dangerouslySetInnerHTML={{
               __html: marked(image.description.replace(/ +/g, " ")),
             }}
