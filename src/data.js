@@ -264,4 +264,18 @@ export default [
     date: "2020-11-28 23:02",
     tags: ["pixel_dailies", "set", "bear"],
   },
+  {
+    src: "20201130-noprompt.png",
+    description: `
+      No prompt, just feels
+
+      Been struggling with getting the layout right. So far I have a grid with
+      more grids inside it but I haven't yet figured out how to constrain the
+      height of the inner grid.
+
+      Palette: [1bit black and white](https://lospec.com/palette-list/1bit-black-and-white)
+    `,
+    date: "2020-11-30 23:02",
+    tags: ["css", "text-only"],
+  },
 ]
