@@ -1,6 +1,6 @@
 .image-details {
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .scrollable-content {
@@ -27,6 +27,10 @@
 }
 
 @media (min-width: 720px) {
+  .image-details {
+    grid-template-rows: 2fr 1fr;
+  }
+
   .description {
     max-height: 320px;
     max-height: 10vh;
