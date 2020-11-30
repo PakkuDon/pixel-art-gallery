@@ -278,4 +278,15 @@ export default [
     date: "2020-11-30 10:20",
     tags: ["css", "text-only"],
   },
+  {
+    src: "20201201-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #insect
+      Palette: [15P DX](https://lospec.com/palette-list/15p-dx)
+
+      Featuring Sewaddle, the Sewing Pokémon
+    `,
+    date: "2020-12-01 01:08",
+    tags: ["lospecdailies", "insect"],
+  },
 ]
