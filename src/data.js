@@ -275,7 +275,7 @@ export default [
 
       Palette: [1bit black and white](https://lospec.com/palette-list/1bit-black-and-white)
     `,
-    date: "2020-11-30 23:02",
+    date: "2020-11-30 10:20",
     tags: ["css", "text-only"],
   },
 ]
