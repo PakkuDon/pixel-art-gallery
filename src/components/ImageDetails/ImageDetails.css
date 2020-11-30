@@ -1,6 +1,7 @@
 .image-details {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  max-height: 100%;
 }
 
 .scrollable-content {

@@ -8,6 +8,8 @@
 
 .entriesList {
   display: none;
+  max-height: 100%;
+  overflow: auto;
 }
 
 @media (min-width: 720px) {

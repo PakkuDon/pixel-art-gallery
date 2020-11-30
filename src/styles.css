@@ -28,6 +28,10 @@ a:hover {
   width: 80vw;
 }
 
+.sidebar-layout {
+  grid-template-rows: 75vh;
+}
+
 @media (min-width: 720px) {
   .sidebar-layout {
     display: grid;
