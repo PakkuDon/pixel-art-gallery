@@ -289,4 +289,13 @@ export default [
     date: "2020-12-01 01:08",
     tags: ["lospecdailies", "insect"],
   },
+  {
+    src: "20201202-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #badger
+      Palette: [Starmancer](https://lospec.com/palette-list/starmancer)
+    `,
+    date: "2020-12-02 22:52",
+    tags: ["pixel_dailies", "badger"],
+  },
 ]
