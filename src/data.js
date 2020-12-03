@@ -298,4 +298,15 @@ export default [
     date: "2020-12-02 22:52",
     tags: ["pixel_dailies", "badger"],
   },
+  {
+    src: "20201203-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #tree
+      Palette: [Pollen8](https://lospec.com/palette-list/pollen8)
+
+      Following [Pixel_red_cat's tree tutorial](https://www.reddit.com/gallery/j9bi2a)
+    `,
+    date: "2020-12-03 21:07",
+    tags: ["lospecdailies", "tree"],
+  },
 ]
