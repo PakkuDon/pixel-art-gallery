@@ -309,4 +309,13 @@ export default [
     date: "2020-12-03 21:07",
     tags: ["lospecdailies", "tree"],
   },
+  {
+    src: "20201205-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #weapon
+      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
+    `,
+    date: "2020-12-05 21:44",
+    tags: ["lospecdailies", "weapon"],
+  },
 ]
