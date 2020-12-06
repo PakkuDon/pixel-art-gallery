@@ -318,4 +318,15 @@ export default [
     date: "2020-12-05 21:44",
     tags: ["lospecdailies", "weapon"],
   },
+  {
+    src: "20201206-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #RockFormation
+      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
+
+      Uluru, Australia
+    `,
+    date: "2020-12-05 21:44",
+    tags: ["pixel_dailies", "rock_formation", "landscape"],
+  },
 ]
