@@ -338,4 +338,13 @@ export default [
     date: "2020-12-07 15:53",
     tags: ["diagram"],
   },
+  {
+    src: "20201208-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Road. Restriction: Use one-point perspective
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-08 00:13",
+    tags: ["pixel_dailies", "road"],
+  },
 ]
