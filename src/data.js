@@ -329,4 +329,13 @@ export default [
     date: "2020-12-05 21:44",
     tags: ["pixel_dailies", "rock_formation", "landscape"],
   },
+  {
+    src: "20201207-diagram.png",
+    description: `
+      PlantUML Sequence Diagram
+      Palette: #000000, #FFFFFF, #EEEEEE, #A80036, #FEFECE
+    `,
+    date: "2020-12-07 15:53",
+    tags: ["diagram"],
+  },
 ]
