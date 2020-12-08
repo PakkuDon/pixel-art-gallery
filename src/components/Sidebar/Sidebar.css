@@ -2,14 +2,18 @@
   font-weight: bold;
 }
 
+.sidebar {
+  max-height: 100%;
+  overflow: auto;
+}
+
 .entriesDropdown {
   display: block;
 }
 
 .entriesList {
   display: none;
-  max-height: 100%;
-  overflow: auto;
+  margin: 0;
 }
 
 @media (min-width: 720px) {

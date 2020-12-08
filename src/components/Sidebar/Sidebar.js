@@ -7,42 +7,45 @@ import "./Sidebar.css"
 
 const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
   <Card>
-    <div className="entriesDropdown">
-      <select
-        onChange={(event) => {
-          const selectedOption = entries.find(
-            (entry) =>
-              extractFilename(entry.src) === extractFilename(event.target.value)
-          )
-          onImageSelect(selectedOption)
-        }}
-        value={extractFilename(selectedImage?.src)}
-      >
+    <div className="sidebar">
+      <div className="entriesDropdown">
+        <select
+          onChange={(event) => {
+            const selectedOption = entries.find(
+              (entry) =>
+                extractFilename(entry.src) ===
+                extractFilename(event.target.value)
+            )
+            onImageSelect(selectedOption)
+          }}
+          value={extractFilename(selectedImage?.src)}
+        >
+          {entries.map((entry) => {
+            const filename = extractFilename(entry.src)
+            return (
+              <option key={`option-${filename}`} value={filename}>
+                {filename}
+              </option>
+            )
+          })}
+        </select>
+      </div>
+      <ul className="entriesList">
         {entries.map((entry) => {
           const filename = extractFilename(entry.src)
+          const selectedFilename = extractFilename(selectedImage.src)
+
           return (
-            <option key={`option-${filename}`} value={filename}>
-              {filename}
-            </option>
+            <li
+              key={entry.src}
+              className={filename === selectedFilename ? "selected" : ""}
+            >
+              <Link to={`/${extractFilename(entry.src)}`}>{filename}</Link>
+            </li>
           )
         })}
-      </select>
+      </ul>
     </div>
-    <ul className="entriesList">
-      {entries.map((entry) => {
-        const filename = extractFilename(entry.src)
-        const selectedFilename = extractFilename(selectedImage.src)
-
-        return (
-          <li
-            key={entry.src}
-            className={filename === selectedFilename ? "selected" : ""}
-          >
-            <Link to={`/${extractFilename(entry.src)}`}>{filename}</Link>
-          </li>
-        )
-      })}
-    </ul>
   </Card>
 )
 
