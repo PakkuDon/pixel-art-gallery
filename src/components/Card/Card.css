@@ -1,6 +1,6 @@
 .card {
   border: 1px solid #333;
   box-shadow: 5px 5px 0 #aaa;
-  padding: 1em;
+  padding: 2em 1em;
   max-height: 100%;
 }
