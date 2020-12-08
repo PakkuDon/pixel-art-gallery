@@ -35,16 +35,7 @@ a:hover {
 @media (min-width: 720px) {
   .sidebar-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    margin: 1em 0;
-  }
-}
-
-@media (min-width: 1000px) {
-  .sidebar-layout {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: minmax(250px, 1fr) 2fr;
     grid-gap: 1em;
     margin: 1em 0;
   }
