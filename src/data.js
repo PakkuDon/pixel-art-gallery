@@ -347,4 +347,14 @@ export default [
     date: "2020-12-08 00:13",
     tags: ["pixel_dailies", "road"],
   },
+  {
+    src: "20201210-noprompt.png",
+    description: `
+      Windowsill with a half-eaten apple and ants
+
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-10 00:07",
+    tags: ["no_prompt", "apple", "tree"],
+  },
 ]
