@@ -368,4 +368,13 @@ export default [
     date: "2020-12-10 23:00",
     tags: ["lospecdailies", "cat"],
   },
+  {
+    src: "20201211-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #WaterBottle
+      Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
+    `,
+    date: "2020-12-11 22:52",
+    tags: ["pixel_dailies", "waterbottle", "water"],
+  },
 ]
