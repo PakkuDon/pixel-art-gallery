@@ -16,5 +16,6 @@ module.exports = {
     quotes: ["error", "double"],
     semi: "off",
     "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
   },
 }
