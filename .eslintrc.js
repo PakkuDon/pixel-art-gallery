@@ -18,5 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    "quotes": ["error", "double"],
+    "semi": "off",
+    "react/jsx-filename-extension": "off",
   },
 };
