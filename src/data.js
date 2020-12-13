@@ -377,4 +377,13 @@ export default [
     date: "2020-12-11 22:52",
     tags: ["pixel_dailies", "waterbottle", "water"],
   },
+  {
+    src: "20201213-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #mushroom
+      Palette: [Tropica33](https://lospec.com/palette-list/tropica33)
+    `,
+    date: "2020-12-13 23:59",
+    tags: ["lospecdailies", "mushroom"],
+  },
 ]
