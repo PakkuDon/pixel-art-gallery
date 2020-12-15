@@ -386,4 +386,13 @@ export default [
     date: "2020-12-13 23:59",
     tags: ["lospecdailies", "mushroom"],
   },
+  {
+    src: "20201216-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #PowerSource
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-16 00:20",
+    tags: ["pixel_dailies", "wind", "sunset"],
+  },
 ]
