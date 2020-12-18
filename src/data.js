@@ -395,4 +395,13 @@ export default [
     date: "2020-12-16 00:20",
     tags: ["pixel_dailies", "wind", "sunset"],
   },
+  {
+    src: "20201218-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #sour
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2020-12-18 23:58",
+    tags: ["pixel_dailies", "sour", "glass"],
+  },
 ]
