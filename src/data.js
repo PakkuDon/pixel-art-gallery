@@ -404,4 +404,13 @@ export default [
     date: "2020-12-18 23:58",
     tags: ["pixel_dailies", "sour", "glass"],
   },
+  {
+    src: "20201219-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #pagoda
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-19 22:17",
+    tags: ["pixel_dailies", "pagoda", "building"],
+  },
 ]
