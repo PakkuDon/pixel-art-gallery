@@ -413,4 +413,13 @@ export default [
     date: "2020-12-19 22:17",
     tags: ["pixel_dailies", "pagoda", "building"],
   },
+  {
+    src: "20201222-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #reindeer
+      Palette: [Dreamscape8](https://lospec.com/palette-list/dreamscape8)
+    `,
+    date: "2020-12-22 23:00",
+    tags: ["pixel_dailies", "reindeer", "lospec_palette_of_the_day"],
+  },
 ]
