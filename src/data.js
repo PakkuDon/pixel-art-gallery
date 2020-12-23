@@ -422,4 +422,13 @@ export default [
     date: "2020-12-22 23:00",
     tags: ["pixel_dailies", "reindeer", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20201223-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #present. restriction: You can only use the colours; gold, white, red and green
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-23 23:51",
+    tags: ["pixel_dailies", "present"],
+  },
 ]
