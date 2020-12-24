@@ -42,14 +42,8 @@ const ImageDetails = ({ image }) => {
               __html: marked(image.description.replace(/ +/g, " ")),
             }}
           />
-          <div>
-            Tags:
-            {image.tags.join(", ")}
-          </div>
-          <p>
-            - Posted
-            {image.date}
-          </p>
+          <div>Tags: {image.tags.join(", ")}</div>
+          <p>- Posted {image.date}</p>
         </div>
       </div>
     </Card>
