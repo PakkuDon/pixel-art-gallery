@@ -444,4 +444,13 @@ export default [
     date: "2020-12-25 18:00",
     tags: ["pixel_dailies", "food"],
   },
+  {
+    src: "20201225-pixeldailies2.png",
+    description: `
+      Pixel Dailies prompt: Set of #Ornaments. Restriction: 16x16px per ornament
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-23 23:51",
+    tags: ["pixel_dailies", "set", "ornaments"],
+  },
 ]
