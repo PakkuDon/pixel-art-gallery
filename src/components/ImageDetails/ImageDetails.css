@@ -37,3 +37,8 @@
     max-height: 10vh;
   }
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}

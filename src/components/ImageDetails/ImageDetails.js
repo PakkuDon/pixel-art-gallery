@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import marked from "marked"
+import { Link } from "react-router-dom"
 
 import Card from "../Card"
+import extractFilename from "../../util/extractFilename"
 import "./ImageDetails.css"
 
 marked.setOptions({
@@ -9,7 +11,7 @@ marked.setOptions({
   gfm: true,
 })
 
-const ImageDetails = ({ image }) => {
+const ImageDetails = ({ image, previousImage, nextImage }) => {
   const [zoom, setZoom] = useState(100)
 
   return (
@@ -44,6 +46,18 @@ const ImageDetails = ({ image }) => {
           />
           <div>Tags: {image.tags.join(", ")}</div>
           <p>- Posted {image.date}</p>
+        </div>
+        <div className="navigation">
+          {previousImage ? (
+            <Link to={extractFilename(previousImage.src)}>Previous</Link>
+          ) : (
+            "Previous"
+          )}
+          {nextImage ? (
+            <Link to={extractFilename(nextImage.src)}>Next</Link>
+          ) : (
+            "Next"
+          )}
         </div>
       </div>
     </Card>

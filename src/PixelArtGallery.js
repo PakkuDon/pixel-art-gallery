@@ -10,6 +10,7 @@ const entries = pixelArtEntries.reverse()
 
 const PixelArtGallery = () => {
   const [selectedImage, setSelectedImage] = useState(entries[0])
+  const [selectedIndex, setSelectedIndex] = useState(0)
   const { id } = useParams()
   const history = useHistory()
 
@@ -31,6 +32,16 @@ const PixelArtGallery = () => {
     }
   }, [id])
 
+  useEffect(() => {
+    if (selectedImage) {
+      setSelectedIndex(
+        entries.findIndex((image) => image.src === selectedImage.src)
+      )
+    } else {
+      setSelectedIndex(0)
+    }
+  }, [selectedImage])
+
   const onImageSelect = useCallback((image) => {
     const selectedFilename = extractFilename(image.src)
     history.replace(`/${selectedFilename}`)
@@ -43,7 +54,11 @@ const PixelArtGallery = () => {
         onImageSelect={onImageSelect}
         selectedImage={selectedImage}
       />
-      <ImageDetails image={selectedImage} />
+      <ImageDetails
+        image={selectedImage}
+        previousImage={entries[selectedIndex - 1]}
+        nextImage={entries[selectedIndex + 1]}
+      />
     </div>
   )
 }
