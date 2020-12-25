@@ -431,4 +431,17 @@ export default [
     date: "2020-12-23 23:51",
     tags: ["pixel_dailies", "present"],
   },
+  {
+    src: "20201225-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #HolidayFood
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Roast turkey with roast pumpkin, peas and mashed potatoes.
+      Thing at the top is supposed to be a gravy boat but I have no
+      idea what those look like from this perspective.
+    `,
+    date: "2020-12-25 18:00",
+    tags: ["pixel_dailies", "food"],
+  },
 ]
