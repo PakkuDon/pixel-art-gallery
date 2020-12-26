@@ -420,7 +420,7 @@ export default [
       Palette: [Dreamscape8](https://lospec.com/palette-list/dreamscape8)
     `,
     date: "2020-12-22 23:00",
-    tags: ["pixel_dailies", "reindeer", "lospec_palette_of_the_day"],
+    tags: ["pixel_dailies", "christmas", "reindeer", "lospec_palette_of_the_day"],
   },
   {
     src: "20201223-pixeldailies.png",
@@ -429,7 +429,7 @@ export default [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2020-12-23 23:51",
-    tags: ["pixel_dailies", "present"],
+    tags: ["pixel_dailies", "christmas", "present"],
   },
   {
     src: "20201225-pixeldailies.png",
@@ -442,7 +442,7 @@ export default [
       idea what those look like from this perspective.
     `,
     date: "2020-12-25 18:00",
-    tags: ["pixel_dailies", "food"],
+    tags: ["pixel_dailies", "christmas", "food"],
   },
   {
     src: "20201225-pixeldailies2.png",
@@ -451,7 +451,7 @@ export default [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2020-12-23 23:51",
-    tags: ["pixel_dailies", "set", "ornaments"],
+    tags: ["pixel_dailies", "christmas", "set", "ornaments"],
   },
   {
     src: "20201226-pixeldailies.png",
@@ -460,6 +460,6 @@ export default [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2020-12-26 22:19",
-    tags: ["pixel_dailies", "candle"],
+    tags: ["pixel_dailies", "christmas", "candle"],
   },
 ]
