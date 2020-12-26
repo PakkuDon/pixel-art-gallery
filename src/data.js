@@ -453,4 +453,13 @@ export default [
     date: "2020-12-23 23:51",
     tags: ["pixel_dailies", "set", "ornaments"],
   },
+  {
+    src: "20201226-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #candle, restriction: 32x32px
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-26 22:19",
+    tags: ["pixel_dailies", "candle"],
+  },
 ]
