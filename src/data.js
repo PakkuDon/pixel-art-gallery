@@ -467,4 +467,13 @@ export default [
     date: "2020-12-26 22:19",
     tags: ["pixel_dailies", "christmas", "candle"],
   },
+  {
+    src: "20201227-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #PineTree
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-27 21:52",
+    tags: ["pixel_dailies", "christmas", "tree"],
+  },
 ]
