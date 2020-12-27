@@ -420,7 +420,12 @@ export default [
       Palette: [Dreamscape8](https://lospec.com/palette-list/dreamscape8)
     `,
     date: "2020-12-22 23:00",
-    tags: ["pixel_dailies", "christmas", "reindeer", "lospec_palette_of_the_day"],
+    tags: [
+      "pixel_dailies",
+      "christmas",
+      "reindeer",
+      "lospec_palette_of_the_day",
+    ],
   },
   {
     src: "20201223-pixeldailies.png",
