@@ -476,4 +476,13 @@ export default [
     date: "2020-12-27 21:52",
     tags: ["pixel_dailies", "christmas", "tree"],
   },
+  {
+    src: "20201228-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #snowy
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-28 23:51",
+    tags: ["pixel_dailies", "snowy", "landscape"],
+  },
 ]
