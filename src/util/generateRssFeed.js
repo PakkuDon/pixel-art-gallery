@@ -22,9 +22,9 @@ const feedItems = pixelArtEntries.map((pixelArt) => {
     <item>
       <title>${title}</title>
       <description>
-        <img src="https://pakkudon.github.io/pixel-art-gallery/img/${
+        <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/${
           pixelArt.src
-        }" alt="${filename}" />
+        }" alt="${filename}" />]]>
         ${marked(pixelArt.description.replace(/ +/g, " "))}
       </description>
       <link>https://pakkudon.github.io/pixel-art-gallery/${filename}</link>
