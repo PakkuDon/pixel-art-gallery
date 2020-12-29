@@ -9,6 +9,7 @@ import extractFilename from "./extractFilename"
 marked.setOptions({
   breaks: true,
   gfm: true,
+  xhtml: true,
 })
 
 const outputFile = path.join(__dirname, "../../dist/feed.xml")
@@ -32,8 +33,7 @@ const feedItems = pixelArtEntries.map((pixelArt) => {
   `
 })
 
-const xml = `
-  <?xml version="1.0" encoding="ISO-8859-1" ?>
+const xml = `<?xml version="1.0" encoding="ISO-8859-1" ?>
   <rss version="2.0">
     <channel>
       <title>Pixel Art Gallery</title>
