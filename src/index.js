@@ -20,14 +20,23 @@ const App = () => {
       </Switch>
       <Card>
         <footer className="footer">
-          Source code on{" "}
-          <a
-            href="https://github.com/PakkuDon/pixel-art-gallery"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          <ul>
+            <li>
+              <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
+                RSS Feed
+              </a>
+            </li>
+            <li>
+              Source code on{" "}
+              <a
+                href="https://github.com/PakkuDon/pixel-art-gallery"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
         </footer>
       </Card>
     </Router>

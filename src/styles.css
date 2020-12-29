@@ -44,3 +44,12 @@ a:hover {
 .footer {
   text-align: right;
 }
+
+.footer ul {
+  margin: 0;
+}
+
+.footer li {
+  display: inline-block;
+  margin-left: 1.5em;
+}
