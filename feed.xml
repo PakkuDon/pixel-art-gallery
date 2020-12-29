@@ -4,7 +4,7 @@
       <title>Pixel Art Gallery</title>
       <link>https://pakkudon.github.io/pixel-art-gallery/</link>
       <description>Collection of pixel art pieces</description>
-      <pubDate>Tue, 29 Dec 2020 08:53:48 GMT</pubDate>
+      <pubDate>Tue, 29 Dec 2020 11:53:48 GMT</pubDate>
       
     <item>
       <title>Lospec Dailies prompt: #magic</title>
@@ -597,6 +597,32 @@
       </description>
       <link>https://pakkudon.github.io/pixel-art-gallery/20201228-pixeldailies</link>
       <pubDate>Mon, 28 Dec 2020 12:51:00 GMT</pubDate>
+    </item>
+  
+
+    <item>
+      <title>No prompt, only a feature release</title>
+      <description>
+        <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201229-noprompt.png" alt="20201229-noprompt" />]]>
+        <p> No prompt, only a feature release</p>
+<p> This site now has an RSS feed. You can find it in the footer below or at <a href="https://pakkudon.github.io/pixel-art-gallery/feed.xml">pakkudon.github.io/pixel-art-gallery/feed.xml</a>.<br/> I also don&#39;t have an RSS reader so I don&#39;t know if this is marked up correctly or if the posts are in the right order. If there&#39;s any issues feel free to raise them in the repo.</p>
+<p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
+
+      </description>
+      <link>https://pakkudon.github.io/pixel-art-gallery/20201229-noprompt</link>
+      <pubDate>Tue, 29 Dec 2020 10:48:00 GMT</pubDate>
+    </item>
+  
+
+    <item>
+      <title>Pixel Dailies prompt: #ribbon</title>
+      <description>
+        <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201229-pixeldailies.png" alt="20201229-pixeldailies" />]]>
+        <p> Pixel Dailies prompt: #ribbon<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
+
+      </description>
+      <link>https://pakkudon.github.io/pixel-art-gallery/20201229-pixeldailies</link>
+      <pubDate>Tue, 29 Dec 2020 11:52:00 GMT</pubDate>
     </item>
   
     </channel>
