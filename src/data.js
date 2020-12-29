@@ -485,4 +485,17 @@ export default [
     date: "2020-12-28 23:51",
     tags: ["pixel_dailies", "snowy", "landscape"],
   },
+  {
+    src: "20201229-noprompt.png",
+    description: `
+      No prompt, only a feature release
+
+      This site now has an RSS feed. You can find it in the footer below or at [pakkudon.github.io/pixel-art-gallery/feed.xml](https://pakkudon.github.io/pixel-art-gallery/feed.xml).
+      I also don't have an RSS reader so I don't know if this is marked up correctly or if the posts are in the right order. If there's any issues feel free to raise them in the repo.
+
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-28 23:51",
+    tags: ["noprompt", "update"],
+  },
 ]
