@@ -65,11 +65,11 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
                 onChange={handleZoomChange}
               />
             </label>
-            <button type="button" onClick={decrementZoom}>
+            <button type="button" aria-label="Zoom out" onClick={decrementZoom}>
               -
             </button>
             <output>{zoom}%</output>
-            <button type="button" onClick={incrementZoom}>
+            <button type="button" aria-label="Zoom in" onClick={incrementZoom}>
               +
             </button>
           </div>
