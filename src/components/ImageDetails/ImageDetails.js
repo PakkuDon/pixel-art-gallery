@@ -75,6 +75,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
           </div>
           <div
             className="description scrollable-content"
+            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: marked(image.description.replace(/ +/g, " ")),
             }}
