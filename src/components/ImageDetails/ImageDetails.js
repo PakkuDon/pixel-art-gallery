@@ -34,6 +34,13 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
     }
   }, [zoom, setZoom])
 
+  const handleZoomChange = useCallback(
+    (event) => {
+      setZoom(parseInt(event.target.value, 10))
+    },
+    [setZoom]
+  )
+
   return (
     <Card>
       <div className="image-details">
@@ -55,7 +62,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
                 min={MIN_ZOOM}
                 max={MAX_ZOOM}
                 step="5"
-                onChange={(event) => setZoom(parseInt(event.target.value, 10))}
+                onChange={handleZoomChange}
               />
             </label>
             <button type="button" onClick={decrementZoom}>
