@@ -10,3 +10,6 @@ cp -r img/ dist/img/
 
 echo "Generating dist files with redirects"
 yarn run babel-node src/util/generateDistRedirects.js
+
+echo "Generating RSS feed"
+yarn run babel-node src/util/generateRssFeed.js
