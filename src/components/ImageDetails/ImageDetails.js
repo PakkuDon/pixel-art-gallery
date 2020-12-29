@@ -55,7 +55,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
                 min={MIN_ZOOM}
                 max={MAX_ZOOM}
                 step="5"
-                onChange={(event) => setZoom(event.target.value)}
+                onChange={(event) => setZoom(parseInt(event.target.value, 10))}
               />
             </label>
             <button type="button" onClick={decrementZoom}>
