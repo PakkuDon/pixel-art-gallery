@@ -495,7 +495,7 @@ export default [
 
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-28 23:51",
+    date: "2020-12-29 21:48",
     tags: ["noprompt", "update"],
   },
   {
