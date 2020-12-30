@@ -507,4 +507,13 @@ export default [
     date: "2020-12-29 22:52",
     tags: ["pixel_dailies", "ribbon"],
   },
+  {
+    src: "20201230-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #countdown
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-30 22:37",
+    tags: ["pixel_dailies", "countdown"],
+  },
 ]
