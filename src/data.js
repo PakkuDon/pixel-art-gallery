@@ -516,4 +516,14 @@ export default [
     date: "2020-12-30 22:37",
     tags: ["pixel_dailies", "countdown"],
   },
+  {
+    src: "20201231-noprompt.png",
+    description: `
+      Fireworks attempt for the last pixel art for 2020.
+      Thanks to those that have been following along. See you next year!
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2020-12-30 23:45",
+    tags: ["noprompt", "fireworks"],
+  },
 ]
