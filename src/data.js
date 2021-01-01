@@ -526,4 +526,13 @@ export default [
     date: "2020-12-30 23:45",
     tags: ["noprompt", "fireworks"],
   },
+  {
+    src: "20210101-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #ox
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-01 23:36",
+    tags: ["pixel_dailies", "ox"],
+  },
 ]
