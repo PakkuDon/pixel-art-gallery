@@ -16,7 +16,7 @@ The gallery itself is built using React and React Router. CSS is also processed 
 
 ### Prerequisites
 
-- Node v10 or later
+- Node v14
 - Yarn
 
 ### Local Development
