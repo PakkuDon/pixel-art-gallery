@@ -535,4 +535,13 @@ export default [
     date: "2021-01-01 23:36",
     tags: ["pixel_dailies", "ox"],
   },
+  {
+    src: "20210103-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #camping
+      Palette: [Pico-8 Secret Palette](https://lospec.com/palette-list/pico-8-secret-palette)
+    `,
+    date: "2021-01-03 23:59",
+    tags: ["pixel_dailies", "camping", "lospec_palette_of_the_day"],
+  },
 ]
