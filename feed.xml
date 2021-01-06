@@ -4,7 +4,7 @@
       <title>Pixel Art Gallery</title>
       <link>https://pakkudon.github.io/pixel-art-gallery/</link>
       <description>Collection of pixel art pieces</description>
-      <pubDate>Thu, 31 Dec 2020 12:46:24 GMT</pubDate>
+      <pubDate>Wed, 06 Jan 2021 00:44:26 GMT</pubDate>
       
     <item>
       <title>Lospec Dailies prompt: #magic</title>
@@ -647,6 +647,30 @@
       </description>
       <link>https://pakkudon.github.io/pixel-art-gallery/20201231-noprompt</link>
       <pubDate>Wed, 30 Dec 2020 12:45:00 GMT</pubDate>
+    </item>
+  
+
+    <item>
+      <title>Pixel Dailies prompt: #ox</title>
+      <description>
+        <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210101-pixeldailies.png" alt="20210101-pixeldailies" />]]>
+        <p> Pixel Dailies prompt: #ox<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
+
+      </description>
+      <link>https://pakkudon.github.io/pixel-art-gallery/20210101-pixeldailies</link>
+      <pubDate>Fri, 01 Jan 2021 12:36:00 GMT</pubDate>
+    </item>
+  
+
+    <item>
+      <title>Pixel Dailies prompt: #camping</title>
+      <description>
+        <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210103-pixeldailies.png" alt="20210103-pixeldailies" />]]>
+        <p> Pixel Dailies prompt: #camping<br/> Palette: <a href="https://lospec.com/palette-list/pico-8-secret-palette">Pico-8 Secret Palette</a></p>
+
+      </description>
+      <link>https://pakkudon.github.io/pixel-art-gallery/20210103-pixeldailies</link>
+      <pubDate>Sun, 03 Jan 2021 12:59:00 GMT</pubDate>
     </item>
   
     </channel>
