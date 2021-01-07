@@ -544,4 +544,13 @@ export default [
     date: "2021-01-03 23:59",
     tags: ["pixel_dailies", "camping", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20210107-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #drupe
+      Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
+    `,
+    date: "2021-01-07 18:15",
+    tags: ["pixel_dailies", "drupe", "fruit"],
+  },
 ]
