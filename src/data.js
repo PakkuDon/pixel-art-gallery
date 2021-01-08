@@ -553,4 +553,13 @@ export default [
     date: "2021-01-07 18:15",
     tags: ["pixel_dailies", "drupe", "fruit"],
   },
+  {
+    src: "20210108-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #water
+      Palette: [Fantasy 16](https://lospec.com/palette-list/fantasy-16)
+    `,
+    date: "2021-01-08 18:01",
+    tags: ["lospecdailies", "water", "lospec_palette_of_the_day"],
+  },
 ]
