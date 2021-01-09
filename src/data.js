@@ -562,4 +562,13 @@ export default [
     date: "2021-01-08 18:01",
     tags: ["lospecdailies", "water", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20210109-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #birdcage
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-09 23:44",
+    tags: ["pixel_dailies", "birdcage", "flowers"],
+  },
 ]
