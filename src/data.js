@@ -571,4 +571,13 @@ export default [
     date: "2021-01-09 23:44",
     tags: ["pixel_dailies", "birdcage", "flowers"],
   },
+  {
+    src: "20210111-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #DoorWay
+      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
+    `,
+    date: "2021-01-11 23:59",
+    tags: ["pixel_dailies", "doorway"],
+  },
 ]
