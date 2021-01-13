@@ -580,4 +580,13 @@ export default [
     date: "2021-01-11 23:59",
     tags: ["pixel_dailies", "doorway"],
   },
+  {
+    src: "20210114-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: Something that has been #repurposed
+      Palette: [ReWild 64](https://lospec.com/palette-list/rewild-64)
+    `,
+    date: "2021-01-14 00:54",
+    tags: ["pixel_dailies", "glass", "plant", "teapot"],
+  },
 ]
