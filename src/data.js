@@ -596,6 +596,6 @@ export default [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-01-15 00:05",
-    tags: ["pixel_dailies", "dessert"],
+    tags: ["pixel_dailies", "caramel", "dessert", "food"],
   },
 ]
