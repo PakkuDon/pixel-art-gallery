@@ -589,4 +589,13 @@ export default [
     date: "2021-01-14 00:54",
     tags: ["pixel_dailies", "glass", "plant", "teapot"],
   },
+  {
+    src: "20210115-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #caramel
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-15 00:05",
+    tags: ["pixel_dailies", "dessert"],
+  },
 ]
