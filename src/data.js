@@ -598,4 +598,13 @@ export default [
     date: "2021-01-15 00:05",
     tags: ["pixel_dailies", "caramel", "dessert", "food"],
   },
+  {
+    src: "202101152-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #vent
+      Palette: [Starmancer](https://lospec.com/palette-list/starmancer)
+    `,
+    date: "2021-01-15 23:41",
+    tags: ["pixel_dailies", "vent", "amongus"],
+  },
 ]
