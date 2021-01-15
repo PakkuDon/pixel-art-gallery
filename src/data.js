@@ -607,4 +607,15 @@ export default [
     date: "2021-01-15 23:41",
     tags: ["pixel_dailies", "vent", "amongus"],
   },
+  {
+    src: "20210116-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #bird
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Peregrine falcon
+    `,
+    date: "2021-01-16 02:18",
+    tags: ["lospecdailies", "bird"],
+  },
 ]
