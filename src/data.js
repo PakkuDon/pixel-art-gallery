@@ -618,4 +618,13 @@ export default [
     date: "2021-01-16 02:18",
     tags: ["lospecdailies", "bird"],
   },
+  {
+    src: "20210117-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Diamond
+      Palette: [Blues GB](https://lospec.com/palette-list/blues-gb)
+    `,
+    date: "2021-01-17 23:53",
+    tags: ["pixel_dailies", "diamond"],
+  },
 ]
