@@ -627,4 +627,13 @@ export default [
     date: "2021-01-17 23:53",
     tags: ["pixel_dailies", "diamond"],
   },
+  {
+    src: "20210119-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #billboard
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-19 23:17",
+    tags: ["pixel_dailies", "billboard"],
+  },
 ]
