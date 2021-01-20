@@ -636,4 +636,13 @@ export default [
     date: "2021-01-19 23:17",
     tags: ["pixel_dailies", "billboard"],
   },
+  {
+    src: "20210120-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: Set of #lamps, restriction: 24x32px per lamp
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-20 23:51",
+    tags: ["pixel_dailies", "lamp"],
+  },
 ]
