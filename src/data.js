@@ -648,7 +648,7 @@ export default [
   {
     src: "20210122-pixeldailies.png",
     description: `
-      Pixel Dailies prompt: mohawk
+      Pixel Dailies prompt: #mohawk
       Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
 
       Sulfur-crested cockatoo
