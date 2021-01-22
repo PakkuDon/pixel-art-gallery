@@ -645,4 +645,15 @@ export default [
     date: "2021-01-20 23:51",
     tags: ["pixel_dailies", "lamp"],
   },
+  {
+    src: "20210122-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: mohawk
+      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
+
+      Sulfur-crested cockatoo
+    `,
+    date: "2021-01-22 21:20",
+    tags: ["pixel_dailies", "mohawk"],
+  },
 ]
