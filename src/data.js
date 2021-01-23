@@ -656,4 +656,13 @@ export default [
     date: "2021-01-22 21:20",
     tags: ["pixel_dailies", "mohawk"],
   },
+  {
+    src: "20210123-noprompt.png",
+    description: `
+      Practicing clouds
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-23 21:59",
+    tags: ["noprompt", "cloud"],
+  },
 ]
