@@ -665,4 +665,13 @@ export default [
     date: "2021-01-23 21:59",
     tags: ["noprompt", "cloud"],
   },
+  {
+    src: "20210124-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #WildLife
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-01-24 23:47",
+    tags: ["pixel_dailies", "wildlife", "sunset"],
+  },
 ]
