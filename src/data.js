@@ -674,4 +674,13 @@ export default [
     date: "2021-01-24 23:47",
     tags: ["pixel_dailies", "wildlife", "sunset"],
   },
+  {
+    src: "20210126-lospecdaily.png",
+    description: `
+      Lospec Dailies prompt: #clouds
+      Palette: [Isa's True Master Palette](https://lospec.com/palette-list/isas-true-master-palette)
+    `,
+    date: "2021-01-26 23:59",
+    tags: ["lospecdailies", "cloud", "sunset", "lospec_palette_of_the_day"],
+  },
 ]
