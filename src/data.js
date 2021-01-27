@@ -683,4 +683,16 @@ export default [
     date: "2021-01-26 23:59",
     tags: ["lospecdailies", "cloud", "sunset", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20210127-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #HiddenObjectGame. Pixel a small scene and hide an object in it for everyone to find!
+      Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
+
+      🥭🦜🥭🥭
+    `,
+    date: "2021-01-27 23:14",
+    tags: ["pixel_dailies", "bird", "mango"],
+  },
+
 ]
