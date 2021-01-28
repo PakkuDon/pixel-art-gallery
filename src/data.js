@@ -694,5 +694,15 @@ export default [
     date: "2021-01-27 23:14",
     tags: ["pixel_dailies", "bird", "mango"],
   },
+  {
+    src: "20210128-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #cog
+      Palette: [Pokemon (SGB)](https://lospec.com/palette-list/pokemon-sgb)
 
+      Featuring Klink, the Gear Pokémon
+    `,
+    date: "2021-01-28 22:42",
+    tags: ["pixel_dailies", "cog", "pokemon"],
+  },
 ]
