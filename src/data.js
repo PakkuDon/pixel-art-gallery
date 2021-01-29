@@ -705,4 +705,13 @@ export default [
     date: "2021-01-28 22:42",
     tags: ["pixel_dailies", "cog", "pokemon"],
   },
+  {
+    src: "20210129-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #support
+      Palette: [Blues GB](https://lospec.com/palette-list/blues-gb)
+    `,
+    date: "2021-01-29 22:57",
+    tags: ["pixel_dailies", "landscape", "mountain"],
+  },
 ]
