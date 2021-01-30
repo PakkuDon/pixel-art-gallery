@@ -710,6 +710,8 @@ export default [
     description: `
       Pixel Dailies prompt: #support
       Palette: [Blues GB](https://lospec.com/palette-list/blues-gb)
+
+      [Reference image](https://windows10spotlight.com/images/d178df0c01377a2d5b67a01dabddf6a9)
     `,
     date: "2021-01-29 22:57",
     tags: ["pixel_dailies", "landscape", "mountain"],
