@@ -716,4 +716,15 @@ export default [
     date: "2021-01-29 22:57",
     tags: ["pixel_dailies", "landscape", "mountain"],
   },
+  {
+    src: "20210130-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #halo
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Halo around a full moon on a cloudy night
+    `,
+    date: "2021-01-30 23:38",
+    tags: ["pixel_dailies", "halo", "moon", "sky"],
+  },
 ]
