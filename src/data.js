@@ -727,4 +727,15 @@ export default [
     date: "2021-01-30 23:38",
     tags: ["pixel_dailies", "halo", "moon", "sky"],
   },
+  {
+    src: "20210131-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #MagicalWand
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Sealing Wand from Cardcaptor Sakura Clear Card
+    `,
+    date: "2021-01-31 23:43",
+    tags: ["pixel_dailies", "wand"],
+  },
 ]
