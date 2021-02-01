@@ -738,4 +738,13 @@ export default [
     date: "2021-01-31 23:43",
     tags: ["pixel_dailies", "wand"],
   },
+  {
+    src: "20210201-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Springs
+      Palette: [MarshMellow32](https://lospec.com/palette-list/marshmellow32)
+    `,
+    date: "2021-02-01 23:20",
+    tags: ["pixel_dailies", "springs"],
+  },
 ]
