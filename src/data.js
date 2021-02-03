@@ -747,4 +747,13 @@ export default [
     date: "2021-02-01 23:20",
     tags: ["pixel_dailies", "springs"],
   },
+  {
+    src: "20210203-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #ShootingStar
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+    `,
+    date: "2021-02-03 23:06",
+    tags: ["pixel_dailies", "stars", "night"],
+  },
 ]
