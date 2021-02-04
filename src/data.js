@@ -756,4 +756,13 @@ export default [
     date: "2021-02-03 23:06",
     tags: ["pixel_dailies", "stars", "night"],
   },
+  {
+    src: "20210204-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #carbohydrates
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-04 23:06",
+    tags: ["pixel_dailies", "donuts", "food"],
+  },
 ]
