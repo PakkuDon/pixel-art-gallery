@@ -765,4 +765,13 @@ export default [
     date: "2021-02-04 23:06",
     tags: ["pixel_dailies", "donuts", "food"],
   },
+  {
+    src: "20210205-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #blossom
+      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
+    `,
+    date: "2021-02-05 23:47",
+    tags: ["pixel_dailies", "blossom", "flower"],
+  },
 ]
