@@ -785,4 +785,15 @@ export default [
     date: "2021-02-05 23:38",
     tags: ["noprompt", "cake"],
   },
+  {
+    src: "20210207-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Sculpture, restriction: 5 colous max
+      Palette: [2-bit Grayscale](https://lospec.com/palette-list/2-bit-grayscale)
+
+      Cow Up a Tree, Docklands, Victoria
+    `,
+    date: "2021-02-05 23:58",
+    tags: ["pixel_dailies", "Sculpture"],
+  },
 ]
