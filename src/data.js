@@ -774,4 +774,15 @@ export default [
     date: "2021-02-05 23:47",
     tags: ["pixel_dailies", "blossom", "flower"],
   },
+  {
+    src: "20210207-noprompt.png",
+    description: `
+      Hazelnut Mille Feuille
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+
+      I have no idea how to draw pastry cream swirls in this angle
+    `,
+    date: "2021-02-05 23:47",
+    tags: ["noprompt", "cake"],
+  },
 ]
