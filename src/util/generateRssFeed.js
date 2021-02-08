@@ -6,14 +6,19 @@ import marked from "marked"
 import pixelArtEntries from "../data"
 import extractFilename from "./extractFilename"
 
-const generateRssFeed = (entries = []) => {
+const generateRssFeed = ({ entries = [], limit }) => {
   marked.setOptions({
     breaks: true,
     gfm: true,
     xhtml: true,
   })
+  let filteredEntries = entries
 
-  const feedItems = entries.map((pixelArt) => {
+  if (limit) {
+    filteredEntries = entries.slice(-limit)
+  }
+
+  const feedItems = filteredEntries.map((pixelArt) => {
     const filename = extractFilename(pixelArt.src)
     const title = pixelArt.description.split("\n")[1].trim()
 
@@ -48,7 +53,7 @@ const generateRssFeed = (entries = []) => {
 const outputFile = path.join(__dirname, "../../dist/feed.xml")
 
 if (process.env.NODE_ENV !== "test") {
-  const xml = generateRssFeed(pixelArtEntries)
+  const xml = generateRssFeed({ entries: pixelArtEntries, limit: 50 })
   fs.writeFile(outputFile, xml, (error) => {
     if (error) {
       console.error(error)
