@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateRssFeed generates feed containing entries 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"ISO-8859-1\\" ?>
+    <rss version=\\"2.0\\">
+      <channel>
+        <title>Pixel Art Gallery</title>
+        <link>https://pakkudon.github.io/pixel-art-gallery/</link>
+        <description>Collection of pixel art pieces</description>
+        <pubDate>Mon, 08 Feb 2021 12:32:51 GMT</pubDate>
+        
+      <item>
+        <title>Example image with markdown</title>
+        <description>
+          <![CDATA[<img src=\\"https://pakkudon.github.io/pixel-art-gallery/img/example.ong\\" alt=\\"example\\" />]]>
+          <p> Example image with markdown<br/> Palette: <a href=\\"https://example.com\\">Example link</a></p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/example</link>
+        <pubDate>Tue, 31 Dec 2019 13:00:00 GMT</pubDate>
+      </item>
+    
+      </channel>
+    </rss>
+  "
+`;
