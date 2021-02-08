@@ -45,10 +45,12 @@ const xml = `<?xml version="1.0" encoding="ISO-8859-1" ?>
   </rss>
 `
 
-fs.writeFile(outputFile, xml, (error) => {
-  if (error) {
-    console.error(error)
-  } else {
-    console.log(`RSS feed written to ${outputFile}`)
-  }
-})
+if (process.env.NODE_ENV !== "test") {
+  fs.writeFile(outputFile, xml, (error) => {
+    if (error) {
+      console.error(error)
+    } else {
+      console.log(`RSS feed written to ${outputFile}`)
+    }
+  })
+}
