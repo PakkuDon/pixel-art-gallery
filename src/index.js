@@ -1,46 +1,6 @@
-import React, { useState } from "react"
+import React from "react"
 import ReactDOM from "react-dom"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-import PixelArtGallery from "./PixelArtGallery"
-import Card from "./components/Card"
-import "normalize.css"
-import "./styles.css"
-
-const App = () => {
-  const basename = location.hostname.includes("github")
-    ? "pixel-art-gallery"
-    : ""
-  return (
-    <Router basename={basename}>
-      <Switch>
-        <Route path="/:id?">
-          <PixelArtGallery />
-        </Route>
-      </Switch>
-      <Card>
-        <footer className="footer">
-          <ul>
-            <li>
-              <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
-                RSS Feed
-              </a>
-            </li>
-            <li>
-              Source code on{" "}
-              <a
-                href="https://github.com/PakkuDon/pixel-art-gallery"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </li>
-          </ul>
-        </footer>
-      </Card>
-    </Router>
-  )
-}
+import App from "./App"
 
 ReactDOM.render(<App />, document.querySelector("#app"))
