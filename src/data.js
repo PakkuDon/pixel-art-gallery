@@ -796,4 +796,13 @@ export default [
     date: "2021-02-05 23:58",
     tags: ["pixel_dailies", "Sculpture"],
   },
+  {
+    src: "20210209-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #topiary
+      Palette: [15P DX](https://lospec.com/palette-list/15p-dx)
+    `,
+    date: "2021-02-09 22:27",
+    tags: ["pixel_dailies", "topiary", "plant", "dog"],
+  },
 ]
