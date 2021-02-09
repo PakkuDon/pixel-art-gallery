@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 08 Feb 2021 13:19:52 GMT</pubDate>
+        <pubDate>Tue, 09 Feb 2021 11:28:13 GMT</pubDate>
         
-      <item>
-        <title>Lospec Dailies prompt: #weapon</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201205-lospecdaily.png" alt="20201205-lospecdaily" />]]>
-          <p> Lospec Dailies prompt: #weapon<br/> Palette: <a href="https://lospec.com/palette-list/draxalette">Draxalette</a></p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201205-lospecdaily</link>
-        <pubDate>Sat, 05 Dec 2020 10:44:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #RockFormation</title>
         <description>
@@ -604,7 +592,7 @@
 
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210207-noprompt</link>
-        <pubDate>Fri, 05 Feb 2021 12:38:00 GMT</pubDate>
+        <pubDate>Sun, 07 Feb 2021 12:38:00 GMT</pubDate>
       </item>
     
 
@@ -617,7 +605,19 @@
 
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210207-pixeldailies</link>
-        <pubDate>Fri, 05 Feb 2021 12:58:00 GMT</pubDate>
+        <pubDate>Sun, 07 Feb 2021 12:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #topiary</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210209-pixeldailies.png" alt="20210209-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #topiary<br/> Palette: <a href="https://lospec.com/palette-list/15p-dx">15P DX</a></p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210209-pixeldailies</link>
+        <pubDate>Tue, 09 Feb 2021 11:27:00 GMT</pubDate>
       </item>
     
       </channel>
