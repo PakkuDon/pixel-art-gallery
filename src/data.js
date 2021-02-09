@@ -782,7 +782,7 @@ export default [
 
       I have no idea how to draw pastry cream swirls in this angle
     `,
-    date: "2021-02-05 23:38",
+    date: "2021-02-07 23:38",
     tags: ["noprompt", "cake"],
   },
   {
@@ -793,7 +793,7 @@ export default [
 
       Cow Up a Tree, Docklands, Victoria
     `,
-    date: "2021-02-05 23:58",
+    date: "2021-02-07 23:58",
     tags: ["pixel_dailies", "Sculpture"],
   },
   {
