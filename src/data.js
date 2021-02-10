@@ -805,4 +805,13 @@ export default [
     date: "2021-02-09 22:27",
     tags: ["pixel_dailies", "topiary", "plant", "dog"],
   },
+  {
+    src: "20210211-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #paperwork
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-11 00:15",
+    tags: ["pixel_dailies", "paperwork", "coffee"],
+  },
 ]
