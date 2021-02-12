@@ -814,4 +814,13 @@ export default [
     date: "2021-02-11 00:15",
     tags: ["pixel_dailies", "paperwork", "coffee"],
   },
+  {
+    src: "20210212-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #HansomCab
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-12 23:02",
+    tags: ["pixel_dailies", "hansomcab"],
+  },
 ]
