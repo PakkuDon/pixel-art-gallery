@@ -823,4 +823,13 @@ export default [
     date: "2021-02-12 23:02",
     tags: ["pixel_dailies", "hansomcab"],
   },
+  {
+    src: "20210212-noprompt.png",
+    description: `
+      #HansomCab? More like #HandsomeCrab
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-12 23:25",
+    tags: ["noprompt", "crab"],
+  },
 ]
