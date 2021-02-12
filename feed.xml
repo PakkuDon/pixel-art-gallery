@@ -4,34 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 11 Feb 2021 12:31:09 GMT</pubDate>
+        <pubDate>Fri, 12 Feb 2021 12:27:14 GMT</pubDate>
         
-      <item>
-        <title>PlantUML Sequence Diagram</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201207-diagram.png" alt="20201207-diagram" />]]>
-          <p> PlantUML Sequence Diagram<br/> Palette: #000000, #FFFFFF, #EEEEEE, #A80036, #FEFECE
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201207-diagram</link>
-        <pubDate>Mon, 07 Dec 2020 04:53:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #Road. Restriction: Use one-point perspective</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201208-pixeldailies.png" alt="20201208-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #Road. Restriction: Use one-point perspective<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201208-pixeldailies</link>
-        <pubDate>Mon, 07 Dec 2020 13:13:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Windowsill with a half-eaten apple and ants</title>
         <description>
@@ -667,6 +641,32 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210211-pixeldailies</link>
         <pubDate>Wed, 10 Feb 2021 13:15:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #HansomCab</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210212-pixeldailies.png" alt="20210212-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #HansomCab<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210212-pixeldailies</link>
+        <pubDate>Fri, 12 Feb 2021 12:02:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>#HansomCab? More like #HandsomeCrab</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210212-noprompt.png" alt="20210212-noprompt" />]]>
+          <p> #HansomCab? More like #HandsomeCrab<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210212-noprompt</link>
+        <pubDate>Fri, 12 Feb 2021 12:25:00 GMT</pubDate>
       </item>
     
       </channel>
