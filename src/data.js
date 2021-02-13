@@ -832,4 +832,13 @@ export default [
     date: "2021-02-12 23:25",
     tags: ["noprompt", "crab"],
   },
+  {
+    src: "20210213-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #abyss
+      Palette: [Seafoam](https://lospec.com/palette-list/seafoam)
+    `,
+    date: "2021-02-13 23:29",
+    tags: ["pixel_dailies", "abyss", "underwater"],
+  },
 ]
