@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 12 Feb 2021 12:27:14 GMT</pubDate>
+        <pubDate>Sat, 13 Feb 2021 12:30:03 GMT</pubDate>
         
-      <item>
-        <title>Windowsill with a half-eaten apple and ants</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201210-noprompt.png" alt="20201210-noprompt" />]]>
-          <p> Windowsill with a half-eaten apple and ants</p>
-<p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201210-noprompt</link>
-        <pubDate>Wed, 09 Dec 2020 13:07:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #cat</title>
         <description>
@@ -667,6 +653,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210212-noprompt</link>
         <pubDate>Fri, 12 Feb 2021 12:25:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #abyss</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210213-pixeldailies.png" alt="20210213-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #abyss<br/> Palette: <a href="https://lospec.com/palette-list/seafoam">Seafoam</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210213-pixeldailies</link>
+        <pubDate>Sat, 13 Feb 2021 12:29:00 GMT</pubDate>
       </item>
     
       </channel>
