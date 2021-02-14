@@ -841,4 +841,13 @@ export default [
     date: "2021-02-13 23:29",
     tags: ["pixel_dailies", "abyss", "underwater"],
   },
+  {
+    src: "20210214-noprompt.png",
+    description: `
+      Dinner by the beach featuring that crab from 20210212-noprompt
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-14 23:59",
+    tags: ["noprompt", "crab", "valentines"],
+  },
 ]
