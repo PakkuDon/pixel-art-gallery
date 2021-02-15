@@ -850,4 +850,13 @@ export default [
     date: "2021-02-14 23:59",
     tags: ["noprompt", "crab", "valentines"],
   },
+  {
+    src: "20210215-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #lovebirds
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-15 23:59",
+    tags: ["pixel_dailies", "lovebirds", "bird"],
+  },
 ]
