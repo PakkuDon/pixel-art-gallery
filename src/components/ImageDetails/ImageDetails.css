@@ -18,10 +18,6 @@
   max-height: 100%;
 }
 
-.pixelArt {
-  image-rendering: pixelated;
-}
-
 .description {
   max-height: 120px;
   max-height: 20vh;

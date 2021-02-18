@@ -16,6 +16,10 @@ body {
   height: 100%;
 }
 
+img {
+  image-rendering: pixelated;
+}
+
 a {
   color: #336699;
 }
