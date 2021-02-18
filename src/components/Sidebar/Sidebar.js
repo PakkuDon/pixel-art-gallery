@@ -5,6 +5,22 @@ import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
 import "./Sidebar.css"
 
+const SidebarEntry = ({ entry, isSelected }) => {
+  const filename = extractFilename(entry.src)
+
+  return (
+    <div className={`entry ${isSelected ? "selected" : ""}`}>
+      <Link to={`/${extractFilename(entry.src)}`}>
+        <img
+          src={`img/${entry.src}`}
+          alt={entry.src}
+          className="entry"
+        />
+      </Link>
+    </div>
+  )
+}
+
 const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
   <Card>
     <div className="sidebar">
@@ -30,21 +46,17 @@ const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
           })}
         </select>
       </div>
-      <ul className="entriesList">
+      <div className="entriesList">
         {entries.map((entry) => {
           const filename = extractFilename(entry.src)
           const selectedFilename = extractFilename(selectedImage.src)
+          const isSelected = filename === selectedFilename
 
           return (
-            <li
-              key={entry.src}
-              className={filename === selectedFilename ? "selected" : ""}
-            >
-              <Link to={`/${extractFilename(entry.src)}`}>{filename}</Link>
-            </li>
+            <SidebarEntry entry={entry} isSelected={isSelected} />
           )
         })}
-      </ul>
+      </div>
     </div>
   </Card>
 )
