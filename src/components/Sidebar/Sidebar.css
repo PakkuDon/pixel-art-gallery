@@ -45,6 +45,6 @@
 
   .entriesList {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 64px);
+    grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
   }
 }
