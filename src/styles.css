@@ -24,15 +24,15 @@ a:hover {
   color: #003366;
 }
 
-#app {
-  width: 80vw;
-}
-
 .sidebar-layout {
   grid-template-rows: 75vh;
 }
 
 @media (min-width: 720px) {
+  #app {
+    width: 80vw;
+  }
+
   .sidebar-layout {
     display: grid;
     grid-template-columns: minmax(250px, 1fr) 2fr;
