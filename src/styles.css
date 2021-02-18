@@ -32,6 +32,10 @@ a:hover {
   grid-template-rows: 75vh;
 }
 
+#app {
+  width: 100vw;
+}
+
 @media (min-width: 720px) {
   #app {
     width: 80vw;
