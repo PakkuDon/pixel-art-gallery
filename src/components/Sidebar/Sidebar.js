@@ -9,15 +9,12 @@ const SidebarEntry = ({ entry, isSelected }) => {
   const filename = extractFilename(entry.src)
 
   return (
-    <div className={`entry ${isSelected ? "selected" : ""}`}>
-      <Link to={`/${extractFilename(entry.src)}`}>
-        <img
-          src={`img/${entry.src}`}
-          alt={entry.src}
-          className="entry"
-        />
-      </Link>
-    </div>
+    <Link
+      className={`entry ${isSelected ? "selected" : ""}`}
+      to={`/${extractFilename(entry.src)}`}
+    >
+      <img src={`img/${entry.src}`} alt={entry.src} className="entry" />
+    </Link>
   )
 }
 
@@ -52,9 +49,7 @@ const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
           const selectedFilename = extractFilename(selectedImage.src)
           const isSelected = filename === selectedFilename
 
-          return (
-            <SidebarEntry entry={entry} isSelected={isSelected} />
-          )
+          return <SidebarEntry entry={entry} isSelected={isSelected} />
         })}
       </div>
     </div>
