@@ -13,7 +13,7 @@ const SidebarEntry = ({ entry, isSelected }) => {
       className={`entry ${isSelected ? "selected" : ""}`}
       to={`/${extractFilename(entry.src)}`}
     >
-      <img src={`img/${entry.src}`} alt={entry.src} className="entry" />
+      <img src={`img/${entry.src}`} alt={entry.src} />
     </Link>
   )
 }
