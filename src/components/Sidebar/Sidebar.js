@@ -49,7 +49,13 @@ const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
           const selectedFilename = extractFilename(selectedImage.src)
           const isSelected = filename === selectedFilename
 
-          return <SidebarEntry entry={entry} isSelected={isSelected} />
+          return (
+            <SidebarEntry
+              key={`sidebar-item-${entry.src}`}
+              entry={entry}
+              isSelected={isSelected}
+            />
+          )
         })}
       </div>
     </aside>
