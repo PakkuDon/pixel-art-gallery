@@ -52,7 +52,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
             style={{ transform: `scale(${zoom / 100})` }}
           />
         </div>
-        <div className="image-metadata">
+        <div className="image-metadata content">
           <div>
             <label>
               Zoom
@@ -83,7 +83,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
           <div>Tags: {image.tags.join(", ")}</div>
           <p>- Posted {image.date}</p>
         </div>
-        <div className="navigation">
+        <div className="navigation content">
           {previousImage ? (
             <Link to={extractFilename(previousImage.src)}>Previous</Link>
           ) : (

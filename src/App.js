@@ -18,7 +18,7 @@ const App = () => {
         </Route>
       </Switch>
       <Card>
-        <footer className="footer">
+        <footer className="footer content">
           <ul>
             <li>
               <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
