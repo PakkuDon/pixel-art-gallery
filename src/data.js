@@ -859,4 +859,13 @@ export default [
     date: "2021-02-15 23:59",
     tags: ["pixel_dailies", "lovebirds", "bird"],
   },
+  {
+    src: "20210219-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #TrainStation
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-19 23:56",
+    tags: ["pixel_dailies", "trainstation"],
+  },
 ]
