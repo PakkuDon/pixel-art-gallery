@@ -20,7 +20,7 @@ const SidebarEntry = ({ entry, isSelected }) => {
 
 const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
   <Card>
-    <div className="sidebar">
+    <aside className="sidebar">
       <div className="entriesDropdown">
         <select
           onChange={(event) => {
@@ -52,7 +52,7 @@ const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
           return <SidebarEntry entry={entry} isSelected={isSelected} />
         })}
       </div>
-    </div>
+    </aside>
   </Card>
 )
 

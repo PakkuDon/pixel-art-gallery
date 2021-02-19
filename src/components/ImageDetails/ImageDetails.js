@@ -43,7 +43,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
 
   return (
     <Card>
-      <div className="image-details">
+      <main className="image-details">
         <div className="image-viewer scrollable-content">
           <img
             src={`img/${image.src}`}
@@ -95,7 +95,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
             "Next"
           )}
         </div>
-      </div>
+      </main>
     </Card>
   )
 }
