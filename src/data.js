@@ -868,4 +868,13 @@ export default [
     date: "2021-02-19 23:56",
     tags: ["pixel_dailies", "trainstation"],
   },
+  {
+    src: "20210222-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Bunny
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-02-22 00:35",
+    tags: ["pixel_dailies", "bunny"],
+  },
 ]
