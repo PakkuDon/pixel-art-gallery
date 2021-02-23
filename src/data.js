@@ -877,4 +877,13 @@ export default [
     date: "2021-02-22 00:35",
     tags: ["pixel_dailies", "bunny"],
   },
+  {
+    src: "20210224-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #dam
+      Palette: [Tranquility Plus 39](https://lospec.com/palette-list/tranquility-plus-39)
+    `,
+    date: "2021-02-24 00:17",
+    tags: ["pixel_dailies", "dam", "landscape"],
+  },
 ]
