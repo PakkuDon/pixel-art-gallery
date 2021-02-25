@@ -20,8 +20,12 @@ pixelArtEntries.forEach((pixelArt) => {
     <meta property="og:image" content="https://pakkudon.github.io/pixel-art-gallery/img/${pixelArt.src}" />
     <meta property="og:description" content="${metaDescription}" />
   `
+  const title = `Pixel Art Gallery - ${filename}`
 
-  const html = baseHtml.replace("</head>", `${previewMetatags}</head>`)
+  const html = baseHtml
+    .replace("</head>", `${previewMetatags}</head>`)
+    .replace("<title>Pixel Art Gallery</title>", `<title>${title}</title>`)
+
   fs.writeFile(outputFilePath, html, (error) => {
     if (error) {
       console.error(error)
