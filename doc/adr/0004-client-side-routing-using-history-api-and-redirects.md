@@ -6,6 +6,8 @@ Date: 2020-11-16
 
 Accepted
 
+Amended by [5. Replace redirects with HTML pages](0005-replace-redirects-with-html-pages.md)
+
 ## Context
 
 Given that this repo may accumulate several pixel art entries over time it would be handy to be able to link to a specific image. As this project will be hosted on Github Pages we cannot use wildcard routes or server-side rendering.
