@@ -18,8 +18,6 @@ const PixelArtGallery = () => {
     let selectedFilename
     if (id && selectedImage?.src !== id) {
       selectedFilename = id
-    } else if (document.referrer) {
-      selectedFilename = document.referrer.split("/").pop()
     }
 
     if (selectedFilename) {
