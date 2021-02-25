@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 23 Feb 2021 13:17:51 GMT</pubDate>
+        <pubDate>Thu, 25 Feb 2021 11:33:45 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #pagoda</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201219-pixeldailies.png" alt="20201219-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #pagoda<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201219-pixeldailies</link>
-        <pubDate>Sat, 19 Dec 2020 11:17:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #reindeer</title>
         <description>
@@ -665,6 +652,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210224-pixeldailies</link>
         <pubDate>Tue, 23 Feb 2021 13:17:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>WIP. TODO Rename file</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210127-noprompt.png" alt="20210127-noprompt" />]]>
+          <p> WIP. TODO Rename file<br/> Pointe de Pen-Hir, Camaret-sur-Mer, France<br/> Palette: <a href="https://lospec.com/palette-list/sweet-canyon-extended-64">Sweet Canyon Extended 64</a></p>
+<p> Started back on 2020-12-13.</p>
+<p> <a href="https://windows10spotlight.com/images/d7ab09721ad573de49ac62f34bd73d80">Reference image</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210127-noprompt</link>
+        <pubDate>Sun, 13 Dec 2020 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
