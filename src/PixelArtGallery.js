@@ -40,6 +40,15 @@ const PixelArtGallery = () => {
     }
   }, [selectedImage])
 
+  useEffect(() => {
+    if (selectedImage) {
+      const filename = extractFilename(selectedImage.src)
+      document.title = `Pixel Art Gallery - ${filename}`
+    } else {
+      document.title = "Pixel Art Gallery"
+    }
+  }, [selectedImage])
+
   const onImageSelect = useCallback((image) => {
     const selectedFilename = extractFilename(image.src)
     history.replace(`/${selectedFilename}`)
