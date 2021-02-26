@@ -886,4 +886,15 @@ export default [
     date: "2021-02-24 00:17",
     tags: ["pixel_dailies", "dam", "landscape"],
   },
+  {
+    src: "20210226-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #red
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+
+      Featuring Red from Transistor (2014)
+    `,
+    date: "2021-02-26 23:02",
+    tags: ["pixel_dailies", "red", "transistor"],
+  },
 ]
