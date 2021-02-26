@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 25 Feb 2021 12:32:44 GMT</pubDate>
+        <pubDate>Fri, 26 Feb 2021 12:04:03 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #pagoda</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201219-pixeldailies.png" alt="20201219-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #pagoda<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201219-pixeldailies</link>
-        <pubDate>Sat, 19 Dec 2020 11:17:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #reindeer</title>
         <description>
@@ -665,6 +652,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210224-pixeldailies</link>
         <pubDate>Tue, 23 Feb 2021 13:17:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #red</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210226-pixeldailies.png" alt="20210226-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #red<br/> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a></p>
+<p> Featuring Red from Transistor (2014)
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210226-pixeldailies</link>
+        <pubDate>Fri, 26 Feb 2021 12:02:00 GMT</pubDate>
       </item>
     
       </channel>
