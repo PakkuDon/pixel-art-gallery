@@ -897,4 +897,15 @@ export default [
     date: "2021-02-26 23:02",
     tags: ["pixel_dailies", "red", "transistor"],
   },
+  {
+    src: "20210228-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Pokemon
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+
+      Featuring Pikachu, the 25th Pokemon, for Pokemon's 25th Anniversary.
+    `,
+    date: "2021-02-28 23:38",
+    tags: ["pixel_dailies", "pokemon"],
+  },
 ]
