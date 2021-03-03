@@ -908,4 +908,15 @@ export default [
     date: "2021-02-28 23:38",
     tags: ["pixel_dailies", "pokemon"],
   },
+  {
+    src: "20210303-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #MarineLife
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+
+      Humpback whale breaching surface
+    `,
+    date: "2021-03-03 23:53",
+    tags: ["pixel_dailies", "MarineLife", "whale", "ocean", "water"],
+  },
 ]
