@@ -919,4 +919,13 @@ export default [
     date: "2021-03-03 23:53",
     tags: ["pixel_dailies", "MarineLife", "whale", "ocean", "water"],
   },
+  {
+    src: "20210304-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #cereal
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-03-04 23:59",
+    tags: ["pixel_dailies", "cereal", "food"],
+  },
 ]
