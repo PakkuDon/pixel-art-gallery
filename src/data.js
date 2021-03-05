@@ -928,4 +928,13 @@ export default [
     date: "2021-03-04 23:59",
     tags: ["pixel_dailies", "cereal", "food"],
   },
+  {
+    src: "20210305-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #cracks
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-03-05 20:22",
+    tags: ["pixel_dailies", "cracks", "ceramic", "kintsugi"],
+  },
 ]
