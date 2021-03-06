@@ -937,4 +937,13 @@ export default [
     date: "2021-03-05 20:22",
     tags: ["pixel_dailies", "cracks", "ceramic", "kintsugi"],
   },
+  {
+    src: "20210306-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #mint
+      Palette: [Paper 8](https://lospec.com/palette-list/paper-8)
+    `,
+    date: "2021-03-06 23:59",
+    tags: ["pixel_dailies", "mint", "ice-cream"],
+  },
 ]
