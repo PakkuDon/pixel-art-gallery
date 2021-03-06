@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 05 Mar 2021 09:22:38 GMT</pubDate>
+        <pubDate>Sat, 06 Mar 2021 13:00:03 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #candle, restriction: 32x32px</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201226-pixeldailies.png" alt="20201226-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #candle, restriction: 32x32px<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201226-pixeldailies</link>
-        <pubDate>Sat, 26 Dec 2020 11:19:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #PineTree</title>
         <description>
@@ -667,6 +654,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210305-pixeldailies</link>
         <pubDate>Fri, 05 Mar 2021 09:22:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #mint</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210306-pixeldailies.png" alt="20210306-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #mint<br/> Palette: <a href="https://lospec.com/palette-list/paper-8">Paper 8</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210306-pixeldailies</link>
+        <pubDate>Sat, 06 Mar 2021 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
