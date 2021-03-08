@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 06 Mar 2021 13:00:03 GMT</pubDate>
+        <pubDate>Mon, 08 Mar 2021 12:22:03 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #PineTree</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201227-pixeldailies.png" alt="20201227-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #PineTree<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201227-pixeldailies</link>
-        <pubDate>Sun, 27 Dec 2020 10:52:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #snowy</title>
         <description>
@@ -667,6 +654,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210306-pixeldailies</link>
         <pubDate>Sat, 06 Mar 2021 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Plushy</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210308-pixeldailies.png" alt="20210308-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #Plushy<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210308-pixeldailies</link>
+        <pubDate>Mon, 08 Mar 2021 12:21:00 GMT</pubDate>
       </item>
     
       </channel>
