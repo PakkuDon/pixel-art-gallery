@@ -946,4 +946,13 @@ export default [
     date: "2021-03-06 23:59",
     tags: ["pixel_dailies", "mint", "ice-cream"],
   },
+  {
+    src: "20210308-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Plushy
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-03-08 23:21",
+    tags: ["pixel_dailies", "Plushy", "penguin"],
+  },
 ]
