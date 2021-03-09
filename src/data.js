@@ -955,4 +955,13 @@ export default [
     date: "2021-03-08 23:21",
     tags: ["pixel_dailies", "Plushy", "penguin"],
   },
+  {
+    src: "20210309-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #boiling
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-03-09 23:58",
+    tags: ["pixel_dailies", "boiling", "cookware"],
+  },
 ]
