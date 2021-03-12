@@ -4,23 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 09 Mar 2021 12:58:45 GMT</pubDate>
+        <pubDate>Fri, 12 Mar 2021 11:56:18 GMT</pubDate>
         
-      <item>
-        <title>No prompt, only a feature release</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201229-noprompt.png" alt="20201229-noprompt" />]]>
-          <p> No prompt, only a feature release</p>
-<p> This site now has an RSS feed. You can find it in the footer below or at <a href="https://pakkudon.github.io/pixel-art-gallery/feed.xml">pakkudon.github.io/pixel-art-gallery/feed.xml</a>.<br/> I also don&#39;t have an RSS reader so I don&#39;t know if this is marked up correctly or if the posts are in the right order. If there&#39;s any issues feel free to raise them in the repo.</p>
-<p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201229-noprompt</link>
-        <pubDate>Tue, 29 Dec 2020 10:48:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #ribbon</title>
         <description>
@@ -667,6 +652,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210309-pixeldailies</link>
         <pubDate>Tue, 09 Mar 2021 12:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #kiwi</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210312-pixeldailies.png" alt="20210312-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #kiwi<br/> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210312-pixeldailies</link>
+        <pubDate>Fri, 12 Mar 2021 11:55:00 GMT</pubDate>
       </item>
     
       </channel>
