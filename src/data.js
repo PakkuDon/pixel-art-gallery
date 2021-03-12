@@ -964,4 +964,13 @@ export default [
     date: "2021-03-09 23:58",
     tags: ["pixel_dailies", "boiling", "cookware"],
   },
+  {
+    src: "20210312-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #kiwi
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+    `,
+    date: "2021-03-12 22:55",
+    tags: ["pixel_dailies", "kiwi", "bird"],
+  },
 ]
