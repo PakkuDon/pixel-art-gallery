@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 12 Mar 2021 11:56:18 GMT</pubDate>
+        <pubDate>Sat, 13 Mar 2021 12:18:18 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #ribbon</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20201229-pixeldailies.png" alt="20201229-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #ribbon<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20201229-pixeldailies</link>
-        <pubDate>Tue, 29 Dec 2020 11:52:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #countdown</title>
         <description>
@@ -665,6 +652,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210312-pixeldailies</link>
         <pubDate>Fri, 12 Mar 2021 11:55:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #vanity</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210313-pixeldailies.png" alt="20210313-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #vanity<br/> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210313-pixeldailies</link>
+        <pubDate>Sat, 13 Mar 2021 12:17:00 GMT</pubDate>
       </item>
     
       </channel>
