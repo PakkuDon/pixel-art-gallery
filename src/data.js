@@ -973,4 +973,13 @@ export default [
     date: "2021-03-12 22:55",
     tags: ["pixel_dailies", "kiwi", "bird"],
   },
+  {
+    src: "20210313-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #vanity
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-03-13 23:17",
+    tags: ["pixel_dailies", "vanity"],
+  },
 ]
