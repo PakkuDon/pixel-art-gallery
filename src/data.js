@@ -982,4 +982,19 @@ export default [
     date: "2021-03-13 23:17",
     tags: ["pixel_dailies", "vanity"],
   },
+  {
+    src: "20210314-noprompt.png",
+    description: `
+      Strawberry souffle pancake with cream
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Belatedly realised yesterday's post (20210313-pixeldailies) was my 100th pixel art entry.
+
+      Just wanted to give a big thank you to those of you that have been following along and supporting me along the way. It means a lot :D
+
+      See you at the next one. 👋
+    `,
+    date: "2021-03-14 23:57",
+    tags: ["dessert", "food", "belated_milestone_post"],
+  },
 ]
