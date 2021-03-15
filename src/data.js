@@ -997,4 +997,13 @@ export default [
     date: "2021-03-14 23:57",
     tags: ["dessert", "food", "belated_milestone_post"],
   },
+  {
+    src: "20210315-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Dirt
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-03-15 23:59",
+    tags: ["pixel_dailies", "dirt", "plant"],
+  },
 ]
