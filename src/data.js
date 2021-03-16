@@ -1006,4 +1006,13 @@ export default [
     date: "2021-03-15 23:59",
     tags: ["pixel_dailies", "dirt", "plant"],
   },
+  {
+    src: "20210316-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #banana
+      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
+    `,
+    date: "2021-03-16 23:57",
+    tags: ["pixel_dailies", "banana", "food"],
+  },
 ]
