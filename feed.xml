@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 15 Mar 2021 13:01:53 GMT</pubDate>
+        <pubDate>Tue, 16 Mar 2021 12:58:31 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #ox</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210101-pixeldailies.png" alt="20210101-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #ox<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210101-pixeldailies</link>
-        <pubDate>Fri, 01 Jan 2021 12:36:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #camping</title>
         <description>
@@ -668,6 +655,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210315-pixeldailies</link>
         <pubDate>Mon, 15 Mar 2021 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #banana</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210316-pixeldailies.png" alt="20210316-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #banana<br/> Palette: <a href="https://lospec.com/palette-list/endesga-64">Endesga 64</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210316-pixeldailies</link>
+        <pubDate>Tue, 16 Mar 2021 12:57:00 GMT</pubDate>
       </item>
     
       </channel>
