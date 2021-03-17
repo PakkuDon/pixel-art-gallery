@@ -1015,4 +1015,15 @@ export default [
     date: "2021-03-16 23:57",
     tags: ["pixel_dailies", "banana", "food"],
   },
+  {
+    src: "20210317-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #mineral
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Dumortierite quartz
+    `,
+    date: "2021-03-17 22:59",
+    tags: ["pixel_dailies", "mineral"],
+  },
 ]
