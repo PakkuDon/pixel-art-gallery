@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 16 Mar 2021 12:58:31 GMT</pubDate>
+        <pubDate>Wed, 17 Mar 2021 11:59:45 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #camping</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210103-pixeldailies.png" alt="20210103-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #camping<br/> Palette: <a href="https://lospec.com/palette-list/pico-8-secret-palette">Pico-8 Secret Palette</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210103-pixeldailies</link>
-        <pubDate>Sun, 03 Jan 2021 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #drupe</title>
         <description>
@@ -668,6 +655,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210316-pixeldailies</link>
         <pubDate>Tue, 16 Mar 2021 12:57:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #mineral</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210317-pixeldailies.png" alt="20210317-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #mineral<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
+<p> Dumortierite quartz
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210317-pixeldailies</link>
+        <pubDate>Wed, 17 Mar 2021 11:59:00 GMT</pubDate>
       </item>
     
       </channel>
