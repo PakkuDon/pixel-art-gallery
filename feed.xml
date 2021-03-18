@@ -4,34 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 17 Mar 2021 11:59:45 GMT</pubDate>
+        <pubDate>Thu, 18 Mar 2021 12:58:31 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #drupe</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210107-pixeldailies.png" alt="20210107-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #drupe<br/> Palette: <a href="https://lospec.com/palette-list/zughy-32">Zughy 32</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210107-pixeldailies</link>
-        <pubDate>Thu, 07 Jan 2021 07:15:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Lospec Dailies prompt: #water</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210108-lospecdaily.png" alt="20210108-lospecdaily" />]]>
-          <p> Lospec Dailies prompt: #water<br/> Palette: <a href="https://lospec.com/palette-list/fantasy-16">Fantasy 16</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210108-lospecdaily</link>
-        <pubDate>Fri, 08 Jan 2021 07:01:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #birdcage</title>
         <description>
@@ -669,6 +643,32 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210317-pixeldailies</link>
         <pubDate>Wed, 17 Mar 2021 11:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Sailboat silhouette</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210318-noprompt.png" alt="20210318-noprompt" />]]>
+          <p> Sailboat silhouette<br/> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210318-noprompt</link>
+        <pubDate>Thu, 18 Mar 2021 12:42:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #NegativeSpace</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210318-pixeldailies.png" alt="20210318-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #NegativeSpace<br/> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210318-pixeldailies</link>
+        <pubDate>Thu, 18 Mar 2021 12:58:00 GMT</pubDate>
       </item>
     
       </channel>
