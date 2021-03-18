@@ -1035,4 +1035,13 @@ export default [
     date: "2021-03-18 23:42",
     tags: ["boat", "water"],
   },
+  {
+    src: "20210318-pixeldailies.png",
+    description: `
+    Pixel Dailies prompt: #NegativeSpace
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+    `,
+    date: "2021-03-18 23:58",
+    tags: ["pixel_dailies", "NegativeSpace", "cityscape", "sunset"],
+  },
 ]
