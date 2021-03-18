@@ -1026,4 +1026,13 @@ export default [
     date: "2021-03-17 22:59",
     tags: ["pixel_dailies", "mineral"],
   },
+  {
+    src: "20210318-noprompt.png",
+    description: `
+      Sailboat silhouette
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+    `,
+    date: "2021-03-18 23:42",
+    tags: ["boat", "water"],
+  },
 ]
