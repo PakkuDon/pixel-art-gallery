@@ -1044,4 +1044,13 @@ export default [
     date: "2021-03-18 23:58",
     tags: ["pixel_dailies", "NegativeSpace", "cityscape", "sunset"],
   },
+  {
+    src: "20210319-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #nocturnal
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-03-19 23:58",
+    tags: ["pixel_dailies", "nocturnal", "owl"],
+  },
 ]
