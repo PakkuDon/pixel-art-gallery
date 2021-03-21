@@ -1054,15 +1054,6 @@ export default [
     tags: ["pixel_dailies", "nocturnal", "owl"],
   },
   {
-    src: "20210319-pixeldailies.png",
-    description: `
-      Pixel Dailies prompt: #nocturnal
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
-    date: "2021-03-19 23:58",
-    tags: ["pixel_dailies", "nocturnal", "owl"],
-  },
-  {
     src: "20210320-pixeldailies.png",
     description: `
       Pixel Dailies prompt: #DeskCaddy
