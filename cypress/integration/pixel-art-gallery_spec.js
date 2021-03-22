@@ -24,7 +24,7 @@ describe("Pixel Art Gallery", () => {
   context("when pixel art entry is selected", () => {
     it("displays details about pixel art entry", () => {
       cy.get(`a[href='/${testEntryIdentifier}'`).click()
-      cy.get(".pixelArt")
+      cy.get("main img")
         .should("have.attr", "src")
         .should("contain", testEntry.src)
     })
