@@ -1060,6 +1060,6 @@ export default [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-03-20 23:59",
-    tags: ["pixel_dailies", "DeskDaddy"],
+    tags: ["pixel_dailies", "DeskCaddy"],
   },
 ]
