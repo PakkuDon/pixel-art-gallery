@@ -1062,4 +1062,13 @@ export default [
     date: "2021-03-20 23:59",
     tags: ["pixel_dailies", "DeskCaddy"],
   },
+  {
+    src: "20210324-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #TextBox
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-03-24 00:18",
+    tags: ["pixel_dailies", "TextBox", "earth"],
+  },
 ]
