@@ -53,6 +53,10 @@ The gallery itself is built using React and React Router. CSS is also processed 
 - Run development server to preview changes.
 - Run `yarn deploy` to build assets, link previews and generate RSS feed. This script will also deploy these to Github pages
 
+## Deployment process
+
+![Deployment workflow](doc/deployment.png)
+
 ## Architecture Decisions
 
 This project uses [Architecture Decision Records](https://adr.github.io/) to capture the rationale (or lack thereof) for architecturally significant decisions. You can find them at [doc/adr/](doc/adr/).
