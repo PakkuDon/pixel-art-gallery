@@ -1071,4 +1071,13 @@ export default [
     date: "2021-03-24 00:18",
     tags: ["pixel_dailies", "TextBox", "earth"],
   },
+  {
+    src: "20210328-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Extinct
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-03-28 23:59",
+    tags: ["pixel_dailies", "Extinct", "mammoth"],
+  },
 ]
