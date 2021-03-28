@@ -3,8 +3,11 @@ import fs from "fs"
 import path from "path"
 import marked from "marked"
 
-import pixelArtEntries from "../data"
+import PixelArtRepository from "../PixelArtRepository"
 import extractFilename from "./extractFilename"
+
+PixelArtRepository.load()
+const pixelArtEntries = PixelArtRepository.findAll()
 
 const generateRssFeed = ({ entries = [], limit }) => {
   marked.setOptions({

@@ -4,11 +4,14 @@ import { useHistory, useParams } from "react-router-dom"
 import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
 import extractFilename from "./util/extractFilename"
-import pixelArtEntries from "./data"
+import PixelArtRepository from "./PixelArtRepository"
 
-const entries = pixelArtEntries.reverse()
+PixelArtRepository.load()
 
 const PixelArtGallery = () => {
+  const [entries, setPixelArtEntries] = useState(
+    PixelArtRepository.findAll().reverse()
+  )
   const [selectedImage, setSelectedImage] = useState(entries[0])
   const [selectedIndex, setSelectedIndex] = useState(0)
   const { id } = useParams()

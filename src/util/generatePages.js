@@ -2,8 +2,11 @@
 import fs from "fs"
 import path from "path"
 
-import pixelArtEntries from "../data"
+import PixelArtRepository from "../PixelArtRepository"
 import extractFilename from "./extractFilename"
+
+PixelArtRepository.load()
+const pixelArtEntries = PixelArtRepository.findAll()
 
 const baseHtmlPath = path.join(__dirname, "../../dist/index.html")
 const baseHtml = fs.readFileSync(baseHtmlPath, "utf8")

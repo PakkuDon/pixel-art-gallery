@@ -1,4 +1,7 @@
-const pixelArtEntries = require("../../src/data")
+const PixelArtRepository = require("../../src/PixelArtRepository")
+
+PixelArtRepository.load()
+const pixelArtEntries = PixelArtRepository.findAll()
 
 const selectRandomEntry = () => {
   const index = Math.floor(Math.random() * pixelArtEntries.length)
