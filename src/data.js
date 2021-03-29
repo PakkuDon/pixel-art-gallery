@@ -1080,4 +1080,14 @@ export default [
     date: "2021-03-28 23:59",
     tags: ["pixel_dailies", "Extinct", "mammoth"],
   },
+  {
+    src: "20210329-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #CardGame, restriction: 5 colours max
+      Palette: [Ice Cream GB](https://lospec.com/palette-list/ice-cream-gb)
+    `,
+    date: "2021-03-29 23:52",
+    tags: ["pixel_dailies", "CardGame"],
+  },
+
 ]
