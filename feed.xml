@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 28 Mar 2021 13:01:42 GMT</pubDate>
+        <pubDate>Mon, 29 Mar 2021 12:52:28 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #vent</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/202101152-pixeldailies.png" alt="202101152-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #vent<br/> Palette: <a href="https://lospec.com/palette-list/starmancer">Starmancer</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/202101152-pixeldailies</link>
-        <pubDate>Fri, 15 Jan 2021 12:41:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #bird</title>
         <description>
@@ -669,6 +656,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210328-pixeldailies</link>
         <pubDate>Sun, 28 Mar 2021 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #CardGame, restriction: 5 colours max</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210329-pixeldailies.png" alt="20210329-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #CardGame, restriction: 5 colours max<br/> Palette: <a href="https://lospec.com/palette-list/ice-cream-gb">Ice Cream GB</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210329-pixeldailies</link>
+        <pubDate>Mon, 29 Mar 2021 12:52:00 GMT</pubDate>
       </item>
     
       </channel>
