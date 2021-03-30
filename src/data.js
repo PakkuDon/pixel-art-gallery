@@ -1089,5 +1089,13 @@ export default [
     date: "2021-03-29 23:52",
     tags: ["pixel_dailies", "CardGame"],
   },
-
+  {
+    src: "20210330-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Daffodils
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-03-30 23:59",
+    tags: ["pixel_dailies", "Daffodils", "flower"],
+  },
 ]
