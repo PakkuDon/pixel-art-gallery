@@ -1098,4 +1098,13 @@ export default [
     date: "2021-03-30 23:59",
     tags: ["pixel_dailies", "Daffodils", "flower"],
   },
+  {
+    src: "20210331-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #windmill
+      Palette: [Tranquility Fantasy 23](https://lospec.com/palette-list/tranquil-fantasy-23)
+    `,
+    date: "2021-03-31 23:59",
+    tags: ["pixel_dailies", "windmill"],
+  },
 ]
