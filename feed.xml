@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 30 Mar 2021 13:01:09 GMT</pubDate>
+        <pubDate>Wed, 31 Mar 2021 13:00:04 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Diamond</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210117-pixeldailies.png" alt="20210117-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #Diamond<br/> Palette: <a href="https://lospec.com/palette-list/blues-gb">Blues GB</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210117-pixeldailies</link>
-        <pubDate>Sun, 17 Jan 2021 12:53:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #billboard</title>
         <description>
@@ -668,6 +655,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210330-pixeldailies</link>
         <pubDate>Tue, 30 Mar 2021 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #windmill</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210331-pixeldailies.png" alt="20210331-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #windmill<br/> Palette: <a href="https://lospec.com/palette-list/tranquil-fantasy-23">Tranquility Fantasy 23</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210331-pixeldailies</link>
+        <pubDate>Wed, 31 Mar 2021 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
