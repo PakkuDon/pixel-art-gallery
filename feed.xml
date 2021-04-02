@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 31 Mar 2021 13:00:04 GMT</pubDate>
+        <pubDate>Fri, 02 Apr 2021 12:55:03 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #billboard</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210119-pixeldailies.png" alt="20210119-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #billboard<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210119-pixeldailies</link>
-        <pubDate>Tue, 19 Jan 2021 12:17:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: Set of #lamps, restriction: 24x32px per lamp</title>
         <description>
@@ -668,6 +655,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210331-pixeldailies</link>
         <pubDate>Wed, 31 Mar 2021 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #carrot</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210402-pixeldailies.png" alt="20210402-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #carrot<br/> Palette: <a href="https://lospec.com/palette-list/15p-dx">15P DX</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210402-pixeldailies</link>
+        <pubDate>Fri, 02 Apr 2021 12:55:00 GMT</pubDate>
       </item>
     
       </channel>
