@@ -1107,4 +1107,13 @@ export default [
     date: "2021-03-31 23:59",
     tags: ["pixel_dailies", "windmill"],
   },
+  {
+    src: "20210402-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #carrot
+      Palette: [15P DX](https://lospec.com/palette-list/15p-dx)
+    `,
+    date: "2021-04-02 23:55",
+    tags: ["pixel_dailies", "carrot"],
+  },
 ]
