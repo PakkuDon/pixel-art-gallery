@@ -14,7 +14,7 @@ describe("generateRssFeed", () => {
           Example image with markdown
           Palette: [Example link](https://example.com)
         `,
-        date: "2020-01-01 00:00",
+        date: "2020-01-01 00:00 UTC+1100",
         tags: ["a", "b"],
       },
     ]
