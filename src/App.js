@@ -7,9 +7,8 @@ import "normalize.css"
 import "./styles.css"
 
 const App = () => {
-  const basename = location.hostname.includes("github")
-    ? "pixel-art-gallery"
-    : ""
+  const basename =
+    process.env.NODE_ENV === "production" ? "pixel-art-gallery" : ""
   return (
     <Router basename={basename}>
       <Switch>
