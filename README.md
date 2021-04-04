@@ -45,7 +45,7 @@ The gallery itself is built using React and React Router. CSS is also processed 
   description: `
     Multiline string. Accepts markdown
   `,
-  date: "date formatted in YYYY-MM-DD HH:SS (eg: 2020-01-01 00:00)",
+  date: "date formatted in YYYY-MM-DD HH:SS UTC Offset (eg: 2020-01-01 00:00 +1100)",
   tags: ["words", "can contain spaces"],
 },
 ```
