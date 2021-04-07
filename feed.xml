@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 02 Apr 2021 12:55:03 GMT</pubDate>
+        <pubDate>Wed, 07 Apr 2021 12:56:43 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: Set of #lamps, restriction: 24x32px per lamp</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210120-pixeldailies.png" alt="20210120-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: Set of #lamps, restriction: 24x32px per lamp<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210120-pixeldailies</link>
-        <pubDate>Wed, 20 Jan 2021 12:51:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #mohawk</title>
         <description>
@@ -668,6 +655,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210402-pixeldailies</link>
         <pubDate>Fri, 02 Apr 2021 12:55:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #PunchCard</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210407-pixeldailies.png" alt="20210407-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #PunchCard<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210407-pixeldailies</link>
+        <pubDate>Wed, 07 Apr 2021 12:55:00 GMT</pubDate>
       </item>
     
       </channel>
