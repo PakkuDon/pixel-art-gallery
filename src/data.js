@@ -1116,4 +1116,13 @@ export default [
     date: "2021-04-02 23:55 UTC+1100",
     tags: ["pixel_dailies", "carrot"],
   },
+  {
+    src: "20210407-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #PunchCard
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-04-07 22:55 UTC+1000",
+    tags: ["pixel_dailies", "PunchCard"],
+  },
 ]
