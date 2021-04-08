@@ -1125,4 +1125,13 @@ export default [
     date: "2021-04-07 22:55 UTC+1000",
     tags: ["pixel_dailies", "PunchCard"],
   },
+  {
+    src: "20210408-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #mole
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-04-08 22:59 UTC+1000",
+    tags: ["pixel_dailies", "mole", "OMORI"],
+  },
 ]
