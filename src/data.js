@@ -1131,7 +1131,7 @@ export default [
       Pixel Dailies prompt: #mole
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2021-04-08 22:59 UTC+1000",
+    date: "2021-04-08 23:59 UTC+1000",
     tags: ["pixel_dailies", "mole", "OMORI"],
   },
 ]
