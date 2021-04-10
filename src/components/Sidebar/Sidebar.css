@@ -51,4 +51,7 @@
 
 .search {
   padding: 1em 0.5em;
+  position: sticky;
+  top: 0;
+  background: white;
 }
