@@ -48,3 +48,7 @@
     grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
   }
 }
+
+.search {
+  padding: 1em 0.5em;
+}

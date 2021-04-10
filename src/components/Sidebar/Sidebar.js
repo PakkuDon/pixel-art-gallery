@@ -23,11 +23,11 @@ const Sidebar = ({
 }) => (
   <Card>
     <aside className="sidebar">
-      <div>
-        <label htmlFor="search">
+      <div className="search">
+        <label htmlFor="search-input">
           Search:{" "}
           <input
-            id="search"
+            id="search-input"
             type="text"
             value={searchQuery}
             onChange={(event) => onSearchQueryChange(event.target.value)}
