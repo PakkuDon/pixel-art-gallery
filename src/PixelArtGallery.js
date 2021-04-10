@@ -65,6 +65,17 @@ const PixelArtGallery = () => {
     [setSearchQuery]
   )
 
+  useEffect(() => {
+    const lowerCaseSearchQuery = searchQuery.toLowerCase()
+    const matchingEntries = PixelArtRepository.findAll(
+      (entry) =>
+        entry.description.toLowerCase().includes(lowerCaseSearchQuery) ||
+        entry.tags.some((tag) => tag.toLowerCase() === lowerCaseSearchQuery)
+    ).reverse()
+
+    setPixelArtEntries(matchingEntries)
+  }, [searchQuery, setPixelArtEntries])
+
   return (
     <div className="sidebar-layout">
       <Sidebar
