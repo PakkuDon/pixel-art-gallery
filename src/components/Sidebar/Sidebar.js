@@ -14,9 +14,26 @@ const SidebarEntry = ({ entry, isSelected }) => (
   </Link>
 )
 
-const Sidebar = ({ entries, onImageSelect, selectedImage }) => (
+const Sidebar = ({
+  entries,
+  searchQuery,
+  selectedImage,
+  onImageSelect,
+  onSearchQueryChange,
+}) => (
   <Card>
     <aside className="sidebar">
+      <div>
+        <label htmlFor="search">
+          Search:{" "}
+          <input
+            id="search"
+            type="text"
+            value={searchQuery}
+            onChange={(event) => onSearchQueryChange(event.target.value)}
+          />
+        </label>
+      </div>
       <div className="entriesDropdown">
         <select
           onChange={(event) => {

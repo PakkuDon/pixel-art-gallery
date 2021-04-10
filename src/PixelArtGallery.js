@@ -14,6 +14,7 @@ const PixelArtGallery = () => {
   )
   const [selectedImage, setSelectedImage] = useState(entries[0])
   const [selectedIndex, setSelectedIndex] = useState(0)
+  const [searchQuery, setSearchQuery] = useState("")
   const { id } = useParams()
   const history = useHistory()
 
@@ -57,12 +58,21 @@ const PixelArtGallery = () => {
     history.replace(`/${selectedFilename}`)
   })
 
+  const onSearchQueryChange = useCallback(
+    (query) => {
+      setSearchQuery(query)
+    },
+    [setSearchQuery]
+  )
+
   return (
     <div className="sidebar-layout">
       <Sidebar
         entries={entries}
-        onImageSelect={onImageSelect}
+        searchQuery={searchQuery}
         selectedImage={selectedImage}
+        onImageSelect={onImageSelect}
+        onSearchQueryChange={onSearchQueryChange}
       />
       <ImageDetails
         image={selectedImage}
