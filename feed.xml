@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 08 Apr 2021 23:37:33 GMT</pubDate>
+        <pubDate>Sun, 11 Apr 2021 13:50:28 GMT</pubDate>
         
-      <item>
-        <title>Practicing clouds</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210123-noprompt.png" alt="20210123-noprompt" />]]>
-          <p> Practicing clouds<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210123-noprompt</link>
-        <pubDate>Sat, 23 Jan 2021 10:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #WildLife</title>
         <description>
@@ -667,6 +654,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210408-pixeldailies</link>
         <pubDate>Thu, 08 Apr 2021 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Gate</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210411-pixeldailies.png" alt="20210411-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #Gate<br/> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210411-pixeldailies</link>
+        <pubDate>Sun, 11 Apr 2021 13:50:00 GMT</pubDate>
       </item>
     
       </channel>
