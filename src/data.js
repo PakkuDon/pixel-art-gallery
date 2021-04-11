@@ -1134,4 +1134,13 @@ export default [
     date: "2021-04-08 23:59 UTC+1000",
     tags: ["pixel_dailies", "mole", "OMORI"],
   },
+  {
+    src: "20210411-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Gate
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+    `,
+    date: "2021-04-11 23:50 UTC+1000",
+    tags: ["pixel_dailies", "Gate"],
+  },
 ]
