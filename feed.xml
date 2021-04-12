@@ -4,21 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 11 Apr 2021 13:50:28 GMT</pubDate>
+        <pubDate>Mon, 12 Apr 2021 14:01:43 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #WildLife</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210124-pixeldailies.png" alt="20210124-pixeldailies" />]]>
-          <p> Pixel Dailies prompt: #WildLife<br/> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210124-pixeldailies</link>
-        <pubDate>Sun, 24 Jan 2021 12:47:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #clouds</title>
         <description>
@@ -667,6 +654,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210411-pixeldailies</link>
         <pubDate>Sun, 11 Apr 2021 13:50:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Spice</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210412-pixeldailies.png" alt="20210412-pixeldailies" />]]>
+          <p> Pixel Dailies prompt: #Spice<br/> Palette: <a href="https://lospec.com/palette-list/zughy-32">Zughy 32</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210412-pixeldailies</link>
+        <pubDate>Mon, 12 Apr 2021 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
