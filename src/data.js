@@ -1143,4 +1143,13 @@ export default [
     date: "2021-04-11 23:50 UTC+1000",
     tags: ["pixel_dailies", "Gate"],
   },
+  {
+    src: "20210412-pixeldailies.png",
+    description: `
+      Pixel Dailies prompt: #Spice
+      Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
+    `,
+    date: "2021-04-12 23:59 UTC+1000",
+    tags: ["pixel_dailies", "Spice", "vanilla"],
+  },
 ]
