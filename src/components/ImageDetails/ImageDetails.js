@@ -87,12 +87,12 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
           {previousImage ? (
             <Link to={extractFilename(previousImage.src)}>Previous</Link>
           ) : (
-            "Previous"
+            <span>Previous</span>
           )}
           {nextImage ? (
             <Link to={extractFilename(nextImage.src)}>Next</Link>
           ) : (
-            "Next"
+            <span>Next</span>
           )}
         </div>
       </main>
