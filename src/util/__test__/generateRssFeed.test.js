@@ -10,8 +10,8 @@ describe("generateRssFeed", () => {
     const entries = [
       {
         src: "example.png",
+        title: "Example image with markdown",
         description: `
-          Example image with markdown
           Palette: [Example link](https://example.com)
         `,
         date: "2020-01-01 00:00 UTC+1100",
@@ -28,8 +28,8 @@ describe("generateRssFeed", () => {
       const entries = [
         {
           src: "entry-that-will-be-omitted.png",
+          title: "Example image with markdown",
           description: `
-            Example image with markdown
             Palette: [Example link](https://example.com)
           `,
           date: "2020-01-01 00:00",
@@ -37,8 +37,8 @@ describe("generateRssFeed", () => {
         },
         {
           src: "entry-that-will-be-included.png",
+          title: "Example image with markdown",
           description: `
-            Example image with markdown
             Palette: [Example link](https://example.com)
           `,
           date: "2020-01-01 00:00",

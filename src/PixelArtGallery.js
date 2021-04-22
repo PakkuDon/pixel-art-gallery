@@ -69,6 +69,8 @@ const PixelArtGallery = () => {
     const lowerCaseSearchQuery = searchQuery.toLowerCase()
     const matchingEntries = PixelArtRepository.findAll(
       (entry) =>
+        (entry.title &&
+          entry.title.toLowerCase().includes(lowerCaseSearchQuery)) ||
         entry.description.toLowerCase().includes(lowerCaseSearchQuery) ||
         entry.tags.some((tag) => tag.toLowerCase() === lowerCaseSearchQuery)
     ).reverse()

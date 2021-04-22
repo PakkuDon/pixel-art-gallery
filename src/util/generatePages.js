@@ -14,10 +14,9 @@ const baseHtml = fs.readFileSync(baseHtmlPath, "utf8")
 pixelArtEntries.forEach((pixelArt) => {
   const filename = extractFilename(pixelArt.src)
   const outputFilePath = path.join(__dirname, `../../dist/${filename}.html`)
-  const metaDescription = pixelArt.description
-    .split("\n")[1]
-    .trim()
-    .replace(/"/g, "&quot;")
+  const metaDescription =
+    pixelArt.title ||
+    pixelArt.description.split("\n")[1].trim().replace(/"/g, "&quot;")
 
   const previewMetatags = `
     <meta property="og:image" content="https://pakkudon.github.io/pixel-art-gallery/img/${pixelArt.src}" />
