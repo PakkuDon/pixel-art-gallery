@@ -144,14 +144,16 @@ export default [
   },
   {
     src: "20201110-pixeldailies.png",
-    title: "Pixel Dailies prompt: #Birds, restriction: 4 colors max",
+    title: "Pixel Dailies prompt: #Birds",
     description: `
+      Palette: #4F4948, #D9B670, #9EA29F, #EDF0EB
+      Restriction: 4 colors max
+
       One of the peregrine falcon chicks from Collins St, Melbourne.
       Their feathers have changed a lot recently but they still have some fluff.
 
       You can find the livestream at https://www.367collinsfalcons.com.au/
 
-      Palette: #4F4948, #D9B670, #9EA29F, #EDF0EB
     `,
     date: "2020-11-10 00:13 UTC+1100",
     tags: ["pixel_dailies", "bird"],
@@ -177,9 +179,10 @@ export default [
   {
     src: "20201116-pixeldailies.png",
     title:
-      "Pixel Dailies prompt: Set of #ChocolateDesserts. Restriction: Each dessert must be 32x32 pixels or less and contain chocolate",
+      "Pixel Dailies prompt: Set of #ChocolateDesserts",
     description: `
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+      Restriction: Each dessert must be 32x32 pixels or less and contain chocolate
     `,
     date: "2020-11-16 01:04 UTC+1100",
     tags: ["pixel_dailies", "set", "food", "lospec_palette_of_the_day"],
@@ -258,9 +261,10 @@ export default [
   {
     src: "20201128-pixeldailies.png",
     title:
-      "Pixel Dailies prompt: Set of #bears, restriction: 32x32px or less per bear",
+      "Pixel Dailies prompt: Set of #bears",
     description: `
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+      Restriction: 32x32px or less per bear
     `,
     date: "2020-11-28 23:02 UTC+1100",
     tags: ["pixel_dailies", "set", "bear"],
@@ -341,9 +345,10 @@ export default [
   {
     src: "20201208-pixeldailies.png",
     title:
-      "Pixel Dailies prompt: #Road. Restriction: Use one-point perspective",
+      "Pixel Dailies prompt: #Road",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: Use one-point perspective
     `,
     date: "2020-12-08 00:13 UTC+1100",
     tags: ["pixel_dailies", "road", "lospec_palette_of_the_day"],
@@ -430,9 +435,10 @@ export default [
   {
     src: "20201223-pixeldailies.png",
     title:
-      "Pixel Dailies prompt: #present. restriction: You can only use the colours; gold, white, red and green",
+      "Pixel Dailies prompt: #present",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: You can only use the colours; gold, white, red and green
     `,
     date: "2020-12-23 23:51 UTC+1100",
     tags: ["pixel_dailies", "christmas", "present"],
@@ -453,18 +459,20 @@ export default [
   {
     src: "20201225-pixeldailies2.png",
     title:
-      "Pixel Dailies prompt: Set of #Ornaments. Restriction: 16x16px per ornament",
+      "Pixel Dailies prompt: Set of #Ornaments",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: 16x16px per ornament
     `,
     date: "2020-12-23 23:51 UTC+1100",
     tags: ["pixel_dailies", "christmas", "set", "ornaments"],
   },
   {
     src: "20201226-pixeldailies.png",
-    title: "Pixel Dailies prompt: #candle, restriction: 32x32px",
+    title: "Pixel Dailies prompt: #candle",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: 32x32px
     `,
     date: "2020-12-26 22:19 UTC+1100",
     tags: ["pixel_dailies", "christmas", "candle"],
@@ -639,9 +647,10 @@ export default [
   },
   {
     src: "20210120-pixeldailies.png",
-    title: "Pixel Dailies prompt: Set of #lamps, restriction: 24x32px per lamp",
+    title: "Pixel Dailies prompt: Set of #lamps",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: 24x32px per lamp
     `,
     date: "2021-01-20 23:51 UTC+1100",
     tags: ["pixel_dailies", "lamp"],
@@ -789,9 +798,10 @@ export default [
   },
   {
     src: "20210207-pixeldailies.png",
-    title: "Pixel Dailies prompt: #Sculpture, restriction: 5 colous max",
+    title: "Pixel Dailies prompt: #Sculpture",
     description: `
       Palette: [2-bit Grayscale](https://lospec.com/palette-list/2-bit-grayscale)
+      Restriction: 5 colous max
 
       Cow Up a Tree, Docklands, Victoria
     `,
@@ -1084,9 +1094,10 @@ export default [
   },
   {
     src: "20210329-pixeldailies.png",
-    title: "Pixel Dailies prompt: #CardGame, restriction: 5 colours max",
+    title: "Pixel Dailies prompt: #CardGame",
     description: `
       Palette: [Ice Cream GB](https://lospec.com/palette-list/ice-cream-gb)
+      Restriction: 5 colours max
     `,
     date: "2021-03-29 23:52 UTC+1100",
     tags: ["pixel_dailies", "CardGame"],
