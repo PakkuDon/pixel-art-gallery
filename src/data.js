@@ -1174,4 +1174,13 @@ export default [
     date: "2021-04-17 23:58 UTC+1000",
     tags: ["pixel_dailies", "turntable"],
   },
+  {
+    src: "20210423-pixeldailies.png",
+    title: "Pixel Dailies prompt: #HomeMade",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-04-23 23:59 UTC+1000",
+    tags: ["pixel_dailies", "HomeMade", "tea"],
+  },
 ]
