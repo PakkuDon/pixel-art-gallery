@@ -1183,4 +1183,15 @@ export default [
     date: "2021-04-23 23:59 UTC+1000",
     tags: ["pixel_dailies", "HomeMade", "tea"],
   },
+  {
+    src: "20210425-cat.png",
+    title: "Siamese cat",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Based off one of my coworker's plushies.
+    `,
+    date: "2021-04-25 00:51 UTC+1000",
+    tags: ["noprompt", "cat"],
+  },
 ]
