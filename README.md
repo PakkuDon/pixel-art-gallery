@@ -42,6 +42,7 @@ The gallery itself is built using React and React Router. CSS is also processed 
 ```js
 {
   src: "[filename minus `img/` prefix (eg: 20200101.png)]",
+  title: "One-liner to describe piece",
   description: `
     Multiline string. Accepts markdown
   `,
