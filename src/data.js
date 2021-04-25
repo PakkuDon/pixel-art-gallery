@@ -1194,4 +1194,13 @@ export default [
     date: "2021-04-25 00:51 UTC+1000",
     tags: ["noprompt", "cat"],
   },
+  {
+    src: "20210425-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Brick",
+    description: `
+    Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
+    `,
+    date: "2021-04-25 23:56 UTC+1000",
+    tags: ["pixel_dailies", "Brick"],
+  },
 ]
