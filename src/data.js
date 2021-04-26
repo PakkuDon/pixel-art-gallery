@@ -1203,4 +1203,13 @@ export default [
     date: "2021-04-25 23:56 UTC+1000",
     tags: ["pixel_dailies", "Brick"],
   },
+  {
+    src: "20210426-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Cookies",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-04-26 23:59 UTC+1000",
+    tags: ["pixel_dailies", "Cookies"],
+  },
 ]
