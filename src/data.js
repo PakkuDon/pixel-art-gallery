@@ -178,8 +178,7 @@ export default [
   },
   {
     src: "20201116-pixeldailies.png",
-    title:
-      "Pixel Dailies prompt: Set of #ChocolateDesserts",
+    title: "Pixel Dailies prompt: Set of #ChocolateDesserts",
     description: `
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
       Restriction: Each dessert must be 32x32 pixels or less and contain chocolate
@@ -260,8 +259,7 @@ export default [
   },
   {
     src: "20201128-pixeldailies.png",
-    title:
-      "Pixel Dailies prompt: Set of #bears",
+    title: "Pixel Dailies prompt: Set of #bears",
     description: `
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
       Restriction: 32x32px or less per bear
@@ -344,8 +342,7 @@ export default [
   },
   {
     src: "20201208-pixeldailies.png",
-    title:
-      "Pixel Dailies prompt: #Road",
+    title: "Pixel Dailies prompt: #Road",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: Use one-point perspective
@@ -434,8 +431,7 @@ export default [
   },
   {
     src: "20201223-pixeldailies.png",
-    title:
-      "Pixel Dailies prompt: #present",
+    title: "Pixel Dailies prompt: #present",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: You can only use the colours; gold, white, red and green
@@ -458,8 +454,7 @@ export default [
   },
   {
     src: "20201225-pixeldailies2.png",
-    title:
-      "Pixel Dailies prompt: Set of #Ornaments",
+    title: "Pixel Dailies prompt: Set of #Ornaments",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: 16x16px per ornament
