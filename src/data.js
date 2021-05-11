@@ -1207,4 +1207,13 @@ export default [
     date: "2021-04-26 23:59 UTC+1000",
     tags: ["pixel_dailies", "Cookies"],
   },
+  {
+    src: "20210512-pixeldailies.png",
+    title: "Pixel Dailies prompt: #distraction",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-05-12 00:01 UTC+1000",
+    tags: ["pixel_dailies", "distraction", "slack"],
+  },
 ]
