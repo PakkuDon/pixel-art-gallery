@@ -1216,4 +1216,13 @@ export default [
     date: "2021-05-12 00:01 UTC+1000",
     tags: ["pixel_dailies", "distraction", "slack"],
   },
+  {
+    src: "20210516-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Bookworm",
+    description: `
+    Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+    `,
+    date: "2021-05-16 21:26 UTC+1000",
+    tags: ["pixel_dailies", "Bookworm", "window"],
+  },
 ]
