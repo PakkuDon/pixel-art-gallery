@@ -1220,9 +1220,20 @@ export default [
     src: "20210516-pixeldailies.png",
     title: "Pixel Dailies prompt: #Bookworm",
     description: `
-    Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
     `,
     date: "2021-05-16 21:26 UTC+1000",
     tags: ["pixel_dailies", "Bookworm", "window"],
+  },
+  {
+    src: "20210519-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ElementalCreature",
+    description: `
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+
+      Sky whale?
+    `,
+    date: "2021-05-19 12:06 UTC+1000",
+    tags: ["pixel_dailies", "ElementalCreature", "sky", "whale", "sunset"],
   },
 ]
