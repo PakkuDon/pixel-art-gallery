@@ -1236,4 +1236,13 @@ export default [
     date: "2021-05-19 12:06 UTC+1000",
     tags: ["pixel_dailies", "ElementalCreature", "sky", "whale", "sunset"],
   },
+  {
+    src: "20210522-pixeldailies.png",
+    title: "Pixel Dailies prompt: #isopod",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-05-22 23:40 UTC+1000",
+    tags: ["pixel_dailies", "isopod"],
+  },
 ]
