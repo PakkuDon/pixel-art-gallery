@@ -1233,7 +1233,7 @@ export default [
 
       Sky whale?
     `,
-    date: "2021-05-19 12:06 UTC+1000",
+    date: "2021-05-19 00:06 UTC+1000",
     tags: ["pixel_dailies", "ElementalCreature", "sky", "whale", "sunset"],
   },
   {
