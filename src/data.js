@@ -603,13 +603,14 @@ export default [
     tags: ["pixel_dailies", "caramel", "dessert", "food"],
   },
   {
-    src: "202101152-pixeldailies.png",
+    src: "20210115-pixeldailies2.png",
     title: "Pixel Dailies prompt: #vent",
     description: `
       Palette: [Starmancer](https://lospec.com/palette-list/starmancer)
     `,
     date: "2021-01-15 23:41 UTC+1100",
     tags: ["pixel_dailies", "vent", "amongus"],
+    aliases: ["202101152-pixeldailies"],
   },
   {
     src: "20210116-lospecdaily.png",
