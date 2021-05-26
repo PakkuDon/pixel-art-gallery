@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 23 May 2021 07:54:17 GMT</pubDate>
+        <pubDate>Wed, 26 May 2021 13:53:29 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #blossom</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210205-pixeldailies.png" alt="20210205-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #blossom</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/endesga-64">Endesga 64</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210205-pixeldailies</link>
-        <pubDate>Fri, 05 Feb 2021 12:47:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Hazelnut Mille Feuille</title>
         <description>
@@ -714,6 +700,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210522-pixeldailies</link>
         <pubDate>Sat, 22 May 2021 13:40:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #imposing</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210526-pixeldailies.png" alt="20210526-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #imposing</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/tranquil-fantasy-23">Tranquil Fantasy 23</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210526-pixeldailies</link>
+        <pubDate>Wed, 26 May 2021 13:52:00 GMT</pubDate>
       </item>
     
       </channel>
