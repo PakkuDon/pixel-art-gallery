@@ -1246,4 +1246,13 @@ export default [
     date: "2021-05-22 23:40 UTC+1000",
     tags: ["pixel_dailies", "isopod"],
   },
+  {
+    src: "20210526-pixeldailies.png",
+    title: "Pixel Dailies prompt: #imposing",
+    description: `
+      Palette: [Tranquil Fantasy 23](https://lospec.com/palette-list/tranquil-fantasy-23)
+    `,
+    date: "2021-05-26 23:52 UTC+1000",
+    tags: ["pixel_dailies", "imposing", "clouds", "sky", "storm"],
+  },
 ]
