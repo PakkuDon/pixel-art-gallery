@@ -1255,4 +1255,13 @@ export default [
     date: "2021-05-26 23:52 UTC+1000",
     tags: ["pixel_dailies", "imposing", "clouds", "sky", "storm"],
   },
+  {
+    src: "20210529-pixeldailies.png",
+    title: "Pixel Dailies prompt: #pineapple",
+    description: `
+      Palette: [Paper 8](https://lospec.com/palette-list/paper-8)
+    `,
+    date: "2021-05-29 22:41 UTC+1000",
+    tags: ["pixel_dailies", "pineapple", "food"],
+  },
 ]
