@@ -1264,4 +1264,14 @@ export default [
     date: "2021-05-29 22:41 UTC+1000",
     tags: ["pixel_dailies", "pineapple", "food"],
   },
+  {
+    src: "20210620-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of 3 #RedFruits",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: Each fruit has a different size,16x16px,  24x24px, 32x32px
+    `,
+    date: "2021-06-20 23:59 UTC+1000",
+    tags: ["pixel_dailies", "fruit", "food"],
+  },
 ]
