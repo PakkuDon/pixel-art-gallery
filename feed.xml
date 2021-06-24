@@ -4,8 +4,22 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 24 Jun 2021 14:48:38 GMT</pubDate>
+        <pubDate>Sun, 20 Jun 2021 14:03:38 GMT</pubDate>
         
+      <item>
+        <title>Pixel Dailies prompt: #topiary</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210209-pixeldailies.png" alt="20210209-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #topiary</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/15p-dx">15P DX</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210209-pixeldailies</link>
+        <pubDate>Tue, 09 Feb 2021 11:27:00 GMT</pubDate>
+      </item>
+    
+
       <item>
         <title>Pixel Dailies prompt: #paperwork</title>
         <description>
@@ -698,20 +712,6 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210620-pixeldailies</link>
         <pubDate>Sun, 20 Jun 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #cobweb</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210624-pixeldailies.png" alt="20210624-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #cobweb</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210624-pixeldailies</link>
-        <pubDate>Thu, 24 Jun 2021 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
