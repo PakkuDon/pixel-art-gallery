@@ -1274,4 +1274,13 @@ export default [
     date: "2021-06-20 23:59 UTC+1000",
     tags: ["pixel_dailies", "fruit", "food"],
   },
+  {
+    src: "20210624-pixeldailies.png",
+    title: "Pixel Dailies prompt: #cobweb",
+    description: `
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+    `,
+    date: "2021-06-24 23:59 UTC+1000",
+    tags: ["pixel_dailies", "cobweb", "lamp"],
+  },
 ]
