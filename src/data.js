@@ -1283,4 +1283,13 @@ export default [
     date: "2021-06-24 23:59 UTC+1000",
     tags: ["pixel_dailies", "cobweb", "lamp"],
   },
+  {
+    src: "20210626-pixeldailies.png",
+    title: "Pixel Dailies prompt: #neon",
+    description: `
+    Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
+    `,
+    date: "2021-06-26 23:25 UTC+1000",
+    tags: ["pixel_dailies", "neon"],
+  },
 ]
