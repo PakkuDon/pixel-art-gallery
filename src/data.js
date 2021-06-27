@@ -1292,4 +1292,15 @@ export default [
     date: "2021-06-26 23:25 UTC+1000",
     tags: ["pixel_dailies", "neon"],
   },
+  {
+    src: "20210628-pixeldailies.png",
+    title: "Pixel Dailies prompt: #GiantMonster",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      SOMETHING taunts Sunny as he falls.
+    `,
+    date: "2021-06-28 00:10 UTC+1000",
+    tags: ["pixel_dailies", "GiantMonster", "OMORI"],
+  },
 ]
