@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 27 Jun 2021 14:14:35 GMT</pubDate>
+        <pubDate>Mon, 28 Jun 2021 14:02:32 GMT</pubDate>
         
-      <item>
-        <title>#HansomCab? More like #HandsomeCrab</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210212-noprompt.png" alt="20210212-noprompt" />]]>
-          <p>#HansomCab? More like #HandsomeCrab</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210212-noprompt</link>
-        <pubDate>Fri, 12 Feb 2021 12:25:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #abyss</title>
         <description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210628-pixeldailies</link>
         <pubDate>Sun, 27 Jun 2021 14:10:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #FoodStall</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210628-pixeldailies2.png" alt="20210628-pixeldailies2" />]]>
+          <p>Pixel Dailies prompt: #FoodStall</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210628-pixeldailies2</link>
+        <pubDate>Mon, 28 Jun 2021 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
