@@ -1303,4 +1303,13 @@ export default [
     date: "2021-06-28 00:10 UTC+1000",
     tags: ["pixel_dailies", "GiantMonster", "OMORI"],
   },
+  {
+    src: "20210628-pixeldailies2.png",
+    title: "Pixel Dailies prompt: #FoodStall",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-06-28 23:59 UTC+1000",
+    tags: ["pixel_dailies", "FoodStall", "cart"],
+  },
 ]
