@@ -1298,7 +1298,7 @@ export default [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
 
-      SOMETHING taunts Sunny as he falls.
+      SOMETHING taunts SUNNY as he falls.
     `,
     date: "2021-06-28 00:10 UTC+1000",
     tags: ["pixel_dailies", "GiantMonster", "OMORI"],
