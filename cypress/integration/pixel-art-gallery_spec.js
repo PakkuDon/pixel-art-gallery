@@ -3,15 +3,13 @@ const PixelArtRepository = require("../../src/PixelArtRepository")
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
 
-const selectRandomEntry = () => {
-  const index = Math.floor(Math.random() * pixelArtEntries.length)
-  return pixelArtEntries[index]
+const selectRandomEntry = (predicate = () => true) => {
+  const matchingEntries = pixelArtEntries.filter(predicate)
+  const index = Math.floor(Math.random() * matchingEntries.length)
+  return matchingEntries[index]
 }
 
 describe("Pixel Art Gallery", () => {
-  let testEntry = selectRandomEntry()
-  let testEntryIdentifier = testEntry.src.split(".")[0]
-
   beforeEach(() => {
     cy.visit("/")
   })
@@ -21,15 +19,44 @@ describe("Pixel Art Gallery", () => {
   })
 
   it("displays pixel art entries", () => {
-    cy.get(`a[href='/${testEntryIdentifier}'`).should("exist")
+    let testEntry = selectRandomEntry()
+    let slug = testEntry.src.split(".")[0]
+
+    cy.get(`a[href='/${slug}'`).should("exist")
   })
 
-  context("when pixel art entry is selected", () => {
-    it("displays details about pixel art entry", () => {
-      cy.get(`a[href='/${testEntryIdentifier}'`).click()
-      cy.get("main img")
-        .should("have.attr", "src")
-        .should("contain", testEntry.src)
+  context("when URL contains pixel art ID", () => {
+    context("and ID is entry's canonical ID", () => {
+      it("displays details about pixel art entry", () => {
+        let testEntry = selectRandomEntry()
+        let slug = testEntry.src.split(".")[0]
+
+        cy.get(`a[href='/${slug}'`).click()
+        cy.get("main img")
+          .should("have.attr", "src")
+          .should("contain", testEntry.src)
+      })
+    })
+
+    context("and ID is an alias for an entry", () => {
+      let testEntry = selectRandomEntry((entry) => entry.aliases)
+      let slug = testEntry.src.split(".")[0]
+      let alias = testEntry.aliases[0]
+
+      it("should redirect to entry's canonical ID", () => {
+        cy.visit(`/${alias}`)
+        expect(cy.url()).should("include", slug)
+      })
+
+      it("displays details about pixel art entry", () => {
+        let testEntry = selectRandomEntry((entry) => entry.aliases)
+        let alias = testEntry.aliases[0]
+
+        cy.get(`a[href='/${alias}'`).click()
+        cy.get("main img")
+          .should("have.attr", "src")
+          .should("contain", testEntry.src)
+      })
     })
   })
 })
