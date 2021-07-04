@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 28 Jun 2021 14:02:32 GMT</pubDate>
+        <pubDate>Sun, 04 Jul 2021 12:41:13 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #abyss</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210213-pixeldailies.png" alt="20210213-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #abyss</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/seafoam">Seafoam</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210213-pixeldailies</link>
-        <pubDate>Sat, 13 Feb 2021 12:29:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Dinner by the beach featuring that crab from 20210212-noprompt</title>
         <description>
@@ -693,7 +679,7 @@
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210628-pixeldailies.png" alt="20210628-pixeldailies" />]]>
           <p>Pixel Dailies prompt: #GiantMonster</p>
           <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
-<p> SOMETHING taunts Sunny as he falls.
+<p> SOMETHING taunts SUNNY as he falls.
  </p>
 
         </description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210628-pixeldailies2</link>
         <pubDate>Mon, 28 Jun 2021 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ComputerGlitch</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210704-pixeldailies.png" alt="20210704-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #ComputerGlitch</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210704-pixeldailies</link>
+        <pubDate>Sun, 04 Jul 2021 12:40:00 GMT</pubDate>
       </item>
     
       </channel>
