@@ -1312,4 +1312,13 @@ export default [
     date: "2021-06-28 23:59 UTC+1000",
     tags: ["pixel_dailies", "FoodStall", "cart"],
   },
+  {
+    src: "20210704-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ComputerGlitch",
+    description: `
+    Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-07-04 22:40 UTC+1000",
+    tags: ["pixel_dailies", "ComputerGlitch", "windows"],
+  },
 ]
