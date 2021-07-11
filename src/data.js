@@ -1321,4 +1321,13 @@ export default [
     date: "2021-07-04 22:40 UTC+1000",
     tags: ["pixel_dailies", "ComputerGlitch", "windows"],
   },
+  {
+    src: "20210711-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Cotton",
+    description: `
+      Palette: [Oil 6](https://lospec.com/palette-list/oil-6)
+    `,
+    date: "2021-07-11 22:35 UTC+1000",
+    tags: ["pixel_dailies", "Cotton", "plant"],
+  },
 ]
