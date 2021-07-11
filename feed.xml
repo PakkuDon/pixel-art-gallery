@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 04 Jul 2021 12:41:13 GMT</pubDate>
+        <pubDate>Sun, 11 Jul 2021 13:37:04 GMT</pubDate>
         
-      <item>
-        <title>Dinner by the beach featuring that crab from 20210212-noprompt</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210214-noprompt.png" alt="20210214-noprompt" />]]>
-          <p>Dinner by the beach featuring that crab from 20210212-noprompt</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210214-noprompt</link>
-        <pubDate>Sun, 14 Feb 2021 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #lovebirds</title>
         <description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210704-pixeldailies</link>
         <pubDate>Sun, 04 Jul 2021 12:40:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Cotton</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210711-pixeldailies.png" alt="20210711-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Cotton</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/oil-6">Oil 6</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210711-pixeldailies</link>
+        <pubDate>Sun, 11 Jul 2021 12:35:00 GMT</pubDate>
       </item>
     
       </channel>
