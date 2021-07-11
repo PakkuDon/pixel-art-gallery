@@ -1327,7 +1327,7 @@ export default [
     description: `
       Palette: [Oil 6](https://lospec.com/palette-list/oil-6)
     `,
-    date: "2021-07-11 22:35 UTC+1000",
+    date: "2021-07-11 23:35 UTC+1000",
     tags: ["pixel_dailies", "Cotton", "plant"],
   },
 ]
