@@ -1330,4 +1330,13 @@ export default [
     date: "2021-07-11 23:35 UTC+1000",
     tags: ["pixel_dailies", "Cotton", "plant"],
   },
+  {
+    src: "20210717-pixeldailies.png",
+    title: "Pixel Dailies prompt: #gum",
+    description: `
+      Palette: [DarkPastel-36](https://lospec.com/palette-list/darkpastel-36)
+    `,
+    date: "2021-07-17 23:59 UTC+1000",
+    tags: ["pixel_dailies", "gum", "plant", "tree"],
+  },
 ]
