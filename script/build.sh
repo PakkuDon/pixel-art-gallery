@@ -14,7 +14,7 @@ echo "🛠 Generating dist build..."
 yarn run webpack --config config/production.config.js
 
 echo "🖼 Copying images to dist/..."
-cp -r img/ dist/img/
+cp -r img/ dist/
 
 echo "📄 Generating pages for each entry..."
 yarn run babel-node src/util/generatePages.js
