@@ -1339,4 +1339,13 @@ export default [
     date: "2021-07-17 23:59 UTC+1000",
     tags: ["pixel_dailies", "gum", "plant", "tree"],
   },
+  {
+    src: "20210719-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #parrots",
+    description: `
+      Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
+    `,
+    date: "2021-07-19 23:53 UTC+1000",
+    tags: ["pixel_dailies", "bird", "parrot", "rainbow lorikeet"],
+  },
 ]
