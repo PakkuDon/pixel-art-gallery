@@ -1348,4 +1348,15 @@ export default [
     date: "2021-07-19 23:53 UTC+1000",
     tags: ["pixel_dailies", "bird", "parrot", "rainbow lorikeet"],
   },
+  {
+    src: "20210721-sunny.png",
+    title: "Sunny",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+
+      Belated pixel art for [Sunny's birthday](https://twitter.com/OMORI_GAME/status/1417378744734527497)
+    `,
+    date: "2021-07-21 00:50 UTC+1000",
+    tags: ["OMORI"],
+  },
 ]
