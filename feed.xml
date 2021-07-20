@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 19 Jul 2021 13:55:17 GMT</pubDate>
+        <pubDate>Tue, 20 Jul 2021 14:52:01 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Bunny</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210222-pixeldailies.png" alt="20210222-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Bunny</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210222-pixeldailies</link>
-        <pubDate>Sun, 21 Feb 2021 13:35:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #dam</title>
         <description>
@@ -713,6 +699,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210719-pixeldailies</link>
         <pubDate>Mon, 19 Jul 2021 13:53:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Sunny</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210721-sunny.png" alt="20210721-sunny" />]]>
+          <p>Sunny</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a></p>
+<p> Belated pixel art for <a href="https://twitter.com/OMORI_GAME/status/1417378744734527497">Sunny&#39;s birthday</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210721-sunny</link>
+        <pubDate>Tue, 20 Jul 2021 14:50:00 GMT</pubDate>
       </item>
     
       </channel>
