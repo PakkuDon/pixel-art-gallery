@@ -1359,4 +1359,13 @@ export default [
     date: "2021-07-21 00:50 UTC+1000",
     tags: ["OMORI"],
   },
+  {
+    src: "20210722-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ThrowingKnife",
+    description: `
+      Palette: [Nyx8](https://lospec.com/palette-list/nyx8)
+    `,
+    date: "2021-07-22 23:58 UTC+1000",
+    tags: ["pixel_dailies", "ThrowingKnife"],
+  },
 ]
