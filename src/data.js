@@ -1368,4 +1368,13 @@ export default [
     date: "2021-07-22 23:58 UTC+1000",
     tags: ["pixel_dailies", "ThrowingKnife"],
   },
+  {
+    src: "20210724-lospecdaily.png",
+    title: "Lospec Dailies prompt: #coral",
+    description: `
+      Palette: [Explorers16](https://lospec.com/palette-list/explorers16)
+    `,
+    date: "2021-07-24 17:44 UTC+1100",
+    tags: ["lospecdailies", "coral", "lospec_palette_of_the_day"],
+  },
 ]
