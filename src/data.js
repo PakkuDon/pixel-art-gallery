@@ -1377,4 +1377,13 @@ export default [
     date: "2021-07-24 17:44 UTC+1100",
     tags: ["lospecdailies", "coral", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20210724-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Study of #DappledLight",
+    description: `
+      Palette: [Moor](https://lospec.com/palette-list/moor)
+    `,
+    date: "2021-07-24 23:59 UTC+1000",
+    tags: ["pixel_dailies", "DappledLight", "tree"],
+  },
 ]
