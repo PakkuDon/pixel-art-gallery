@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react"
 import marked from "marked"
-import { Link } from "react-router-dom"
+import { Link, useHistory } from "react-router-dom"
+import { useSwipeable } from "react-swipeable"
 
 import Card from "../Card"
 import extractFilename from "../../util/extractFilename"
@@ -17,6 +18,9 @@ const MAX_ZOOM = 500
 
 const ImageDetails = ({ image, previousImage, nextImage }) => {
   const [zoom, setZoom] = useState(100)
+  const history = useHistory()
+  const previousLink = previousImage ? extractFilename(previousImage.src) : ""
+  const nextLink = nextImage ? extractFilename(nextImage.src) : ""
 
   const incrementZoom = useCallback(() => {
     if (zoom + ZOOM_INCREMENT <= MAX_ZOOM) {
@@ -41,9 +45,22 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
     [setZoom]
   )
 
+  const handlers = useSwipeable({
+    onSwipedLeft: () => {
+      if (nextLink) {
+        history.replace(`/${nextLink}`)
+      }
+    },
+    onSwipedRight: () => {
+      if (previousLink) {
+        history.replace(`/${previousLink}`)
+      }
+    },
+  })
+
   return (
     <Card>
-      <main className="image-details">
+      <main className="image-details" {...handlers}>
         <div className="image-viewer scrollable-content">
           <img
             src={`img/${image.src}`}
@@ -86,16 +103,12 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
           <p>- Posted {image.date}</p>
         </div>
         <div className="navigation content">
-          {previousImage ? (
-            <Link to={extractFilename(previousImage.src)}>Previous</Link>
+          {previousLink ? (
+            <Link to={previousLink}>Previous</Link>
           ) : (
             <span>Previous</span>
           )}
-          {nextImage ? (
-            <Link to={extractFilename(nextImage.src)}>Next</Link>
-          ) : (
-            <span>Next</span>
-          )}
+          {nextLink ? <Link to={nextLink}>Next</Link> : <span>Next</span>}
         </div>
       </main>
     </Card>
