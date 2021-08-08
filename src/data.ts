@@ -1,4 +1,13 @@
-export default [
+export interface PixelArtEntry {
+  src: string
+  title: string
+  description?: string
+  date: string
+  tags: string[]
+  aliases?: string[]
+}
+
+let entries: PixelArtEntry[] = [
   {
     src: "20201010-lospecdaily.png",
     title: "Lospec Dailies prompt: #magic",
@@ -1387,3 +1396,5 @@ export default [
     tags: ["pixel_dailies", "DappledLight", "tree"],
   },
 ]
+
+export default entries
