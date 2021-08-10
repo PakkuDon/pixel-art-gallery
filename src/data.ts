@@ -1395,6 +1395,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-07-24 23:59 UTC+1000",
     tags: ["pixel_dailies", "DappledLight", "tree"],
   },
+  {
+    src: "20210810-pixeldailies.png",
+    title: "Pixel Dailies prompt: #duck",
+    description: `
+      Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
+    `,
+    date: "2021-08-10 23:55 UTC+1100",
+    tags: ["pixel_dailies", "duck", "bird", "water"],
+  },
 ]
 
 export default entries
