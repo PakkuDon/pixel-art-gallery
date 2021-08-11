@@ -1,4 +1,9 @@
 node_modules
+
+# Compiled assets
 dist
+script/generated
+
+# Test artifacts
 cypress/screenshots
 cypress/videos
