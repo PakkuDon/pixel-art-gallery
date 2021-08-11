@@ -5,6 +5,7 @@ import { useSwipeable } from "react-swipeable"
 
 import Card from "../Card"
 import extractFilename from "../../util/extractFilename"
+import { PixelArtEntry } from "../../data"
 import "./ImageDetails.css"
 
 marked.setOptions({
@@ -16,7 +17,16 @@ const ZOOM_INCREMENT = 25
 const MIN_ZOOM = 100
 const MAX_ZOOM = 500
 
-const ImageDetails = ({ image, previousImage, nextImage }) => {
+interface ImageDetailsProps {
+  image: PixelArtEntry
+  previousImage: PixelArtEntry
+  nextImage: PixelArtEntry
+}
+const ImageDetails = ({
+  image,
+  previousImage,
+  nextImage,
+}: ImageDetailsProps) => {
   const [zoom, setZoom] = useState(100)
   const history = useHistory()
   const previousLink = previousImage ? extractFilename(previousImage.src) : ""
@@ -95,7 +105,7 @@ const ImageDetails = ({ image, previousImage, nextImage }) => {
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: `${image.title || ""}<br />${marked(
-                image.description.replace(/ +/g, " ")
+                image.description ? image.description.replace(/ +/g, " ") : ""
               )}`,
             }}
           />
