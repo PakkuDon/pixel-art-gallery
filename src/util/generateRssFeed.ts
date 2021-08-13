@@ -4,12 +4,13 @@ import path from "path"
 import marked from "marked"
 
 import PixelArtRepository from "../PixelArtRepository"
+import { PixelArtEntry } from "../data"
 import extractFilename from "./extractFilename"
 
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
 
-const generateRssFeed = ({ entries = [], limit }) => {
+const generateRssFeed = ({ entries = [], limit }: { entries: PixelArtEntry[], limit: number }) => {
   marked.setOptions({
     breaks: true,
     gfm: true,
@@ -23,7 +24,7 @@ const generateRssFeed = ({ entries = [], limit }) => {
 
   const feedItems = filteredEntries.map((pixelArt) => {
     const filename = extractFilename(pixelArt.src)
-    const title = pixelArt.title || pixelArt.description.split("\n")[1].trim()
+    const title = (pixelArt.title || pixelArt.description || "").split("\n")[1].trim()
 
     return `
       <item>
@@ -33,7 +34,7 @@ const generateRssFeed = ({ entries = [], limit }) => {
             pixelArt.src
           }" alt="${filename}" />]]>
           <p>${pixelArt.title || ""}</p>
-          ${marked(pixelArt.description.replace(/ +/g, " "))}
+          ${marked((pixelArt.description || "").replace(/ +/g, " "))}
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/${filename}</link>
         <pubDate>${new Date(pixelArt.date).toGMTString()}</pubDate>
