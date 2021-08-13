@@ -1404,6 +1404,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-08-10 23:55 UTC+1100",
     tags: ["pixel_dailies", "duck", "bird", "water"],
   },
+  {
+    src: "20210813-pixeldailies.png",
+    title: "Pixel Dailies prompt: #BirchTree",
+    description: `
+      Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
+    `,
+    date: "2021-08-13 23:39 UTC+1100",
+    tags: ["pixel_dailies", "BirchTree", "tree"],
+  },
 ]
 
 export default entries
