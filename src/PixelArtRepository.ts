@@ -3,7 +3,7 @@ import pixelArtEntries, { PixelArtEntry } from "./data"
 interface Repository {
   entries: PixelArtEntry[]
   load: (entries?: PixelArtEntry[]) => void
-  findAll: (predicate?: () => boolean) => PixelArtEntry[]
+  findAll: (predicate?: (image: PixelArtEntry) => boolean) => PixelArtEntry[]
 }
 
 const PixelArtRepository: Repository = {
