@@ -8,10 +8,14 @@ describe("PixelArtRepository", () => {
       const entry = {
         src: "img.png",
         title: "foo",
+        date: "2000-01-01 23:59 UTC+1100",
+        tags: [],
       }
       const otherEntry = {
         src: "img.jpg",
         title: "bar",
+        date: "2000-01-01 23:59 UTC+1100",
+        tags: [],
       }
 
       beforeAll(() => {
@@ -31,6 +35,8 @@ describe("PixelArtRepository", () => {
           {
             src: "img.png",
             title: "foo",
+            date: "2000-01-01 23:59 UTC+1100",
+            tags: [],
           },
         ])
       })
