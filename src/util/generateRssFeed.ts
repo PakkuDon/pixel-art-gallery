@@ -31,11 +31,10 @@ const generateRssFeed = ({ entries = [], limit }: { entries: PixelArtEntry[], li
 
   const feedItems = filteredEntries.map((pixelArt) => {
     const filename = extractFilename(pixelArt.src)
-    const title = (pixelArt.title || pixelArt.description || "").split("\n")[1].trim()
 
     return `
       <item>
-        <title>${title}</title>
+        <title>${pixelArt.title}</title>
         <description>
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/${
             pixelArt.src
