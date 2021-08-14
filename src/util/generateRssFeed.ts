@@ -10,7 +10,7 @@ import extractFilename from "./extractFilename"
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
 
-const generateRssFeed = ({ entries = [], limit }: { entries: PixelArtEntry[], limit: number }) => {
+const generateRssFeed = ({ entries = [], limit }: { entries: PixelArtEntry[], limit?: number }) => {
   marked.setOptions({
     breaks: true,
     gfm: true,
