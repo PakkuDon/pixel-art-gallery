@@ -2,7 +2,7 @@ import pixelArtEntries, { PixelArtEntry } from "./data"
 
 interface Repository {
   entries: PixelArtEntry[]
-  load: (entries: PixelArtEntry[]) => void
+  load: (entries?: PixelArtEntry[]) => void
   findAll: (predicate?: () => boolean) => PixelArtEntry[]
 }
 
