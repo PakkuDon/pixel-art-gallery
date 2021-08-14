@@ -38,7 +38,5 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
-  plugins: [
-    new CaseSensitivePathsPlugin(),
-  ],
+  plugins: [new CaseSensitivePathsPlugin()],
 }

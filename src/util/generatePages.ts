@@ -16,7 +16,8 @@ pixelArtEntries.forEach((pixelArt) => {
   const outputFilePath = path.join(__dirname, `../../dist/${filename}.html`)
   const metaDescription =
     pixelArt.title ||
-    pixelArt.description && pixelArt.description.split("\n")[1].trim().replace(/"/g, "&quot;")
+    (pixelArt.description &&
+      pixelArt.description.split("\n")[1].trim().replace(/"/g, "&quot;"))
 
   const previewMetatags = `
     <meta property="og:image" content="https://pakkudon.github.io/pixel-art-gallery/img/${pixelArt.src}" />

@@ -13,11 +13,17 @@ const pixelArtEntries = PixelArtRepository.findAll()
 // Date#toGMTString() is deprecated but still present in some browsers
 declare global {
   interface Date {
-    toGMTString: () => string,
+    toGMTString: () => string
   }
 }
 
-const generateRssFeed = ({ entries = [], limit }: { entries: PixelArtEntry[], limit?: number }) => {
+const generateRssFeed = ({
+  entries = [],
+  limit,
+}: {
+  entries: PixelArtEntry[]
+  limit?: number
+}) => {
   marked.setOptions({
     breaks: true,
     gfm: true,
