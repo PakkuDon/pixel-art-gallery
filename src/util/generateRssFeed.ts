@@ -10,6 +10,13 @@ import extractFilename from "./extractFilename"
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
 
+// Date#toGMTString() is deprecated but still present in some browsers
+declare global {
+  interface Date {
+    toGMTString: () => string,
+  }
+}
+
 const generateRssFeed = ({ entries = [], limit }: { entries: PixelArtEntry[], limit?: number }) => {
   marked.setOptions({
     breaks: true,
