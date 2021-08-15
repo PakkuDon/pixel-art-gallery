@@ -3,9 +3,16 @@ import { Link } from "react-router-dom"
 
 import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
+import { PixelArtEntry } from "../../data"
 import "./Sidebar.css"
 
-const SidebarEntry = ({ entry, isSelected }) => (
+const SidebarEntry = ({
+  entry,
+  isSelected,
+}: {
+  entry: PixelArtEntry
+  isSelected: boolean
+}) => (
   <Link
     className={`entry ${isSelected ? "selected" : ""}`}
     to={`/${extractFilename(entry.src)}`}
@@ -14,13 +21,21 @@ const SidebarEntry = ({ entry, isSelected }) => (
   </Link>
 )
 
+interface SidebarProps {
+  entries: PixelArtEntry[]
+  searchQuery: string
+  selectedImage: PixelArtEntry
+  onImageSelect: (entry: PixelArtEntry) => void
+  onSearchQueryChange: (query: string) => void
+}
+
 const Sidebar = ({
   entries,
   searchQuery,
   selectedImage,
   onImageSelect,
   onSearchQueryChange,
-}) => (
+}: SidebarProps) => (
   <Card>
     <aside className="sidebar">
       <div className="search">
@@ -42,7 +57,9 @@ const Sidebar = ({
                 extractFilename(entry.src) ===
                 extractFilename(event.target.value)
             )
-            onImageSelect(selectedOption)
+            if (selectedOption) {
+              onImageSelect(selectedOption)
+            }
           }}
           value={extractFilename(selectedImage?.src)}
         >
