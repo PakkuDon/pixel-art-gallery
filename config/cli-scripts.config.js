@@ -4,8 +4,8 @@ const path = require("path")
 module.exports = {
   mode: "production",
   entry: [
-    path.resolve(__dirname, "../src/util/generatePages.js"),
-    path.resolve(__dirname, "../src/util/generateRssFeed.js"),
+    path.resolve(__dirname, "../src/util/generatePages"),
+    path.resolve(__dirname, "../src/util/generateRssFeed"),
   ],
   output: {
     path: path.resolve(__dirname, "../script/generated"),
