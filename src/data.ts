@@ -1422,6 +1422,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-08-17 23:46 UTC+1100",
     tags: ["pixel_dailies", "groceries", "fruit"],
   },
+  {
+    src: "20210821-pixeldailies.png",
+    title: "Pixel Dailies prompt: #porthole",
+    description: `
+      Palette: [Whimsical 20](https://lospec.com/palette-list/whimsical-20)
+    `,
+    date: "2021-08-21 23:59 UTC+1100",
+    tags: ["pixel_dailies", "porthole", "seascape"],
+  },
 ]
 
 export default entries
