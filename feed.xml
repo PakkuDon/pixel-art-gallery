@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 17 Aug 2021 14:18:58 GMT</pubDate>
+        <pubDate>Sat, 21 Aug 2021 14:06:57 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #mint</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210306-pixeldailies.png" alt="20210306-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #mint</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/paper-8">Paper 8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210306-pixeldailies</link>
-        <pubDate>Sat, 06 Mar 2021 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Plushy</title>
         <description>
@@ -711,6 +697,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210817-pixeldailies</link>
         <pubDate>Tue, 17 Aug 2021 12:46:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #porthole</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210821-pixeldailies.png" alt="20210821-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #porthole</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/whimsical-20">Whimsical 20</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210821-pixeldailies</link>
+        <pubDate>Sat, 21 Aug 2021 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
