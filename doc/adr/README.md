@@ -6,3 +6,4 @@
 * [4. Client-side routing using history API and redirects](0004-client-side-routing-using-history-api-and-redirects.md)
 * [5. Replace redirects with HTML pages](0005-replace-redirects-with-html-pages.md)
 * [6. Record aliases for pixel art entries](0006-record-aliases-for-pixel-art-entries.md)
+* [7. Use TypeScript for static typing](0007-use-typescript-for-static-typing.md)
