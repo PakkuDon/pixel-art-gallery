@@ -1431,6 +1431,16 @@ let entries: PixelArtEntry[] = [
     date: "2021-08-21 23:59 UTC+1100",
     tags: ["pixel_dailies", "porthole", "seascape"],
   },
+  {
+    src: "20210903-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #trees",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+      Restriction: each tree must be 12x18px
+    `,
+    date: "2021-09-03 22:59 UTC+1100",
+    tags: ["pixel_dailies", "set", "trees", "seasons"],
+  },
 ]
 
 export default entries
