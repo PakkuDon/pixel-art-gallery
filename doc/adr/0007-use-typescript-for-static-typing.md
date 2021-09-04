@@ -10,7 +10,7 @@ Accepted
 
 As mentioned in [ADR #3. Use relatively modern tech stack](0003-use-relatively-modern-tech-stack.md) this project is intended to be a [breakable toy](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch05.html#breakable_toys) where I can experiment with other tech.
 
-This project was first implemented in JavaScript. We want to use a static typing system so that we can catch more errors at compile time and to document the interfaces between different functions, components and so on. 
+This project was first implemented in JavaScript. We want to use a static typing system so that we can catch more errors at compile time and to document the interfaces between different functions, components and so on.
 
 ## Decision
 
