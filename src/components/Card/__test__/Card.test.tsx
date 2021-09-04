@@ -1,14 +1,13 @@
-import { describe, expect, it } from "@jest/globals"
 import React from "react"
-import { render } from "@testing-library/react"
+import { screen, render } from "@testing-library/react"
 
 import Card from "../Card"
 
 describe("Card", () => {
-  it("matches snapshot", () => {
+  it("renders children", () => {
     const children = <div>Hello world</div>
-    const { container } = render(<Card>{children}</Card>)
+    render(<Card>{children}</Card>)
 
-    expect(container).toMatchSnapshot()
+    expect(screen.getByText("Hello world")).toBeInTheDocument()
   })
 })
