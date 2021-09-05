@@ -1441,6 +1441,16 @@ let entries: PixelArtEntry[] = [
     date: "2021-09-03 22:59 UTC+1100",
     tags: ["pixel_dailies", "set", "trees", "seasons"],
   },
+  {
+    src: "20210905-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Floral",
+    description: `
+      Palette: [Twilight 5](https://lospec.com/palette-list/twilight-5)
+      Restriction: Twilight 5 palette
+    `,
+    date: "2021-09-05 23:39 UTC+1100",
+    tags: ["pixel_dailies", "Floral", "flowers"],
+  },
 ]
 
 export default entries
