@@ -1,2 +1,3 @@
 dist
+script/generated
 doc/adr/README.md
