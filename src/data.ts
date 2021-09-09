@@ -1451,6 +1451,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-09-05 23:39 UTC+1100",
     tags: ["pixel_dailies", "Floral", "flowers"],
   },
+  {
+    src: "20210909-pixeldailies.png",
+    title: "Pixel Dailies prompt: #bookstore",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2021-09-09 23:51 UTC+1100",
+    tags: ["pixel_dailies", "bookstore", "interior"],
+  },
 ]
 
 export default entries
