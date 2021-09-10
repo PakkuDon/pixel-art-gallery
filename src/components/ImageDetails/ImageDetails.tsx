@@ -4,6 +4,7 @@ import { Link, useHistory } from "react-router-dom"
 import { useSwipeable } from "react-swipeable"
 
 import Card from "../Card"
+import Slider from "../Slider"
 import extractFilename from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
 import "./ImageDetails.css"
@@ -12,10 +13,6 @@ marked.setOptions({
   breaks: true,
   gfm: true,
 })
-
-const ZOOM_INCREMENT = 25
-const MIN_ZOOM = 100
-const MAX_ZOOM = 500
 
 interface ImageDetailsProps {
   image: PixelArtEntry
@@ -32,25 +29,9 @@ const ImageDetails = ({
   const previousLink = previousImage ? extractFilename(previousImage.src) : ""
   const nextLink = nextImage ? extractFilename(nextImage.src) : ""
 
-  const incrementZoom = useCallback(() => {
-    if (zoom + ZOOM_INCREMENT <= MAX_ZOOM) {
-      setZoom(zoom + ZOOM_INCREMENT)
-    } else {
-      setZoom(MAX_ZOOM)
-    }
-  }, [zoom, setZoom])
-
-  const decrementZoom = useCallback(() => {
-    if (zoom - ZOOM_INCREMENT >= MIN_ZOOM) {
-      setZoom(zoom - ZOOM_INCREMENT)
-    } else {
-      setZoom(MIN_ZOOM)
-    }
-  }, [zoom, setZoom])
-
   const handleZoomChange = useCallback(
-    (event) => {
-      setZoom(parseInt(event.target.value, 10))
+    (zoom) => {
+      setZoom(zoom)
     },
     [setZoom]
   )
@@ -80,26 +61,13 @@ const ImageDetails = ({
           />
         </div>
         <div className="image-metadata content">
-          <div>
-            <label>
-              Zoom
-              <input
-                type="range"
-                value={zoom}
-                min={MIN_ZOOM}
-                max={MAX_ZOOM}
-                step="5"
-                onChange={handleZoomChange}
-              />
-            </label>
-            <button type="button" aria-label="Zoom out" onClick={decrementZoom}>
-              -
-            </button>
-            <output>{zoom}%</output>
-            <button type="button" aria-label="Zoom in" onClick={incrementZoom}>
-              +
-            </button>
-          </div>
+          <Slider
+            zoom={zoom}
+            min={100}
+            max={500}
+            increment={25}
+            onChange={handleZoomChange}
+          />
           <div
             className="description scrollable-content"
             // eslint-disable-next-line react/no-danger
