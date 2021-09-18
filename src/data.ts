@@ -1469,6 +1469,18 @@ let entries: PixelArtEntry[] = [
     date: "2021-09-17 23:58 UTC+1100",
     tags: ["pixel_dailies", "diner"],
   },
+  {
+    src: "20210918-pixeldailies.png",
+    title: "Pixel Dailies prompt: #cat",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Restriction: 32x32px or less
+
+      Featuring Sakamoto from Nichijou
+    `,
+    date: "2021-09-18 22:05 UTC+1100",
+    tags: ["pixel_dailies", "cat", "nichijou"],
+  },
 ]
 
 export default entries
