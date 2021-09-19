@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 18 Sep 2021 12:06:43 GMT</pubDate>
+        <pubDate>Sun, 19 Sep 2021 13:59:10 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Dirt</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210315-pixeldailies.png" alt="20210315-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Dirt</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210315-pixeldailies</link>
-        <pubDate>Mon, 15 Mar 2021 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #banana</title>
         <description>
@@ -709,6 +695,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210918-pixeldailies</link>
         <pubDate>Sat, 18 Sep 2021 11:05:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Origami</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210919-pixeldailies.png" alt="20210919-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Origami</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210919-pixeldailies</link>
+        <pubDate>Sun, 19 Sep 2021 12:53:00 GMT</pubDate>
       </item>
     
       </channel>
