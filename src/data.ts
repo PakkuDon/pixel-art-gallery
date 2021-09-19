@@ -1481,6 +1481,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-09-18 22:05 UTC+1100",
     tags: ["pixel_dailies", "cat", "nichijou"],
   },
+  {
+    src: "20210919-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Origami",
+    description: `
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+    `,
+    date: "2021-09-19 23:53 UTC+1100",
+    tags: ["pixel_dailies", "Origami", "crane"],
+  },
 ]
 
 export default entries
