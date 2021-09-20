@@ -14,16 +14,17 @@ const baseHtml = fs.readFileSync(baseHtmlPath, "utf8")
 pixelArtEntries.forEach((pixelArt) => {
   const filename = extractFilename(pixelArt.src)
   const outputFilePath = path.join(__dirname, `../../dist/${filename}.html`)
+  const pageTitle = `Pixel Art Gallery - ${filename}`
 
   const previewMetatags = `
     <meta property="og:image" content="https://pakkudon.github.io/pixel-art-gallery/img/${pixelArt.src}" />
-    <meta property="og:title" content="${pixelArt.title}" />
+    <meta property="og:title" content="${pageTitle}" />
+    <meta property="og:description" content="${pixelArt.title}" />
   `
-  const title = `Pixel Art Gallery - ${filename}`
 
   const pageHtml = baseHtml
     .replace("</head>", `${previewMetatags}</head>`)
-    .replace("<title>Pixel Art Gallery</title>", `<title>${title}</title>`)
+    .replace("<title>Pixel Art Gallery</title>", `<title>${pageTitle}</title>`)
 
   fs.writeFile(outputFilePath, pageHtml, (error) => {
     if (error) {
