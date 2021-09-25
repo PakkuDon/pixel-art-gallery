@@ -1490,6 +1490,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-09-19 23:53 UTC+1100",
     tags: ["pixel_dailies", "Origami", "crane"],
   },
+  {
+    src: "20210925-lospecdaily.png",
+    title: "Lospec Dailies prompt: #clouds",
+    description: `
+      Palette: [Grape Soda Arcade](https://lospec.com/palette-list/grape-soda-arcade)
+    `,
+    date: "2021-09-25 23:55 UTC+1100",
+    tags: ["lospecdailies", "clouds", "lospec_palette_of_the_day"],
+  },
 ]
 
 export default entries
