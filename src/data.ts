@@ -1383,7 +1383,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Explorers16](https://lospec.com/palette-list/explorers16)
     `,
-    date: "2021-07-24 17:44 UTC+1100",
+    date: "2021-07-24 17:44 UTC+1000",
     tags: ["lospecdailies", "coral", "lospec_palette_of_the_day"],
   },
   {
@@ -1401,7 +1401,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
     `,
-    date: "2021-08-10 23:55 UTC+1100",
+    date: "2021-08-10 23:55 UTC+1000",
     tags: ["pixel_dailies", "duck", "bird", "water"],
   },
   {
@@ -1410,7 +1410,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
     `,
-    date: "2021-08-13 23:39 UTC+1100",
+    date: "2021-08-13 23:39 UTC+1000",
     tags: ["pixel_dailies", "BirchTree", "tree"],
   },
   {
@@ -1419,7 +1419,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2021-08-17 23:46 UTC+1100",
+    date: "2021-08-17 23:46 UTC+1000",
     tags: ["pixel_dailies", "groceries", "fruit"],
   },
   {
@@ -1428,7 +1428,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Whimsical 20](https://lospec.com/palette-list/whimsical-20)
     `,
-    date: "2021-08-21 23:59 UTC+1100",
+    date: "2021-08-21 23:59 UTC+1000",
     tags: ["pixel_dailies", "porthole", "seascape"],
   },
   {
@@ -1438,7 +1438,7 @@ let entries: PixelArtEntry[] = [
       Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
       Restriction: each tree must be 12x18px
     `,
-    date: "2021-09-03 22:59 UTC+1100",
+    date: "2021-09-03 22:59 UTC+1000",
     tags: ["pixel_dailies", "set", "trees", "seasons"],
   },
   {
@@ -1448,7 +1448,7 @@ let entries: PixelArtEntry[] = [
       Palette: [Twilight 5](https://lospec.com/palette-list/twilight-5)
       Restriction: Twilight 5 palette
     `,
-    date: "2021-09-05 23:39 UTC+1100",
+    date: "2021-09-05 23:39 UTC+1000",
     tags: ["pixel_dailies", "Floral", "flowers"],
   },
   {
@@ -1457,7 +1457,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
     `,
-    date: "2021-09-09 23:51 UTC+1100",
+    date: "2021-09-09 23:51 UTC+1000",
     tags: ["pixel_dailies", "bookstore", "interior"],
   },
   {
@@ -1466,7 +1466,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [WATT32](https://lospec.com/palette-list/watt32)
     `,
-    date: "2021-09-17 23:58 UTC+1100",
+    date: "2021-09-17 23:58 UTC+1000",
     tags: ["pixel_dailies", "diner"],
   },
   {
@@ -1478,7 +1478,7 @@ let entries: PixelArtEntry[] = [
 
       Featuring Sakamoto from Nichijou
     `,
-    date: "2021-09-18 22:05 UTC+1100",
+    date: "2021-09-18 22:05 UTC+1000",
     tags: ["pixel_dailies", "cat", "nichijou"],
   },
   {
@@ -1487,7 +1487,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [SLSO8](https://lospec.com/palette-list/slso8)
     `,
-    date: "2021-09-19 23:53 UTC+1100",
+    date: "2021-09-19 23:53 UTC+1000",
     tags: ["pixel_dailies", "Origami", "crane"],
   },
   {
@@ -1496,7 +1496,7 @@ let entries: PixelArtEntry[] = [
     description: `
       Palette: [Grape Soda Arcade](https://lospec.com/palette-list/grape-soda-arcade)
     `,
-    date: "2021-09-25 23:55 UTC+1100",
+    date: "2021-09-25 23:55 UTC+1000",
     tags: ["lospecdailies", "clouds", "lospec_palette_of_the_day"],
   },
 ]
