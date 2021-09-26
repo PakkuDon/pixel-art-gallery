@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 20 Sep 2021 12:53:31 GMT</pubDate>
+        <pubDate>Sun, 26 Sep 2021 13:37:40 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #banana</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210316-pixeldailies.png" alt="20210316-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #banana</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/endesga-64">Endesga 64</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210316-pixeldailies</link>
-        <pubDate>Tue, 16 Mar 2021 12:57:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #mineral</title>
         <description>
@@ -709,6 +695,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20210919-pixeldailies</link>
         <pubDate>Sun, 19 Sep 2021 12:53:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Lospec Dailies prompt: #clouds</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210925-lospecdaily.png" alt="20210925-lospecdaily" />]]>
+          <p>Lospec Dailies prompt: #clouds</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/grape-soda-arcade">Grape Soda Arcade</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20210925-lospecdaily</link>
+        <pubDate>Sat, 25 Sep 2021 12:55:00 GMT</pubDate>
       </item>
     
       </channel>
