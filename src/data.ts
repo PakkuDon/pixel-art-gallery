@@ -1499,6 +1499,20 @@ let entries: PixelArtEntry[] = [
     date: "2021-09-25 23:55 UTC+1000",
     tags: ["lospecdailies", "clouds", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20211001-pointe-de-pen-hir.png",
+    title: "Pointe de Pen-Hir, Camaret-sur-Mer, France",
+    description: `
+      Palette: [Sweet Canyon Extended 64](https://lospec.com/palette-list/sweet-canyon-extended-64)
+
+      Largest drawing so far. Started back on 2020-12-13. Took a while trying to pick a palette,
+      then took a while longer trying to figure out how to draw all the different textures
+
+      [Reference image](https://windows10spotlight.com/images/d7ab09721ad573de49ac62f34bd73d80)
+    `,
+    date: "2021-10-01 23:33 UTC+1000",
+    tags: ["landscape"],
+  },
 ]
 
 export default entries
