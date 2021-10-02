@@ -1513,6 +1513,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-10-01 23:33 UTC+1000",
     tags: ["landscape"],
   },
+  {
+    src: "20211002-pixeldailies.png",
+    title: "Pixel Dailies prompt: #illusion",
+    description: `
+      Palette: [2-bit Grayscale Palette](https://lospec.com/palette-list/2-bit-grayscale)
+    `,
+    date: "2021-10-02 14:25 UTC+1000",
+    tags: ["pixel_dailies", "illusion"],
+  },
 ]
 
 export default entries
