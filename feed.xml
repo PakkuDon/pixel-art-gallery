@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 01 Oct 2021 13:37:37 GMT</pubDate>
+        <pubDate>Sat, 02 Oct 2021 04:29:02 GMT</pubDate>
         
-      <item>
-        <title>Sailboat silhouette</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210318-noprompt.png" alt="20210318-noprompt" />]]>
-          <p>Sailboat silhouette</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210318-noprompt</link>
-        <pubDate>Thu, 18 Mar 2021 12:42:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #NegativeSpace</title>
         <description>
@@ -710,6 +696,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211001-pointe-de-pen-hir</link>
         <pubDate>Fri, 01 Oct 2021 13:33:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #illusion</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211002-pixeldailies.png" alt="20211002-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #illusion</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/2-bit-grayscale">2-bit Grayscale Palette</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211002-pixeldailies</link>
+        <pubDate>Sat, 02 Oct 2021 04:25:00 GMT</pubDate>
       </item>
     
       </channel>
