@@ -1522,6 +1522,16 @@ let entries: PixelArtEntry[] = [
     date: "2021-10-02 14:25 UTC+1000",
     tags: ["pixel_dailies", "illusion"],
   },
+  {
+    src: "20211003-pixeldailies.png",
+    title: "Pixel Dailies prompt: #PumpkinHouse",
+    description: `
+      Palette: [Dreamscape8](https://lospec.com/palette-list/dreamscape8)
+      Restriction: Dreamscape8 palette
+    `,
+    date: "2021-10-03 23:54 UTC+1100",
+    tags: ["pixel_dailies", "PumpkinHouse", "pumpkin", "halloween"],
+  },
 ]
 
 export default entries
