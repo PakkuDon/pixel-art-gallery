@@ -1532,6 +1532,15 @@ let entries: PixelArtEntry[] = [
     date: "2021-10-03 23:54 UTC+1100",
     tags: ["pixel_dailies", "PumpkinHouse", "pumpkin", "halloween"],
   },
+  {
+    src: "20211007-pixeldailies.png",
+    title: "Pixel Dailies prompt: #lavender",
+    description: `
+      Palette: [Moor](https://lospec.com/palette-list/moor)
+    `,
+    date: "2021-10-07 00:05 UTC+1100",
+    tags: ["pixel_dailies", "lavender", "plant"],
+  },
 ]
 
 export default entries
