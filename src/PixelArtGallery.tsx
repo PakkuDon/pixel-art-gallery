@@ -8,6 +8,10 @@ import PixelArtRepository from "./PixelArtRepository"
 
 PixelArtRepository.load()
 
+interface ParamTypes {
+  id: string
+}
+
 const PixelArtGallery = () => {
   const [entries, setPixelArtEntries] = useState(
     PixelArtRepository.findAll().reverse()
@@ -15,11 +19,11 @@ const PixelArtGallery = () => {
   const [selectedImage, setSelectedImage] = useState(entries[0])
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [searchQuery, setSearchQuery] = useState("")
-  const { id } = useParams()
+  const { id } = useParams<ParamTypes>()
   const history = useHistory()
 
   useEffect(() => {
-    let selectedFilename
+    let selectedFilename = ""
     if (id && selectedImage?.src !== id) {
       selectedFilename = id
     }
@@ -53,10 +57,13 @@ const PixelArtGallery = () => {
     }
   }, [selectedImage])
 
-  const onImageSelect = useCallback((image) => {
-    const selectedFilename = extractFilename(image.src)
-    history.replace(`/${selectedFilename}`)
-  })
+  const onImageSelect = useCallback(
+    (image) => {
+      const selectedFilename = extractFilename(image.src)
+      history.replace(`/${selectedFilename}`)
+    },
+    [history]
+  )
 
   const onSearchQueryChange = useCallback(
     (query) => {
@@ -71,7 +78,7 @@ const PixelArtGallery = () => {
       (entry) =>
         (entry.title &&
           entry.title.toLowerCase().includes(lowerCaseSearchQuery)) ||
-        entry.description.toLowerCase().includes(lowerCaseSearchQuery) ||
+        entry.description?.toLowerCase().includes(lowerCaseSearchQuery) ||
         entry.tags.some((tag) => tag.toLowerCase() === lowerCaseSearchQuery)
     ).reverse()
 
