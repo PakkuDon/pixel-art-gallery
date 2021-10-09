@@ -58,7 +58,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     static: {
-      directory: ".",
+      directory: "./dist",
     },
   },
 }
