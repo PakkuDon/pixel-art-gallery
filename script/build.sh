@@ -13,9 +13,6 @@ fi
 echo "🛠 Generating dist build..."
 yarn run webpack --config config/production.config.js
 
-echo "🖼 Copying images to dist/..."
-cp -r img/ dist/
-
 echo "🏭 Generating build script..."
 yarn run webpack --config config/cli-scripts.config.js
 

@@ -1,6 +1,7 @@
 const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const CaseSensitivePathsPlugin = require("case-sensitive-paths-webpack-plugin")
+const CopyWebpackPlugin = require("copy-webpack-plugin")
 
 module.exports = {
   mode: "development",
@@ -53,6 +54,14 @@ module.exports = {
     new CaseSensitivePathsPlugin(),
     new HtmlWebpackPlugin({
       template: "./src/index.html",
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: "img",
+          to: "img",
+        },
+      ],
     }),
   ],
   devServer: {
