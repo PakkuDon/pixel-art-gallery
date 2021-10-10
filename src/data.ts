@@ -1541,6 +1541,19 @@ let entries: PixelArtEntry[] = [
     date: "2021-10-07 00:05 UTC+1100",
     tags: ["pixel_dailies", "lavender", "plant"],
   },
+  {
+    src: "20211010-rabbit.png",
+    title: "Redraw of 20201010-lospecdaily",
+    description: `
+      Palette: [MonoMetalic](https://lospec.com/palette-list/monometalic)
+
+      One year on. Same subject, same palette. See [20201010-lospecdaily](20201010-lospecdaily).
+      Thanks to everyone who's been following along over the past year. I appreciate you all.
+      See you at the 200th post :D
+    `,
+    date: "2021-10-10 13:20 UTC+1100",
+    tags: ["rabbit", "redraw"],
+  },
 ]
 
 export default entries
