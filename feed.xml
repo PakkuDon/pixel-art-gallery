@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 06 Oct 2021 13:08:08 GMT</pubDate>
+        <pubDate>Sun, 10 Oct 2021 02:21:49 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #DeskCaddy</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210320-pixeldailies.png" alt="20210320-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #DeskCaddy</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210320-pixeldailies</link>
-        <pubDate>Sat, 20 Mar 2021 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #TextBox</title>
         <description>
@@ -710,6 +696,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211007-pixeldailies</link>
         <pubDate>Wed, 06 Oct 2021 13:05:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Redraw of 20201010-lospecdaily</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211010-rabbit.png" alt="20211010-rabbit" />]]>
+          <p>Redraw of 20201010-lospecdaily</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/monometalic">MonoMetalic</a></p>
+<p> One year on. Same subject, same palette. See <a href="20201010-lospecdaily">20201010-lospecdaily</a>.<br/> Thanks to everyone who&#39;s been following along over the past year. I appreciate you all.<br/> See you at the 200th post :D
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211010-rabbit</link>
+        <pubDate>Sun, 10 Oct 2021 02:20:00 GMT</pubDate>
       </item>
     
       </channel>
