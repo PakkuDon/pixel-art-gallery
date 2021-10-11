@@ -1554,6 +1554,17 @@ let entries: PixelArtEntry[] = [
     date: "2021-10-10 13:20 UTC+1100",
     tags: ["rabbit", "redraw"],
   },
+  {
+    src: "20211011-on-tap.png",
+    title: "On Tap, Caroline Springs",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+
+      Happy Pixel Art Day everyone!
+    `,
+    date: "2021-10-11 22:44 UTC+1100",
+    tags: ["noprompt", "sculpture", "water"],
+  },
 ]
 
 export default entries
