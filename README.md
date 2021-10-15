@@ -1,16 +1,14 @@
 # Pixel Art Gallery
 
-Collection of pixel arts created by me.
-
 Hosted at https://pakkudon.github.io/pixel-art-gallery/
 
 ![Screenshot](./doc/screenshot.png)
 
 ## Made with
 
-Most of these pieces were created in [GIMP](https://www.gimp.org/) with a few earlier pieces created in [Lospec's Pixel Editor](https://lospec.com/pixel-editor/).
+Most of these pieces were created in [GIMP](https://www.gimp.org/) with a few earlier pieces created in [Lospec's Pixel Editor](https://lospec.com/pixel-editor/). Images are either inspired by prompts from Lospec or Pixel Dailies or from other reference images.
 
-The gallery itself is built using React and React Router. CSS is also processed with [Autoprefixer](https://www.npmjs.com/package/autoprefixer) to generate vendor-specific prefixes.
+The gallery itself is built using React and TypeScript. CSS is also processed with [Autoprefixer](https://www.npmjs.com/package/autoprefixer) to generate vendor-specific prefixes.
 
 ## Development
 
