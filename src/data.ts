@@ -1565,6 +1565,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-10-11 22:44 UTC+1100",
     tags: ["noprompt", "sculpture", "water"],
   },
+  {
+    src: "20211016-pixeldailies.png",
+    title: "Pixel Dailies prompt: #flammable",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2021-10-16 20:07 UTC+1100",
+    tags: ["pixel_dailies", "flammable", "steel"],
+  },
 ]
 
 export default entries
