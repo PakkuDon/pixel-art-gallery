@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 16 Oct 2021 09:08:20 GMT</pubDate>
+        <pubDate>Sun, 24 Oct 2021 02:21:20 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #CardGame</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210329-pixeldailies.png" alt="20210329-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #CardGame</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/ice-cream-gb">Ice Cream GB</a><br/> Restriction: 5 colours max
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210329-pixeldailies</link>
-        <pubDate>Mon, 29 Mar 2021 12:52:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Daffodils</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211016-pixeldailies</link>
         <pubDate>Sat, 16 Oct 2021 09:07:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Wheat Field</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211024-wheat-field.png" alt="20211024-wheat-field" />]]>
+          <p>Wheat Field</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/wheat-field">Wheat Field</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211024-wheat-field</link>
+        <pubDate>Sun, 24 Oct 2021 02:20:00 GMT</pubDate>
       </item>
     
       </channel>
