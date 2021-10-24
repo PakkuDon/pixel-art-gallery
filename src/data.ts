@@ -1574,6 +1574,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-10-16 20:07 UTC+1100",
     tags: ["pixel_dailies", "flammable", "steel"],
   },
+  {
+    src: "20211024-wheat-field.png",
+    title: "Wheat Field",
+    description: `
+      Palette: [Wheat Field](https://lospec.com/palette-list/wheat-field)
+    `,
+    date: "2021-10-24 13:20 UTC+1100",
+    tags: ["landscape", "wheat", "imaginary"],
+  },
 ]
 
 export default entries
