@@ -26,11 +26,25 @@ The gallery itself is built using React and TypeScript. CSS is also processed wi
 
 ### Scripts
 
-- `dev` - Starts local development server
-- `build` - Generates bundled assets, link previews and RSS feed. Artifacts are written to `dist/`
-- `deploy` - Runs `build` script and pushes generated assets to Github Pages
-- `format` - Formats docs and code using [Prettier](https://prettier.io/)
-- `lint` - Lints `src` directory
+```sh
+# Starts local development server
+yarn dev
+
+# Formats docs and code using Prettier
+yarn format
+
+# Lints `src` directory
+yarn lint
+
+# Runs unit tests
+yarn test
+
+# Generates bundled assets, link previews and RSS feed. Artifacts are written to `dist/`
+yarn build
+
+# Runs `build` script and pushes generated assets to Github Pages
+yarn deploy
+```
 
 ### Updating pixel art entries
 
