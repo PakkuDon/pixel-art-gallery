@@ -1592,6 +1592,17 @@ const entries: PixelArtEntry[] = [
     date: "2021-11-05 01:21 UTC+1100",
     tags: ["pixel_dailies", "walrus"],
   },
+  {
+    src: "20211106-pixeldailies.png",
+    title: "Pixel Dailies prompt: #victory",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+
+      Celeste Chapter 7 ending screen.
+    `,
+    date: "2021-11-06 23:48 UTC+1100",
+    tags: ["pixel_dailies", "victory", "celeste"],
+  },
 ]
 
 export default entries
