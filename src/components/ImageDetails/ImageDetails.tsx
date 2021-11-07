@@ -77,8 +77,8 @@ const ImageDetails = ({
               )}`,
             }}
           />
-          <div>Tags: {image.tags.join(", ")}</div>
-          <p>- Posted {image.date}</p>
+          <div className="content">Tags: {image.tags.join(", ")}</div>
+          <p className="content">- Posted {image.date}</p>
         </div>
         <div className="navigation content">
           {previousLink ? (
