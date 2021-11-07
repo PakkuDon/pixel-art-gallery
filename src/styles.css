@@ -16,16 +16,31 @@ body {
   height: 100%;
 }
 
-img {
-  image-rendering: pixelated;
-}
-
 a {
   color: #336699;
 }
 
 a:hover {
   color: #003366;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #222;
+    color: #FAFAFA;
+  }
+
+  a {
+    color: #6699CC;
+  }
+
+  a:hover {
+    color: #99CCFF;
+  }
+}
+
+img {
+  image-rendering: pixelated;
 }
 
 .sidebar-layout {

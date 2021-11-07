@@ -56,3 +56,10 @@
   background: white;
   z-index: 10;
 }
+
+@media (prefers-color-scheme: dark) {
+  .search {
+    background: #222;
+    color: #FAFAFA;
+  }
+}
