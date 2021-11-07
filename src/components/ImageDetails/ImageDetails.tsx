@@ -52,7 +52,7 @@ const ImageDetails = ({
   return (
     <Card>
       <main className="image-details" {...handlers}>
-        <div className="image-viewer scrollable-content">
+        <div className="image-viewer scrollable">
           <img
             src={`img/${image.src}`}
             alt={image.src}
@@ -69,7 +69,7 @@ const ImageDetails = ({
             onChange={handleZoomChange}
           />
           <div
-            className="description scrollable-content"
+            className="description scrollable content"
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: `${image.title || ""}<br />${marked(

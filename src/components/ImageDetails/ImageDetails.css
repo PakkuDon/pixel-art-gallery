@@ -5,7 +5,7 @@
   max-height: 80vh;
 }
 
-.scrollable-content {
+.scrollable {
   overflow: auto;
 }
 
