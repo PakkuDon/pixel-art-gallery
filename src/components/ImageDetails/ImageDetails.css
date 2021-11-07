@@ -16,11 +16,8 @@
 
 .image-metadata {
   max-height: 100%;
-}
-
-.description {
-  max-height: 120px;
-  max-height: 20vh;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 @media (min-width: 720px) {
@@ -29,7 +26,6 @@
   }
 
   .description {
-    max-height: 320px;
     max-height: 10vh;
   }
 }
