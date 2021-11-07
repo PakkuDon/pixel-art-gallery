@@ -1,7 +1,8 @@
 .image-details {
   display: grid;
-  grid-template-rows: 1fr 1fr min-content;
+  grid-template-rows: 2fr 1fr min-content;
   height: 100%;
+  max-height: 80vh;
 }
 
 .scrollable-content {
@@ -18,16 +19,6 @@
   max-height: 100%;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-}
-
-@media (min-width: 720px) {
-  .image-details {
-    grid-template-rows: 2fr 1fr min-content;
-  }
-
-  .description {
-    max-height: 10vh;
-  }
 }
 
 .navigation {
