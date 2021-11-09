@@ -1603,6 +1603,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-11-06 23:48 UTC+1100",
     tags: ["pixel_dailies", "victory", "celeste"],
   },
+  {
+    src: "20211109-pixeldailies.png",
+    title: "Pixel Dailies prompt: #porcupine",
+    description: `
+      Palette: [MATT36](https://lospec.com/palette-list/matt36)
+    `,
+    date: "2021-11-09 23:57 UTC+1100",
+    tags: ["pixel_dailies", "porcupine"],
+  },
 ]
 
 export default entries
