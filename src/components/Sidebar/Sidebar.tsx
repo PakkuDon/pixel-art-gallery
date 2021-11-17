@@ -48,7 +48,12 @@ const Sidebar = ({
             placeholder="Search"
           />
         </label>
-        <button aria-label="Clear search field" onClick={() => onSearchQueryChange("")}>x</button>
+        <button
+          aria-label="Clear search field"
+          onClick={() => onSearchQueryChange("")}
+        >
+          x
+        </button>
       </div>
       <div className="entriesDropdown">
         <select

@@ -24,19 +24,17 @@ a:hover {
   color: #003366;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    background: #222;
-    color: #fafafa;
-  }
+body.dark-theme {
+  background: #222;
+  color: #fafafa;
+}
 
-  a {
-    color: #6699cc;
-  }
+.dark-theme a {
+  color: #6699cc;
+}
 
-  a:hover {
-    color: #99ccff;
-  }
+.dark-theme a:hover {
+  color: #99ccff;
 }
 
 img {

@@ -58,9 +58,7 @@
   display: flex;
 }
 
-@media (prefers-color-scheme: dark) {
-  .search-bar {
-    background: #222;
-    color: #fafafa;
-  }
+.dark-theme .search-bar {
+  background: #222;
+  color: #fafafa;
 }

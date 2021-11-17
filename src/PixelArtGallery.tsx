@@ -12,7 +12,11 @@ interface ParamTypes {
   id: string
 }
 
-const PixelArtGallery = () => {
+interface PixelArtGalleryProps {
+  prefersDarkTheme?: boolean
+}
+
+const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   const [entries, setPixelArtEntries] = useState(
     PixelArtRepository.findAll().reverse()
   )
@@ -86,7 +90,11 @@ const PixelArtGallery = () => {
   }, [searchQuery, setPixelArtEntries])
 
   return (
-    <div className="sidebar-layout">
+    <div
+      className={`sidebar-layout ${
+        prefersDarkTheme ? "dark-theme" : "light-theme"
+      }`}
+    >
       <Sidebar
         entries={entries}
         searchQuery={searchQuery}
