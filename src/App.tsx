@@ -10,6 +10,15 @@ const App = () => {
   const [prefersDarkTheme, setPrefersDarkTheme] = useState(false)
 
   useEffect(() => {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      setPrefersDarkTheme(true)
+    }
+  }, [])
+
+  useEffect(() => {
     document.body.classList.remove("dark-theme", "light-theme")
     document.body.classList.add(prefersDarkTheme ? "dark-theme" : "light-theme")
   }, [prefersDarkTheme])
