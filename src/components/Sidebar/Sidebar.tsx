@@ -38,16 +38,17 @@ const Sidebar = ({
 }: SidebarProps) => (
   <Card>
     <aside className="sidebar">
-      <div className="search">
+      <div className="search-bar">
         <label htmlFor="search-input">
-          Search:{" "}
           <input
             id="search-input"
             type="text"
             value={searchQuery}
             onChange={(event) => onSearchQueryChange(event.target.value)}
+            placeholder="Search"
           />
         </label>
+        <button aria-label="Clear search field" onClick={() => onSearchQueryChange("")}>x</button>
       </div>
       <div className="entriesDropdown">
         <select

@@ -49,17 +49,18 @@
   }
 }
 
-.search {
+.search-bar {
   padding: 1em 0.5em;
   position: sticky;
   top: 0;
   background: white;
   z-index: 10;
+  display: flex;
 }
 
 @media (prefers-color-scheme: dark) {
-  .search {
+  .search-bar {
     background: #222;
-    color: #FAFAFA;
+    color: #fafafa;
   }
 }
