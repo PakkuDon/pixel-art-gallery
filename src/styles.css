@@ -27,15 +27,15 @@ a:hover {
 @media (prefers-color-scheme: dark) {
   html {
     background: #222;
-    color: #FAFAFA;
+    color: #fafafa;
   }
 
   a {
-    color: #6699CC;
+    color: #6699cc;
   }
 
   a:hover {
-    color: #99CCFF;
+    color: #99ccff;
   }
 }
 
