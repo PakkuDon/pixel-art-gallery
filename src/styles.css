@@ -24,6 +24,11 @@ a:hover {
   color: #003366;
 }
 
+button {
+  border: none;
+  border-radius: 5px;
+}
+
 body.dark-theme {
   background: #222;
   color: #fafafa;
@@ -35,6 +40,16 @@ body.dark-theme {
 
 .dark-theme a:hover {
   color: #99ccff;
+}
+
+.dark-theme button {
+  background: #303030;
+  color: #fafafa;
+}
+
+.dark-theme input {
+  background: #303030;
+  color: #fafafa;
 }
 
 img {
