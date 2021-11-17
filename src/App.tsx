@@ -41,7 +41,7 @@ const App = () => {
                 <input
                   type="checkbox"
                   id="prefers-dark-theme"
-                  value={prefersDarkTheme.toString()}
+                  checked={prefersDarkTheme}
                   onChange={() => setPrefersDarkTheme(!prefersDarkTheme)}
                 />
                 Dark theme?
