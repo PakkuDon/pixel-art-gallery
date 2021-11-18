@@ -26,30 +26,3 @@ exports[`generateRssFeed generates RSS feed containing pixel art entries 1`] = `
     </rss>
   "
 `;
-
-exports[`generateRssFeed when there are more entries than given limit truncates feed to last x items 1`] = `
-"<?xml version=\\"1.0\\" encoding=\\"ISO-8859-1\\" ?>
-    <rss version=\\"2.0\\">
-      <channel>
-        <title>Pixel Art Gallery</title>
-        <link>https://pakkudon.github.io/pixel-art-gallery/</link>
-        <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
-        
-      <item>
-        <title>Example image with markdown</title>
-        <description>
-          <![CDATA[<img src=\\"https://pakkudon.github.io/pixel-art-gallery/img/entry-that-will-be-included.png\\" alt=\\"entry-that-will-be-included\\" />]]>
-          <p>Example image with markdown</p>
-          <p> Palette: <a href=\\"https://example.com\\">Example link</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/entry-that-will-be-included</link>
-        <pubDate>Tue, 31 Dec 2019 13:00:00 GMT</pubDate>
-      </item>
-    
-      </channel>
-    </rss>
-  "
-`;

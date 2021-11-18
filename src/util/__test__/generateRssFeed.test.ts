@@ -45,8 +45,10 @@ describe("generateRssFeed", () => {
           tags: ["a", "b"],
         },
       ]
+      const feed = generateRssFeed({ entries, limit })
+      const numberOfEntries = feed.match("<item>")?.length || 0
 
-      expect(generateRssFeed({ entries, limit })).toMatchSnapshot()
+      expect(numberOfEntries).toBe(limit)
     })
   })
 })
