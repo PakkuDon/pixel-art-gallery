@@ -17,6 +17,7 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     semi: "off",
+    "react/jsx-filename-extension": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
