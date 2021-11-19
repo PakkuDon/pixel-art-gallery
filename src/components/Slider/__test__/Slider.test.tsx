@@ -9,7 +9,7 @@ describe("Slider", () => {
       zoom: 50,
       min: 0,
       max: 100,
-      onChange: () => {},
+      onChange: jest.fn(),
     }
 
     render(<Slider {...props} />)
