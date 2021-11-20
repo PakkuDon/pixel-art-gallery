@@ -18,6 +18,8 @@ module.exports = {
     quotes: ["error", "double"],
     semi: "off",
     "react/jsx-filename-extension": "off",
+    // Project doesn't use PropTypes
+    "react/require-default-props": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
