@@ -1621,6 +1621,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-11-12 23:45 UTC+1100",
     tags: ["pixel_dailies", "ants"],
   },
+  {
+    src: "20211122-pixeldailies.png",
+    title: "Pixel Dailies prompt: #InsideThePokeball",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2021-11-22 00:51 UTC+1100",
+    tags: ["pixel_dailies", "InsideThePokeball", "pokemon", "piplup"],
+  },
 ]
 
 export default entries
