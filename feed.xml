@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 17 Nov 2021 12:56:54 GMT</pubDate>
+        <pubDate>Sun, 21 Nov 2021 13:52:30 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #mole</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210408-pixeldailies.png" alt="20210408-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #mole</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210408-pixeldailies</link>
-        <pubDate>Thu, 08 Apr 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Gate</title>
         <description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211112-pixeldailies</link>
         <pubDate>Fri, 12 Nov 2021 12:45:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #InsideThePokeball</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211122-pixeldailies.png" alt="20211122-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #InsideThePokeball</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211122-pixeldailies</link>
+        <pubDate>Sun, 21 Nov 2021 13:51:00 GMT</pubDate>
       </item>
     
       </channel>
