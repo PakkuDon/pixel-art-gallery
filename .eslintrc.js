@@ -29,7 +29,13 @@ module.exports = {
       },
     ],
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error"]
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "arrow-function",
+      },
+    ],
   },
   settings: {
     "import/resolver": {
