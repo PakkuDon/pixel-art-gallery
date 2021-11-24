@@ -51,6 +51,7 @@ const ImageDetails = ({
 
   return (
     <Card>
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <main className="image-details" {...handlers}>
         <div className="image-viewer scrollable">
           <img

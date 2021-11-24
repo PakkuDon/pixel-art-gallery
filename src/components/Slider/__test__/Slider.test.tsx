@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from "react"
 import { screen, render, fireEvent } from "@testing-library/react"
 
