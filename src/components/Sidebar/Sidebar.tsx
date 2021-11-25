@@ -49,6 +49,7 @@ const Sidebar = ({
           />
         </label>
         <button
+          type="button"
           aria-label="Clear search field"
           onClick={() => onSearchQueryChange("")}
         >
