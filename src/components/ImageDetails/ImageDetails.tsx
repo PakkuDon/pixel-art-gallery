@@ -30,8 +30,8 @@ const ImageDetails = ({
   const nextLink = nextImage ? extractFilename(nextImage.src) : ""
 
   const handleZoomChange = useCallback(
-    (zoom) => {
-      setZoom(zoom)
+    (value) => {
+      setZoom(value)
     },
     [setZoom]
   )
