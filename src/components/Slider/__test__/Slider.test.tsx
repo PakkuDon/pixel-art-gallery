@@ -37,4 +37,19 @@ describe("Slider", () => {
 
     expect(props.onChange).toHaveBeenCalledWith(10)
   })
+
+  it("calls onChange handler when increment or decrement button is clicked", () => {
+    const props = {
+      zoom: 50,
+      min: 0,
+      max: 100,
+      onChange: jest.fn(),
+    }
+
+    render(<Slider {...props} />)
+    screen.getByText("+").click()
+    screen.getByText("-").click()
+
+    expect(props.onChange).toBeCalledTimes(2)
+  })
 })
