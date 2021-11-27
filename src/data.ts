@@ -1639,6 +1639,16 @@ const entries: PixelArtEntry[] = [
     date: "2021-11-23 23:47 UTC+1100",
     tags: ["pixel_dailies", "mist", "landscape"],
   },
+  {
+    src: "20211127-pixeldailies.png",
+    title: "Pixel Dailies prompt: #dagger",
+    description: `
+      Palette: [Punolite Plus Plus](https://lospec.com/palette-list/punolite-plus-plus)
+      Restriction: 32x32 pixels or less
+    `,
+    date: "2021-11-27 23:25 UTC+1100",
+    tags: ["pixel_dailies", "dagger"],
+  },
 ]
 
 export default entries
