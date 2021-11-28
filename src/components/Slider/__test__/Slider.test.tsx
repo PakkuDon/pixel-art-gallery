@@ -52,4 +52,34 @@ describe("Slider", () => {
 
     expect(props.onChange).toBeCalledTimes(2)
   })
+
+  it("cannot be incremented past provided max value", () => {
+    const props = {
+      zoom: 100,
+      min: 0,
+      max: 100,
+      onChange: jest.fn(),
+    }
+
+    render(<Slider {...props} />)
+    screen.getByText("+").click()
+
+    const slider = screen.getByRole<HTMLInputElement>("slider")
+    expect(parseInt(slider.value, 10)).toBe(100)
+  })
+
+  it("cannot be decremented past provided min value", () => {
+    const props = {
+      zoom: 0,
+      min: 0,
+      max: 100,
+      onChange: jest.fn(),
+    }
+
+    render(<Slider {...props} />)
+    screen.getByText("-").click()
+
+    const slider = screen.getByRole<HTMLInputElement>("slider")
+    expect(parseInt(slider.value, 10)).toBe(0)
+  })
 })
