@@ -4,36 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 23 Nov 2021 12:48:23 GMT</pubDate>
+        <pubDate>Mon, 29 Nov 2021 13:02:22 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Spice</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210412-pixeldailies.png" alt="20210412-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Spice</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/zughy-32">Zughy 32</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210412-pixeldailies</link>
-        <pubDate>Mon, 12 Apr 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #turntable</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210417-pixeldailies.png" alt="20210417-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #turntable</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210417-pixeldailies</link>
-        <pubDate>Sat, 17 Apr 2021 13:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #HomeMade</title>
         <description>
@@ -713,6 +685,34 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211123-pixeldailies</link>
         <pubDate>Tue, 23 Nov 2021 12:47:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #dagger</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211127-pixeldailies.png" alt="20211127-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #dagger</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/punolite-plus-plus">Punolite Plus Plus</a><br/> Restriction: 32x32 pixels or less
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211127-pixeldailies</link>
+        <pubDate>Sat, 27 Nov 2021 12:25:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Vegetation</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211129-pixeldailies.png" alt="20211129-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Vegetation</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211129-pixeldailies</link>
+        <pubDate>Mon, 29 Nov 2021 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
