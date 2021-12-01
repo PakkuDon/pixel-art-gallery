@@ -17,9 +17,7 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     semi: "off",
-    "react/jsx-filename-extension": "off",
-    // Project doesn't use PropTypes
-    "react/require-default-props": "off",
+    "no-unused-vars": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -28,18 +26,20 @@ module.exports = {
         tsx: "never",
       },
     ],
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { devDependencies: ["**/*.test.*"] },
+    ],
     "react/function-component-definition": [
       2,
       {
         namedComponents: "arrow-function",
       },
     ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      { devDependencies: ["**/*.test.*"] },
-    ],
+    "react/jsx-filename-extension": "off",
+    // Project doesn't use PropTypes
+    "react/require-default-props": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
   },
   settings: {
     "import/resolver": {
