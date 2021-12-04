@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 29 Nov 2021 13:02:22 GMT</pubDate>
+        <pubDate>Sat, 04 Dec 2021 12:35:35 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #HomeMade</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210423-pixeldailies.png" alt="20210423-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #HomeMade</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210423-pixeldailies</link>
-        <pubDate>Fri, 23 Apr 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Siamese cat</title>
         <description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211129-pixeldailies</link>
         <pubDate>Mon, 29 Nov 2021 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #CannedFood</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211204-pixeldailies.png" alt="20211204-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #CannedFood</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211204-pixeldailies</link>
+        <pubDate>Sat, 04 Dec 2021 12:34:00 GMT</pubDate>
       </item>
     
       </channel>
