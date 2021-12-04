@@ -1658,6 +1658,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-11-29 23:59 UTC+1100",
     tags: ["pixel_dailies", "Vegetation"],
   },
+  {
+    src: "20211204-pixeldailies.png",
+    title: "Pixel Dailies prompt: #CannedFood",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2021-12-04 23:34 UTC+1100",
+    tags: ["pixel_dailies", "CannedFood", "food"],
+  },
 ]
 
 export default entries
