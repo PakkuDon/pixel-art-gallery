@@ -1667,6 +1667,16 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-04 23:34 UTC+1100",
     tags: ["pixel_dailies", "CannedFood", "food"],
   },
+  {
+    src: "20211205-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Icy",
+    description: `
+      Palette: [IcyWitch](https://lospec.com/palette-list/icywitch)
+      Restriction: IcyWitch palette
+    `,
+    date: "2021-12-05 23:47 UTC+1100",
+    tags: ["pixel_dailies", "Icy", "landscape"],
+  },
 ]
 
 export default entries
