@@ -1677,6 +1677,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-05 23:47 UTC+1100",
     tags: ["pixel_dailies", "Icy", "landscape"],
   },
+  {
+    src: "20211206-pixeldailies.png",
+    title: "Pixel Dailies prompt: #TrappedInABottle",
+    description: `
+      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
+    `,
+    date: "2021-12-06 23:52 UTC+1100",
+    tags: ["pixel_dailies", "TrappedInABottle", "ship", "glass"],
+  },
 ]
 
 export default entries
