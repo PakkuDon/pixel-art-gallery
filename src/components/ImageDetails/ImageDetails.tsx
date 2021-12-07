@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react"
-import marked from "marked"
+import { marked } from "marked"
 import { Link, useHistory } from "react-router-dom"
 import { useSwipeable } from "react-swipeable"
 

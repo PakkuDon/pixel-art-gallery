@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import fs from "fs"
 import path from "path"
-import marked from "marked"
+import { marked } from "marked"
 
 import PixelArtRepository from "../PixelArtRepository"
 import { PixelArtEntry } from "../data"
