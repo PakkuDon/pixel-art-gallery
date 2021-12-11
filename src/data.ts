@@ -1686,6 +1686,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-06 23:52 UTC+1100",
     tags: ["pixel_dailies", "TrappedInABottle", "ship", "glass"],
   },
+  {
+    src: "20211211-pixeldailies.png",
+    title: "Xiao long bao",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-12-11 23:09 UTC+1100",
+    tags: ["noprompt", "food"],
+  },
 ]
 
 export default entries
