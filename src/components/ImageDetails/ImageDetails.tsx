@@ -63,14 +63,16 @@ const ImageDetails = ({
             style={{ transform: `scale(${zoom / 100})` }}
           />
         </div>
-        <div className="image-metadata content">
-          <Slider
-            zoom={zoom}
-            min={100}
-            max={500}
-            increment={25}
-            onChange={handleZoomChange}
-          />
+        <div className="image-metadata">
+          <div className="content">
+            <Slider
+              zoom={zoom}
+              min={100}
+              max={500}
+              increment={25}
+              onChange={handleZoomChange}
+            />
+          </div>
           <div
             className="description scrollable content"
             // eslint-disable-next-line react/no-danger
