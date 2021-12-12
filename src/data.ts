@@ -1687,7 +1687,7 @@ const entries: PixelArtEntry[] = [
     tags: ["pixel_dailies", "TrappedInABottle", "ship", "glass"],
   },
   {
-    src: "20211211-pixeldailies.png",
+    src: "20211211-xiao-long-bao.png",
     title: "Xiao long bao",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
