@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
-import { Link, useHistory } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { useSwipeable } from "react-swipeable"
 
 import Card from "../Card"
@@ -25,9 +25,11 @@ const ImageDetails = ({
   nextImage,
 }: ImageDetailsProps) => {
   const [zoom, setZoom] = useState(100)
-  const history = useHistory()
-  const previousLink = previousImage ? extractFilename(previousImage.src) : ""
-  const nextLink = nextImage ? extractFilename(nextImage.src) : ""
+  const navigate = useNavigate()
+  const previousLink = previousImage
+    ? `/${extractFilename(previousImage.src)}`
+    : ""
+  const nextLink = nextImage ? `/${extractFilename(nextImage.src)}` : ""
 
   const handleZoomChange = useCallback(
     (value) => {
@@ -39,12 +41,12 @@ const ImageDetails = ({
   const handlers = useSwipeable({
     onSwipedLeft: () => {
       if (nextLink) {
-        history.replace(`/${nextLink}`)
+        navigate(`/${nextLink}`)
       }
     },
     onSwipedRight: () => {
       if (previousLink) {
-        history.replace(`/${previousLink}`)
+        navigate(`/${previousLink}`)
       }
     },
   })

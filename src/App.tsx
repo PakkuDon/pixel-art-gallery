@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import PixelArtGallery from "./PixelArtGallery"
 import Card from "./components/Card"
@@ -28,11 +28,16 @@ const App = () => {
     : ""
   return (
     <Router basename={basename}>
-      <Switch>
-        <Route path="/:id?">
-          <PixelArtGallery prefersDarkTheme={prefersDarkTheme} />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route
+          path="/"
+          element={<PixelArtGallery prefersDarkTheme={prefersDarkTheme} />}
+        />
+        <Route
+          path="/:id"
+          element={<PixelArtGallery prefersDarkTheme={prefersDarkTheme} />}
+        />
+      </Routes>
       <Card>
         <footer className="footer content">
           <ul>

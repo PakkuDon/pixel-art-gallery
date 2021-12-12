@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react"
-import { useHistory, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
 import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
@@ -7,10 +7,6 @@ import extractFilename from "./util/extractFilename"
 import PixelArtRepository from "./PixelArtRepository"
 
 PixelArtRepository.load()
-
-interface ParamTypes {
-  id: string
-}
 
 interface PixelArtGalleryProps {
   prefersDarkTheme?: boolean
@@ -23,8 +19,8 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   const [selectedImage, setSelectedImage] = useState(entries[0])
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [searchQuery, setSearchQuery] = useState("")
-  const { id } = useParams<ParamTypes>()
-  const history = useHistory()
+  const { id } = useParams()
+  const navigate = useNavigate()
 
   useEffect(() => {
     let selectedFilename = ""
@@ -38,7 +34,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
           (image) => selectedFilename === extractFilename(image.src)
         ) ?? entries[0]
       )
-      history.replace(`/${selectedFilename}`)
+      navigate(`/${selectedFilename}`)
     }
   }, [id])
 
@@ -64,7 +60,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   const onImageSelect = useCallback(
     (image) => {
       const selectedFilename = extractFilename(image.src)
-      history.replace(`/${selectedFilename}`)
+      navigate(`/${selectedFilename}`)
     },
     [history]
   )
