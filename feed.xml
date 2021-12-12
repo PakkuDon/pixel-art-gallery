@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 06 Dec 2021 12:53:30 GMT</pubDate>
+        <pubDate>Sun, 12 Dec 2021 03:19:05 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Cookies</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210426-pixeldailies.png" alt="20210426-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Cookies</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210426-pixeldailies</link>
-        <pubDate>Mon, 26 Apr 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #distraction</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211206-pixeldailies</link>
         <pubDate>Mon, 06 Dec 2021 12:52:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Xiao long bao</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211211-xiao-long-bao.png" alt="20211211-xiao-long-bao" />]]>
+          <p>Xiao long bao</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211211-xiao-long-bao</link>
+        <pubDate>Sat, 11 Dec 2021 12:09:00 GMT</pubDate>
       </item>
     
       </channel>
