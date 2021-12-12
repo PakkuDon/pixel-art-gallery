@@ -77,13 +77,17 @@ const ImageDetails = ({
             className="description scrollable content"
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
-              __html: `${image.title || ""}<br />${marked(
+              __html: `<strong>${image.title || ""}</strong><br />${marked(
                 image.description ? image.description.replace(/ +/g, " ") : ""
               )}`,
             }}
           />
-          <div className="content">Tags: {image.tags.join(", ")}</div>
-          <p className="content">- Posted {image.date}</p>
+          <div className="content">
+            <strong>Tags:</strong> {image.tags.join(", ")}
+          </div>
+          <div className="content">
+            <strong>Posted:</strong> {image.date}
+          </div>
         </div>
         <div className="navigation content">
           {previousLink ? (
