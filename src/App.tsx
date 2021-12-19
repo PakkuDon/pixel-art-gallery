@@ -48,7 +48,7 @@ const App = () => {
                   id="prefers-dark-theme"
                   checked={prefersDarkTheme}
                   onChange={() => setPrefersDarkTheme(!prefersDarkTheme)}
-                />
+                />{" "}
                 Dark theme?
               </label>
             </li>
