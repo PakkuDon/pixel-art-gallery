@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 20 Dec 2021 12:45:37 GMT</pubDate>
+        <pubDate>Fri, 24 Dec 2021 09:26:29 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Bookworm</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210516-pixeldailies.png" alt="20210516-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Bookworm</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210516-pixeldailies</link>
-        <pubDate>Sun, 16 May 2021 11:26:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #ElementalCreature</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211220-pixeldailies</link>
         <pubDate>Mon, 20 Dec 2021 12:44:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #forest</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211224-pixeldailies.png" alt="20211224-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #forest</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20211224-pixeldailies</link>
+        <pubDate>Fri, 24 Dec 2021 09:25:00 GMT</pubDate>
       </item>
     
       </channel>
