@@ -1713,6 +1713,16 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-24 20:25 UTC+1100",
     tags: ["pixel_dailies", "forest", "snow"],
   },
+  {
+    src: "20211225-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Grinch",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+      Restriction: 32x32px
+    `,
+    date: "2021-12-25 18:09 UTC+1100",
+    tags: ["pixel_dailies", "Grinch"],
+  },
 ]
 
 export default entries
