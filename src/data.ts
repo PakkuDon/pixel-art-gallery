@@ -1723,6 +1723,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-25 18:09 UTC+1100",
     tags: ["pixel_dailies", "Grinch"],
   },
+  {
+    src: "20211226-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Wreath",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+    `,
+    date: "2021-12-26 22:04 UTC+1100",
+    tags: ["pixel_dailies", "Wreath"],
+  },
 ]
 
 export default entries
