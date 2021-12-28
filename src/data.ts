@@ -1741,6 +1741,15 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-28 22:00 UTC+1100",
     tags: ["noprompt", "restaurant", "cafe", "melbourne"],
   },
+  {
+    src: "20211229-pixeldailies.png",
+    title: "Pixel Dailies prompt: #deer",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2021-12-29 00:11 UTC+1100",
+    tags: ["pixel_dailies", "deer"],
+  },
 ]
 
 export default entries
