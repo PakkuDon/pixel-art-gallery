@@ -536,7 +536,7 @@ const entries: PixelArtEntry[] = [
       Thanks to those that have been following along. See you next year!
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-30 23:45 UTC+1100",
+    date: "2020-12-31 23:45 UTC+1100",
     tags: ["noprompt", "fireworks"],
   },
   {
