@@ -1750,6 +1750,18 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-29 00:11 UTC+1100",
     tags: ["pixel_dailies", "deer"],
   },
+  {
+    src: "20211231-pixeldailies.png",
+    title: "Pixel Dailies prompt: #analogue",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Last pixel art for the year. Thanks again to those
+      of you that have been following along. See you in 2022!
+    `,
+    date: "2021-12-31 23:35 UTC+1100",
+    tags: ["pixel_dailies", "analogue", "watch"],
+  },
 ]
 
 export default entries
