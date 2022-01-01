@@ -1762,6 +1762,18 @@ const entries: PixelArtEntry[] = [
     date: "2021-12-31 23:35 UTC+1100",
     tags: ["pixel_dailies", "analogue", "watch"],
   },
+  {
+    src: "20220101-pixeldailies.png",
+    title: "Pixel Dailies prompt: #YearInReview",
+    description: `
+      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
+
+      Featuring a miniature of [20211001-pointe-de-pen-hir](20211001-pointe-de-pen-hir),
+      the first 192x108px image in this gallery.
+    `,
+    date: "2022-01-01 23:42 UTC+1100",
+    tags: ["pixel_dailies", "YearInReview", "meta", "redraw"],
+  },
 ]
 
 export default entries
