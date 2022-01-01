@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 31 Dec 2021 12:36:07 GMT</pubDate>
+        <pubDate>Sat, 01 Jan 2022 12:43:21 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #cobweb</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210624-pixeldailies.png" alt="20210624-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #cobweb</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210624-pixeldailies</link>
-        <pubDate>Thu, 24 Jun 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #neon</title>
         <description>
@@ -712,6 +698,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20211231-pixeldailies</link>
         <pubDate>Fri, 31 Dec 2021 12:35:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #YearInReview</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220101-pixeldailies.png" alt="20220101-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #YearInReview</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/sweet-canyon-32">Sweet Canyon 32</a></p>
+<p> Featuring a miniature of <a href="20211001-pointe-de-pen-hir">20211001-pointe-de-pen-hir</a>,<br/> the first 192x108px image in this gallery.
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220101-pixeldailies</link>
+        <pubDate>Sat, 01 Jan 2022 12:42:00 GMT</pubDate>
       </item>
     
       </channel>
