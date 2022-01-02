@@ -1774,6 +1774,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-01 23:42 UTC+1100",
     tags: ["pixel_dailies", "YearInReview", "meta", "redraw"],
   },
+  {
+    src: "20220102-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Stripes",
+    description: `
+      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
+    `,
+    date: "2022-01-02 23:45 UTC+1100",
+    tags: ["pixel_dailies", "Stripes", "bee"],
+  },
 ]
 
 export default entries
