@@ -1783,6 +1783,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-02 23:45 UTC+1100",
     tags: ["pixel_dailies", "Stripes", "bee"],
   },
+  {
+    src: "20220103-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Box",
+    description: `
+      Palette: [AYY4](https://lospec.com/palette-list/ayy4)
+
+      Restriction: 4 colour AYY4 palette
+    `,
+    date: "2022-01-03 22:27 UTC+1100",
+    tags: ["pixel_dailies", "Box", "cat"],
+  },
 ]
 
 export default entries
