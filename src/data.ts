@@ -1768,6 +1768,9 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
 
+      From [Pixel Dailies](https://twitter.com/Pixel_Dailies/status/1476893400775344129):
+      > Pixel something you did in 2021 that you're proud of, enjoyed, or are eager to share
+
       Featuring a miniature of [20211001-pointe-de-pen-hir](20211001-pointe-de-pen-hir),
       the first 192x108px image in this gallery.
     `,
