@@ -1806,6 +1806,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-04 23:05 UTC+1100",
     tags: ["pixel_dailies", "meter"],
   },
+  {
+    src: "20220105-pixeldailies.png",
+    title: "Pixel Dailies prompt: #EnergyDrink",
+    description: `
+      Palette: [Smoke: It's OK to feel](https://lospec.com/palette-list/smoke-its-ok-to-feel)
+    `,
+    date: "2022-01-05 22:40 UTC+1100",
+    tags: ["pixel_dailies", "EnergyDrink", "coffee", "drink"],
+  },
 ]
 
 export default entries
