@@ -1815,6 +1815,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-05 22:40 UTC+1100",
     tags: ["pixel_dailies", "EnergyDrink", "coffee", "drink"],
   },
+  {
+    src: "20220106-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Lakehouse",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+    `,
+    date: "2022-01-06 22:56 UTC+1100",
+    tags: ["pixel_dailies", "Lakehouse", "water"],
+  },
 ]
 
 export default entries
