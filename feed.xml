@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 05 Jan 2022 11:40:58 GMT</pubDate>
+        <pubDate>Thu, 06 Jan 2022 11:56:56 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Cotton</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210711-pixeldailies.png" alt="20210711-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Cotton</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/oil-6">Oil 6</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210711-pixeldailies</link>
-        <pubDate>Sun, 11 Jul 2021 13:35:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #gum</title>
         <description>
@@ -717,6 +703,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220105-pixeldailies</link>
         <pubDate>Wed, 05 Jan 2022 11:40:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Lakehouse</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220106-pixeldailies.png" alt="20220106-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Lakehouse</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/sunshine-valley">Sunshine Valley</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220106-pixeldailies</link>
+        <pubDate>Thu, 06 Jan 2022 11:56:00 GMT</pubDate>
       </item>
     
       </channel>
