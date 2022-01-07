@@ -1824,6 +1824,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-06 22:56 UTC+1100",
     tags: ["pixel_dailies", "Lakehouse", "water"],
   },
+  {
+    src: "20220107-pixeldailies.png",
+    title: "Pixel Dailies prompt: #team",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2022-01-07 20:08 UTC+1100",
+    tags: ["pixel_dailies", "team", "amongus"],
+  },
 ]
 
 export default entries
