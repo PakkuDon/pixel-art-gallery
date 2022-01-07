@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 06 Jan 2022 11:56:56 GMT</pubDate>
+        <pubDate>Fri, 07 Jan 2022 09:10:34 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #gum</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210717-pixeldailies.png" alt="20210717-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #gum</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/darkpastel-36">DarkPastel-36</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210717-pixeldailies</link>
-        <pubDate>Sat, 17 Jul 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: Set of #parrots</title>
         <description>
@@ -717,6 +703,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220106-pixeldailies</link>
         <pubDate>Thu, 06 Jan 2022 11:56:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #team</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220107-pixeldailies.png" alt="20220107-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #team</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220107-pixeldailies</link>
+        <pubDate>Fri, 07 Jan 2022 09:08:00 GMT</pubDate>
       </item>
     
       </channel>
