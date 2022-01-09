@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 07 Jan 2022 09:10:34 GMT</pubDate>
+        <pubDate>Sun, 09 Jan 2022 12:34:44 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: Set of #parrots</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210719-pixeldailies.png" alt="20210719-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: Set of #parrots</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/earth-vibes">Earth Vibes</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210719-pixeldailies</link>
-        <pubDate>Mon, 19 Jul 2021 13:53:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Sunny</title>
         <description>
@@ -717,6 +703,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220107-pixeldailies</link>
         <pubDate>Fri, 07 Jan 2022 09:08:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #tent</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220108-pixeldailies.png" alt="20220108-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #tent</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220108-pixeldailies</link>
+        <pubDate>Sat, 08 Jan 2022 12:20:00 GMT</pubDate>
       </item>
     
       </channel>
