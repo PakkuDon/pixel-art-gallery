@@ -1842,6 +1842,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-08 23:20 UTC+1100",
     tags: ["pixel_dailies", "tent"],
   },
+  {
+    src: "20220110-pixeldailies.png",
+    title: "Pixel Dailies prompt: #herbs",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Chives, mint, bay leaves, rosemary
+    `,
+    date: "2022-01-10 23:26 UTC+1100",
+    tags: ["pixel_dailies", "herbs"],
+  },
 ]
 
 export default entries
