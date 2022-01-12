@@ -1853,6 +1853,18 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-10 23:26 UTC+1100",
     tags: ["pixel_dailies", "herbs"],
   },
+  {
+    src: "20220112-pixeldailies.png",
+    title: "Pixel Dailies prompt: set of #EggRecipes",
+    description: `
+      Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
+      Restriction: 32x32px or less per food that includes egg
+
+      Fried eggs, pancakes, omelette rice and tamago sushi
+    `,
+    date: "2022-01-12 23:46 UTC+1100",
+    tags: ["pixel_dailies", "EggRecipes", "food"],
+  },
 ]
 
 export default entries
