@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 10 Jan 2022 12:46:33 GMT</pubDate>
+        <pubDate>Thu, 13 Jan 2022 08:04:23 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #ThrowingKnife</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210722-pixeldailies.png" alt="20210722-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #ThrowingKnife</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/nyx8">Nyx8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210722-pixeldailies</link>
-        <pubDate>Thu, 22 Jul 2021 13:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #coral</title>
         <description>
@@ -717,6 +703,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220110-pixeldailies</link>
         <pubDate>Mon, 10 Jan 2022 12:26:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: set of #EggRecipes</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220112-pixeldailies.png" alt="20220112-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: set of #EggRecipes</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/lux3k">Lux3k</a><br/> Restriction: 32x32px or less per food that includes egg</p>
+<p> Fried eggs, pancakes, omelette rice and tamago sushi
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220112-pixeldailies</link>
+        <pubDate>Wed, 12 Jan 2022 12:46:00 GMT</pubDate>
       </item>
     
       </channel>
