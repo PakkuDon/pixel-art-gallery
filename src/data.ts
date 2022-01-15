@@ -1865,6 +1865,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-12 23:46 UTC+1100",
     tags: ["pixel_dailies", "EggRecipes", "food"],
   },
+  {
+    src: "20220115-pixeldailies.png",
+    title: "Pixel Dailies prompt: #combo",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2022-01-15 23:25 UTC+1100",
+    tags: ["pixel_dailies", "combo", "food"],
+  },
 ]
 
 export default entries
