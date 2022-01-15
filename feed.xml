@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 13 Jan 2022 08:04:23 GMT</pubDate>
+        <pubDate>Sat, 15 Jan 2022 12:26:18 GMT</pubDate>
         
-      <item>
-        <title>Lospec Dailies prompt: #coral</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210724-lospecdaily.png" alt="20210724-lospecdaily" />]]>
-          <p>Lospec Dailies prompt: #coral</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/explorers16">Explorers16</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210724-lospecdaily</link>
-        <pubDate>Sat, 24 Jul 2021 07:44:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Study of #DappledLight</title>
         <description>
@@ -718,6 +704,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220112-pixeldailies</link>
         <pubDate>Wed, 12 Jan 2022 12:46:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #combo</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220115-pixeldailies.png" alt="20220115-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #combo</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220115-pixeldailies</link>
+        <pubDate>Sat, 15 Jan 2022 12:25:00 GMT</pubDate>
       </item>
     
       </channel>
