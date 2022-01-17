@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 15 Jan 2022 12:26:18 GMT</pubDate>
+        <pubDate>Mon, 17 Jan 2022 11:12:15 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Study of #DappledLight</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210724-pixeldailies.png" alt="20210724-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Study of #DappledLight</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/moor">Moor</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210724-pixeldailies</link>
-        <pubDate>Sat, 24 Jul 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #duck</title>
         <description>
@@ -718,6 +704,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220115-pixeldailies</link>
         <pubDate>Sat, 15 Jan 2022 12:25:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #StillLife</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220117-pixeldailies.png" alt="20220117-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #StillLife</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220117-pixeldailies</link>
+        <pubDate>Mon, 17 Jan 2022 11:11:00 GMT</pubDate>
       </item>
     
       </channel>
