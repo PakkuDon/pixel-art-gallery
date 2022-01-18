@@ -1879,6 +1879,7 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: #StillLife",
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
+      Challenge: reference a natural or man-made object in your own house
     `,
     date: "2022-01-17 22:11 UTC+1100",
     tags: ["pixel_dailies", "StillLife", "drink"],
