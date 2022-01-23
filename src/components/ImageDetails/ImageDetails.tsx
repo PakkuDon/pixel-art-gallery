@@ -83,7 +83,15 @@ const ImageDetails = ({
             }}
           />
           <div className="content">
-            <strong>Tags:</strong> {image.tags.join(", ")}
+            <strong>Tags: </strong>
+            {image.tags.map((tag, index) => (
+              <>
+                <Link to={`?q=${tag}`} key={`tag-${tag}`}>
+                  {tag}
+                </Link>
+                {index < image.tags.length - 1 && ", "}
+              </>
+            ))}
           </div>
           <div className="content">
             <strong>Posted:</strong> {image.date}
