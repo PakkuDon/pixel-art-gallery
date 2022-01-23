@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react"
-import { useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams, useSearchParams } from "react-router-dom"
 
 import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
@@ -18,7 +18,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   )
   const [selectedImage, setSelectedImage] = useState(entries[0])
   const [selectedIndex, setSelectedIndex] = useState(0)
-  const [searchQuery, setSearchQuery] = useState("")
+  const [params, setParams] = useSearchParams()
   const { id } = useParams()
   const navigate = useNavigate()
 
@@ -67,13 +67,13 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
 
   const onSearchQueryChange = useCallback(
     (query) => {
-      setSearchQuery(query)
+      setParams(new URLSearchParams({ q: encodeURIComponent(query) }))
     },
-    [setSearchQuery]
+    [setParams]
   )
 
   useEffect(() => {
-    const lowerCaseSearchQuery = searchQuery.toLowerCase()
+    const lowerCaseSearchQuery = new URLSearchParams(params).get("q") || ""
     const matchingEntries = PixelArtRepository.findAll(
       (entry) =>
         (entry.title &&
@@ -83,7 +83,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
     ).reverse()
 
     setPixelArtEntries(matchingEntries)
-  }, [searchQuery, setPixelArtEntries])
+  }, [params, setPixelArtEntries])
 
   return (
     <div
@@ -93,7 +93,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
     >
       <Sidebar
         entries={entries}
-        searchQuery={searchQuery}
+        searchQuery={new URLSearchParams(params).get("q") || ""}
         selectedImage={selectedImage}
         onImageSelect={onImageSelect}
         onSearchQueryChange={onSearchQueryChange}
