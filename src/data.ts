@@ -1884,6 +1884,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-17 22:11 UTC+1100",
     tags: ["pixel_dailies", "StillLife", "drink"],
   },
+  {
+    src: "20220124-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Raven",
+    description: `
+      Palette: [Nyx8](https://lospec.com/palette-list/nyx8)
+    `,
+    date: "2022-01-24 22:17 UTC+1100",
+    tags: ["pixel_dailies", "Raven", "bird"],
+  },
 ]
 
 export default entries
