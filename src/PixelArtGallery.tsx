@@ -73,7 +73,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   )
 
   useEffect(() => {
-    const lowerCaseSearchQuery = new URLSearchParams(params).get("q") || ""
+    const lowerCaseSearchQuery = new URLSearchParams(params).get("q")?.trim() || ""
     const matchingEntries = PixelArtRepository.findAll(
       (entry) =>
         (entry.title &&
