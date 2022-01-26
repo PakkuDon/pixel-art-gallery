@@ -1893,6 +1893,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-24 22:17 UTC+1100",
     tags: ["pixel_dailies", "Raven", "bird"],
   },
+  {
+    src: "20220126-lospecdaily.png",
+    title: "Lospec Dailies prompt: #forest",
+    description: `
+      Palette: [Camouflage-7](https://lospec.com/palette-list/camouflage-7)
+    `,
+    date: "2022-01-26 21:46 UTC+1100",
+    tags: ["lospecdailies", "forest", "lospec_palette_of_the_day"],
+  },
 ]
 
 export default entries
