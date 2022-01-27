@@ -1902,6 +1902,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-01-26 21:46 UTC+1100",
     tags: ["lospecdailies", "forest", "lospec_palette_of_the_day"],
   },
+  {
+    src: "20220127-pixeldailies.png",
+    title: "Pixel Dailies prompt: #home",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2022-01-27 23:58 UTC+1100",
+    tags: ["pixel_dailies", "home"],
+  },
 ]
 
 export default entries
