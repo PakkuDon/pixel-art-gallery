@@ -4,36 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Wed, 26 Jan 2022 10:53:43 GMT</pubDate>
+        <pubDate>Sat, 29 Jan 2022 11:49:24 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #groceries</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210817-pixeldailies.png" alt="20210817-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #groceries</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210817-pixeldailies</link>
-        <pubDate>Tue, 17 Aug 2021 13:46:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #porthole</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210821-pixeldailies.png" alt="20210821-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #porthole</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/whimsical-20">Whimsical 20</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210821-pixeldailies</link>
-        <pubDate>Sat, 21 Aug 2021 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: Set of #trees</title>
         <description>
@@ -718,6 +690,34 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220126-lospecdaily</link>
         <pubDate>Wed, 26 Jan 2022 10:46:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #home</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220127-pixeldailies.png" alt="20220127-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #home</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220127-pixeldailies</link>
+        <pubDate>Thu, 27 Jan 2022 12:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Possum</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220128-pixeldailies.png" alt="20220128-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Possum</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220128-pixeldailies</link>
+        <pubDate>Fri, 28 Jan 2022 12:58:00 GMT</pubDate>
       </item>
     
       </channel>
