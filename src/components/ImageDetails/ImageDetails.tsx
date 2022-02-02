@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
-import { Link, useNavigate } from "react-router-dom"
+import { Link, useNavigate, useSearchParams } from "react-router-dom"
 import { useSwipeable } from "react-swipeable"
 
 import Card from "../Card"
@@ -25,11 +25,17 @@ const ImageDetails = ({
   nextImage,
 }: ImageDetailsProps) => {
   const [zoom, setZoom] = useState(100)
+  const [params] = useSearchParams()
   const navigate = useNavigate()
+
+  const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
+  const queryString = searchQuery ? `?q=${searchQuery}` : ""
   const previousLink = previousImage
-    ? `/${extractFilename(previousImage.src)}`
+    ? `/${extractFilename(previousImage.src)}${queryString}`
     : ""
-  const nextLink = nextImage ? `/${extractFilename(nextImage.src)}` : ""
+  const nextLink = nextImage
+    ? `/${extractFilename(nextImage.src)}${queryString}`
+    : ""
 
   const handleZoomChange = useCallback(
     (value) => {

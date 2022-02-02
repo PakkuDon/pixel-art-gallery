@@ -24,6 +24,9 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
 
   useEffect(() => {
     let selectedFilename = ""
+    const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
+    const queryString = searchQuery ? `?q=${searchQuery}` : ""
+
     if (id && selectedImage?.src !== id) {
       selectedFilename = id
     }
@@ -34,9 +37,9 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
           (image) => selectedFilename === extractFilename(image.src)
         ) ?? entries[0]
       )
-      navigate(`/${selectedFilename}`)
+      navigate(`/${selectedFilename}${queryString}`)
     }
-  }, [id])
+  }, [id, params])
 
   useEffect(() => {
     if (selectedImage) {
