@@ -9,17 +9,23 @@ import "./Sidebar.css"
 const SidebarEntry = ({
   entry,
   isSelected,
+  searchQuery,
 }: {
   entry: PixelArtEntry
   isSelected: boolean
-}) => (
-  <Link
-    className={`entry ${isSelected ? "selected" : ""}`}
-    to={`/${extractFilename(entry.src)}`}
-  >
-    <img src={`img/${entry.src}`} alt={entry.src} loading="lazy" />
-  </Link>
-)
+  searchQuery: string
+}) => {
+  const queryString = searchQuery ? `?q=${searchQuery}` : ""
+
+  return (
+    <Link
+      className={`entry ${isSelected ? "selected" : ""}`}
+      to={`/${extractFilename(entry.src)}${queryString}`}
+    >
+      <img src={`img/${entry.src}`} alt={entry.src} loading="lazy" />
+    </Link>
+  )
+}
 
 interface SidebarProps {
   entries: PixelArtEntry[]
@@ -91,6 +97,7 @@ const Sidebar = ({
               key={`sidebar-item-${entry.src}`}
               entry={entry}
               isSelected={isSelected}
+              searchQuery={searchQuery}
             />
           )
         })}
