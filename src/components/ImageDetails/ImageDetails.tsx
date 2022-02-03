@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
-import { Link, useNavigate, useSearchParams } from "react-router-dom"
-import { useSwipeable } from "react-swipeable"
+import { Link, useSearchParams } from "react-router-dom"
 
 import Card from "../Card"
 import Slider from "../Slider"
@@ -26,7 +25,6 @@ const ImageDetails = ({
 }: ImageDetailsProps) => {
   const [zoom, setZoom] = useState(100)
   const [params] = useSearchParams()
-  const navigate = useNavigate()
 
   const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
   const queryString = searchQuery ? `?q=${searchQuery}` : ""
@@ -44,23 +42,9 @@ const ImageDetails = ({
     [setZoom]
   )
 
-  const handlers = useSwipeable({
-    onSwipedLeft: () => {
-      if (nextLink) {
-        navigate(`/${nextLink}`)
-      }
-    },
-    onSwipedRight: () => {
-      if (previousLink) {
-        navigate(`/${previousLink}`)
-      }
-    },
-  })
-
   return (
     <Card>
-      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-      <main className="image-details" {...handlers}>
+      <main className="image-details">
         <div className="image-viewer scrollable">
           <img
             src={`img/${image.src}`}
