@@ -59,10 +59,13 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
 
   const onImageSelect = useCallback(
     (image) => {
+      const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
+      const queryString = searchQuery ? `?q=${searchQuery}` : ""
+
       const selectedFilename = extractFilename(image.src)
-      navigate(`/${selectedFilename}`)
+      navigate(`/${selectedFilename}${queryString}`)
     },
-    [history]
+    [history, params]
   )
 
   const onSearchQueryChange = useCallback(
