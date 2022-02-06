@@ -62,6 +62,9 @@ const Sidebar = ({
           x
         </button>
       </div>
+      <div className="content">
+        {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+      </div>
       <div className="entriesDropdown">
         <select
           onChange={(event) => {
