@@ -1929,6 +1929,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-03 00:10 UTC+1100",
     tags: ["pixel_dailies", "Barricade"],
   },
+  {
+    src: "20220207-noprompt.png",
+    title: "Lychee Sponge Cake",
+    description: `
+      Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
+    `,
+    date: "2022-02-07 23:58 UTC+1100",
+    tags: ["noprompt", "cake"],
+  },
 ]
 
 export default entries
