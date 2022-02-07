@@ -882,7 +882,7 @@ const entries: PixelArtEntry[] = [
       I have no idea how to draw pastry cream swirls in this angle
     `,
     date: "2021-02-07 23:38 UTC+1100",
-    tags: ["noprompt", "cake", "endesga-36"],
+    tags: ["noprompt", "cake", "food", "endesga-36"],
   },
   {
     src: "20210207-pixeldailies.png",
@@ -2097,7 +2097,7 @@ const entries: PixelArtEntry[] = [
       Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
     `,
     date: "2022-02-07 23:58 UTC+1100",
-    tags: ["noprompt", "cake", "aap-64"],
+    tags: ["noprompt", "cake", "food", "aap-64"],
   },
 ]
 
