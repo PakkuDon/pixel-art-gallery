@@ -225,6 +225,7 @@ const entries: PixelArtEntry[] = [
     date: "2020-11-16 01:04 UTC+1100",
     tags: [
       "pixel_dailies",
+      "ChocolateDesserts",
       "set",
       "food",
       "lospec_palette_of_the_day",
