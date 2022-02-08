@@ -49,7 +49,7 @@ const Sidebar = ({
           <input
             id="search-input"
             type="text"
-            value={searchQuery}
+            value={decodeURIComponent(searchQuery)}
             onChange={(event) => onSearchQueryChange(event.target.value)}
             placeholder="Search"
           />

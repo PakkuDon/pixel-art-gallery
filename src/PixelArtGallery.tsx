@@ -76,14 +76,15 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   )
 
   useEffect(() => {
-    const lowerCaseSearchQuery =
+    const searchQuery = decodeURIComponent(
       new URLSearchParams(params).get("q")?.trim().toLowerCase() || ""
+    )
+
     const matchingEntries = PixelArtRepository.findAll(
       (entry) =>
-        (entry.title &&
-          entry.title.toLowerCase().includes(lowerCaseSearchQuery)) ||
-        entry.description?.toLowerCase().includes(lowerCaseSearchQuery) ||
-        entry.tags.some((tag) => tag.toLowerCase() === lowerCaseSearchQuery)
+        (entry.title && entry.title.toLowerCase().includes(searchQuery)) ||
+        entry.description?.toLowerCase().includes(searchQuery) ||
+        entry.tags.some((tag) => tag.toLowerCase() === searchQuery)
     ).reverse()
 
     setPixelArtEntries(matchingEntries)
