@@ -678,7 +678,14 @@ const entries: PixelArtEntry[] = [
       Palette: [ReWild 64](https://lospec.com/palette-list/rewild-64)
     `,
     date: "2021-01-14 00:54 UTC+1100",
-    tags: ["pixel_dailies", "glass", "plant", "teapot", "rewild-64"],
+    tags: [
+      "pixel_dailies",
+      "repurposed",
+      "glass",
+      "plant",
+      "teapot",
+      "rewild-64",
+    ],
   },
   {
     src: "20210115-pixeldailies.png",
