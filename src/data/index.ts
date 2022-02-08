@@ -151,7 +151,7 @@ const entries: PixelArtEntry[] = [
   },
   {
     src: "20201108-vic-covid19-press.png",
-    title: "\"Everyone right to go?\"",
+    title: '"Everyone right to go?"',
     description: `
       Palette: Sampled from a past press conference: #490172, #D8C8E3, 
       #F9F9FE, #000000, #262926, #797977, #C8C7D1, #EDC4A6
