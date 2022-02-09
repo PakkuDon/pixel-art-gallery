@@ -1,31 +1,10 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
 import { PixelArtEntry } from "../../data"
+import SidebarEntry from "./SidebarEntry"
 import "./Sidebar.css"
-
-const SidebarEntry = ({
-  entry,
-  isSelected,
-  searchQuery,
-}: {
-  entry: PixelArtEntry
-  isSelected: boolean
-  searchQuery: string
-}) => {
-  const queryString = searchQuery ? `?q=${searchQuery}` : ""
-
-  return (
-    <Link
-      className={`entry ${isSelected ? "selected" : ""}`}
-      to={`/${extractFilename(entry.src)}${queryString}`}
-    >
-      <img src={`img/${entry.src}`} alt={entry.src} loading="lazy" />
-    </Link>
-  )
-}
 
 interface SidebarProps {
   entries: PixelArtEntry[]

@@ -1,0 +1,12 @@
+.entry {
+  transition: opacity linear 0.15s;
+}
+
+.entry:hover,
+.entry:focus {
+  opacity: 75%;
+}
+
+.selected {
+  border: 4px solid #69c;
+}
