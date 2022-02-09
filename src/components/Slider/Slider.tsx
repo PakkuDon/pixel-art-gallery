@@ -33,10 +33,11 @@ const Slider = ({ zoom, min, max, increment = 25, onChange }: SliderProps) => {
 
   return (
     <div>
-      <label>
+      <label htmlFor="zoom-input">
         Zoom
         <input
           type="range"
+          id="zoom-input"
           value={zoom}
           min={min}
           max={max}
