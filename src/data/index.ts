@@ -2109,12 +2109,24 @@ const entries: PixelArtEntry[] = [
   },
   {
     src: "20220212-crepe.png",
-    title: "Crepe with fresh strawberries, raspberry coulis, vanilla ice cream and pistachio",
+    title:
+      "Crepe with fresh strawberries, raspberry coulis, vanilla ice cream and pistachio",
     description: `
       Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
     `,
     date: "2022-02-12 23:04 UTC+1100",
     tags: ["noprompt", "crepe", "food", "zykro-48"],
+  },
+  {
+    src: "20220212-pixeldailies.png",
+    title: "Pixel Dailies prompt: #celebration",
+    description: `
+      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
+
+      200th post. Thanks again for following along! See you at the 300th post.
+    `,
+    date: "2022-02-12 23:45 UTC+1100",
+    tags: ["pixel_dailies", "celebration", "candle", "sweet-canyon-32"],
   },
 ]
 
