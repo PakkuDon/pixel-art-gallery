@@ -2107,6 +2107,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-07 23:58 UTC+1100",
     tags: ["noprompt", "cake", "food", "aap-64"],
   },
+  {
+    src: "20220212-crepe.png",
+    title: "Crepe with fresh strawberries, raspberry coulis, vanilla ice cream and pistachio",
+    description: `
+      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
+    `,
+    date: "2022-02-12 23:04 UTC+1100",
+    tags: ["noprompt", "crepe", "food", "zykro-48"],
+  },
 ]
 
 export default entries
