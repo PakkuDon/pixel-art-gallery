@@ -4,23 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 12 Feb 2022 12:46:33 GMT</pubDate>
+        <pubDate>Sun, 13 Feb 2022 13:11:26 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #cat</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210918-pixeldailies.png" alt="20210918-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #cat</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a><br/> Restriction: 32x32px or less</p>
-<p> Featuring Sakamoto from Nichijou
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210918-pixeldailies</link>
-        <pubDate>Sat, 18 Sep 2021 12:05:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Origami</title>
         <description>
@@ -719,6 +704,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220212-pixeldailies</link>
         <pubDate>Sat, 12 Feb 2022 12:45:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #seashore</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220213-pixeldailies.png" alt="20220213-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #seashore</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220213-pixeldailies</link>
+        <pubDate>Mon, 07 Feb 2022 12:55:00 GMT</pubDate>
       </item>
     
       </channel>
