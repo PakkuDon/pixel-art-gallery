@@ -2135,7 +2135,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
     `,
     date: "2022-02-07 23:55 UTC+1100",
-    tags: ["pixeldailies", "seashore", "beach", "nostalgia48"],
+    tags: ["pixel_dailies", "seashore", "beach", "nostalgia48"],
   },
 ]
 
