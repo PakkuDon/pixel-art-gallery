@@ -2137,6 +2137,20 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-13 23:55 UTC+1100",
     tags: ["pixel_dailies", "seashore", "beach", "nostalgia48"],
   },
+  {
+    src: "20220214-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #textures",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+
+      From top-left:
+      wood, grass, stone
+      sand, snow, water
+      cheese, cake, chocolate
+    `,
+    date: "2022-02-14 23:47 UTC+1100",
+    tags: ["pixel_dailies", "textures", "isometric", "sunshine-valley"],
+  },
 ]
 
 export default entries
