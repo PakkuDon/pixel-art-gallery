@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 13 Feb 2022 14:14:22 GMT</pubDate>
+        <pubDate>Mon, 14 Feb 2022 13:25:24 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Origami</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20210919-pixeldailies.png" alt="20210919-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Origami</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20210919-pixeldailies</link>
-        <pubDate>Sun, 19 Sep 2021 13:53:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #clouds</title>
         <description>
@@ -717,7 +703,22 @@
 
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220213-pixeldailies</link>
-        <pubDate>Mon, 07 Feb 2022 12:55:00 GMT</pubDate>
+        <pubDate>Sun, 13 Feb 2022 12:55:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: Set of #textures</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220214-pixeldailies.png" alt="20220214-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: Set of #textures</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/sunshine-valley">Sunshine Valley</a></p>
+<p> From top-left:<br/> wood, grass, stone<br/> sand, snow, water<br/> cheese, cake, chocolate
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220214-pixeldailies</link>
+        <pubDate>Mon, 14 Feb 2022 12:47:00 GMT</pubDate>
       </item>
     
       </channel>
