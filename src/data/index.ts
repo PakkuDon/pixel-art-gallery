@@ -2151,6 +2151,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-14 23:47 UTC+1100",
     tags: ["pixel_dailies", "textures", "isometric", "sunshine-valley"],
   },
+  {
+    src: "20220217-pixeldailies.png",
+    title: "Pixel Dailies prompt: #JuiceBox",
+    description: `
+      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
+    `,
+    date: "2022-02-17 00:10 UTC+1100",
+    tags: ["pixel_dailies", "JuiceBox", "superficial-35"],
+  },
 ]
 
 export default entries
