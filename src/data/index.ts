@@ -2160,6 +2160,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-17 00:10 UTC+1100",
     tags: ["pixel_dailies", "JuiceBox", "superficial-35"],
   },
+  {
+    src: "20220217-pixeldailies2.png",
+    title: "Pixel Dailies prompt: #pyramid",
+    description: `
+      Palette: [Wheat Field](https://lospec.com/palette-list/wheat-field)
+    `,
+    date: "2022-02-17 23:59 UTC+1100",
+    tags: ["pixel_dailies", "pyramid", "landscape", "wheat-field"],
+  },
 ]
 
 export default entries
