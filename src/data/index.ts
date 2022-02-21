@@ -743,7 +743,7 @@ const entries: PixelArtEntry[] = [
       Restriction: 24x32px per lamp
     `,
     date: "2021-01-20 23:51 UTC+1100",
-    tags: ["pixel_dailies", "lamp", "apollo"],
+    tags: ["pixel_dailies", "lamp", "set", "apollo"],
   },
   {
     src: "20210122-pixeldailies.png",
@@ -1399,7 +1399,7 @@ const entries: PixelArtEntry[] = [
       Restriction: Each fruit has a different size,16x16px,  24x24px, 32x32px
     `,
     date: "2021-06-20 23:59 UTC+1000",
-    tags: ["pixel_dailies", "fruit", "food", "apollo"],
+    tags: ["pixel_dailies", "fruit", "set", "food", "apollo"],
   },
   {
     src: "20210624-pixeldailies.png",
@@ -1476,6 +1476,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "bird",
+      "set",
       "parrot",
       "rainbow lorikeet",
       "earth-vibes",
@@ -2027,7 +2028,7 @@ const entries: PixelArtEntry[] = [
       Fried eggs, pancakes, omelette rice and tamago sushi
     `,
     date: "2022-01-12 23:46 UTC+1100",
-    tags: ["pixel_dailies", "EggRecipes", "food", "lux3k"],
+    tags: ["pixel_dailies", "EggRecipes", "food", "set", "lux3k"],
   },
   {
     src: "20220115-pixeldailies.png",
@@ -2149,7 +2150,7 @@ const entries: PixelArtEntry[] = [
       cheese, cake, chocolate
     `,
     date: "2022-02-14 23:47 UTC+1100",
-    tags: ["pixel_dailies", "textures", "isometric", "sunshine-valley"],
+    tags: ["pixel_dailies", "textures", "isometric", "set", "sunshine-valley"],
   },
   {
     src: "20220217-pixeldailies.png",
