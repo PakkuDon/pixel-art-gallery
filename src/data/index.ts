@@ -2170,7 +2170,7 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-17 23:59 UTC+1100",
     tags: ["pixel_dailies", "pyramid", "landscape", "wheat-field"],
   },
-  {
+{
     src: "20220220-pixeldailies.png",
     title: "Pixel Dailies prompt: #Dark",
     description: `
@@ -2187,6 +2187,15 @@ const entries: PixelArtEntry[] = [
     `,
     date: "2022-02-23 23:54 UTC+1100",
     tags: ["pixel_dailies", "halberd", "weapon", "apollo"],
+  },
+  {
+    src: "20220227-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Tarnished",
+    description: `
+      Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
+    `,
+    date: "2022-02-27 22:14 UTC+1100",
+    tags: ["pixel_dailies", "Tarnished", "ring", "aap-64"],
   },
 ]
 
