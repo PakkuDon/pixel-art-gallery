@@ -4,36 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 21 Feb 2022 10:27:26 GMT</pubDate>
+        <pubDate>Tue, 01 Mar 2022 13:12:31 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #PumpkinHouse</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211003-pixeldailies.png" alt="20211003-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #PumpkinHouse</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/dreamscape8">Dreamscape8</a><br/> Restriction: Dreamscape8 palette
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211003-pixeldailies</link>
-        <pubDate>Sun, 03 Oct 2021 12:54:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #lavender</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211007-pixeldailies.png" alt="20211007-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #lavender</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/moor">Moor</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211007-pixeldailies</link>
-        <pubDate>Wed, 06 Oct 2021 13:05:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Redraw of 20201010-lospecdaily</title>
         <description>
@@ -717,6 +689,34 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220220-pixeldailies</link>
         <pubDate>Sun, 20 Feb 2022 11:55:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #halberd</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220223-pixeldailies.png" alt="20220223-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #halberd</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220223-pixeldailies</link>
+        <pubDate>Wed, 23 Feb 2022 12:54:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Tarnished</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220227-pixeldailies.png" alt="20220227-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Tarnished</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/aap-64">AAP-64</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220227-pixeldailies</link>
+        <pubDate>Sun, 27 Feb 2022 11:14:00 GMT</pubDate>
       </item>
     
       </channel>
