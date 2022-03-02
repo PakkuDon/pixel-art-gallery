@@ -2202,6 +2202,8 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: #Barrel",
     description: `
       Palette: [comfy52](https://lospec.com/palette-list/comfy52)
+
+      [Reference iamge](https://www.dreamstime.com/stock-photo-red-wine-grapes-barrel-old-wooden-table-image44545937)
     `,
     date: "2022-03-03 00:35 UTC+1100",
     tags: ["pixel_dailies", "Barrel", "wood", "glass", "wine", "comfy52"],
