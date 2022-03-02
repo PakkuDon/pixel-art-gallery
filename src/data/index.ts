@@ -2170,7 +2170,7 @@ const entries: PixelArtEntry[] = [
     date: "2022-02-17 23:59 UTC+1100",
     tags: ["pixel_dailies", "pyramid", "landscape", "wheat-field"],
   },
-{
+  {
     src: "20220220-pixeldailies.png",
     title: "Pixel Dailies prompt: #Dark",
     description: `
@@ -2196,6 +2196,15 @@ const entries: PixelArtEntry[] = [
     `,
     date: "2022-02-27 22:14 UTC+1100",
     tags: ["pixel_dailies", "Tarnished", "ring", "aap-64"],
+  },
+  {
+    src: "20220303-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Barrel",
+    description: `
+      Palette: [comfy52](https://lospec.com/palette-list/comfy52)
+    `,
+    date: "2022-03-03 00:35 UTC+1100",
+    tags: ["pixel_dailies", "Barrel", "wood", "glass", "wine", "comfy52"],
   },
 ]
 
