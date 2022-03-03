@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import classnames from "classnames"
 
 import extractFilename from "../../../util/extractFilename"
 import { PixelArtEntry } from "../../../data"
@@ -21,7 +22,7 @@ const SidebarEntry = ({
 
   return (
     <Link
-      className={`entry ${isSelected ? "selected" : ""}`}
+      className={classnames("entry", { selected: isSelected })}
       to={`/${extractFilename(entry.src)}${queryString}`}
     >
       <img src={`img/${entry.src}`} alt={entry.src} loading="lazy" />

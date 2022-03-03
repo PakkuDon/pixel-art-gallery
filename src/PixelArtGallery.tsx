@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react"
 import { useNavigate, useParams, useSearchParams } from "react-router-dom"
+import classnames from "classnames"
 
 import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
@@ -92,9 +93,10 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
 
   return (
     <div
-      className={`sidebar-layout ${
-        prefersDarkTheme ? "dark-theme" : "light-theme"
-      }`}
+      className={classnames("sidebar-layout", {
+        "dark-theme": prefersDarkTheme,
+        "light-theme": !prefersDarkTheme,
+      })}
     >
       <Sidebar
         entries={entries}

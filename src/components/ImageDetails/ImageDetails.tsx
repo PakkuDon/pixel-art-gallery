@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
 import { Link, useSearchParams } from "react-router-dom"
+import classnames from "classnames"
 
 import Card from "../Card"
 import Slider from "../Slider"
@@ -45,7 +46,7 @@ const ImageDetails = ({
   return (
     <Card>
       <main className="image-details">
-        <div className="image-viewer scrollable">
+        <div className={classnames("image-viewer", "scrollable")}>
           <img
             src={`img/${image.src}`}
             alt={image.src}
@@ -64,7 +65,7 @@ const ImageDetails = ({
             />
           </div>
           <div
-            className="description scrollable content"
+            className={classnames("description", "scrollable", "content")}
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: `<strong>${image.title || ""}</strong><br />${marked(
@@ -87,7 +88,7 @@ const ImageDetails = ({
             <strong>Posted:</strong> {image.date}
           </div>
         </div>
-        <div className="navigation content">
+        <div className={classnames("navigation", "content")}>
           {previousLink ? (
             <Link to={previousLink}>Previous</Link>
           ) : (

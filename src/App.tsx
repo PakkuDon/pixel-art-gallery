@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import classnames from "classnames"
 
 import PixelArtGallery from "./PixelArtGallery"
 import Card from "./components/Card"
@@ -39,7 +40,7 @@ const App = () => {
         />
       </Routes>
       <Card>
-        <footer className="footer content">
+        <footer className={classnames("footer", "content")}>
           <ul>
             <li>
               <label htmlFor="prefers-dark-theme">
