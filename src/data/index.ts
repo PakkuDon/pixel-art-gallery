@@ -2208,6 +2208,16 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-03 00:35 UTC+1100",
     tags: ["pixel_dailies", "Barrel", "wood", "glass", "wine", "comfy52"],
   },
+  {
+    src: "20220305-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ruins",
+    description: `
+      Palette: [Wheat Field](https://lospec.com/palette-list/wheat-field)
+      Restriction: 30x24px or less
+    `,
+    date: "2022-03-05 16:27 UTC+1100",
+    tags: ["pixel_dailies", "ruins", "cube", "wheat-field"],
+  },
 ]
 
 export default entries
