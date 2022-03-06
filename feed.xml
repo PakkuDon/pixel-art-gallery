@@ -4,37 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 03 Mar 2022 12:51:34 GMT</pubDate>
+        <pubDate>Sun, 06 Mar 2022 12:44:51 GMT</pubDate>
         
-      <item>
-        <title>On Tap, Caroline Springs</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211011-on-tap.png" alt="20211011-on-tap" />]]>
-          <p>On Tap, Caroline Springs</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/sunshine-valley">Sunshine Valley</a></p>
-<p> Happy Pixel Art Day everyone!
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211011-on-tap</link>
-        <pubDate>Mon, 11 Oct 2021 11:44:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #flammable</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211016-pixeldailies.png" alt="20211016-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #flammable</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211016-pixeldailies</link>
-        <pubDate>Sat, 16 Oct 2021 09:07:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Wheat Field</title>
         <description>
@@ -717,6 +688,34 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220303-pixeldailies</link>
         <pubDate>Wed, 02 Mar 2022 13:35:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ruins</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220305-pixeldailies.png" alt="20220305-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #ruins</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/wheat-field">Wheat Field</a><br/> Restriction: 30x24px or less
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220305-pixeldailies</link>
+        <pubDate>Sat, 05 Mar 2022 05:27:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Arid</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220306-pixeldailies.png" alt="20220306-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Arid</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/golden-sunset">golden-sunset</a><br/> Restriction: golden-sunset palette
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220306-pixeldailies</link>
+        <pubDate>Sun, 06 Mar 2022 12:44:00 GMT</pubDate>
       </item>
     
       </channel>
