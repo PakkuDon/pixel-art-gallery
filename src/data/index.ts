@@ -2218,6 +2218,16 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-05 16:27 UTC+1100",
     tags: ["pixel_dailies", "ruins", "cube", "wheat-field"],
   },
+  {
+    src: "20220306-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Arid",
+    description: `
+      Palette: [golden-sunset](https://lospec.com/palette-list/golden-sunset)
+      Restriction: golden-sunset palette
+    `,
+    date: "2022-03-06 23:44 UTC+1100",
+    tags: ["pixel_dailies", "Arid", "desert", "golden-sunset"],
+  },
 ]
 
 export default entries
