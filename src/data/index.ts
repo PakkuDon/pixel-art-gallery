@@ -2228,6 +2228,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-06 23:44 UTC+1100",
     tags: ["pixel_dailies", "Arid", "desert", "golden-sunset"],
   },
+  {
+    src: "20220307-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Crooked",
+    description: `
+      Palette: [WATT32](https://lospec.com/palette-list/watt32)
+    `,
+    date: "2022-03-07 23:40 UTC+1100",
+    tags: ["pixel_dailies", "Crooked", "tower", "building", "watt32"],
+  },
 ]
 
 export default entries
