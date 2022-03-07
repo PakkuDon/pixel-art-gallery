@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 06 Mar 2022 12:44:51 GMT</pubDate>
+        <pubDate>Mon, 07 Mar 2022 12:41:18 GMT</pubDate>
         
-      <item>
-        <title>Wheat Field</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211024-wheat-field.png" alt="20211024-wheat-field" />]]>
-          <p>Wheat Field</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/wheat-field">Wheat Field</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211024-wheat-field</link>
-        <pubDate>Sun, 24 Oct 2021 02:20:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #walrus</title>
         <description>
@@ -716,6 +702,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220306-pixeldailies</link>
         <pubDate>Sun, 06 Mar 2022 12:44:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Crooked</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220307-pixeldailies.png" alt="20220307-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Crooked</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/watt32">WATT32</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220307-pixeldailies</link>
+        <pubDate>Mon, 07 Mar 2022 12:40:00 GMT</pubDate>
       </item>
     
       </channel>
