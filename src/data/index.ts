@@ -2237,6 +2237,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-07 23:40 UTC+1100",
     tags: ["pixel_dailies", "Crooked", "tower", "building", "watt32"],
   },
+  {
+    src: "20220308-pixeldailies.png",
+    title: "Pixel Dailies prompt: #pizza",
+    description: `
+      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
+    `,
+    date: "2022-03-08 23:59 UTC+1100",
+    tags: ["pixel_dailies", "pizza", "food", "superficial-35"],
+  },
 ]
 
 export default entries
