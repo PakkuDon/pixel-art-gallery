@@ -2256,6 +2256,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-09 23:59 UTC+1100",
     tags: ["pixel_dailies", "set", "fungi", "superficial-35"],
   },
+  {
+    src: "20220310-pixeldailies.png",
+    title: "Pixel Dailies prompt: #wolf",
+    description: `
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+    `,
+    date: "2022-03-10 23:55 UTC+1100",
+    tags: ["pixel_dailies", "wolf", "moon", "night", "slso8"],
+  },
 ]
 
 export default entries
