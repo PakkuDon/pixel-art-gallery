@@ -2265,6 +2265,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-10 23:55 UTC+1100",
     tags: ["pixel_dailies", "wolf", "moon", "night", "slso8"],
   },
+  {
+    src: "20220311-pixeldailies.png",
+    title: "Pixel Dailies prompt: #teetering",
+    description: `
+      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
+
+      [Reference image](https://photos.com/featured/rocks-balancing-on-driftwood-sea-in-dimitri-otis.html)
+    `,
+    date: "2022-03-11 23:29 UTC+1100",
+    tags: ["pixel_dailies", "teetering", "rock", "beach", "polxel-43"],
+  },
 ]
 
 export default entries
