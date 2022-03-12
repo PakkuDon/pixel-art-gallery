@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Fri, 11 Mar 2022 12:32:31 GMT</pubDate>
+        <pubDate>Sat, 12 Mar 2022 11:20:59 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #InsideThePokeball</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211122-pixeldailies.png" alt="20211122-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #InsideThePokeball</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211122-pixeldailies</link>
-        <pubDate>Sun, 21 Nov 2021 13:51:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #mist</title>
         <description>
@@ -716,6 +702,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220311-pixeldailies</link>
         <pubDate>Fri, 11 Mar 2022 12:29:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #warped</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220312-pixeldailies.png" alt="20220312-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #warped</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/smoke-its-ok-to-feel">Smoke: It&#39;s OK to feel</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220312-pixeldailies</link>
+        <pubDate>Sat, 12 Mar 2022 11:16:00 GMT</pubDate>
       </item>
     
       </channel>
