@@ -2285,6 +2285,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-12 22:16 UTC+1100",
     tags: ["pixel_dailies", "warped", "clock", "smoke-its-ok-to-feel"],
   },
+  {
+    src: "20220313-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Aquatic",
+    description: `
+      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
+    `,
+    date: "2022-03-13 23:45 UTC+1100",
+    tags: ["pixel_dailies", "Aquatic", "water", "coral", "sweet-canyon-32"],
+  },
 ]
 
 export default entries
