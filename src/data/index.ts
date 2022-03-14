@@ -2294,6 +2294,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-13 23:45 UTC+1100",
     tags: ["pixel_dailies", "Aquatic", "water", "coral", "sweet-canyon-32"],
   },
+  {
+    src: "20220314-pixeldailies.png",
+    title: "Pixel Dailies prompt: #PocketWatch",
+    description: `
+      Palette: [Moor](https://lospec.com/palette-list/moor)
+    `,
+    date: "2022-03-14 23:57 UTC+1100",
+    tags: ["pixel_dailies", "PocketWatch", "clock", "moor"],
+  },
 ]
 
 export default entries
