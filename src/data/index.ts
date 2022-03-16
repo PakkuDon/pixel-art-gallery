@@ -2312,6 +2312,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-15 23:25 UTC+1100",
     tags: ["pixel_dailies", "windswept", "dandelion", "polxel-43"],
   },
+  {
+    src: "20220316-pixeldailies.png",
+    title: "Pixel Dailies prompt: #garland",
+    description: `
+      Palette: [Tranquility Plus 39](https://lospec.com/palette-list/tranquility-plus-39)
+    `,
+    date: "2022-03-16 23:59 UTC+1100",
+    tags: ["pixel_dailies", "garland", "flower", "tranquility-plus-39"],
+  },
 ]
 
 export default entries
