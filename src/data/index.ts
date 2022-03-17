@@ -2321,6 +2321,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-16 23:59 UTC+1100",
     tags: ["pixel_dailies", "garland", "flower", "tranquility-plus-39"],
   },
+  {
+    src: "20220317-pixeldailies.png",
+    title: "Pixel Dailies prompt: #gold",
+    description: `
+      Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
+    `,
+    date: "2022-03-17 23:59 UTC+1100",
+    tags: ["pixel_dailies", "gold", "golden-6"],
+  },
 ]
 
 export default entries
