@@ -2330,6 +2330,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-17 23:59 UTC+1100",
     tags: ["pixel_dailies", "gold", "golden-6"],
   },
+  {
+    src: "20220318-pixeldailies.png",
+    title: "Pixel Dailies prompt: #aviary",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+    `,
+    date: "2022-03-18 23:52 UTC+1100",
+    tags: ["pixel_dailies", "aviary", "bird", "sunshine-valley"],
+  },
 ]
 
 export default entries
