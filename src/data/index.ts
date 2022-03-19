@@ -2339,6 +2339,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-18 23:52 UTC+1100",
     tags: ["pixel_dailies", "aviary", "bird", "sunshine-valley"],
   },
+  {
+    src: "20220319-pixeldailies.png",
+    title: "Pixel Dailies prompt: #TreasureMap",
+    description: `
+      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
+    `,
+    date: "2022-03-19 23:51 UTC+1100",
+    tags: ["pixel_dailies", "TreasureMap", "map", "superficial-35"],
+  },
 ]
 
 export default entries
