@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 20 Mar 2022 12:52:24 GMT</pubDate>
+        <pubDate>Mon, 21 Mar 2022 12:59:47 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #forest</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211224-pixeldailies.png" alt="20211224-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #forest</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211224-pixeldailies</link>
-        <pubDate>Fri, 24 Dec 2021 09:25:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Grinch</title>
         <description>
@@ -716,6 +702,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220320-pixeldailies</link>
         <pubDate>Sun, 20 Mar 2022 12:51:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Lunchbox</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220321-pixeldailies.png" alt="20220321-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Lunchbox</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/endesga-64">Endesga 64</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220321-pixeldailies</link>
+        <pubDate>Mon, 21 Mar 2022 12:58:00 GMT</pubDate>
       </item>
     
       </channel>
