@@ -2357,6 +2357,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-20 23:51 UTC+1100",
     tags: ["pixel_dailies", "Rusty", "car", "superficial-35"],
   },
+  {
+    src: "20220321-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Lunchbox",
+    description: `
+      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
+    `,
+    date: "2022-03-21 23:58 UTC+1100",
+    tags: ["pixel_dailies", "Lunchbox", "food", "bento", "endesga-64"],
+  },
 ]
 
 export default entries
