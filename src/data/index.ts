@@ -2371,6 +2371,8 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: #RedPanda",
     description: `
       Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+
+      [Reference image](https://www.shutterstock.com/image-photo/red-panda-curled-asleep-tree-1424043)
     `,
     date: "2022-03-22 23:59 UTC+1100",
     tags: ["pixel_dailies", "RedPanda", "panda", "animal", "sunshine-valley"],
