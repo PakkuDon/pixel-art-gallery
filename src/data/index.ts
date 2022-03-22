@@ -2359,12 +2359,12 @@ const entries: PixelArtEntry[] = [
   },
   {
     src: "20220321-pixeldailies.png",
-    title: "Pixel Dailies prompt: #Lunchbox",
+    title: "Pixel Dailies prompt: #LunchBox",
     description: `
       Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
     `,
     date: "2022-03-21 23:58 UTC+1100",
-    tags: ["pixel_dailies", "Lunchbox", "food", "bento", "endesga-64"],
+    tags: ["pixel_dailies", "LunchBox", "food", "bento", "endesga-64"],
   },
 ]
 
