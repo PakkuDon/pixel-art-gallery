@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 21 Mar 2022 12:59:47 GMT</pubDate>
+        <pubDate>Tue, 22 Mar 2022 13:09:41 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Grinch</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20211225-pixeldailies.png" alt="20211225-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Grinch</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a><br/> Restriction: 32x32px
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20211225-pixeldailies</link>
-        <pubDate>Sat, 25 Dec 2021 07:09:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Wreath</title>
         <description>
@@ -706,16 +692,31 @@
     
 
       <item>
-        <title>Pixel Dailies prompt: #Lunchbox</title>
+        <title>Pixel Dailies prompt: #LunchBox</title>
         <description>
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220321-pixeldailies.png" alt="20220321-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Lunchbox</p>
+          <p>Pixel Dailies prompt: #LunchBox</p>
           <p> Palette: <a href="https://lospec.com/palette-list/endesga-64">Endesga 64</a>
  </p>
 
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220321-pixeldailies</link>
         <pubDate>Mon, 21 Mar 2022 12:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #RedPanda</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220322-pixeldailies.png" alt="20220322-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #RedPanda</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/sunshine-valley">Sunshine Valley</a></p>
+<p> <a href="https://www.shutterstock.com/image-photo/red-panda-curled-asleep-tree-1424043">Reference image</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220322-pixeldailies</link>
+        <pubDate>Tue, 22 Mar 2022 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
