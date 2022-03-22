@@ -2366,6 +2366,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-21 23:58 UTC+1100",
     tags: ["pixel_dailies", "LunchBox", "food", "bento", "endesga-64"],
   },
+  {
+    src: "20220322-pixeldailies.png",
+    title: "Pixel Dailies prompt: #RedPanda",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+    `,
+    date: "2022-03-22 23:59 UTC+1100",
+    tags: ["pixel_dailies", "RedPanda", "panda", "animal", "sunshine-valley"],
+  },
 ]
 
 export default entries
