@@ -2377,6 +2377,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-22 23:59 UTC+1100",
     tags: ["pixel_dailies", "RedPanda", "panda", "animal", "sunshine-valley"],
   },
+  {
+    src: "20220323-pixeldailies.png",
+    title: "Pixel Dailies prompt: #glider",
+    description: `
+      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
+    `,
+    date: "2022-03-23 23:59 UTC+1100",
+    tags: ["pixel_dailies", "glider", "landscape", "superficial-35"],
+  },
 ]
 
 export default entries
