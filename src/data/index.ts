@@ -2386,6 +2386,16 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-23 23:59 UTC+1100",
     tags: ["pixel_dailies", "glider", "landscape", "superficial-35"],
   },
+  {
+    src: "20220325-pixeldailies.png",
+    title: "Pixel Dailies prompt: #sky",
+    description: `
+      Palette: [golden-sunset](https://lospec.com/palette-list/golden-sunset)
+      Restriction: Don't use blue colours.
+    `,
+    date: "2022-03-25 23:57 UTC+1100",
+    tags: ["pixel_dailies", "sky", "sunset", "golden-sunset"],
+  },
 ]
 
 export default entries
