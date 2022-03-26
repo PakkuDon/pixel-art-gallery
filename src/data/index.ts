@@ -2396,6 +2396,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-25 23:57 UTC+1100",
     tags: ["pixel_dailies", "sky", "sunset", "golden-sunset"],
   },
+  {
+    src: "20220326-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Kirby",
+    description: `
+      Palette: [Pink Puff GB](https://lospec.com/palette-list/pink-puff-gb)
+    `,
+    date: "2022-03-26 23:09 UTC+1100",
+    tags: ["pixel_dailies", "Kirby", "pink-puff-gb"],
+  },
 ]
 
 export default entries
