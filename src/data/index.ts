@@ -2405,6 +2405,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-26 23:09 UTC+1100",
     tags: ["pixel_dailies", "Kirby", "pink-puff-gb"],
   },
+  {
+    src: "20220327-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Shrub",
+    description: `
+      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
+
+      Featuring ambusher from LISA: The Painful
+    `,
+    date: "2022-03-27 22:24 UTC+1100",
+    tags: ["pixel_dailies", "Shrub", "LISA", "superficial-35"],
+  },
 ]
 
 export default entries
