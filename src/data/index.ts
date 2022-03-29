@@ -2425,6 +2425,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-28 23:56 UTC+1100",
     tags: ["pixel_dailies", "construction", "nanner-32"],
   },
+  {
+    src: "20220329-pixeldailies.png",
+    title: "Pixel Dailies prompt: #BirdsEyeView",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+
+      Pixel a small scene from a straight-down perspective.
+    `,
+    date: "2022-03-29 23:53 UTC+1100",
+    tags: ["pixel_dailies", "BirdsEyeView", "suburban", "sunshine-valley"],
+  },
 ]
 
 export default entries
