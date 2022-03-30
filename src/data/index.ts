@@ -2436,6 +2436,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-29 23:53 UTC+1100",
     tags: ["pixel_dailies", "BirdsEyeView", "suburban", "sunshine-valley"],
   },
+  {
+    src: "20220330-pixeldailies.png",
+    title: "Pixel Dailies prompt: #seal",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Featuring Spheal, the Clap Pokémon
+    `,
+    date: "2022-03-30 23:13 UTC+1100",
+    tags: ["pixel_dailies", "seal", "pokemon", "apollo"],
+  },
 ]
 
 export default entries
