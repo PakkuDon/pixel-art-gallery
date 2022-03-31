@@ -2447,6 +2447,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-30 23:13 UTC+1100",
     tags: ["pixel_dailies", "seal", "pokemon", "apollo"],
   },
+  {
+    src: "20220331-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ShoppingMall",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Level 3 Emporium, Melbourne
+    `,
+    date: "2022-03-31 23:55 UTC+1100",
+    tags: ["pixel_dailies", "ShoppingMall", "apollo"],
+  },
 ]
 
 export default entries
