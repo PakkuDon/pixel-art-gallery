@@ -76,12 +76,12 @@ const ImageDetails = ({
           <div className="content">
             <strong>Tags: </strong>
             {image.tags.map((tag, index) => (
-              <>
+              <React.Fragment key={`tag-${tag}`}>
                 <Link to={`?q=${tag}`} key={`tag-${tag}`} className="tag">
                   {tag}
                 </Link>
                 {index < image.tags.length - 1 && ", "}
-              </>
+              </React.Fragment>
             ))}
           </div>
           <div className="content">
