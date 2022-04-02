@@ -1,6 +1,15 @@
 import React from "react"
-import ReactDOM from "react-dom"
+import { createRoot } from "react-dom/client"
 
 import App from "./App"
 
-ReactDOM.render(<App />, document.querySelector("#app"))
+const container = document.querySelector("#app")
+
+if (container) {
+  const root = createRoot(container)
+  root.render(<App />)
+} else {
+  throw new Error(
+    "Failed to render application. Container element #app not found"
+  )
+}
