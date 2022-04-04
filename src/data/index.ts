@@ -2458,6 +2458,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-03-31 23:55 UTC+1100",
     tags: ["pixel_dailies", "ShoppingMall", "apollo"],
   },
+  {
+    src: "20220404-pixeldailies.png",
+    title: "Pixel Dailies prompt: #CastleInTheSky",
+    description: `
+      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
+    `,
+    date: "2022-04-04 23:38 UTC+1000",
+    tags: ["pixel_dailies", "CastleInTheSky", "sky", "cloud", "polxel-43"],
+  },
 ]
 
 export default entries
