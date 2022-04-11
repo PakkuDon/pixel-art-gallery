@@ -2467,6 +2467,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-04 23:38 UTC+1000",
     tags: ["pixel_dailies", "CastleInTheSky", "sky", "cloud", "polxel-43"],
   },
+  {
+    src: "20220411-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Puzzle",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+    `,
+    date: "2022-04-11 23:26 UTC+1000",
+    tags: ["pixel_dailies", "Puzzle", "jigsaw", "sunshine-valley"],
+  },
 ]
 
 export default entries
