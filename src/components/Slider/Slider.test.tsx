@@ -2,7 +2,7 @@
 import React from "react"
 import { screen, render, fireEvent } from "@testing-library/react"
 
-import Slider from "../Slider"
+import Slider from "./Slider"
 
 describe("Slider", () => {
   it("renders slider with provided props", () => {

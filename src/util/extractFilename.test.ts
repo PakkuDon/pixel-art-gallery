@@ -1,4 +1,4 @@
-import extractFilename from "../extractFilename"
+import extractFilename from "./extractFilename"
 
 describe("extractFilename", () => {
   describe("when given a string containing no extension", () => {

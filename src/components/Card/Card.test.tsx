@@ -1,7 +1,7 @@
 import React from "react"
 import { screen, render } from "@testing-library/react"
 
-import Card from "../Card"
+import Card from "./Card"
 
 describe("Card", () => {
   it("renders children", () => {

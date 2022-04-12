@@ -1,4 +1,4 @@
-import generateRssFeed from "../generateRssFeed"
+import generateRssFeed from "./generateRssFeed"
 
 describe("generateRssFeed", () => {
   beforeAll(() => {
