@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 04 Apr 2022 13:39:26 GMT</pubDate>
+        <pubDate>Tue, 12 Apr 2022 13:33:26 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Lakehouse</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220106-pixeldailies.png" alt="20220106-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Lakehouse</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/sunshine-valley">Sunshine Valley</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220106-pixeldailies</link>
-        <pubDate>Thu, 06 Jan 2022 11:56:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #team</title>
         <description>
@@ -714,6 +700,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220404-pixeldailies</link>
         <pubDate>Mon, 04 Apr 2022 13:38:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Puzzle</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/20220411-pixeldailies.png" alt="20220411-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Puzzle</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/sunshine-valley">Sunshine Valley</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220411-pixeldailies</link>
+        <pubDate>Mon, 11 Apr 2022 13:26:00 GMT</pubDate>
       </item>
     
       </channel>
