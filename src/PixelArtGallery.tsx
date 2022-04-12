@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
 import extractFilename from "./util/extractFilename"
 import PixelArtRepository from "./PixelArtRepository"
+import { PixelArtEntry } from "./data"
 
 PixelArtRepository.load()
 
@@ -59,7 +60,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   }, [selectedImage])
 
   const onImageSelect = useCallback(
-    (image) => {
+    (image: PixelArtEntry) => {
       const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
       const queryString = searchQuery ? `?q=${searchQuery}` : ""
 
@@ -70,7 +71,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   )
 
   const onSearchQueryChange = useCallback(
-    (query) => {
+    (query: string) => {
       setParams(new URLSearchParams({ q: encodeURIComponent(query) }))
     },
     [setParams]

@@ -37,7 +37,7 @@ const ImageDetails = ({
     : ""
 
   const handleZoomChange = useCallback(
-    (value) => {
+    (value: number) => {
       setZoom(value)
     },
     [setZoom]

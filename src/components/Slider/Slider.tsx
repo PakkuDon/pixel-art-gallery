@@ -25,7 +25,7 @@ const Slider = ({ zoom, min, max, increment = 25, onChange }: SliderProps) => {
   }, [zoom, onChange])
 
   const handleZoomChange = useCallback(
-    (event) => {
+    (event: React.ChangeEvent<HTMLInputElement>) => {
       onChange(parseInt(event.target.value, 10))
     },
     [onChange]
