@@ -9,8 +9,8 @@ import "./SidebarEntry.css"
 
 interface SidebarEntryProps {
   entry: PixelArtEntry
-  isSelected: boolean
-  searchQuery: string
+  isSelected?: boolean
+  searchQuery?: string
 }
 
 const SidebarEntry = ({
