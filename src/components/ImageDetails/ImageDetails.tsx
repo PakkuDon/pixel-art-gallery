@@ -16,8 +16,8 @@ marked.setOptions({
 
 interface ImageDetailsProps {
   image: PixelArtEntry
-  previousImage: PixelArtEntry
-  nextImage: PixelArtEntry
+  previousImage?: PixelArtEntry
+  nextImage?: PixelArtEntry
 }
 const ImageDetails = ({
   image,
