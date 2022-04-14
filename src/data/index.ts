@@ -2476,6 +2476,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-11 23:26 UTC+1000",
     tags: ["pixel_dailies", "Puzzle", "jigsaw", "sunshine-valley"],
   },
+  {
+    src: "20220414-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ExplodedView",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-04-14 23:00 UTC+1000",
+    tags: ["pixel_dailies", "ExplodedView", "phone", "apollo"],
+  },
 ]
 
 export default entries
