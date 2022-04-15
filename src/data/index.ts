@@ -2485,6 +2485,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-14 23:00 UTC+1000",
     tags: ["pixel_dailies", "ExplodedView", "phone", "apollo"],
   },
+  {
+    src: "20220415-pixeldailies.png",
+    title: "Pixel Dailies prompt: #HairAccessory",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+
+      Featuring Tomoe Mami from Puella Magi Madoka Magica
+    `,
+    date: "2022-04-15 22:26 UTC+1000",
+    tags: ["pixel_dailies", "HairAccessory", "pmmm", "tomoe-mami", "new-worlds-46"],
+  },
 ]
 
 export default entries
