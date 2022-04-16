@@ -24,7 +24,7 @@ const ImageDetails = ({
   previousImage,
   nextImage,
 }: ImageDetailsProps) => {
-  const [zoom, setZoom] = useState(100)
+  const [zoom, setZoom] = useState(200)
   const [params] = useSearchParams()
 
   const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
