@@ -2496,6 +2496,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-15 22:26 UTC+1000",
     tags: ["pixel_dailies", "HairAccessory", "pmmm", "tomoe-mami", "new-worlds-46"],
   },
+  {
+    src: "20220417-pixeldailies.png",
+    title: "Pixel Dailies prompt: #FirstPersonHands",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-04-17 00:10 UTC+1000",
+    tags: ["pixel_dailies", "FirstPersonHands", "sushi", "food", "new-worlds-46"],
+  },
 ]
 
 export default entries
