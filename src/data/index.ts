@@ -2505,6 +2505,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-17 00:10 UTC+1000",
     tags: ["pixel_dailies", "FirstPersonHands", "sushi", "food", "new-worlds-46"],
   },
+  {
+    src: "20220418-pixeldailies.png",
+    title: "Pixel Dailies prompt: #IsometricRoom",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2022-04-18 20:35 UTC+1000",
+    tags: ["pixel_dailies", "IsometricRoom", "nostalgia48"],
+  },
 ]
 
 export default entries
