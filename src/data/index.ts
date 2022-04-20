@@ -2494,7 +2494,13 @@ const entries: PixelArtEntry[] = [
       Featuring Tomoe Mami from Puella Magi Madoka Magica
     `,
     date: "2022-04-15 22:26 UTC+1000",
-    tags: ["pixel_dailies", "HairAccessory", "pmmm", "tomoe-mami", "new-worlds-46"],
+    tags: [
+      "pixel_dailies",
+      "HairAccessory",
+      "pmmm",
+      "tomoe-mami",
+      "new-worlds-46",
+    ],
   },
   {
     src: "2022/20220417-pixeldailies.png",
@@ -2503,7 +2509,13 @@ const entries: PixelArtEntry[] = [
       Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
     `,
     date: "2022-04-17 00:10 UTC+1000",
-    tags: ["pixel_dailies", "FirstPersonHands", "sushi", "food", "new-worlds-46"],
+    tags: [
+      "pixel_dailies",
+      "FirstPersonHands",
+      "sushi",
+      "food",
+      "new-worlds-46",
+    ],
   },
   {
     src: "2022/20220418-pixeldailies.png",
