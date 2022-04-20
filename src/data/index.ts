@@ -2526,6 +2526,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-18 20:35 UTC+1000",
     tags: ["pixel_dailies", "IsometricRoom", "nostalgia48"],
   },
+  {
+    src: "2022/20220420-pixeldailies.png",
+    title: "Pixel Dailies prompt: #shattered",
+    description: `
+      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
+    `,
+    date: "2022-04-20 21:55 UTC+1000",
+    tags: ["pixel_dailies", "shattered", "moon", "night", "sky", "slso8"],
+  },
 ]
 
 export default entries
