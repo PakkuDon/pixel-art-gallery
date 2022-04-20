@@ -1,6 +1,6 @@
 .sidebar {
   max-height: 100%;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .entriesList {
@@ -42,7 +42,13 @@
   top: 0;
   background: white;
   z-index: 10;
-  display: flex;
+  gap: 10%;
+}
+
+.search-bar label,
+.search-bar input {
+  display: inline-block;
+  width: 90%;
 }
 
 .dark-theme .search-bar {
