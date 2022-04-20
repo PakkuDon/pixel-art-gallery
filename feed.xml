@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 19 Apr 2022 09:56:40 GMT</pubDate>
+        <pubDate>Wed, 20 Apr 2022 11:57:12 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #combo</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220115-pixeldailies.png" alt="20220115-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #combo</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220115-pixeldailies</link>
-        <pubDate>Sat, 15 Jan 2022 12:25:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #StillLife</title>
         <description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220418-pixeldailies</link>
         <pubDate>Mon, 18 Apr 2022 10:35:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #shattered</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220420-pixeldailies.png" alt="20220420-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #shattered</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220420-pixeldailies</link>
+        <pubDate>Wed, 20 Apr 2022 11:55:00 GMT</pubDate>
       </item>
     
       </channel>
