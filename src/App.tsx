@@ -24,6 +24,7 @@ const App = () => {
     document.body.classList.add(prefersDarkTheme ? "dark-theme" : "light-theme")
   }, [prefersDarkTheme])
 
+  // eslint-disable-next-line no-restricted-globals
   const basename = location.hostname.includes("github")
     ? "pixel-art-gallery"
     : ""
