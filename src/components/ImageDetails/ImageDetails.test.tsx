@@ -72,7 +72,7 @@ describe("ImageDetails", () => {
 
     expect(screen.getByRole("link", { name: "Next" })).toHaveAttribute(
       "href",
-      `/nextImage`
+      "/nextImage"
     )
   })
 
@@ -97,7 +97,7 @@ describe("ImageDetails", () => {
 
     expect(screen.getByRole("link", { name: "Previous" })).toHaveAttribute(
       "href",
-      `/previousImage`
+      "/previousImage"
     )
   })
 })
