@@ -2535,6 +2535,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-20 21:55 UTC+1000",
     tags: ["pixel_dailies", "shattered", "moon", "night", "sky", "slso8"],
   },
+  {
+    src: "2022/20220421-pixeldailies.png",
+    title: "Pixel Dailies prompt: #HealingItem",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2022-04-21 22:54 UTC+1000",
+    tags: ["pixel_dailies", "HealingItem", "fairy", "glass", "nostalgia48"],
+  },
 ]
 
 export default entries
