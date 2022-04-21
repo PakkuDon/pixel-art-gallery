@@ -17,7 +17,6 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     semi: "off",
-    "no-unused-vars": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
