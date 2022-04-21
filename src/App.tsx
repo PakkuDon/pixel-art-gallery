@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import classnames from "classnames"
 
 import PixelArtGallery from "./PixelArtGallery"
 import Card from "./components/Card"
+import Footer from "./components/Footer"
 import "normalize.css"
 import "./styles.css"
 
@@ -41,36 +41,10 @@ const App = () => {
         />
       </Routes>
       <Card>
-        <footer className={classnames("footer", "content")}>
-          <ul>
-            <li>
-              <label htmlFor="prefers-dark-theme">
-                <input
-                  type="checkbox"
-                  id="prefers-dark-theme"
-                  checked={prefersDarkTheme}
-                  onChange={() => setPrefersDarkTheme(!prefersDarkTheme)}
-                />{" "}
-                Dark theme?
-              </label>
-            </li>
-            <li>
-              <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
-                RSS Feed
-              </a>
-            </li>
-            <li>
-              Source code on{" "}
-              <a
-                href="https://github.com/PakkuDon/pixel-art-gallery"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </li>
-          </ul>
-        </footer>
+        <Footer
+          prefersDarkTheme={prefersDarkTheme}
+          onDarkThemeToggle={() => setPrefersDarkTheme(!prefersDarkTheme)}
+        />
       </Card>
     </Router>
   )

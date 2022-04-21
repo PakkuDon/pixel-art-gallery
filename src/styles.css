@@ -85,16 +85,3 @@ img {
     padding: 1em;
   }
 }
-
-.footer {
-  text-align: right;
-}
-
-.footer ul {
-  margin: 0;
-}
-
-.footer li {
-  display: inline-block;
-  margin-left: 1.5em;
-}
