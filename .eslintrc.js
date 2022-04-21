@@ -20,7 +20,6 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "jest-dom"],
   rules: {
-    quotes: ["error", "double"],
     semi: "off",
     "import/extensions": [
       "error",
