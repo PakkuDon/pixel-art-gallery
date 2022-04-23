@@ -2553,6 +2553,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-22 23:46 UTC+1000",
     tags: ["pixel_dailies", "prize", "trophy", "smoke-its-ok-to-feel"],
   },
+  {
+    src: "2022/20220424-pixeldailies.png",
+    title: "Pixel Dailies prompt: #garnish",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-04-24 00:38 UTC+1000",
+    tags: ["pixel_dailies", "garnish", "food", "new-worlds-46"],
+  },
 ]
 
 export default entries
