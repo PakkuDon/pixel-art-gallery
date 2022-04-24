@@ -2562,6 +2562,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-24 00:38 UTC+1000",
     tags: ["pixel_dailies", "garnish", "food", "new-worlds-46"],
   },
+  {
+    src: "2022/20220424-hot-chocolate.png",
+    title: "Mork Campfire Hot Chocolate",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-04-24 20:38 UTC+1000",
+    tags: ["noprompt", "chocolate", "drink", "new-worlds-46"],
+  },
 ]
 
 export default entries
