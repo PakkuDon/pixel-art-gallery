@@ -2580,6 +2580,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-04-25 12:41 UTC+1000",
     tags: ["pixel_dailies", "Table", "furniture", "new-worlds-46"],
   },
+  {
+    src: "2022/20220427-pixeldailies.png",
+    title: "Pixel Dailies prompt: #phonebooth",
+    description: `
+      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
+    `,
+    date: "2022-04-27 23:59 UTC+1000",
+    tags: ["pixel_dailies", "phonebooth", "superficial-35"],
+  },
 ]
 
 export default entries
