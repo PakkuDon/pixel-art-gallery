@@ -133,7 +133,13 @@ const entries: PixelArtEntry[] = [
       Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
     `,
     date: "2020-11-06 23:58 UTC+1100",
-    tags: ["lospecdailies", "mushroom", "lospec_palette_of_the_day", "lux3k"],
+    tags: [
+      "lospecdailies",
+      "mushroom",
+      "food",
+      "lospec_palette_of_the_day",
+      "lux3k",
+    ],
   },
   {
     src: "2020/20201108-lospecdaily.png",
@@ -264,6 +270,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "waffle",
+      "food",
       "lospec_palette_of_the_day",
       "cheese-palette",
     ],
@@ -433,7 +440,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2020-12-10 00:07 UTC+1100",
-    tags: ["no_prompt", "apple", "tree", "apollo"],
+    tags: ["no_prompt", "apple", "tree", "food", "apollo"],
   },
   {
     src: "2020/20201210-lospecdaily.png",
@@ -453,7 +460,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
     `,
     date: "2020-12-11 22:52 UTC+1100",
-    tags: ["pixel_dailies", "waterbottle", "water", "nanner-32"],
+    tags: ["pixel_dailies", "waterbottle", "water", "drink", "nanner-32"],
   },
   {
     src: "2020/20201213-lospecdaily.png",
@@ -465,6 +472,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "lospecdailies",
       "mushroom",
+      "food",
       "lospec_palette_of_the_day",
       "tropica33",
     ],
@@ -485,7 +493,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
     date: "2020-12-18 23:58 UTC+1100",
-    tags: ["pixel_dailies", "sour", "glass", "endesga-36"],
+    tags: ["pixel_dailies", "sour", "glass", "drink", "endesga-36"],
   },
   {
     src: "2020/20201219-pixeldailies.png",
@@ -642,7 +650,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Zughy 32](https://lospec.com/palette-list/zughy-32)
     `,
     date: "2021-01-07 18:15 UTC+1100",
-    tags: ["pixel_dailies", "drupe", "fruit", "zughy-32"],
+    tags: ["pixel_dailies", "drupe", "fruit", "food", "zughy-32"],
   },
   {
     src: "2021/20210108-lospecdaily.png",
@@ -799,7 +807,7 @@ const entries: PixelArtEntry[] = [
       🥭🦜🥭🥭
     `,
     date: "2021-01-27 23:14 UTC+1100",
-    tags: ["pixel_dailies", "bird", "mango", "zughy-32"],
+    tags: ["pixel_dailies", "bird", "mango", "fruit", "food", "zughy-32"],
   },
   {
     src: "2021/20210128-pixeldailies.png",
@@ -1236,7 +1244,7 @@ const entries: PixelArtEntry[] = [
       Palette: [15P DX](https://lospec.com/palette-list/15p-dx)
     `,
     date: "2021-04-02 23:55 UTC+1100",
-    tags: ["pixel_dailies", "carrot", "15p-dx"],
+    tags: ["pixel_dailies", "carrot", "food", "15p-dx"],
   },
   {
     src: "2021/20210407-pixeldailies.png",
@@ -1290,7 +1298,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-04-23 23:59 UTC+1000",
-    tags: ["pixel_dailies", "HomeMade", "tea", "apollo"],
+    tags: ["pixel_dailies", "HomeMade", "tea", "drink", "apollo"],
   },
   {
     src: "2021/20210425-cat.png",
@@ -1319,7 +1327,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-04-26 23:59 UTC+1000",
-    tags: ["pixel_dailies", "Cookies", "apollo"],
+    tags: ["pixel_dailies", "Cookies", "food", "drink", "apollo"],
   },
   {
     src: "2021/20210512-pixeldailies.png",
@@ -1550,7 +1558,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-08-17 23:46 UTC+1000",
-    tags: ["pixel_dailies", "groceries", "fruit", "apollo"],
+    tags: ["pixel_dailies", "groceries", "fruit", "food", "apollo"],
   },
   {
     src: "2021/20210821-pixeldailies.png",
@@ -2159,7 +2167,7 @@ const entries: PixelArtEntry[] = [
       Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
     `,
     date: "2022-02-17 00:10 UTC+1100",
-    tags: ["pixel_dailies", "JuiceBox", "superficial-35"],
+    tags: ["pixel_dailies", "JuiceBox", "drink", "superficial-35"],
   },
   {
     src: "2022/20220217-pixeldailies2.png",
