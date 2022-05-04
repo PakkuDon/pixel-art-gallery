@@ -2624,6 +2624,24 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-02 23:03 UTC+1000",
     tags: ["pixel_dailies", "TreasureGuardian", "dragon", "new-worlds-46"],
   },
+  {
+    src: "2022/20220504-pixeldailies.png",
+    title: "Pixel Dailies prompt: #isolated",
+    description: `
+      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
+
+      Elliðaey, Iceland
+    `,
+    date: "2022-05-04 20:33 UTC+1000",
+    tags: [
+      "pixel_dailies",
+      "isolated",
+      "house",
+      "island",
+      "landscape",
+      "polxel-43",
+    ],
+  },
 ]
 
 export default entries
