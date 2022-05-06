@@ -2642,6 +2642,15 @@ const entries: PixelArtEntry[] = [
       "polxel-43",
     ],
   },
+  {
+    src: "2022/20220506-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Mario64",
+    description: `
+      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
+    `,
+    date: "2022-05-06 23:59 UTC+1000",
+    tags: ["pixel_dailies", "Mario64", "mario", "endesga-64"],
+  },
 ]
 
 export default entries
