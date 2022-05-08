@@ -2651,6 +2651,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-06 23:59 UTC+1000",
     tags: ["pixel_dailies", "Mario64", "mario", "endesga-64"],
   },
+  {
+    src: "2022/20220508-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Clock",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-05-08 23:58 UTC+1000",
+    tags: ["pixel_dailies", "Clock", "new-worlds-46"],
+  },
 ]
 
 export default entries
