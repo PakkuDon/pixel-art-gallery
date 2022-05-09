@@ -2669,6 +2669,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-09 22:22 UTC+1000",
     tags: ["noprompt", "covid-19", "new-worlds-46"],
   },
+  {
+    src: "2022/20220509-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Organic",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-05-09 23:54 UTC+1000",
+    tags: ["pixel_dailies", "Organic", "food", "fruit", "new-worlds-46"],
+  },
 ]
 
 export default entries
