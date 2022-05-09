@@ -2660,6 +2660,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-08 23:58 UTC+1000",
     tags: ["pixel_dailies", "Clock", "new-worlds-46"],
   },
+  {
+    src: "2022/20220509-rapid-antigen-test.png",
+    title: "Negative RAT Test",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-05-09 22:22 UTC+1000",
+    tags: ["noprompt", "covid-19", "new-worlds-46"],
+  },
 ]
 
 export default entries
