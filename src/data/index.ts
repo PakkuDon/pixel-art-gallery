@@ -2687,6 +2687,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-11 23:58 UTC+1000",
     tags: ["pixel_dailies", "keys", "new-worlds-46"],
   },
+  {
+    src: "2022/20220513-pixeldailies.png",
+    title: "Pixel Dailies prompt: #slice",
+    description: `
+      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
+    `,
+    date: "2022-05-13 23:58 UTC+1000",
+    tags: ["pixel_dailies", "slice", "cake", "food", "zykro-48"],
+  },
 ]
 
 export default entries
