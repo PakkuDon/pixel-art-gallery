@@ -2705,6 +2705,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-14 22:57 UTC+1000",
     tags: ["pixel_dailies", "breeze", "windchime", "polxel-43"],
   },
+  {
+    src: "2022/20220516-pixeldailies.png",
+    title: "Pixel Dailies prompt: #WildAnimal",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-05-16 23:56 UTC+1000",
+    tags: ["pixel_dailies", "WildAnimal", "koala", "apollo"],
+  },
 ]
 
 export default entries
