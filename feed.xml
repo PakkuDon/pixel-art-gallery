@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 15 May 2022 11:34:10 GMT</pubDate>
+        <pubDate>Mon, 16 May 2022 14:07:30 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #ruins</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220305-pixeldailies.png" alt="20220305-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #ruins</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/wheat-field">Wheat Field</a><br/> Restriction: 30x24px or less
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220305-pixeldailies</link>
-        <pubDate>Sat, 05 Mar 2022 05:27:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Arid</title>
         <description>
@@ -711,6 +697,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220514-pixeldailies</link>
         <pubDate>Sat, 14 May 2022 12:57:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #WildAnimal</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220516-pixeldailies.png" alt="20220516-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #WildAnimal</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220516-pixeldailies</link>
+        <pubDate>Mon, 16 May 2022 13:56:00 GMT</pubDate>
       </item>
     
       </channel>
