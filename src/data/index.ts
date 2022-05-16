@@ -19,6 +19,7 @@ const entries: PixelArtEntry[] = [
       "lospecdailies",
       "magic",
       "lospec_palette_of_the_day",
+      "animal",
       "monometalic",
     ],
   },
@@ -57,7 +58,13 @@ const entries: PixelArtEntry[] = [
       Palette: [Cave Rock](https://lospec.com/palette-list/cave-rock)
     `,
     date: "2020-10-15 23:59 UTC+1100",
-    tags: ["lospecdailies", "dog", "lospec_palette_of_the_day", "cave-rock"],
+    tags: [
+      "lospecdailies",
+      "dog",
+      "lospec_palette_of_the_day",
+      "animal",
+      "cave-rock",
+    ],
   },
   {
     src: "2020/20201017-lospecdaily.png",
@@ -94,7 +101,13 @@ const entries: PixelArtEntry[] = [
       Palette: [gamer19](https://lospec.com/palette-list/gamer19)
     `,
     date: "2020-10-19 21:06 UTC+1100",
-    tags: ["lospecdailies", "fish", "lospec_palette_of_the_day", "gamer19"],
+    tags: [
+      "lospecdailies",
+      "fish",
+      "lospec_palette_of_the_day",
+      "animal",
+      "gamer19",
+    ],
   },
   {
     src: "2020/20201020-lospecdaily.png",
@@ -103,7 +116,13 @@ const entries: PixelArtEntry[] = [
       Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
     `,
     date: "2020-10-20 00:48 UTC+1100",
-    tags: ["lospecdailies", "dog", "lospec_palette_of_the_day", "golden-6"],
+    tags: [
+      "lospecdailies",
+      "dog",
+      "lospec_palette_of_the_day",
+      "animal",
+      "golden-6",
+    ],
   },
   {
     src: "2020/20201024-pixeldailies.png",
@@ -201,7 +220,7 @@ const entries: PixelArtEntry[] = [
 
     `,
     date: "2020-11-10 00:13 UTC+1100",
-    tags: ["pixel_dailies", "bird"],
+    tags: ["pixel_dailies", "animal", "bird"],
   },
   {
     src: "2020/20201111-lospecdaily.png",
@@ -314,7 +333,13 @@ const entries: PixelArtEntry[] = [
       House sparrow
     `,
     date: "2020-11-24 23:02 UTC+1100",
-    tags: ["lospecdailies", "bird", "lospec_palette_of_the_day", "combi-16"],
+    tags: [
+      "lospecdailies",
+      "bird",
+      "lospec_palette_of_the_day",
+      "animal",
+      "combi-16",
+    ],
   },
   {
     src: "2020/20201126-lospecdaily.png",
@@ -338,7 +363,7 @@ const entries: PixelArtEntry[] = [
       Restriction: 32x32px or less per bear
     `,
     date: "2020-11-28 23:02 UTC+1100",
-    tags: ["pixel_dailies", "set", "bear", "endesga-36"],
+    tags: ["pixel_dailies", "set", "bear", "animal", "endesga-36"],
   },
   {
     src: "2020/20201130-noprompt.png",
@@ -374,6 +399,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "badger",
+      "animal",
       "lospec_palette_of_the_day",
       "starmancer",
     ],
@@ -451,7 +477,13 @@ const entries: PixelArtEntry[] = [
       no talk me im angy
     `,
     date: "2020-12-10 23:00 UTC+1100",
-    tags: ["lospecdailies", "cat", "lospec_palette_of_the_day", "nanner-32"],
+    tags: [
+      "lospecdailies",
+      "cat",
+      "lospec_palette_of_the_day",
+      "animal",
+      "nanner-32",
+    ],
   },
   {
     src: "2020/20201211-pixeldailies.png",
@@ -516,6 +548,7 @@ const entries: PixelArtEntry[] = [
       "christmas",
       "reindeer",
       "lospec_palette_of_the_day",
+      "animal",
       "dreamscape8",
     ],
   },
@@ -627,7 +660,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-01-01 23:36 UTC+1100",
-    tags: ["pixel_dailies", "ox", "apollo"],
+    tags: ["pixel_dailies", "ox", "animal", "apollo"],
   },
   {
     src: "2021/20210103-pixeldailies.png",
@@ -723,7 +756,7 @@ const entries: PixelArtEntry[] = [
       Peregrine falcon
     `,
     date: "2021-01-16 02:18 UTC+1100",
-    tags: ["lospecdailies", "bird", "apollo"],
+    tags: ["lospecdailies", "bird", "animal", "apollo"],
   },
   {
     src: "2021/20210117-pixeldailies.png",
@@ -762,7 +795,7 @@ const entries: PixelArtEntry[] = [
       Sulfur-crested cockatoo
     `,
     date: "2021-01-22 21:20 UTC+1100",
-    tags: ["pixel_dailies", "mohawk", "endesga-64"],
+    tags: ["pixel_dailies", "mohawk", "bird", "animal", "endesga-64"],
   },
   {
     src: "2021/20210123-noprompt.png",
@@ -780,7 +813,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-01-24 23:47 UTC+1100",
-    tags: ["pixel_dailies", "wildlife", "sunset", "apollo"],
+    tags: ["pixel_dailies", "wildlife", "sunset", "animal", "apollo"],
   },
   {
     src: "2021/20210126-lospecdaily.png",
@@ -807,7 +840,15 @@ const entries: PixelArtEntry[] = [
       🥭🦜🥭🥭
     `,
     date: "2021-01-27 23:14 UTC+1100",
-    tags: ["pixel_dailies", "bird", "mango", "fruit", "food", "zughy-32"],
+    tags: [
+      "pixel_dailies",
+      "bird",
+      "mango",
+      "fruit",
+      "food",
+      "animal",
+      "zughy-32",
+    ],
   },
   {
     src: "2021/20210128-pixeldailies.png",
@@ -946,7 +987,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-02-12 23:25 UTC+1100",
-    tags: ["noprompt", "crab", "apollo"],
+    tags: ["noprompt", "crab", "animal", "apollo"],
   },
   {
     src: "2021/20210213-pixeldailies.png",
@@ -964,7 +1005,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-02-14 23:59 UTC+1100",
-    tags: ["noprompt", "crab", "valentines", "apollo"],
+    tags: ["noprompt", "crab", "valentines", "animal", "apollo"],
   },
   {
     src: "2021/20210215-pixeldailies.png",
@@ -973,7 +1014,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-02-15 23:59 UTC+1100",
-    tags: ["pixel_dailies", "lovebirds", "bird", "apollo"],
+    tags: ["pixel_dailies", "lovebirds", "bird", "animal", "apollo"],
   },
   {
     src: "2021/20210219-pixeldailies.png",
@@ -991,7 +1032,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-02-22 00:35 UTC+1100",
-    tags: ["pixel_dailies", "bunny", "apollo"],
+    tags: ["pixel_dailies", "bunny", "animal", "apollo"],
   },
   {
     src: "2021/20210224-pixeldailies.png",
@@ -1039,6 +1080,7 @@ const entries: PixelArtEntry[] = [
       "whale",
       "ocean",
       "water",
+      "animal",
       "earth-vibes",
     ],
   },
@@ -1094,7 +1136,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
     `,
     date: "2021-03-12 22:55 UTC+1100",
-    tags: ["pixel_dailies", "kiwi", "bird", "earth-vibes"],
+    tags: ["pixel_dailies", "kiwi", "bird", "animal", "earth-vibes"],
   },
   {
     src: "2021/20210313-pixeldailies.png",
@@ -1180,7 +1222,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-03-19 23:58 UTC+1100",
-    tags: ["pixel_dailies", "nocturnal", "owl", "apollo"],
+    tags: ["pixel_dailies", "nocturnal", "owl", "bird", "animal", "apollo"],
   },
   {
     src: "2021/20210320-pixeldailies.png",
@@ -1207,7 +1249,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-03-28 23:59 UTC+1100",
-    tags: ["pixel_dailies", "Extinct", "mammoth", "apollo"],
+    tags: ["pixel_dailies", "Extinct", "mammoth", "animal", "apollo"],
   },
   {
     src: "2021/20210329-pixeldailies.png",
@@ -1309,7 +1351,7 @@ const entries: PixelArtEntry[] = [
       Based off one of my coworker's plushies.
     `,
     date: "2021-04-25 00:51 UTC+1000",
-    tags: ["noprompt", "cat", "apollo"],
+    tags: ["noprompt", "cat", "animal", "apollo"],
   },
   {
     src: "2021/20210425-pixeldailies.png",
@@ -1362,6 +1404,7 @@ const entries: PixelArtEntry[] = [
       "sky",
       "whale",
       "sunset",
+      "animal",
       "slso8",
     ],
   },
@@ -1487,6 +1530,7 @@ const entries: PixelArtEntry[] = [
       "set",
       "parrot",
       "rainbow lorikeet",
+      "animal",
       "earth-vibes",
     ],
   },
@@ -1540,7 +1584,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
     `,
     date: "2021-08-10 23:55 UTC+1000",
-    tags: ["pixel_dailies", "duck", "bird", "water", "nanner-32"],
+    tags: ["pixel_dailies", "duck", "bird", "water", "animal", "nanner-32"],
   },
   {
     src: "2021/20210813-pixeldailies.png",
@@ -1617,7 +1661,7 @@ const entries: PixelArtEntry[] = [
       Featuring Sakamoto from Nichijou
     `,
     date: "2021-09-18 22:05 UTC+1000",
-    tags: ["pixel_dailies", "cat", "nichijou", "apollo"],
+    tags: ["pixel_dailies", "cat", "nichijou", "animal", "apollo"],
   },
   {
     src: "2021/20210919-pixeldailies.png",
@@ -1701,7 +1745,7 @@ const entries: PixelArtEntry[] = [
       See you at the 200th post :D
     `,
     date: "2021-10-10 13:20 UTC+1100",
-    tags: ["rabbit", "redraw", "monometalic"],
+    tags: ["rabbit", "redraw", "animal", "monometalic"],
   },
   {
     src: "2021/20211011-on-tap.png",
@@ -1739,7 +1783,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-11-05 01:21 UTC+1100",
-    tags: ["pixel_dailies", "walrus", "apollo"],
+    tags: ["pixel_dailies", "walrus", "animal", "apollo"],
   },
   {
     src: "2021/20211106-pixeldailies.png",
@@ -1759,7 +1803,7 @@ const entries: PixelArtEntry[] = [
       Palette: [MATT36](https://lospec.com/palette-list/matt36)
     `,
     date: "2021-11-09 23:57 UTC+1100",
-    tags: ["pixel_dailies", "porcupine", "matt36"],
+    tags: ["pixel_dailies", "porcupine", "animal", "matt36"],
   },
   {
     src: "2021/20211112-pixeldailies.png",
@@ -1909,7 +1953,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2021-12-29 00:11 UTC+1100",
-    tags: ["pixel_dailies", "deer", "apollo"],
+    tags: ["pixel_dailies", "deer", "animal", "apollo"],
   },
   {
     src: "2021/20211231-pixeldailies.png",
@@ -2064,7 +2108,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Nyx8](https://lospec.com/palette-list/nyx8)
     `,
     date: "2022-01-24 22:17 UTC+1100",
-    tags: ["pixel_dailies", "Raven", "bird", "nyx8"],
+    tags: ["pixel_dailies", "Raven", "bird", "animal", "nyx8"],
   },
   {
     src: "2022/20220126-lospecdaily.png",
@@ -2271,7 +2315,7 @@ const entries: PixelArtEntry[] = [
       Palette: [SLSO8](https://lospec.com/palette-list/slso8)
     `,
     date: "2022-03-10 23:55 UTC+1100",
-    tags: ["pixel_dailies", "wolf", "moon", "night", "slso8"],
+    tags: ["pixel_dailies", "wolf", "moon", "night", "animal", "slso8"],
   },
   {
     src: "2022/20220311-pixeldailies.png",
@@ -2345,7 +2389,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
     `,
     date: "2022-03-18 23:52 UTC+1100",
-    tags: ["pixel_dailies", "aviary", "bird", "sunshine-valley"],
+    tags: ["pixel_dailies", "aviary", "bird", "animal", "sunshine-valley"],
   },
   {
     src: "2022/20220319-pixeldailies.png",
@@ -2622,7 +2666,13 @@ const entries: PixelArtEntry[] = [
       Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
     `,
     date: "2022-05-02 23:03 UTC+1000",
-    tags: ["pixel_dailies", "TreasureGuardian", "dragon", "new-worlds-46"],
+    tags: [
+      "pixel_dailies",
+      "TreasureGuardian",
+      "dragon",
+      "animal",
+      "new-worlds-46",
+    ],
   },
   {
     src: "2022/20220504-pixeldailies.png",
@@ -2712,7 +2762,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2022-05-16 23:56 UTC+1000",
-    tags: ["pixel_dailies", "WildAnimal", "koala", "apollo"],
+    tags: ["pixel_dailies", "WildAnimal", "koala", "animal", "apollo"],
   },
 ]
 
