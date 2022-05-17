@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 16 May 2022 14:07:30 GMT</pubDate>
+        <pubDate>Tue, 17 May 2022 13:59:08 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Arid</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220306-pixeldailies.png" alt="20220306-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Arid</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/golden-sunset">golden-sunset</a><br/> Restriction: golden-sunset palette
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220306-pixeldailies</link>
-        <pubDate>Sun, 06 Mar 2022 12:44:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Crooked</title>
         <description>
@@ -711,6 +697,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220516-pixeldailies</link>
         <pubDate>Mon, 16 May 2022 13:56:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #LighterThanAir</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220517-pixeldailies.png" alt="20220517-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #LighterThanAir</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/polxel-43">Polxel-43</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220517-pixeldailies</link>
+        <pubDate>Tue, 17 May 2022 13:57:00 GMT</pubDate>
       </item>
     
       </channel>
