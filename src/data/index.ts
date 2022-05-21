@@ -2782,6 +2782,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-19 23:57 UTC+1000",
     tags: ["pixel_dailies", "stretched", "food", "pizza", "new-worlds-46"],
   },
+  {
+    src: "2022/20220522-mockup.png",
+    title: "Photo viewer mockup",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Coming to a portfolio near you
+    `,
+    date: "2022-05-22 01:05 UTC+1000",
+    tags: ["noprompt", "mockup", "apollo"],
+  },
 ]
 
 export default entries
