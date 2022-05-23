@@ -2793,6 +2793,21 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-22 01:05 UTC+1000",
     tags: ["noprompt", "mockup", "apollo"],
   },
+  {
+    src: "2022/20220523-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Sunlight",
+    description: `
+      Palette: [The Y Gigante Reverted](https://lospec.com/palette-list/the-y-gigante-reverted)
+    `,
+    date: "2022-05-23 23:42 UTC+1000",
+    tags: [
+      "pixel_dailies",
+      "Sunlight",
+      "sunset",
+      "water",
+      "the-y-gigante-reverted",
+    ],
+  },
 ]
 
 export default entries
