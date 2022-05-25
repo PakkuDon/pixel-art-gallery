@@ -2808,6 +2808,15 @@ const entries: PixelArtEntry[] = [
       "the-y-gigante-reverted",
     ],
   },
+  {
+    src: "2022/20220526-pixeldailies.png",
+    title: "Pixel Dailies prompt: #empty",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-05-26 00:10 UTC+1000",
+    tags: ["pixel_dailies", "empty", "glass", "new-worlds-46"],
+  },
 ]
 
 export default entries
