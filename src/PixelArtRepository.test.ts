@@ -38,36 +38,60 @@ describe("PixelArtRepository", () => {
   })
 
   describe(".countByTag", () => {
-    it("returns a tally containing number of times each tag is used", () => {
+    it("returns tally containing number of times each tag is used sorted in descending order", () => {
       PixelArtRepository.load([
         {
           src: "img.png",
           title: "foo",
           date: "2000-01-01 23:59 UTC+1100",
-          tags: ["pixel_dailies", "animal", "bird"],
+          tags: ["pixel_dailies", "animal"],
         },
         {
           src: "img.jpg",
           title: "bar",
           date: "2000-01-01 23:59 UTC+1100",
-          tags: ["pixel_dailies", "food"],
-        },
-        {
-          src: "img.gif",
-          title: "foobar",
-          date: "2000-01-02 23:59 UTC+1100",
-          tags: ["noprompt", "landscape"],
+          tags: ["pixel_dailies"],
         },
       ])
 
-      expect(PixelArtRepository.countByTag()).toEqual({
-        pixel_dailies: 2,
-        animal: 1,
-        bird: 1,
-        food: 1,
-        landscape: 1,
-        noprompt: 1,
-      })
+      expect(PixelArtRepository.countByTag()).toEqual([
+        {
+          tag: "pixel_dailies",
+          count: 2,
+        },
+        {
+          tag: "animal",
+          count: 1,
+        },
+      ])
+    })
+
+    it("returns tally sorted by tags if counts are the same", () => {
+      PixelArtRepository.load([
+        {
+          src: "img.png",
+          title: "foo",
+          date: "2000-01-01 23:59 UTC+1100",
+          tags: ["pixel_dailies"],
+        },
+        {
+          src: "img.jpg",
+          title: "bar",
+          date: "2000-01-01 23:59 UTC+1100",
+          tags: ["noprompt"],
+        },
+      ])
+
+      expect(PixelArtRepository.countByTag()).toEqual([
+        {
+          tag: "noprompt",
+          count: 1,
+        },
+        {
+          tag: "pixel_dailies",
+          count: 1,
+        },
+      ])
     })
   })
 })

@@ -4,7 +4,7 @@ interface Repository {
   entries: PixelArtEntry[]
   load: (entries?: PixelArtEntry[]) => void
   findAll: (predicate?: (image: PixelArtEntry) => boolean) => PixelArtEntry[]
-  countByTag: () => object
+  countByTag: () => Array<{ tag: string; count: number }>
 }
 
 const PixelArtRepository: Repository = {
@@ -20,6 +20,7 @@ const PixelArtRepository: Repository = {
       [index: string]: number
     }
     const tally: Tally = {}
+    const result: Array<{ tag: string; count: number }> = []
 
     this.entries.forEach((entry: PixelArtEntry) => {
       entry.tags.forEach((tag) => {
@@ -31,7 +32,21 @@ const PixelArtRepository: Repository = {
       })
     })
 
-    return tally
+    Object.entries(tally).forEach(([tag, count]) => {
+      result.push({ tag, count })
+    })
+
+    result.sort((a, b) => {
+      if (a.count > b.count) {
+        return -1
+      } else if (a.count < b.count) {
+        return 1
+      } else {
+        return a.tag.localeCompare(b.tag)
+      }
+    })
+
+    return result
   },
 }
 
