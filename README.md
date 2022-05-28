@@ -48,18 +48,19 @@ yarn deploy
 
 ### Updating pixel art entries
 
-- Add new pixel art images to `img` directory
-- Add JSON entry for new image to `src/data.js`. Schema for JSON object is as follows:
+- Add new pixel art images to `img/<current year>` directory
+- Add JSON entry for new image to `src/data/index.ts`. Schema for JSON object is as follows:
 
 ```js
 {
-  src: "[filename minus `img/` prefix (eg: 20200101.png)]",
+  src: "[filename minus `img/` prefix (eg: 2020/20200101.png)]",
   title: "One-liner to describe piece",
   description: `
     Multiline string. Accepts markdown
   `,
   date: "date formatted in YYYY-MM-DD HH:SS UTC Offset (eg: 2020-01-01 00:00 +1100)",
   tags: ["words", "can contain spaces"],
+  aliases: ["optiona list of other URL slugs to use for this entry"],
 },
 ```
 
