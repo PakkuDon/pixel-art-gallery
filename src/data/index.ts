@@ -2817,6 +2817,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-26 00:10 UTC+1000",
     tags: ["pixel_dailies", "empty", "glass", "new-worlds-46"],
   },
+  {
+    src: "2022/20220529-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Rift",
+    description: `
+      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
+    `,
+    date: "2022-05-29 23:58 UTC+1000",
+    tags: ["pixel_dailies", "Rift", "landscape", "draxalette"],
+  },
 ]
 
 export default entries
