@@ -2823,7 +2823,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
     `,
-    date: "2022-05-29 23:58 UTC+1000",
+    date: "2022-05-29 23:59 UTC+1000",
     tags: ["pixel_dailies", "Rift", "landscape", "draxalette"],
   },
 ]
