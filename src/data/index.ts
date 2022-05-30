@@ -2835,6 +2835,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-30 00:14 UTC+1000",
     tags: ["redraw", "landscape", "draxalette"],
   },
+  {
+    src: "2022/20220530-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #Planets",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-05-30 23:59 UTC+1000",
+    tags: ["pixel_dailies", "Planets", "space", "new-worlds-46"],
+  },
 ]
 
 export default entries
