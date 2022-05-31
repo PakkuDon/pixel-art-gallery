@@ -2844,6 +2844,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-30 23:59 UTC+1000",
     tags: ["pixel_dailies", "Planets", "space", "new-worlds-46"],
   },
+  {
+    src: "2022/20220531-pixeldailies.png",
+    title: "Pixel Dailies prompt: #cool",
+    description: `
+      Palette: [Resurrect 64](https://lospec.com/palette-list/resurrect-64)
+    `,
+    date: "2022-05-31 23:59 UTC+1000",
+    tags: ["pixel_dailies", "cool", "drink", "resurrect-64"],
+  },
 ]
 
 export default entries
