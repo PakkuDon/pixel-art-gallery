@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
@@ -10,6 +11,7 @@ interface SidebarProps {
   entries: PixelArtEntry[]
   searchQuery: string
   selectedImage: PixelArtEntry
+  countByTag: Array<{ tag: string; count: number }>
   onImageSelect: (entry: PixelArtEntry) => void
   onSearchQueryChange: (query: string) => void
 }
@@ -18,6 +20,7 @@ const Sidebar = ({
   entries,
   searchQuery,
   selectedImage,
+  countByTag,
   onImageSelect,
   onSearchQueryChange,
 }: SidebarProps) => (
@@ -42,7 +45,19 @@ const Sidebar = ({
         </button>
       </div>
       <div className="content">
-        {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+        <div>
+          {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+        </div>
+        <div>
+          {countByTag.map(({ tag, count }, index) => (
+            <React.Fragment key={`tag-with-count-${tag}`}>
+              <Link to={`?q=${tag}`}>
+                {tag} ({count})
+              </Link>
+              {index < countByTag.length - 1 && ", "}
+            </React.Fragment>
+          ))}
+        </div>
       </div>
       <div className="entriesDropdown">
         <select
