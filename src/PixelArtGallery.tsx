@@ -18,7 +18,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   const [entries, setPixelArtEntries] = useState(
     PixelArtRepository.findAll().reverse()
   )
-  const [countByTag, setCountByTag] = useState(PixelArtRepository.countByTag())
+  const [countByTag] = useState(PixelArtRepository.countByTag())
   const [selectedImage, setSelectedImage] = useState(entries[0])
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [params, setParams] = useSearchParams()
