@@ -7,6 +7,8 @@ import { PixelArtEntry } from "../../data"
 import SidebarEntry from "./SidebarEntry"
 import "./Sidebar.css"
 
+const TAGS_TO_DISPLAY = 10
+
 interface SidebarProps {
   entries: PixelArtEntry[]
   searchQuery: string
@@ -49,7 +51,8 @@ const Sidebar = ({
           {entries.length} {entries.length === 1 ? "entry" : "entries"}.
         </div>
         <div>
-          {countByTag.map(({ tag, count }, index) => (
+          Frequently used tags:{" "}
+          {countByTag.slice(0, TAGS_TO_DISPLAY).map(({ tag, count }, index) => (
             <React.Fragment key={`tag-with-count-${tag}`}>
               <Link to={`?q=${tag}`}>
                 {tag} ({count})
