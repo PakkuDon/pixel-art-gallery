@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 02 Jun 2022 14:07:52 GMT</pubDate>
+        <pubDate>Fri, 03 Jun 2022 12:15:45 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #windswept</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220315-pixeldailies.png" alt="20220315-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #windswept</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/polxel-43">Polxel-43</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220315-pixeldailies</link>
-        <pubDate>Tue, 15 Mar 2022 12:25:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #garland</title>
         <description>
@@ -711,6 +697,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220531-pixeldailies</link>
         <pubDate>Tue, 31 May 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #purple</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220603-pixeldailies.png" alt="20220603-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #purple</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/skyline">Skyline</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220603-pixeldailies</link>
+        <pubDate>Fri, 03 Jun 2022 12:13:00 GMT</pubDate>
       </item>
     
       </channel>
