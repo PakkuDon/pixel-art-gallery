@@ -2853,6 +2853,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-05-31 23:59 UTC+1000",
     tags: ["pixel_dailies", "cool", "drink", "resurrect-64"],
   },
+  {
+    src: "2022/20220603-pixeldailies.png",
+    title: "Pixel Dailies prompt: #purple",
+    description: `
+      Palette: [Skyline](https://lospec.com/palette-list/skyline)
+    `,
+    date: "2022-06-03 22:13 UTC+1000",
+    tags: ["pixel_dailies", "purple", "tree", "landscape", "skyline"],
+  },
 ]
 
 export default entries
