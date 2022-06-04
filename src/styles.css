@@ -6,14 +6,12 @@
 
 html {
   font-family: "Noto Sans", sans-serif;
-  height: 100vh;
 }
 
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
 }
 
 a {
@@ -74,6 +72,11 @@ p {
 }
 
 @media (min-width: 720px) {
+  html,
+  body {
+    height: 100%;
+  }
+
   #app {
     width: 80vw;
   }
