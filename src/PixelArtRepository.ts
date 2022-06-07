@@ -25,7 +25,7 @@ const PixelArtRepository: Repository = {
     this.entries.forEach((entry: PixelArtEntry) => {
       entry.tags.forEach((tag) => {
         if (tally[tag]) {
-          tally[tag]++
+          tally[tag] += 1
         } else {
           tally[tag] = 1
         }
@@ -39,11 +39,11 @@ const PixelArtRepository: Repository = {
     result.sort((a, b) => {
       if (a.count > b.count) {
         return -1
-      } else if (a.count < b.count) {
-        return 1
-      } else {
-        return a.tag.localeCompare(b.tag)
       }
+      if (a.count < b.count) {
+        return 1
+      }
+      return a.tag.localeCompare(b.tag)
     })
 
     return result
