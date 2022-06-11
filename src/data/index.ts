@@ -2871,6 +2871,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-06-05 00:33 UTC+1000",
     tags: ["pixel_dailies", "sandbox", "grass", "endesga-36"],
   },
+  {
+    src: "2022/20220611-pixeldailies.png",
+    title: "Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have",
+    description: `
+      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
+    `,
+    date: "2022-06-11 23:45 UTC+1000",
+    tags: ["pixel_dailies", "LuxuryItem", "landscape", "polxel-43"],
+  },
 ]
 
 export default entries
