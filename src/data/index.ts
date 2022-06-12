@@ -2873,12 +2873,22 @@ const entries: PixelArtEntry[] = [
   },
   {
     src: "2022/20220611-pixeldailies.png",
-    title: "Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have",
+    title:
+      "Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have",
     description: `
       Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
     `,
     date: "2022-06-11 23:45 UTC+1000",
     tags: ["pixel_dailies", "LuxuryItem", "landscape", "polxel-43"],
+  },
+  {
+    src: "2022/20220612-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Colorful",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-06-12 23:57 UTC+1000",
+    tags: ["pixel_dailies", "Colorful", "paint", "wood", "new-worlds-46"],
   },
 ]
 
