@@ -2890,6 +2890,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-06-12 23:57 UTC+1000",
     tags: ["pixel_dailies", "Colorful", "paint", "wood", "new-worlds-46"],
   },
+  {
+    src: "2022/20220613-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Meadow",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      [Reference image](https://www.shutterstock.com/image-photo/magic-pink-rhododendron-flowers-glowing-by-340450949)
+    `,
+    date: "2022-06-13 23:59 UTC+1000",
+    tags: ["pixel_dailies", "Meadow", "landscape", "sunset", "apollo"],
+  },
 ]
 
 export default entries
