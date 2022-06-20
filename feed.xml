@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 13 Jun 2022 14:09:59 GMT</pubDate>
+        <pubDate>Mon, 20 Jun 2022 14:03:13 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Rusty</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220320-pixeldailies.png" alt="20220320-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Rusty</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/superficial-35">superficial-35</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220320-pixeldailies</link>
-        <pubDate>Sun, 20 Mar 2022 12:51:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #LunchBox</title>
         <description>
@@ -712,6 +698,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220613-pixeldailies</link>
         <pubDate>Mon, 13 Jun 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: Set of #candy,</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220620-pixeldailies.png" alt="20220620-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: Set of #candy,</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
+<p> Restriction; 24x24 px max per candy
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220620-pixeldailies</link>
+        <pubDate>Mon, 20 Jun 2022 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
