@@ -2901,6 +2901,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-06-13 23:59 UTC+1000",
     tags: ["pixel_dailies", "Meadow", "landscape", "sunset", "apollo"],
   },
+  {
+    src: "2022/20220620-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #candy,",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Restriction; 24x24 px max per candy
+    `,
+    date: "2022-06-20 23:59 UTC+1000",
+    tags: ["pixel_dailies", "candy", "food", "set", "apollo"],
+  },
 ]
 
 export default entries
