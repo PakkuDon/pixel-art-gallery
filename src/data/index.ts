@@ -2912,6 +2912,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-06-20 23:59 UTC+1000",
     tags: ["pixel_dailies", "candy", "food", "set", "apollo"],
   },
+  {
+    src: "2022/20220624-pixeldailies.png",
+    title: "Pixel Dailies prompt: #CausticReflection",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2022-06-24 00:19 UTC+1000",
+    tags: ["pixel_dailies", "CausticReflection", "glass", "drink", "new-worlds-46"],
+  },
 ]
 
 export default entries
