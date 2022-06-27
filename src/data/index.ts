@@ -2921,6 +2921,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-06-24 00:19 UTC+1000",
     tags: ["pixel_dailies", "CausticReflection", "glass", "drink", "new-worlds-46"],
   },
+  {
+    src: "2022/20220627-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ExoticFruit",
+    description: `
+      Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
+    `,
+    date: "2022-06-27 23:59 UTC+1000",
+    tags: ["pixel_dailies", "ExoticFruit", "fruit", "food", "aap-64"],
+  },
 ]
 
 export default entries
