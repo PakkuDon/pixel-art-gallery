@@ -2919,7 +2919,13 @@ const entries: PixelArtEntry[] = [
       Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
     `,
     date: "2022-06-24 00:19 UTC+1000",
-    tags: ["pixel_dailies", "CausticReflection", "glass", "drink", "new-worlds-46"],
+    tags: [
+      "pixel_dailies",
+      "CausticReflection",
+      "glass",
+      "drink",
+      "new-worlds-46",
+    ],
   },
   {
     src: "2022/20220627-pixeldailies.png",
@@ -2937,7 +2943,14 @@ const entries: PixelArtEntry[] = [
       Palette: [Tranquility Plus 39](https://lospec.com/palette-list/tranquility-plus-39)
     `,
     date: "2022-06-28 23:59 UTC+1000",
-    tags: ["pixel_dailies", "crab", "water", "sand", "animal", "tranquility-plus-39"],
+    tags: [
+      "pixel_dailies",
+      "crab",
+      "water",
+      "sand",
+      "animal",
+      "tranquility-plus-39",
+    ],
   },
 ]
 
