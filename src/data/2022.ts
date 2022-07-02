@@ -991,6 +991,8 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: #Potatoes",
     description: `
       Palette: [GORA63](https://lospec.com/palette-list/gora63)
+
+      [Reference image](https://www.shutterstock.com/image-photo/baked-potatoes-cheese-bacon-1092212291)
     `,
     date: "2022-07-02 23:59 UTC+1000",
     tags: [
