@@ -986,6 +986,21 @@ const entries: PixelArtEntry[] = [
       "tranquility-plus-39",
     ],
   },
+  {
+    src: "2022/20220702-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Potatoes",
+    description: `
+      Palette: [GORA63](https://lospec.com/palette-list/gora63)
+    `,
+    date: "2022-07-02 23:59 UTC+1000",
+    tags: [
+      "pixel_dailies",
+      "Potatoes",
+      "food",
+      "wood",
+      "gora63",
+    ],
+  },
 ]
 
 export default entries
