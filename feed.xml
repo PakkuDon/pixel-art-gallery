@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 02 Jul 2022 14:03:12 GMT</pubDate>
+        <pubDate>Sun, 03 Jul 2022 10:44:08 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Kirby</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220326-pixeldailies.png" alt="20220326-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Kirby</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/pink-puff-gb">Pink Puff GB</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220326-pixeldailies</link>
-        <pubDate>Sat, 26 Mar 2022 12:09:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Shrub</title>
         <description>
@@ -713,6 +699,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220702-pixeldailies</link>
         <pubDate>Sat, 02 Jul 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Popcorn</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220703-pixeldailies.png" alt="20220703-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Popcorn</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220703-pixeldailies</link>
+        <pubDate>Sun, 03 Jul 2022 10:43:00 GMT</pubDate>
       </item>
     
       </channel>
