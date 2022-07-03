@@ -1003,6 +1003,15 @@ const entries: PixelArtEntry[] = [
       "gora63",
     ],
   },
+  {
+    src: "2022/20220703-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Popcorn",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-07-03 20:43 UTC+1000",
+    tags: ["pixel_dailies", "Popcorn", "food", "apollo"],
+  },
 ]
 
 export default entries
