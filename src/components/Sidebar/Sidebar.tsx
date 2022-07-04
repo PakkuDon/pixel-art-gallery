@@ -14,7 +14,6 @@ interface SidebarProps {
   searchQuery: string
   selectedImage: PixelArtEntry
   countByTag: Array<{ tag: string; count: number }>
-  onImageSelect: (entry: PixelArtEntry) => void
   onSearchQueryChange: (query: string) => void
 }
 
@@ -23,7 +22,6 @@ const Sidebar = ({
   searchQuery,
   selectedImage,
   countByTag,
-  onImageSelect,
   onSearchQueryChange,
 }: SidebarProps) => (
   <Card>

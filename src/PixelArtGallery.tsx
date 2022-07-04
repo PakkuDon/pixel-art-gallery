@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useCallback } from "react"
-import { useNavigate, useParams, useSearchParams } from "react-router-dom"
+import { useParams, useSearchParams } from "react-router-dom"
 import classnames from "classnames"
 
 import Sidebar from "./components/Sidebar"
 import ImageDetails from "./components/ImageDetails"
 import extractFilename from "./util/extractFilename"
 import PixelArtRepository from "./PixelArtRepository"
-import { PixelArtEntry } from "./data"
 
 PixelArtRepository.load()
 
@@ -23,7 +22,6 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [params, setParams] = useSearchParams()
   const { id } = useParams()
-  const navigate = useNavigate()
 
   useEffect(() => {
     let selectedFilename = ""
@@ -60,17 +58,6 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
     }
   }, [selectedImage])
 
-  const onImageSelect = useCallback(
-    (image: PixelArtEntry) => {
-      const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
-      const queryString = searchQuery ? `?q=${searchQuery}` : ""
-
-      const selectedFilename = extractFilename(image.src)
-      navigate(`/${selectedFilename}${queryString}`)
-    },
-    [params]
-  )
-
   const onSearchQueryChange = useCallback(
     (query: string) => {
       setParams(new URLSearchParams({ q: encodeURIComponent(query) }))
@@ -104,7 +91,6 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
         entries={entries}
         searchQuery={new URLSearchParams(params).get("q") || ""}
         selectedImage={selectedImage}
-        onImageSelect={onImageSelect}
         onSearchQueryChange={onSearchQueryChange}
         countByTag={countByTag}
       />
