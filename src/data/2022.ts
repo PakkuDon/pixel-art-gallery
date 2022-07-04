@@ -995,13 +995,7 @@ const entries: PixelArtEntry[] = [
       [Reference image](https://www.shutterstock.com/image-photo/baked-potatoes-cheese-bacon-1092212291)
     `,
     date: "2022-07-02 23:59 UTC+1000",
-    tags: [
-      "pixel_dailies",
-      "Potatoes",
-      "food",
-      "wood",
-      "gora63",
-    ],
+    tags: ["pixel_dailies", "Potatoes", "food", "wood", "gora63"],
   },
   {
     src: "2022/20220703-pixeldailies.png",
