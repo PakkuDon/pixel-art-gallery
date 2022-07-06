@@ -37,23 +37,26 @@
   }
 }
 
-.search-bar {
-  padding: 1em 0.5em;
+.sidebar .header {
   position: sticky;
   left: 0;
   top: 0;
-  background: white;
   z-index: 10;
+  display: inline-block;
+  background: white;
+}
+
+.dark-theme .sidebar .header {
+  background: #222;
+  color: #fafafa;
+}
+
+.search-bar {
+  padding: 1em 0.5em;
   gap: 10%;
 }
 
 .search-bar label,
 .search-bar input {
-  display: inline-block;
   width: 90%;
-}
-
-.dark-theme .search-bar {
-  background: #222;
-  color: #fafafa;
 }

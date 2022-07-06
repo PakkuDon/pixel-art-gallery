@@ -26,38 +26,42 @@ const Sidebar = ({
 }: SidebarProps) => (
   <Card>
     <aside className="sidebar">
-      <div className="search-bar">
-        <label htmlFor="search-input">
-          <input
-            id="search-input"
-            type="text"
-            value={decodeURIComponent(searchQuery)}
-            onChange={(event) => onSearchQueryChange(event.target.value)}
-            placeholder="Search"
-          />
-        </label>
-        <button
-          type="button"
-          aria-label="Clear search field"
-          onClick={() => onSearchQueryChange("")}
-        >
-          x
-        </button>
-      </div>
-      <div className="content">
-        <div>
-          {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+      <div className="header">
+        <div className="search-bar">
+          <label htmlFor="search-input">
+            <input
+              id="search-input"
+              type="text"
+              value={decodeURIComponent(searchQuery)}
+              onChange={(event) => onSearchQueryChange(event.target.value)}
+              placeholder="Search"
+            />
+          </label>
+          <button
+            type="button"
+            aria-label="Clear search field"
+            onClick={() => onSearchQueryChange("")}
+          >
+            x
+          </button>
         </div>
-        <div>
-          Frequently used tags:{" "}
-          {countByTag.slice(0, TAGS_TO_DISPLAY).map(({ tag, count }, index) => (
-            <React.Fragment key={`tag-with-count-${tag}`}>
-              <Link to={`?q=${tag}`}>
-                {tag} ({count})
-              </Link>
-              {index < countByTag.length - 1 && ", "}
-            </React.Fragment>
-          ))}
+        <div className="content">
+          <div>
+            {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+          </div>
+          <div>
+            Frequently used tags:{" "}
+            {countByTag
+              .slice(0, TAGS_TO_DISPLAY)
+              .map(({ tag, count }, index) => (
+                <React.Fragment key={`tag-with-count-${tag}`}>
+                  <Link to={`?q=${tag}`}>
+                    {tag} ({count})
+                  </Link>
+                  {index < countByTag.length - 1 && ", "}
+                </React.Fragment>
+              ))}
+          </div>
         </div>
       </div>
       <div className="entriesList">
