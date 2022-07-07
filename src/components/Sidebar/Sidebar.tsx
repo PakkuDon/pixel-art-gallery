@@ -5,9 +5,9 @@ import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
 import { PixelArtEntry } from "../../data"
 import SidebarEntry from "./SidebarEntry"
-import "./Sidebar.css"
+import PopularTagList from "./PopularTagList"
 
-const TAGS_TO_DISPLAY = 10
+import "./Sidebar.css"
 
 interface SidebarProps {
   entries: PixelArtEntry[]
@@ -49,19 +49,7 @@ const Sidebar = ({
           <div>
             {entries.length} {entries.length === 1 ? "entry" : "entries"}.
           </div>
-          <div>
-            Frequently used tags:{" "}
-            {countByTag
-              .slice(0, TAGS_TO_DISPLAY)
-              .map(({ tag, count }, index) => (
-                <React.Fragment key={`tag-with-count-${tag}`}>
-                  <Link to={`?q=${tag}`}>
-                    {tag} ({count})
-                  </Link>
-                  {index < countByTag.length - 1 && ", "}
-                </React.Fragment>
-              ))}
-          </div>
+          <PopularTagList countByTag={countByTag} />
         </div>
       </div>
       <div className="entriesList">
