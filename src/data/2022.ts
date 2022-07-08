@@ -1006,6 +1006,16 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-03 20:43 UTC+1000",
     tags: ["pixel_dailies", "Popcorn", "food", "apollo"],
   },
+  {
+    src: "2022/20220708-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #InventoryItems",
+    description: `
+      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
+      Restriction: 16x16px or less per item
+    `,
+    date: "2022-07-08 23:57 UTC+1000",
+    tags: ["pixel_dailies", "InventoryItems", "set", "endesga-64"],
+  },
 ]
 
 export default entries
