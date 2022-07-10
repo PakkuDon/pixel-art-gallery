@@ -1016,6 +1016,16 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-08 23:57 UTC+1000",
     tags: ["pixel_dailies", "InventoryItems", "set", "endesga-64"],
   },
+  {
+    src: "2022/20220710-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Baked",
+    description: `
+      Palette: [Borkfest](https://lospec.com/palette-list/borkfest)
+      Restriction: Borkfest palette
+    `,
+    date: "2022-07-10 23:58 UTC+1000",
+    tags: ["pixel_dailies", "Baked", "food", "borkfest"],
+  },
 ]
 
 export default entries
