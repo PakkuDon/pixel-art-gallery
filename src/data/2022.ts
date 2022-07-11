@@ -1026,6 +1026,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-10 23:58 UTC+1000",
     tags: ["pixel_dailies", "Baked", "food", "borkfest"],
   },
+  {
+    src: "2022/20220711-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Tape",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-07-11 20:53 UTC+1000",
+    tags: ["pixel_dailies", "Tape", "cassette", "apollo"],
+  },
 ]
 
 export default entries
