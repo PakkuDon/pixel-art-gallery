@@ -1035,6 +1035,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-11 20:53 UTC+1000",
     tags: ["pixel_dailies", "Tape", "cassette", "apollo"],
   },
+  {
+    src: "2022/20220713-pixeldailies.png",
+    title: "Pixel Dailies prompt: #checkpoint",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-07-13 23:58 UTC+1000",
+    tags: ["pixel_dailies", "checkpoint", "flag", "new-worlds-46"],
+  },
 ]
 
 export default entries
