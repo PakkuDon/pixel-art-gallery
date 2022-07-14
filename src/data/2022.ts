@@ -1044,6 +1044,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-13 23:58 UTC+1000",
     tags: ["pixel_dailies", "checkpoint", "flag", "new-worlds-46"],
   },
+  {
+    src: "2022/20220714-pixeldailies.png",
+    title: "Pixel Dailies prompt: #inverted",
+    description: `
+      Palette: [Waldgeist](https://lospec.com/palette-list/waldgeist)
+    `,
+    date: "2022-07-14 23:59 UTC+1000",
+    tags: ["pixel_dailies", "inverted", "landscape", "waldgeist"],
+  },
 ]
 
 export default entries
