@@ -1053,6 +1053,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-14 23:59 UTC+1000",
     tags: ["pixel_dailies", "inverted", "landscape", "waldgeist"],
   },
+  {
+    src: "2022/20220716-pixeldailies.png",
+    title: "Pixel Dailies prompt: #FloorPlan",
+    description: `
+      Palette: [JustParchment8](https://lospec.com/palette-list/justparchment8)
+    `,
+    date: "2022-07-16 23:20 UTC+1000",
+    tags: ["pixel_dailies", "FloorPlan", "map", "justparchment8"],
+  },
 ]
 
 export default entries
