@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 14 Jul 2022 14:01:13 GMT</pubDate>
+        <pubDate>Sat, 16 Jul 2022 13:22:06 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #CastleInTheSky</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220404-pixeldailies.png" alt="20220404-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #CastleInTheSky</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/polxel-43">Polxel-43</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220404-pixeldailies</link>
-        <pubDate>Mon, 04 Apr 2022 13:38:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Puzzle</title>
         <description>
@@ -709,6 +695,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220714-pixeldailies</link>
         <pubDate>Thu, 14 Jul 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #FloorPlan</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220716-pixeldailies.png" alt="20220716-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #FloorPlan</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/justparchment8">JustParchment8</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220716-pixeldailies</link>
+        <pubDate>Sat, 16 Jul 2022 13:20:00 GMT</pubDate>
       </item>
     
       </channel>
