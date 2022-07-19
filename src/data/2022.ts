@@ -1071,6 +1071,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-17 23:59 UTC+1000",
     tags: ["pixel_dailies", "Plastic", "cup", "new-worlds-46"],
   },
+  {
+    src: "2022/20220719-pixeldailies.png",
+    title: "Pixel Dailies prompt: #AugmentedReality",
+    description: `
+      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
+    `,
+    date: "2022-07-19 23:59 UTC+1000",
+    tags: ["pixel_dailies", "AugmentedReality", "pokemon", "sunshine-valley"],
+  },
 ]
 
 export default entries
