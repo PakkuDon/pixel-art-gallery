@@ -1080,6 +1080,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-19 23:59 UTC+1000",
     tags: ["pixel_dailies", "AugmentedReality", "pokemon", "sunshine-valley"],
   },
+  {
+    src: "2022/20220722-pixeldailies.png",
+    title: "Pixel Dailies prompt: #onion",
+    description: `
+      Palette: [Moor](https://lospec.com/palette-list/moor)
+    `,
+    date: "2022-07-22 23:59 UTC+1000",
+    tags: ["pixel_dailies", "onion", "food", "moor"],
+  },
 ]
 
 export default entries
