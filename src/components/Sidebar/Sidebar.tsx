@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
