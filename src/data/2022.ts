@@ -1089,6 +1089,21 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-22 23:59 UTC+1000",
     tags: ["pixel_dailies", "onion", "food", "moor"],
   },
+  {
+    src: "2022/20220724-lospecdaily.png",
+    title: "Lospec Dailies prompt: #owl",
+    description: `
+      Palette: [ReWild 64](https://lospec.com/palette-list/rewild-64)
+    `,
+    date: "2022-07-24 23:59 UTC+1000",
+    tags: [
+      "lospecdailies",
+      "owl",
+      "lospec_palette_of_the_day",
+      "animal",
+      "rewild-64",
+    ],
+  },
 ]
 
 export default entries
