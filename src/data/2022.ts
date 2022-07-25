@@ -1104,6 +1104,15 @@ const entries: PixelArtEntry[] = [
       "rewild-64",
     ],
   },
+  {
+    src: "2022/20220725-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Broken",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2022-07-25 23:49 UTC+1000",
+    tags: ["pixel_dailies", "Broken", "egg", "food", "endesga-36"],
+  },
 ]
 
 export default entries
