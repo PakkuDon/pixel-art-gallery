@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sun, 24 Jul 2022 14:00:40 GMT</pubDate>
+        <pubDate>Tue, 26 Jul 2022 13:23:33 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #IsometricRoom</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220418-pixeldailies.png" alt="20220418-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #IsometricRoom</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220418-pixeldailies</link>
-        <pubDate>Mon, 18 Apr 2022 10:35:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #shattered</title>
         <description>
@@ -708,6 +694,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220724-lospecdaily</link>
         <pubDate>Sun, 24 Jul 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Broken</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220725-pixeldailies.png" alt="20220725-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Broken</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220725-pixeldailies</link>
+        <pubDate>Mon, 25 Jul 2022 13:49:00 GMT</pubDate>
       </item>
     
       </channel>
