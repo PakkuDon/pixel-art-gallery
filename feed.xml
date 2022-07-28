@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Tue, 26 Jul 2022 13:23:33 GMT</pubDate>
+        <pubDate>Thu, 28 Jul 2022 14:02:27 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #shattered</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220420-pixeldailies.png" alt="20220420-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #shattered</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/slso8">SLSO8</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220420-pixeldailies</link>
-        <pubDate>Wed, 20 Apr 2022 11:55:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #HealingItem</title>
         <description>
@@ -708,6 +694,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220725-pixeldailies</link>
         <pubDate>Mon, 25 Jul 2022 13:49:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #monument</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220728-pixeldailies.png" alt="20220728-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #monument</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/the-y-masters">The Y masters</a></p>
+<p> Shrine of Remembrance, Melbourne, Victoria
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220728-pixeldailies</link>
+        <pubDate>Thu, 28 Jul 2022 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
