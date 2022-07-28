@@ -1113,6 +1113,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-25 23:49 UTC+1000",
     tags: ["pixel_dailies", "Broken", "egg", "food", "endesga-36"],
   },
+  {
+    src: "2022/20220728-pixeldailies.png",
+    title: "Pixel Dailies prompt: #monument",
+    description: `
+      Palette: [The Y masters](https://lospec.com/palette-list/the-y-masters)
+
+      Shrine of Remembrance, Melbourne, Victoria
+    `,
+    date: "2022-07-28 23:59 UTC+1000",
+    tags: ["pixel_dailies", "monument", "landmark", "the-y-masters"],
+  },
 ]
 
 export default entries
