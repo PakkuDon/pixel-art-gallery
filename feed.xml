@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 28 Jul 2022 14:02:27 GMT</pubDate>
+        <pubDate>Sat, 30 Jul 2022 13:13:03 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #HealingItem</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220421-pixeldailies.png" alt="20220421-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #HealingItem</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220421-pixeldailies</link>
-        <pubDate>Thu, 21 Apr 2022 12:54:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #prize</title>
         <description>
@@ -709,6 +695,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220728-pixeldailies</link>
         <pubDate>Thu, 28 Jul 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #coral</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220730-pixeldailies.png" alt="20220730-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #coral</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/coral-reef">Coral Reef</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220730-pixeldailies</link>
+        <pubDate>Sat, 30 Jul 2022 13:12:00 GMT</pubDate>
       </item>
     
       </channel>
