@@ -1124,6 +1124,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-28 23:59 UTC+1000",
     tags: ["pixel_dailies", "monument", "landmark", "the-y-masters"],
   },
+  {
+    src: "2022/20220730-pixeldailies.png",
+    title: "Pixel Dailies prompt: #coral",
+    description: `
+      Palette: [Coral Reef](https://lospec.com/palette-list/coral-reef)
+    `,
+    date: "2022-07-30 23:12 UTC+1000",
+    tags: ["pixel_dailies", "coral", "water", "coral-reef"],
+  },
 ]
 
 export default entries
