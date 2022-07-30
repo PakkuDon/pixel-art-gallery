@@ -321,7 +321,14 @@ const entries: PixelArtEntry[] = [
       Palette: [WATT32](https://lospec.com/palette-list/watt32)
     `,
     date: "2022-03-07 23:40 UTC+1100",
-    tags: ["pixel_dailies", "Crooked", "tower", "building", "watt32"],
+    tags: [
+      "pixel_dailies",
+      "Crooked",
+      "tower",
+      "building",
+      "landmark",
+      "watt32",
+    ],
   },
   {
     src: "2022/20220308-pixeldailies.png",

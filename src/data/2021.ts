@@ -299,7 +299,7 @@ const entries: PixelArtEntry[] = [
       Cow Up a Tree, Docklands, Victoria
     `,
     date: "2021-02-07 23:58 UTC+1100",
-    tags: ["pixel_dailies", "Sculpture", "2-bit-grayscale"],
+    tags: ["pixel_dailies", "Sculpture", "landmark", "2-bit-grayscale"],
   },
   {
     src: "2021/20210209-pixeldailies.png",
@@ -1046,7 +1046,7 @@ const entries: PixelArtEntry[] = [
       [Reference image](https://windows10spotlight.com/images/d7ab09721ad573de49ac62f34bd73d80)
     `,
     date: "2021-10-01 23:33 UTC+1000",
-    tags: ["landscape", "sweet-canyon-extended-64"],
+    tags: ["landscape", "landmark", "sweet-canyon-extended-64"],
   },
   {
     src: "2021/20211002-pixeldailies.png",
@@ -1104,7 +1104,7 @@ const entries: PixelArtEntry[] = [
       Happy Pixel Art Day everyone!
     `,
     date: "2021-10-11 22:44 UTC+1100",
-    tags: ["noprompt", "sculpture", "water", "sunshine-valley"],
+    tags: ["noprompt", "sculpture", "water", "landmark", "sunshine-valley"],
   },
   {
     src: "2021/20211016-pixeldailies.png",
@@ -1292,7 +1292,14 @@ const entries: PixelArtEntry[] = [
       Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
     `,
     date: "2021-12-28 22:00 UTC+1100",
-    tags: ["noprompt", "restaurant", "cafe", "melbourne", "sunshine-valley"],
+    tags: [
+      "noprompt",
+      "restaurant",
+      "cafe",
+      "melbourne",
+      "landmark",
+      "sunshine-valley",
+    ],
   },
   {
     src: "2021/20211229-pixeldailies.png",

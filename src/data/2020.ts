@@ -314,6 +314,7 @@ const entries: PixelArtEntry[] = [
       "lospecdailies",
       "landscape",
       "lospec_palette_of_the_day",
+      "landmark",
       "darkpastel-36",
     ],
   },
@@ -431,7 +432,13 @@ const entries: PixelArtEntry[] = [
       Uluru, Australia
     `,
     date: "2020-12-05 21:44 UTC+1100",
-    tags: ["pixel_dailies", "rock_formation", "landscape", "draxalette"],
+    tags: [
+      "pixel_dailies",
+      "rock_formation",
+      "landscape",
+      "landmark",
+      "draxalette",
+    ],
   },
   {
     src: "2020/20201207-diagram.png",
