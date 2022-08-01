@@ -1149,6 +1149,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-07-31 14:37 UTC+1000",
     tags: ["pixel_dailies", "Goose", "animal", "bird", "endesga-36"],
   },
+  {
+    src: "2022/20220801-pixeldailies.png",
+    title: "Pixel Dailies prompt: #newspaper",
+    description: `
+      Palette: [JustParchment8](https://lospec.com/palette-list/justparchment8)
+    `,
+    date: "2022-08-01 23:51 UTC+1000",
+    tags: ["pixel_dailies", "newspaper", "coffee", "justparchment8"],
+  },
 ]
 
 export default entries
