@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 01 Aug 2022 13:52:31 GMT</pubDate>
+        <pubDate>Thu, 04 Aug 2022 13:43:43 GMT</pubDate>
         
-      <item>
-        <title>Mork Campfire Hot Chocolate</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220424-hot-chocolate.png" alt="20220424-hot-chocolate" />]]>
-          <p>Mork Campfire Hot Chocolate</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/new-worlds-46">New Worlds 46</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220424-hot-chocolate</link>
-        <pubDate>Sun, 24 Apr 2022 10:38:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Table</title>
         <description>
@@ -709,6 +695,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220801-pixeldailies</link>
         <pubDate>Mon, 01 Aug 2022 13:51:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #resources</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220804-pixeldailies.png" alt="20220804-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #resources</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/zykro-48">ZyKro-48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220804-pixeldailies</link>
+        <pubDate>Thu, 04 Aug 2022 13:42:00 GMT</pubDate>
       </item>
     
       </channel>
