@@ -1167,6 +1167,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-08-04 23:42 UTC+1000",
     tags: ["pixel_dailies", "resources", "zykro-48"],
   },
+  {
+    src: "2022/20220807-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Bard",
+    description: `
+      Palette: [Moor](https://lospec.com/palette-list/moor)
+    `,
+    date: "2022-08-07 23:59 UTC+1000",
+    tags: ["pixel_dailies", "Bard", "blahaj", "shark", "moor"],
+  },
 ]
 
 export default entries
