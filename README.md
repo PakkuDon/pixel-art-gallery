@@ -46,10 +46,10 @@ yarn build
 yarn deploy
 ```
 
-### Updating pixel art entries
+### Add pixel art entry
 
 - Add new pixel art images to `img/<current year>` directory
-- Add JSON entry for new image to `src/data/index.ts`. Schema for JSON object is as follows:
+- Add JSON entry for new image to `src/data/<current year>.ts`. Entries are written in chronological order. Schema for JSON object is as follows:
 
 ```js
 {
