@@ -1185,6 +1185,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-08-10 23:59 UTC+1000",
     tags: ["pixel_dailies", "HotDrink", "drink", "new-worlds-46"],
   },
+  {
+    src: "2022/20220817-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ColdDrink",
+    description: `
+      Palette: [The Y Gigante Reverted](https://lospec.com/palette-list/the-y-gigante-reverted)
+    `,
+    date: "2022-08-17 23:59 UTC+1000",
+    tags: ["pixel_dailies", "ColdDrink", "drink", "the-y-gigante-reverted"],
+  },
 ]
 
 export default entries
