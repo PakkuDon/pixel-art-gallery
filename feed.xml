@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 13 Aug 2022 12:59:24 GMT</pubDate>
+        <pubDate>Thu, 18 Aug 2022 11:42:52 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #skewer</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220428-pixeldailies.png" alt="20220428-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #skewer</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/new-worlds-46">New Worlds 46</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220428-pixeldailies</link>
-        <pubDate>Thu, 28 Apr 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #paperweight</title>
         <description>
@@ -709,6 +695,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220810-pixeldailies</link>
         <pubDate>Wed, 10 Aug 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ColdDrink</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220817-pixeldailies.png" alt="20220817-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #ColdDrink</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/the-y-gigante-reverted">The Y Gigante Reverted</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220817-pixeldailies</link>
+        <pubDate>Wed, 17 Aug 2022 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
