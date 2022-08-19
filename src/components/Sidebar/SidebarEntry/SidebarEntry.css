@@ -1,7 +1,3 @@
-.entry {
-  transition: opacity linear 0.15s;
-}
-
 .entry:hover,
 .entry:focus {
   opacity: 75%;
