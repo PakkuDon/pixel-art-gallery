@@ -1194,6 +1194,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-08-17 23:59 UTC+1000",
     tags: ["pixel_dailies", "ColdDrink", "drink", "the-y-gigante-reverted"],
   },
+  {
+    src: "2022/20220820-pixeldailies.png",
+    title: "Pixel Dailies prompt: #WashingLine",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2022-08-20 23:59 UTC+1000",
+    tags: ["pixel_dailies", "WashingLine", "landscape", "nostalgia48"],
+  },
 ]
 
 export default entries
