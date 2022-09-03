@@ -508,7 +508,7 @@ const entries: PixelArtEntry[] = [
       See you at the next one. 👋
     `,
     date: "2021-03-14 23:57 UTC+1100",
-    tags: ["dessert", "food", "belated_milestone_post", "apollo"],
+    tags: ["noprompt", "dessert", "food", "belated_milestone_post", "apollo"],
   },
   {
     src: "2021/20210315-pixeldailies.png",
@@ -546,7 +546,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Earth Vibes](https://lospec.com/palette-list/earth-vibes)
     `,
     date: "2021-03-18 23:42 UTC+1100",
-    tags: ["boat", "water", "earth-vibes"],
+    tags: ["noprompt", "boat", "water", "earth-vibes"],
   },
   {
     src: "2021/20210318-pixeldailies.png",
@@ -891,7 +891,7 @@ const entries: PixelArtEntry[] = [
       Belated pixel art for [Sunny's birthday](https://twitter.com/OMORI_GAME/status/1417378744734527497)
     `,
     date: "2021-07-21 00:50 UTC+1000",
-    tags: ["OMORI", "endesga-36"],
+    tags: ["noprompt", "OMORI", "endesga-36"],
   },
   {
     src: "2021/20210722-pixeldailies.png",
@@ -1046,7 +1046,7 @@ const entries: PixelArtEntry[] = [
       [Reference image](https://windows10spotlight.com/images/d7ab09721ad573de49ac62f34bd73d80)
     `,
     date: "2021-10-01 23:33 UTC+1000",
-    tags: ["landscape", "landmark", "sweet-canyon-extended-64"],
+    tags: ["noprompt", "landscape", "landmark", "sweet-canyon-extended-64"],
   },
   {
     src: "2021/20211002-pixeldailies.png",
@@ -1093,7 +1093,7 @@ const entries: PixelArtEntry[] = [
       See you at the 200th post :D
     `,
     date: "2021-10-10 13:20 UTC+1100",
-    tags: ["rabbit", "redraw", "animal", "monometalic"],
+    tags: ["noprompt", "rabbit", "redraw", "animal", "monometalic"],
   },
   {
     src: "2021/20211011-on-tap.png",
@@ -1122,7 +1122,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Wheat Field](https://lospec.com/palette-list/wheat-field)
     `,
     date: "2021-10-24 13:20 UTC+1100",
-    tags: ["landscape", "wheat", "imaginary", "wheat-field"],
+    tags: ["noprompt", "landscape", "wheat", "imaginary", "wheat-field"],
   },
   {
     src: "2021/20211105-pixeldailies.png",

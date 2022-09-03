@@ -874,7 +874,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
     `,
     date: "2022-05-30 00:14 UTC+1000",
-    tags: ["redraw", "landscape", "draxalette"],
+    tags: ["noprompt", "redraw", "landscape", "draxalette"],
   },
   {
     src: "2022/20220530-pixeldailies.png",

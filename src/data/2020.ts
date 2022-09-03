@@ -185,7 +185,7 @@ const entries: PixelArtEntry[] = [
       has now been replaced with another saying "Stay Safe, Stay Open"
     `,
     date: "2020-11-08 23:09 UTC+1100",
-    tags: ["covid-19"],
+    tags: ["noprompt", "covid-19"],
   },
   {
     src: "2020/20201108-vic-covid19-pressv2.png",
@@ -197,7 +197,7 @@ const entries: PixelArtEntry[] = [
       #F9F9FE, #000000, #2D2F3F, #797977, #C8C7D1, #EDC4A6
     `,
     date: "2020-11-08 23:27 UTC+1100",
-    tags: ["covid-19"],
+    tags: ["noprompt", "covid-19"],
   },
   {
     src: "2020/20201110-pixeldailies.png",
@@ -270,7 +270,7 @@ const entries: PixelArtEntry[] = [
       at [c4model.com](https://c4model.com/)
     `,
     date: "2020-11-19 13:56 UTC+1100",
-    tags: ["diagram"],
+    tags: ["noprompt", "diagram"],
   },
   {
     src: "2020/20201120-pixeldailies.png",
@@ -370,7 +370,7 @@ const entries: PixelArtEntry[] = [
       Palette: [1bit black and white](https://lospec.com/palette-list/1bit-black-and-white)
     `,
     date: "2020-11-30 10:20 UTC+1100",
-    tags: ["css", "text-only", "1bit-black-and-white"],
+    tags: ["noprompt", "css", "text-only", "1bit-black-and-white"],
   },
   {
     src: "2020/20201201-lospecdaily.png",
@@ -447,7 +447,7 @@ const entries: PixelArtEntry[] = [
       Palette: #000000, #FFFFFF, #EEEEEE, #A80036, #FEFECE
     `,
     date: "2020-12-07 15:53 UTC+1100",
-    tags: ["diagram"],
+    tags: ["noprompt", "diagram"],
   },
   {
     src: "2020/20201208-pixeldailies.png",
@@ -466,7 +466,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     date: "2020-12-10 00:07 UTC+1100",
-    tags: ["no_prompt", "apple", "tree", "food", "apollo"],
+    tags: ["noprompt", "apple", "tree", "food", "apollo"],
   },
   {
     src: "2020/20201210-lospecdaily.png",
