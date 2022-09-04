@@ -10,7 +10,7 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
-      date: "2000-01-01T00:00+10:00",
+      date: "2000-01-01T00:00+11:00",
       tags: ["test"],
     }
 
@@ -23,7 +23,7 @@ describe("ImageDetails", () => {
     expect(screen.getByText(img.title)).toBeInTheDocument()
     expect(screen.getByRole("img")).toHaveAttribute("src", `img/${img.src}`)
     expect(screen.getByText(img.description)).toBeInTheDocument()
-    expect(screen.getByText(img.date)).toBeInTheDocument()
+    expect(screen.getByText("January 1 2000 12:00 AM GMT+11")).toBeInTheDocument()
     expect(screen.getByText(img.tags[0])).toBeInTheDocument()
   })
 
