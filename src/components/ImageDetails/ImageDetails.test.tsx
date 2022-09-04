@@ -10,7 +10,7 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
 
@@ -32,7 +32,7 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
 
@@ -56,7 +56,7 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
     const nextImage = {
@@ -81,7 +81,7 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
     const previousImage = {

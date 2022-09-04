@@ -9,7 +9,7 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
 
@@ -27,7 +27,7 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
 
@@ -44,7 +44,7 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
     const searchQuery = "pixel"
@@ -65,7 +65,7 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
-      date: "2000-01-01 00:00 UTC+1000",
+      date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
     const searchQuery = "something else #tags"

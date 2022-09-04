@@ -58,7 +58,7 @@ yarn deploy
   description: `
     Multiline string. Accepts markdown
   `,
-  date: "date formatted in YYYY-MM-DD HH:SS UTC Offset (eg: 2020-01-01 00:00 +1100)",
+  date: "Date in ISO 8601 format (eg: 2020-01-01T23:59+11:00)",
   tags: ["words", "can contain spaces"],
   aliases: ["optiona list of other URL slugs to use for this entry"],
 },

@@ -7,7 +7,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [MonoMetalic](https://lospec.com/palette-list/monometalic)
     `,
-    date: "2020-10-10 22:48 UTC+1100",
+    date: "2020-10-10T22:48+11:00",
     tags: [
       "lospecdailies",
       "magic",
@@ -22,7 +22,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Nintendo Gameboy (Black Zero)](https://lospec.com/palette-list/nintendo-gameboy-black-zero)
     `,
-    date: "2020-10-12 23:29 UTC+1100",
+    date: "2020-10-12T23:29+11:00",
     tags: [
       "lospecdailies",
       "landscape",
@@ -36,7 +36,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [1bit Monitor Glow](https://lospec.com/palette-list/1bit-monitor-glow)
     `,
-    date: "2020-10-14 00:23 UTC+1100",
+    date: "2020-10-14T00:23+11:00",
     tags: [
       "lospecdailies",
       "rock",
@@ -50,7 +50,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Cave Rock](https://lospec.com/palette-list/cave-rock)
     `,
-    date: "2020-10-15 23:59 UTC+1100",
+    date: "2020-10-15T23:59+11:00",
     tags: [
       "lospecdailies",
       "dog",
@@ -65,7 +65,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Touhou PC-9801](https://lospec.com/palette-list/touhou-pc-9801)
     `,
-    date: "2020-10-17 19:50 UTC+1100",
+    date: "2020-10-17T19:50+11:00",
     tags: [
       "lospecdailies",
       "tree",
@@ -79,7 +79,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Arbitration-26 Palette](https://lospec.com/palette-list/arbitration-26)
     `,
-    date: "2020-10-18 17:51 UTC+1100",
+    date: "2020-10-18T17:51+11:00",
     tags: [
       "lospecdailies",
       "create",
@@ -93,7 +93,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [gamer19](https://lospec.com/palette-list/gamer19)
     `,
-    date: "2020-10-19 21:06 UTC+1100",
+    date: "2020-10-19T21:06+11:00",
     tags: [
       "lospecdailies",
       "fish",
@@ -108,7 +108,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
     `,
-    date: "2020-10-20 00:48 UTC+1100",
+    date: "2020-10-20T00:48+11:00",
     tags: [
       "lospecdailies",
       "dog",
@@ -124,7 +124,7 @@ const entries: PixelArtEntry[] = [
       Palette: [EG32](https://lospec.com/palette-list/eg32)
       Trivia: First pixel art that I've created in [GIMP](https://www.gimp.org/)
     `,
-    date: "2020-10-24 23:59 UTC+1100",
+    date: "2020-10-24T23:59+11:00",
     tags: ["pixel_dailies", "television", "lospec_palette_of_the_day", "eg32"],
   },
   {
@@ -135,7 +135,7 @@ const entries: PixelArtEntry[] = [
 
       Bit belated, but Happy Halloween!
     `,
-    date: "2020-11-04 00:49 UTC+1100",
+    date: "2020-11-04T00:49+11:00",
     tags: ["pixel_dailies", "halloween", "lospec_palette_of_the_day", "drz15a"],
   },
   {
@@ -144,7 +144,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
     `,
-    date: "2020-11-06 23:58 UTC+1100",
+    date: "2020-11-06T23:58+11:00",
     tags: [
       "lospecdailies",
       "mushroom",
@@ -159,7 +159,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Bubblegum 16](https://lospec.com/palette-list/bubblegum-16)
     `,
-    date: "2020-11-08 00:19 UTC+1100",
+    date: "2020-11-08T00:19+11:00",
     tags: [
       "lospecdailies",
       "clouds",
@@ -184,7 +184,7 @@ const entries: PixelArtEntry[] = [
       The wall which bore the words "Staying Apart Keeps Us Together"
       has now been replaced with another saying "Stay Safe, Stay Open"
     `,
-    date: "2020-11-08 23:09 UTC+1100",
+    date: "2020-11-08T23:09+11:00",
     tags: ["noprompt", "covid-19"],
   },
   {
@@ -196,7 +196,7 @@ const entries: PixelArtEntry[] = [
       Palette: Sampled from a past press conference: #D7D8D3, #3C8897,
       #F9F9FE, #000000, #2D2F3F, #797977, #C8C7D1, #EDC4A6
     `,
-    date: "2020-11-08 23:27 UTC+1100",
+    date: "2020-11-08T23:27+11:00",
     tags: ["noprompt", "covid-19"],
   },
   {
@@ -212,7 +212,7 @@ const entries: PixelArtEntry[] = [
       You can find the livestream at https://www.367collinsfalcons.com.au/
 
     `,
-    date: "2020-11-10 00:13 UTC+1100",
+    date: "2020-11-10T00:13+11:00",
     tags: ["pixel_dailies", "animal", "bird"],
   },
   {
@@ -221,7 +221,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Slurry GB](https://lospec.com/palette-list/slurry-gb)
     `,
-    date: "2020-11-11 13:42 UTC+1100",
+    date: "2020-11-11T13:42+11:00",
     tags: ["lospecdailies", "house", "lospec_palette_of_the_day", "slurry-gb"],
   },
   {
@@ -230,7 +230,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Kirby 15](https://lospec.com/palette-list/kirby-15)
     `,
-    date: "2020-11-14 23:23 UTC+1100",
+    date: "2020-11-14T23:23+11:00",
     tags: ["lospecdailies", "water", "lospec_palette_of_the_day", "kirby-15"],
   },
   {
@@ -240,7 +240,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
       Restriction: Each dessert must be 32x32 pixels or less and contain chocolate
     `,
-    date: "2020-11-16 01:04 UTC+1100",
+    date: "2020-11-16T01:04+11:00",
     tags: [
       "pixel_dailies",
       "ChocolateDesserts",
@@ -256,7 +256,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
-    date: "2020-11-17 01:11 UTC+1100",
+    date: "2020-11-17T01:11+11:00",
     tags: ["pixel_dailies", "cityscape", "endesga-36"],
   },
   {
@@ -269,7 +269,7 @@ const entries: PixelArtEntry[] = [
       You can learn more about the C4 model for visualising software architecture
       at [c4model.com](https://c4model.com/)
     `,
-    date: "2020-11-19 13:56 UTC+1100",
+    date: "2020-11-19T13:56+11:00",
     tags: ["noprompt", "diagram"],
   },
   {
@@ -278,7 +278,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Cheese Palette](https://lospec.com/palette-list/cheese-palette)
     `,
-    date: "2020-11-20 01:13 UTC+1100",
+    date: "2020-11-20T01:13+11:00",
     tags: [
       "pixel_dailies",
       "waffle",
@@ -293,7 +293,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Irenaart 22](https://lospec.com/palette-list/irenaart-22)
     `,
-    date: "2020-11-21 23:23 UTC+1100",
+    date: "2020-11-21T23:23+11:00",
     tags: [
       "pixel_dailies",
       "scarab",
@@ -309,7 +309,7 @@ const entries: PixelArtEntry[] = [
 
       The Nobbies, Phillip Island, Australia
     `,
-    date: "2020-11-22 23:25 UTC+1100",
+    date: "2020-11-22T23:25+11:00",
     tags: [
       "lospecdailies",
       "landscape",
@@ -326,7 +326,7 @@ const entries: PixelArtEntry[] = [
 
       House sparrow
     `,
-    date: "2020-11-24 23:02 UTC+1100",
+    date: "2020-11-24T23:02+11:00",
     tags: [
       "lospecdailies",
       "bird",
@@ -341,7 +341,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Golden Helmet](https://lospec.com/palette-list/golden-helmet)
     `,
-    date: "2020-11-26 23:12 UTC+1100",
+    date: "2020-11-26T23:12+11:00",
     tags: [
       "lospecdailies",
       "fire",
@@ -356,7 +356,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
       Restriction: 32x32px or less per bear
     `,
-    date: "2020-11-28 23:02 UTC+1100",
+    date: "2020-11-28T23:02+11:00",
     tags: ["pixel_dailies", "set", "bear", "animal", "endesga-36"],
   },
   {
@@ -369,7 +369,7 @@ const entries: PixelArtEntry[] = [
 
       Palette: [1bit black and white](https://lospec.com/palette-list/1bit-black-and-white)
     `,
-    date: "2020-11-30 10:20 UTC+1100",
+    date: "2020-11-30T10:20+11:00",
     tags: ["noprompt", "css", "text-only", "1bit-black-and-white"],
   },
   {
@@ -380,7 +380,7 @@ const entries: PixelArtEntry[] = [
 
       Featuring Sewaddle, the Sewing Pokémon
     `,
-    date: "2020-12-01 01:08 UTC+1100",
+    date: "2020-12-01T01:08+11:00",
     tags: ["lospecdailies", "insect", "lospec_palette_of_the_day", "15p-dx"],
   },
   {
@@ -389,7 +389,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Starmancer](https://lospec.com/palette-list/starmancer)
     `,
-    date: "2020-12-02 22:52 UTC+1100",
+    date: "2020-12-02T22:52+11:00",
     tags: [
       "pixel_dailies",
       "badger",
@@ -406,7 +406,7 @@ const entries: PixelArtEntry[] = [
 
       Following [Pixel_red_cat's tree tutorial](https://www.reddit.com/gallery/j9bi2a)
     `,
-    date: "2020-12-03 21:07 UTC+1100",
+    date: "2020-12-03T21:07+11:00",
     tags: ["lospecdailies", "tree", "lospec_palette_of_the_day", "pollen8"],
   },
   {
@@ -415,7 +415,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
     `,
-    date: "2020-12-05 21:44 UTC+1100",
+    date: "2020-12-05T21:44+11:00",
     tags: [
       "lospecdailies",
       "weapon",
@@ -431,7 +431,7 @@ const entries: PixelArtEntry[] = [
 
       Uluru, Australia
     `,
-    date: "2020-12-05 21:44 UTC+1100",
+    date: "2020-12-05T21:44+11:00",
     tags: [
       "pixel_dailies",
       "rock_formation",
@@ -446,7 +446,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: #000000, #FFFFFF, #EEEEEE, #A80036, #FEFECE
     `,
-    date: "2020-12-07 15:53 UTC+1100",
+    date: "2020-12-07T15:53+11:00",
     tags: ["noprompt", "diagram"],
   },
   {
@@ -456,7 +456,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: Use one-point perspective
     `,
-    date: "2020-12-08 00:13 UTC+1100",
+    date: "2020-12-08T00:13+11:00",
     tags: ["pixel_dailies", "road", "lospec_palette_of_the_day", "apollo"],
   },
   {
@@ -465,7 +465,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-10 00:07 UTC+1100",
+    date: "2020-12-10T00:07+11:00",
     tags: ["noprompt", "apple", "tree", "food", "apollo"],
   },
   {
@@ -476,7 +476,7 @@ const entries: PixelArtEntry[] = [
 
       no talk me im angy
     `,
-    date: "2020-12-10 23:00 UTC+1100",
+    date: "2020-12-10T23:00+11:00",
     tags: [
       "lospecdailies",
       "cat",
@@ -491,7 +491,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
     `,
-    date: "2020-12-11 22:52 UTC+1100",
+    date: "2020-12-11T22:52+11:00",
     tags: ["pixel_dailies", "waterbottle", "water", "drink", "nanner-32"],
   },
   {
@@ -500,7 +500,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Tropica33](https://lospec.com/palette-list/tropica33)
     `,
-    date: "2020-12-13 23:59 UTC+1100",
+    date: "2020-12-13T23:59+11:00",
     tags: [
       "lospecdailies",
       "mushroom",
@@ -515,7 +515,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-16 00:20 UTC+1100",
+    date: "2020-12-16T00:20+11:00",
     tags: ["pixel_dailies", "wind", "sunset", "apollo"],
   },
   {
@@ -524,7 +524,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
-    date: "2020-12-18 23:58 UTC+1100",
+    date: "2020-12-18T23:58+11:00",
     tags: ["pixel_dailies", "sour", "glass", "drink", "endesga-36"],
   },
   {
@@ -533,7 +533,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-19 22:17 UTC+1100",
+    date: "2020-12-19T22:17+11:00",
     tags: ["pixel_dailies", "pagoda", "building", "apollo"],
   },
   {
@@ -542,7 +542,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Dreamscape8](https://lospec.com/palette-list/dreamscape8)
     `,
-    date: "2020-12-22 23:00 UTC+1100",
+    date: "2020-12-22T23:00+11:00",
     tags: [
       "pixel_dailies",
       "christmas",
@@ -559,7 +559,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: You can only use the colours; gold, white, red and green
     `,
-    date: "2020-12-23 23:51 UTC+1100",
+    date: "2020-12-23T23:51+11:00",
     tags: ["pixel_dailies", "christmas", "present", "apollo"],
   },
   {
@@ -572,7 +572,7 @@ const entries: PixelArtEntry[] = [
       Thing at the top is supposed to be a gravy boat but I have no
       idea what those look like from this perspective.
     `,
-    date: "2020-12-25 18:00 UTC+1100",
+    date: "2020-12-25T18:00+11:00",
     tags: ["pixel_dailies", "christmas", "food", "apollo"],
   },
   {
@@ -582,7 +582,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: 16x16px per ornament
     `,
-    date: "2020-12-23 23:51 UTC+1100",
+    date: "2020-12-23T23:51+11:00",
     tags: ["pixel_dailies", "christmas", "set", "ornaments", "apollo"],
   },
   {
@@ -592,7 +592,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: 32x32px
     `,
-    date: "2020-12-26 22:19 UTC+1100",
+    date: "2020-12-26T22:19+11:00",
     tags: ["pixel_dailies", "christmas", "candle", "apollo"],
   },
   {
@@ -601,7 +601,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-27 21:52 UTC+1100",
+    date: "2020-12-27T21:52+11:00",
     tags: ["pixel_dailies", "christmas", "tree", "apollo"],
   },
   {
@@ -610,7 +610,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-28 23:51 UTC+1100",
+    date: "2020-12-28T23:51+11:00",
     tags: ["pixel_dailies", "snowy", "landscape", "apollo"],
   },
   {
@@ -622,7 +622,7 @@ const entries: PixelArtEntry[] = [
 
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-29 21:48 UTC+1100",
+    date: "2020-12-29T21:48+11:00",
     tags: ["noprompt", "update", "apollo"],
   },
   {
@@ -631,7 +631,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-29 22:52 UTC+1100",
+    date: "2020-12-29T22:52+11:00",
     tags: ["pixel_dailies", "ribbon", "apollo"],
   },
   {
@@ -640,7 +640,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-30 22:37 UTC+1100",
+    date: "2020-12-30T22:37+11:00",
     tags: ["pixel_dailies", "countdown", "apollo"],
   },
   {
@@ -650,7 +650,7 @@ const entries: PixelArtEntry[] = [
       Thanks to those that have been following along. See you next year!
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2020-12-31 23:45 UTC+1100",
+    date: "2020-12-31T23:45+11:00",
     tags: ["noprompt", "fireworks", "apollo"],
   },
 ]
