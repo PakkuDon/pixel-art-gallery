@@ -1,7 +1,11 @@
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
 import { Link, useSearchParams } from "react-router-dom"
-import { format as formatDate, parseISO as parseISODate } from "date-fns"
+import {
+  format as formatDate,
+  parseISO as parseISODate,
+  formatDistanceToNow,
+} from "date-fns"
 import classnames from "classnames"
 
 import Card from "../Card"
@@ -43,6 +47,7 @@ const ImageDetails = ({
     },
     [setZoom]
   )
+  const parsedDate = parseISODate(image.date)
 
   return (
     <Card>
@@ -87,7 +92,8 @@ const ImageDetails = ({
           </div>
           <div className="content">
             <strong>Posted:</strong>{" "}
-            {formatDate(parseISODate(image.date), "MMMM d yyyy h:mm aa O")}
+            {formatDate(parsedDate, "MMMM d yyyy h:mm aa O")} (
+            {formatDistanceToNow(parsedDate, { addSuffix: true })})
           </div>
         </div>
         <div className={classnames("navigation", "content")}>
