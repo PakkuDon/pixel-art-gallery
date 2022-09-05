@@ -20,11 +20,11 @@ describe("ImageDetails", () => {
       </MemoryRouter>
     )
 
-    expect(screen.getByText(img.title)).toBeInTheDocument()
-    expect(screen.getByRole("img")).toHaveAttribute("src", `img/${img.src}`)
-    expect(screen.getByText(img.description)).toBeInTheDocument()
+    expect(screen.getByText("Test image")).toBeInTheDocument()
+    expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
+    expect(screen.getByText("Image description")).toBeInTheDocument()
     expect(screen.getByText(/January 1 2000 12:00 AM/)).toBeInTheDocument()
-    expect(screen.getByText(img.tags[0])).toBeInTheDocument()
+    expect(screen.getByText("test")).toBeInTheDocument()
   })
 
   it("renders placeholders for navigational links if previous and next image not provided", () => {

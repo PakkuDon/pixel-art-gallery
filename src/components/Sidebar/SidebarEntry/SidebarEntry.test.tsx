@@ -20,7 +20,7 @@ describe("SidebarEntry", () => {
     )
 
     expect(screen.getByRole("link")).toHaveAttribute("href", "/abc123")
-    expect(screen.getByRole("img")).toHaveAttribute("src", `img/${img.src}`)
+    expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
   })
 
   it("highlights image if selected", () => {
@@ -55,10 +55,7 @@ describe("SidebarEntry", () => {
       </MemoryRouter>
     )
 
-    expect(screen.getByRole("link")).toHaveAttribute(
-      "href",
-      `/abc123?q=${searchQuery}`
-    )
+    expect(screen.getByRole("link")).toHaveAttribute("href", "/abc123?q=pixel")
   })
 
   it("appends search query to link as is if it contains special characters", () => {
@@ -78,7 +75,7 @@ describe("SidebarEntry", () => {
 
     expect(screen.getByRole("link")).toHaveAttribute(
       "href",
-      `/abc123?q=${searchQuery}`
+      "/abc123?q=something else #tags"
     )
   })
 })
