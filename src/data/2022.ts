@@ -1203,6 +1203,28 @@ const entries: PixelArtEntry[] = [
     date: "2022-08-20T23:59+10:00",
     tags: ["pixel_dailies", "WashingLine", "landscape", "nostalgia48"],
   },
+  {
+    src: "2022/20220911-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Scenery",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Redraw of [20220613-pixeldailies](20220613-pixeldailies). Originally started drawing this for [Pixel Dailies' #Remake prompt](https://twitter.com/Pixel_Dailies/status/1561329773372121088) then life happened
+
+      This is also my 300th post. Thanks again to those of you following along. I appreciate you. See you at the next one!
+      
+      [Reference image](https://www.shutterstock.com/image-photo/magic-pink-rhododendron-flowers-glowing-by-340450949)
+    `,
+    date: "2022-09-11T23:59+10:00",
+    tags: [
+      "pixel_dailies",
+      "Scenery",
+      "landscape",
+      "redraw",
+      "milestone",
+      "apollo",
+    ],
+  },
 ]
 
 export default entries
