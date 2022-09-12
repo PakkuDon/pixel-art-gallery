@@ -1222,7 +1222,7 @@ const entries: PixelArtEntry[] = [
       "landscape",
       "sunset",
       "redraw",
-      "milestone",
+      "milestone_post",
       "apollo",
     ],
   },

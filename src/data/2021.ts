@@ -493,7 +493,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
     `,
     date: "2021-03-13T23:17+11:00",
-    tags: ["pixel_dailies", "vanity", "endesga-36"],
+    tags: ["pixel_dailies", "vanity", "milestone_post", "endesga-36"],
   },
   {
     src: "2021/20210314-noprompt.png",
