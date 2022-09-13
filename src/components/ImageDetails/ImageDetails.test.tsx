@@ -23,7 +23,7 @@ describe("ImageDetails", () => {
     expect(screen.getByText("Test image")).toBeInTheDocument()
     expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
     expect(screen.getByText("Image description")).toBeInTheDocument()
-    expect(screen.getByText(/January 1 2000 12:00 AM/)).toBeInTheDocument()
+    expect(screen.getByText(/Jan 1 2000 12:00 AM/)).toBeInTheDocument()
     expect(screen.getByText("test")).toBeInTheDocument()
   })
 

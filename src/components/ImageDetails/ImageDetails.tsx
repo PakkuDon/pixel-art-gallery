@@ -92,7 +92,7 @@ const ImageDetails = ({
           </div>
           <div className="content">
             <strong>Posted:</strong>{" "}
-            {formatDate(parsedDate, "MMMM d yyyy h:mm aa O")} (
+            {formatDate(parsedDate, "MMM d yyyy h:mm aa O")} (
             {formatDistanceToNow(parsedDate, { addSuffix: true })})
           </div>
         </div>
