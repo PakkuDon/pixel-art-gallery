@@ -2,7 +2,7 @@ import generateRssFeed from "./generateRssFeed"
 
 describe("generateRssFeed", () => {
   beforeAll(() => {
-    jest.useFakeTimers("modern")
+    jest.useFakeTimers()
     jest.setSystemTime(new Date("2020-01-01").getTime())
   })
 
