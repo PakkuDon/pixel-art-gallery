@@ -1235,6 +1235,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-09-15T23:58+10:00",
     tags: ["pixel_dailies", "stamp", "bird", "evening32"],
   },
+  {
+    src: "2022/20220918-pixeldailies.png",
+    title: "Pixel Dailies prompt: #AncientScroll",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-09-18T23:59+10:00",
+    tags: ["pixel_dailies", "AncientScroll", "apollo"],
+  },
 ]
 
 export default entries
