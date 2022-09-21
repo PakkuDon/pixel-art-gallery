@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 19 Sep 2022 08:53:30 GMT</pubDate>
+        <pubDate>Wed, 21 Sep 2022 14:01:13 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Clock</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220508-pixeldailies.png" alt="20220508-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Clock</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/new-worlds-46">New Worlds 46</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220508-pixeldailies</link>
-        <pubDate>Sun, 08 May 2022 13:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Negative RAT Test</title>
         <description>
@@ -711,6 +697,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20220918-pixeldailies</link>
         <pubDate>Sun, 18 Sep 2022 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #rain</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220921-pixeldailies.png" alt="20220921-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #rain</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20220921-pixeldailies</link>
+        <pubDate>Wed, 21 Sep 2022 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
