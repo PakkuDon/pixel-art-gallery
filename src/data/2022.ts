@@ -1262,7 +1262,7 @@ const entries: PixelArtEntry[] = [
       Today's post marks two years since I first started posting these. No redraw this time.
       Thanks again to those of you that have been following along. I hope you're doing well. See you at the next one!
     `,
-    date: "2022-10-10T23:54+10:00",
+    date: "2022-10-10T23:54+11:00",
     tags: ["pixel_dailies", "stars", "clouds", "the-y-gigante-reverted"],
   },
 ]
