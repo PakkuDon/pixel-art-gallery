@@ -1265,6 +1265,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-10-10T23:54+11:00",
     tags: ["pixel_dailies", "stars", "clouds", "the-y-gigante-reverted"],
   },
+  {
+    src: "2022/20221014-pixeldailies.png",
+    title: "Pixel Dailies prompt: #folder",
+    description: `
+      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
+    `,
+    date: "2022-10-14T23:44+11:00",
+    tags: ["pixel_dailies", "folder", "endesga-36"],
+  },
 ]
 
 export default entries
