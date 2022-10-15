@@ -14,7 +14,9 @@ const PopularTagList = ({ countByTag }: PopularTagListProps) => {
     return (
       <div>
         <div>
-          <button onClick={() => setVisible(false)}>Hide most used tags</button>
+          <button type="button" onClick={() => setVisible(false)}>
+            Hide most used tags
+          </button>
         </div>
         {countByTag.slice(0, TAGS_TO_DISPLAY).map(({ tag, count }, index) => (
           <React.Fragment key={`tag-with-count-${tag}`}>
@@ -30,7 +32,9 @@ const PopularTagList = ({ countByTag }: PopularTagListProps) => {
 
   return (
     <div>
-      <button onClick={() => setVisible(true)}>Show most used tags</button>
+      <button type="button" onClick={() => setVisible(true)}>
+        Show most used tags
+      </button>
     </div>
   )
 }
