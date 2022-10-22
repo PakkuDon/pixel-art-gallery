@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Mon, 17 Oct 2022 12:46:09 GMT</pubDate>
+        <pubDate>Sat, 22 Oct 2022 12:46:08 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #slice</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220513-pixeldailies.png" alt="20220513-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #slice</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/zykro-48">ZyKro-48</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220513-pixeldailies</link>
-        <pubDate>Fri, 13 May 2022 13:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #breeze</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221017-pixeldailies</link>
         <pubDate>Mon, 17 Oct 2022 12:44:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #salmon</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221022-pixeldailies.png" alt="20221022-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #salmon</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20221022-pixeldailies</link>
+        <pubDate>Sat, 22 Oct 2022 12:45:00 GMT</pubDate>
       </item>
     
       </channel>
