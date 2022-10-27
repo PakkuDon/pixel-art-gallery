@@ -1292,6 +1292,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-10-22T23:45+11:00",
     tags: ["pixel_dailies", "salmon", "food", "apollo"],
   },
+  {
+    src: "2022/20221027-pixeldailies.png",
+    title: "Pixel Dailies prompt: #scales",
+    description: `
+      Palette: [PurpleMorning8](https://lospec.com/palette-list/purplemorning8)
+    `,
+    date: "2022-10-27T21:44+11:00",
+    tags: ["pixel_dailies", "scales", "purplemorning8"],
+  },
 ]
 
 export default entries
