@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Collection of pixel art pieces</description>
-        <pubDate>Sat, 22 Oct 2022 12:46:08 GMT</pubDate>
+        <pubDate>Thu, 27 Oct 2022 10:45:15 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #breeze</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220514-pixeldailies.png" alt="20220514-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #breeze</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/polxel-43">Polxel-43</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220514-pixeldailies</link>
-        <pubDate>Sat, 14 May 2022 12:57:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #WildAnimal</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221022-pixeldailies</link>
         <pubDate>Sat, 22 Oct 2022 12:45:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #scales</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221027-pixeldailies.png" alt="20221027-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #scales</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/purplemorning8">PurpleMorning8</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20221027-pixeldailies</link>
+        <pubDate>Thu, 27 Oct 2022 10:44:00 GMT</pubDate>
       </item>
     
       </channel>
