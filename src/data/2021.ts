@@ -508,7 +508,14 @@ const entries: PixelArtEntry[] = [
       See you at the next one. 👋
     `,
     date: "2021-03-14T23:57+11:00",
-    tags: ["noprompt", "dessert", "food", "belated_milestone_post", "apollo"],
+    tags: [
+      "noprompt",
+      "dessert",
+      "food",
+      "milestone_post",
+      "belated_milestone_post",
+      "apollo",
+    ],
   },
   {
     src: "2021/20210315-pixeldailies.png",
