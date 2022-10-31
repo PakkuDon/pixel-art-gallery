@@ -10,13 +10,6 @@ import extractFilename from "./extractFilename"
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
 
-// Date#toGMTString() is deprecated but still present in some browsers
-declare global {
-  interface Date {
-    toGMTString: () => string
-  }
-}
-
 const generateRssFeed = ({
   entries = [],
   limit,
@@ -49,7 +42,7 @@ const generateRssFeed = ({
           ${marked((pixelArt.description || "").replace(/ +/g, " "))}
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/${filename}</link>
-        <pubDate>${new Date(pixelArt.date).toGMTString()}</pubDate>
+        <pubDate>${new Date(pixelArt.date).toUTCString()}</pubDate>
       </item>
     `
   })
@@ -60,7 +53,7 @@ const generateRssFeed = ({
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>${new Date().toGMTString()}</pubDate>
+        <pubDate>${new Date().toUTCString()}</pubDate>
         ${feedItems.join("\n")}
       </channel>
     </rss>
