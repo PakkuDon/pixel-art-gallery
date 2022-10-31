@@ -6,7 +6,7 @@ exports[`generateRssFeed generates RSS feed containing pixel art entries 1`] = `
       <channel>
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
-        <description>Collection of pixel art pieces</description>
+        <description>Pixel art by PakkuDon</description>
         <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
         
       <item>

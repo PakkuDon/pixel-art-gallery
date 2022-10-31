@@ -59,7 +59,7 @@ const generateRssFeed = ({
       <channel>
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
-        <description>Collection of pixel art pieces</description>
+        <description>Pixel art by PakkuDon</description>
         <pubDate>${new Date().toGMTString()}</pubDate>
         ${feedItems.join("\n")}
       </channel>
