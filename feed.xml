@@ -3,23 +3,9 @@
       <channel>
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
-        <description>Collection of pixel art pieces</description>
-        <pubDate>Thu, 27 Oct 2022 10:45:15 GMT</pubDate>
+        <description>Pixel art by PakkuDon</description>
+        <pubDate>Tue, 01 Nov 2022 13:02:38 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #WildAnimal</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220516-pixeldailies.png" alt="20220516-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #WildAnimal</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220516-pixeldailies</link>
-        <pubDate>Mon, 16 May 2022 13:56:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #LighterThanAir</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221027-pixeldailies</link>
         <pubDate>Thu, 27 Oct 2022 10:44:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Belated post for Pixel Dailies prompt: #Halloween</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221101-pixeldailies.png" alt="20221101-pixeldailies" />]]>
+          <p>Belated post for Pixel Dailies prompt: #Halloween</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20221101-pixeldailies</link>
+        <pubDate>Tue, 01 Nov 2022 12:58:00 GMT</pubDate>
       </item>
     
       </channel>
