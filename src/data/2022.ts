@@ -1301,6 +1301,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-10-27T21:44+11:00",
     tags: ["pixel_dailies", "scales", "purplemorning8"],
   },
+  {
+    src: "2022/20221101-pixeldailies.png",
+    title: "Belated post for Pixel Dailies prompt: #Halloween",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-11-01T23:58+11:00",
+    tags: ["pixel_dailies", "Halloween", "landscape", "night", "apollo"],
+  },
 ]
 
 export default entries
