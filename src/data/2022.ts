@@ -1310,6 +1310,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-01T23:58+11:00",
     tags: ["pixel_dailies", "Halloween", "landscape", "night", "apollo"],
   },
+  {
+    src: "2022/20221105-pixeldailies.png",
+    title: "Pixel Dailies prompt: #VirtualAssistant",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-11-05T22:50+11:00",
+    tags: ["pixel_dailies", "VirtualAssistant", "clippy", "new-worlds-46"],
+  },
 ]
 
 export default entries
