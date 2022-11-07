@@ -30,7 +30,7 @@
     "autoprefixer": "^10.0.2",
     "babel-loader": "^9.0.0",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
-    "copy-webpack-plugin": "^10.2.0",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.2.0",
     "cypress": "^7.0.0",
     "eslint": "^8.2.0",
