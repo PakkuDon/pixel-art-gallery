@@ -1,4 +1,5 @@
 const CaseSensitivePathsPlugin = require("case-sensitive-paths-webpack-plugin")
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin")
 const path = require("path")
 
 module.exports = {
@@ -38,5 +39,5 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
-  plugins: [new CaseSensitivePathsPlugin()],
+  plugins: [new ForkTsCheckerWebpackPlugin(), new CaseSensitivePathsPlugin()],
 }
