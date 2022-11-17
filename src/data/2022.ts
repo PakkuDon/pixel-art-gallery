@@ -1319,6 +1319,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-05T22:50+11:00",
     tags: ["pixel_dailies", "VirtualAssistant", "clippy", "new-worlds-46"],
   },
+  {
+    src: "2022/20221117-pixeldailies.png",
+    title: "Pixel Dailies prompt: #curtains",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-11-17T23:59+11:00",
+    tags: ["pixel_dailies", "curtains", "apollo"],
+  },
 ]
 
 export default entries
