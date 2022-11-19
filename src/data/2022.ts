@@ -1328,6 +1328,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-17T23:59+11:00",
     tags: ["pixel_dailies", "curtains", "apollo"],
   },
+  {
+    src: "2022/20221119-pixeldailies.png",
+    title: "Pixel Dailies prompt: #skybox",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+    `,
+    date: "2022-11-19T23:26+11:00",
+    tags: ["pixel_dailies", "skybox", "nostalgia48"],
+  },
 ]
 
 export default entries
