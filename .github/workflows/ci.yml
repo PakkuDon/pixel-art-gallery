@@ -29,3 +29,11 @@ jobs:
         run: yarn
       - name: Test
         run: yarn test
+
+  cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source code
+        uses: actions/checkout@v3
+      - name: Run integration tests
+        uses: cypress-io/github-action@v4
