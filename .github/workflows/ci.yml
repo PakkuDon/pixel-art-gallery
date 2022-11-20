@@ -1,3 +1,4 @@
+name: CI - Test frontend
 on: [push]
 
 jobs:
