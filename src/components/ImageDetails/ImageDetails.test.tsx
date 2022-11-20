@@ -10,7 +10,7 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
-      date: "2000-01-01T00:00+11:00",
+      date: "2000-01-01T00:00+00:00",
       tags: ["test"],
     }
 
