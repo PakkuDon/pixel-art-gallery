@@ -1,4 +1,4 @@
-const PixelArtRepository = require("../../src/PixelArtRepository")
+const PixelArtRepository = require("../../src/PixelArtRepository").default
 
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
