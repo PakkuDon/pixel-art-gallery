@@ -1,4 +1,5 @@
 const PixelArtRepository = require("../../src/PixelArtRepository").default
+const extractFilename = require("../../src/util/extractFilename").default
 
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
@@ -20,7 +21,7 @@ describe("Pixel Art Gallery", () => {
 
   it("displays pixel art entries", () => {
     let testEntry = selectRandomEntry()
-    let slug = testEntry.src.split(".")[0]
+    let slug = extractFilename(testEntry.src)
 
     cy.get(`a[href='/${slug}'`).should("exist")
   })
@@ -29,7 +30,7 @@ describe("Pixel Art Gallery", () => {
     context("and ID is entry's canonical ID", () => {
       it("displays details about pixel art entry", () => {
         let testEntry = selectRandomEntry()
-        let slug = testEntry.src.split(".")[0]
+        let slug = extractFilename(testEntry.src)
 
         cy.get(`a[href='/${slug}'`).click()
         cy.get("main img")
@@ -40,7 +41,7 @@ describe("Pixel Art Gallery", () => {
 
     context("and ID is an alias for an entry", () => {
       let testEntry = selectRandomEntry((entry) => entry.aliases)
-      let slug = testEntry.src.split(".")[0]
+      let slug = extractFilename(testEntry.src)
       let alias = testEntry.aliases[0]
 
       it("should redirect to entry's canonical ID", () => {
