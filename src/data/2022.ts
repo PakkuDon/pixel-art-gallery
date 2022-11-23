@@ -1337,6 +1337,17 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-19T23:26+11:00",
     tags: ["pixel_dailies", "skybox", "nostalgia48"],
   },
+  {
+    src: "2022/20221123-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ComfortFood",
+    description: `
+      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
+
+      Spam and egg on rice
+    `,
+    date: "2022-11-23T23:51+11:00",
+    tags: ["pixel_dailies", "ComfortFood", "food", "zykro-48"],
+  },
 ]
 
 export default entries
