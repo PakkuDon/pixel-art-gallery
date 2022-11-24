@@ -1348,6 +1348,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-23T23:51+11:00",
     tags: ["pixel_dailies", "ComfortFood", "food", "zykro-48"],
   },
+  {
+    src: "2022/20221124-pixeldailies.png",
+    title: "Pixel Dailies prompt: #mirage",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-11-24T23:25+11:00",
+    tags: ["pixel_dailies", "mirage", "landscape", "desert", "apollo"],
+  },
 ]
 
 export default entries
