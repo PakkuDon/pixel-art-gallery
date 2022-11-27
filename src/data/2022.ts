@@ -1357,6 +1357,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-24T23:25+11:00",
     tags: ["pixel_dailies", "mirage", "landscape", "desert", "apollo"],
   },
+  {
+    src: "2022/20221127-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Floating",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+    `,
+    date: "2022-11-27T23:5925+11:00",
+    tags: ["pixel_dailies", "Floating", "flower", "apollo"],
+  },
 ]
 
 export default entries
