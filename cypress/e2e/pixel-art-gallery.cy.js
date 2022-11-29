@@ -46,7 +46,7 @@ describe("Pixel Art Gallery", () => {
         let alias = testEntry.aliases[0]
 
         cy.visit(`/${alias}`)
-        expect(cy.url()).should("include", slug)
+        cy.url().should("include", slug)
       })
 
       it("displays details about pixel art entry", () => {
