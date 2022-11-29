@@ -42,4 +42,4 @@ jobs:
         with:
           build: yarn build
           start: npx http-server dist/ --silent
-          wait-on: 'http://localhost:8080'
+          wait-on: "http://localhost:8080"
