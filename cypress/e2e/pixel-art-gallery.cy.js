@@ -40,11 +40,11 @@ describe("Pixel Art Gallery", () => {
     })
 
     context("and ID is an alias for an entry", () => {
-      let testEntry = selectRandomEntry((entry) => entry.aliases)
-      let slug = extractFilename(testEntry.src)
-      let alias = testEntry.aliases[0]
-
       it("should redirect to entry's canonical ID", () => {
+        let testEntry = selectRandomEntry((entry) => entry.aliases)
+        let slug = extractFilename(testEntry.src)
+        let alias = testEntry.aliases[0]
+
         cy.visit(`/${alias}`)
         expect(cy.url()).should("include", slug)
       })
@@ -53,7 +53,7 @@ describe("Pixel Art Gallery", () => {
         let testEntry = selectRandomEntry((entry) => entry.aliases)
         let alias = testEntry.aliases[0]
 
-        cy.get(`a[href='/${alias}'`).click()
+        cy.visit(`/${alias}`)
         cy.get("main img")
           .should("have.attr", "src")
           .should("contain", testEntry.src)
