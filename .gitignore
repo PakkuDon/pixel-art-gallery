@@ -7,3 +7,4 @@ script/generated
 # Test artifacts
 cypress/screenshots
 cypress/videos
+cypress/downloads
