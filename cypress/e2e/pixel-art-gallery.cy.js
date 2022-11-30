@@ -23,6 +23,7 @@ describe("Pixel Art Gallery", () => {
     let testEntry = selectRandomEntry()
     let slug = extractFilename(testEntry.src)
 
+    cy.contains(pixelArtEntries.length)
     cy.get(`a[href='/${slug}'`).should("exist")
   })
 
