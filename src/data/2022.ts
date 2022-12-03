@@ -1366,6 +1366,21 @@ const entries: PixelArtEntry[] = [
     date: "2022-11-27T23:5925+11:00",
     tags: ["pixel_dailies", "Floating", "flower", "apollo"],
   },
+  {
+    src: "2022/20221203-pixeldailies.png",
+    title: "Pixel Dailies prompt: #imperfection",
+    description: `
+      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
+    `,
+    date: "2022-12-03T23:3025+11:00",
+    tags: [
+      "pixel_dailies",
+      "imperfection",
+      "plant",
+      "kintsugi",
+      "sweet-canyon-32",
+    ],
+  },
 ]
 
 export default entries
