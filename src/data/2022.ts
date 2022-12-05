@@ -1363,7 +1363,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
-    date: "2022-11-27T23:5925+11:00",
+    date: "2022-11-27T23:59+11:00",
     tags: ["pixel_dailies", "Floating", "flower", "apollo"],
   },
   {
@@ -1372,7 +1372,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
     `,
-    date: "2022-12-03T23:3025+11:00",
+    date: "2022-12-03T23:30+11:00",
     tags: [
       "pixel_dailies",
       "imperfection",
