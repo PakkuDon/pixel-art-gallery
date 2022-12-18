@@ -1391,15 +1391,6 @@ const entries: PixelArtEntry[] = [
     tags: ["pixel_dailies", "Lights", "landscape", "aurora", "night", "apollo"],
   },
   {
-    src: "2022/20221205-pixeldailies.png",
-    title: "Pixel Dailies prompt: #Lights",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
-    date: "2022-12-05T23:56+11:00",
-    tags: ["pixel_dailies", "Lights", "landscape", "aurora", "night", "apollo"],
-  },
-  {
     src: "2022/20221213-sunset.png",
     title: "Sunset study (January 9 2022)",
     description: `
