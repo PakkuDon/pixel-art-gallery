@@ -1399,6 +1399,21 @@ const entries: PixelArtEntry[] = [
     date: "2022-12-13T23:57+11:00",
     tags: ["noprompt", "landscape", "sunset", "tranquility-plus-39"],
   },
+  {
+    src: "2022/20221219-lospecdaily.png",
+    title: "Lospec Dailies prompt: #cake",
+    description: `
+      Palette: [Weird autumn](https://lospec.com/palette-list/weird-autumn)
+    `,
+    date: "2022-12-19T23:53+11:00",
+    tags: [
+      "lospecdailies",
+      "cake",
+      "lospec_palette_of_the_day",
+      "food",
+      "weird-autumn",
+    ],
+  },
 ]
 
 export default entries
