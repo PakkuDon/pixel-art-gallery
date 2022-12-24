@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 18 Dec 2022 12:48:29 GMT</pubDate>
+        <pubDate>Sat, 24 Dec 2022 11:59:43 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #purple</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220603-pixeldailies.png" alt="20220603-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #purple</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/skyline">Skyline</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220603-pixeldailies</link>
-        <pubDate>Fri, 03 Jun 2022 12:13:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #sandbox</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221213-sunset</link>
         <pubDate>Tue, 13 Dec 2022 12:57:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Lospec Dailies prompt: #cake</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221219-lospecdaily.png" alt="20221219-lospecdaily" />]]>
+          <p>Lospec Dailies prompt: #cake</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/weird-autumn">Weird autumn</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20221219-lospecdaily</link>
+        <pubDate>Mon, 19 Dec 2022 12:53:00 GMT</pubDate>
       </item>
     
       </channel>
