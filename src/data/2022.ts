@@ -1414,6 +1414,15 @@ const entries: PixelArtEntry[] = [
       "weird-autumn",
     ],
   },
+  {
+    src: "2022/20221225-pixeldailies.png",
+    title: "Pixel Dailies prompt: #gift",
+    description: `
+      Palette: [Punolite Plus Plus](https://lospec.com/palette-list/punolite-plus-plus)
+    `,
+    date: "2022-12-25T23:59+11:00",
+    tags: ["pixel_dailies", "gift", "christmas", "punolite-plus-plus"],
+  },
 ]
 
 export default entries
