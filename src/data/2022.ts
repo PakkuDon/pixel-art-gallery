@@ -1423,6 +1423,15 @@ const entries: PixelArtEntry[] = [
     date: "2022-12-25T23:59+11:00",
     tags: ["pixel_dailies", "gift", "christmas", "punolite-plus-plus"],
   },
+  {
+    src: "2022/20221226-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Santa",
+    description: `
+      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
+    `,
+    date: "2022-12-26T23:59+11:00",
+    tags: ["pixel_dailies", "Santa", "blahaj", "new-worlds-46"],
+  },
 ]
 
 export default entries
