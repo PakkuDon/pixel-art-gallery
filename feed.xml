@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sat, 24 Dec 2022 11:59:43 GMT</pubDate>
+        <pubDate>Mon, 26 Dec 2022 12:06:28 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #sandbox</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220605-pixeldailies.png" alt="20220605-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #sandbox</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/endesga-36">Endesga 36</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220605-pixeldailies</link>
-        <pubDate>Sat, 04 Jun 2022 14:33:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221219-lospecdaily</link>
         <pubDate>Mon, 19 Dec 2022 12:53:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #gift</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221225-pixeldailies.png" alt="20221225-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #gift</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/punolite-plus-plus">Punolite Plus Plus</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20221225-pixeldailies</link>
+        <pubDate>Sun, 25 Dec 2022 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
