@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 26 Dec 2022 12:06:28 GMT</pubDate>
+        <pubDate>Mon, 26 Dec 2022 13:00:34 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220611-pixeldailies.png" alt="20220611-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/polxel-43">Polxel-43</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220611-pixeldailies</link>
-        <pubDate>Sat, 11 Jun 2022 13:45:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Colorful</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221225-pixeldailies</link>
         <pubDate>Sun, 25 Dec 2022 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Santa</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221226-pixeldailies.png" alt="20221226-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Santa</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/new-worlds-46">New Worlds 46</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20221226-pixeldailies</link>
+        <pubDate>Mon, 26 Dec 2022 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
