@@ -1430,7 +1430,7 @@ const entries: PixelArtEntry[] = [
       Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
     `,
     date: "2022-12-26T23:59+11:00",
-    tags: ["pixel_dailies", "Santa", "blahaj", "new-worlds-46"],
+    tags: ["pixel_dailies", "Santa", "christmas", "blahaj", "new-worlds-46"],
   },
 ]
 
