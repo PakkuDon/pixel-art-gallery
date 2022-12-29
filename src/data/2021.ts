@@ -1281,7 +1281,7 @@ const entries: PixelArtEntry[] = [
       Restriction: 32x32px
     `,
     date: "2021-12-25T18:09+11:00",
-    tags: ["pixel_dailies", "Grinch", "endesga-36"],
+    tags: ["pixel_dailies", "Grinch", "christmas", "endesga-36"],
   },
   {
     src: "2021/20211226-pixeldailies.png",
@@ -1290,7 +1290,7 @@ const entries: PixelArtEntry[] = [
       Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
     `,
     date: "2021-12-26T22:04+11:00",
-    tags: ["pixel_dailies", "Wreath", "sunshine-valley"],
+    tags: ["pixel_dailies", "Wreath", "christmas", "sunshine-valley"],
   },
   {
     src: "2021/20211228-bossa-nova-carlton.png",
