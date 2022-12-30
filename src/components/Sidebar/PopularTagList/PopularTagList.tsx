@@ -1,13 +1,12 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-const TAGS_TO_DISPLAY = 10
-
 interface PopularTagListProps {
   countByTag: Array<{ tag: string; count: number }>
+  limit: number
 }
 
-const PopularTagList = ({ countByTag }: PopularTagListProps) => {
+const PopularTagList = ({ countByTag, limit }: PopularTagListProps) => {
   const [visible, setVisible] = useState(false)
 
   if (visible) {
@@ -18,7 +17,7 @@ const PopularTagList = ({ countByTag }: PopularTagListProps) => {
             Hide most used tags
           </button>
         </div>
-        {countByTag.slice(0, TAGS_TO_DISPLAY).map(({ tag, count }, index) => (
+        {countByTag.slice(0, limit).map(({ tag, count }, index) => (
           <React.Fragment key={`tag-with-count-${tag}`}>
             <Link to={`?q=${tag}`}>
               {tag} ({count})

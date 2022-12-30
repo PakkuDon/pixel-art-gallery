@@ -48,7 +48,7 @@ const Sidebar = ({
           <div>
             {entries.length} {entries.length === 1 ? "entry" : "entries"}.
           </div>
-          <PopularTagList countByTag={countByTag} />
+          <PopularTagList countByTag={countByTag} limit={10} />
         </div>
       </div>
       <div className="entriesList">

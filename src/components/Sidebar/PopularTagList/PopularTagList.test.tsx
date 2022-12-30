@@ -13,7 +13,7 @@ describe("PopularTagList", () => {
 
     render(
       <MemoryRouter>
-        <PopularTagList countByTag={tagList} />
+        <PopularTagList countByTag={tagList} limit={5} />
       </MemoryRouter>
     )
 
@@ -32,7 +32,7 @@ describe("PopularTagList", () => {
 
     render(
       <MemoryRouter>
-        <PopularTagList countByTag={tagList} />
+        <PopularTagList countByTag={tagList} limit={5} />
       </MemoryRouter>
     )
 
@@ -43,7 +43,7 @@ describe("PopularTagList", () => {
     )
   })
 
-  it("displays first 10 tags only", () => {
+  it("limits number of tags to those specified in limit prop", () => {
     const tagList = [
       { tag: "tag1", count: 1 },
       { tag: "tag2", count: 1 },
@@ -60,7 +60,7 @@ describe("PopularTagList", () => {
 
     render(
       <MemoryRouter>
-        <PopularTagList countByTag={tagList} />
+        <PopularTagList countByTag={tagList} limit={10} />
       </MemoryRouter>
     )
 
