@@ -2,10 +2,10 @@ import React, { useState, useEffect, useCallback } from "react"
 import { useParams, useSearchParams } from "react-router-dom"
 import classnames from "classnames"
 
-import Sidebar from "./components/Sidebar"
-import ImageDetails from "./components/ImageDetails"
-import extractFilename from "./util/extractFilename"
-import PixelArtRepository from "./PixelArtRepository"
+import Sidebar from "../components/Sidebar"
+import ImageDetails from "../components/ImageDetails"
+import extractFilename from "../util/extractFilename"
+import PixelArtRepository from "../PixelArtRepository"
 
 PixelArtRepository.load()
 
