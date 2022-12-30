@@ -2,9 +2,9 @@ import React from "react"
 import { MemoryRouter } from "react-router-dom"
 import { screen, render, fireEvent } from "@testing-library/react"
 
-import PopularTagList from "./PopularTagList"
+import TagList from "./TagList"
 
-describe("PopularTagList", () => {
+describe("TagList", () => {
   it("renders an expandable list of tags", async () => {
     const tagList = [
       { tag: "someTag", count: 3 },
@@ -13,7 +13,7 @@ describe("PopularTagList", () => {
 
     render(
       <MemoryRouter>
-        <PopularTagList countByTag={tagList} limit={5} />
+        <TagList countByTag={tagList} limit={5} />
       </MemoryRouter>
     )
 
@@ -32,7 +32,7 @@ describe("PopularTagList", () => {
 
     render(
       <MemoryRouter>
-        <PopularTagList countByTag={tagList} limit={5} />
+        <TagList countByTag={tagList} limit={5} />
       </MemoryRouter>
     )
 
@@ -60,7 +60,7 @@ describe("PopularTagList", () => {
 
     render(
       <MemoryRouter>
-        <PopularTagList countByTag={tagList} limit={10} />
+        <TagList countByTag={tagList} limit={10} />
       </MemoryRouter>
     )
 

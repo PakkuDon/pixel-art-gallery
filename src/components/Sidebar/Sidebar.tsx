@@ -4,7 +4,7 @@ import extractFilename from "../../util/extractFilename"
 import Card from "../Card"
 import { PixelArtEntry } from "../../data"
 import SidebarEntry from "./SidebarEntry"
-import PopularTagList from "./PopularTagList"
+import TagList from "./TagList"
 
 import "./Sidebar.css"
 
@@ -48,7 +48,7 @@ const Sidebar = ({
           <div>
             {entries.length} {entries.length === 1 ? "entry" : "entries"}.
           </div>
-          <PopularTagList countByTag={countByTag} limit={10} />
+          <TagList countByTag={countByTag} limit={10} />
         </div>
       </div>
       <div className="entriesList">
