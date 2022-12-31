@@ -54,7 +54,8 @@ img {
   image-rendering: pixelated;
 }
 
-.sidebar-layout {
+.sidebar-layout,
+.single-column-layout {
   grid-template-rows: 75vh;
 }
 

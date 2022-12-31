@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import PixelArtGallery from "./pages/PixelArtGallery"
+import Statistics from "./pages/Statistics"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import "normalize.css"
@@ -34,6 +35,10 @@ const App = () => {
         <Route
           path="/"
           element={<PixelArtGallery prefersDarkTheme={prefersDarkTheme} />}
+        />
+        <Route
+          path="/stats"
+          element={<Statistics prefersDarkTheme={prefersDarkTheme} />}
         />
         <Route
           path="/:id"
