@@ -3,10 +3,13 @@ import { Link } from "react-router-dom"
 
 interface PopularTagListProps {
   countByTag: Array<{ tag: string; count: number }>
-  limit: number
+  limit?: number
 }
 
-const PopularTagList = ({ countByTag, limit }: PopularTagListProps) => {
+const PopularTagList = ({
+  countByTag,
+  limit = Number.MAX_SAFE_INTEGER,
+}: PopularTagListProps) => {
   const [visible, setVisible] = useState(false)
 
   if (visible) {
