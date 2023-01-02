@@ -32,18 +32,9 @@ const App = () => {
   return (
     <Router basename={basename}>
       <Routes>
-        <Route
-          path="/"
-          element={<PixelArtGallery prefersDarkTheme={prefersDarkTheme} />}
-        />
-        <Route
-          path="/stats"
-          element={<Statistics prefersDarkTheme={prefersDarkTheme} />}
-        />
-        <Route
-          path="/:id"
-          element={<PixelArtGallery prefersDarkTheme={prefersDarkTheme} />}
-        />
+        <Route path="/" element={<PixelArtGallery />} />
+        <Route path="/stats" element={<Statistics />} />
+        <Route path="/:id" element={<PixelArtGallery />} />
       </Routes>
       <Card>
         <Footer

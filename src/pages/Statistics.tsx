@@ -1,19 +1,9 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import classnames from "classnames"
 import Card from "../components/Card"
 
-interface StatisticsProps {
-  prefersDarkTheme?: boolean
-}
-
-const Statistics = ({ prefersDarkTheme }: StatisticsProps) => (
-  <div
-    className={classnames("single-column-layout", {
-      "dark-theme": prefersDarkTheme,
-      "light-theme": !prefersDarkTheme,
-    })}
-  >
+const Statistics = () => (
+  <div className="single-column-layout">
     <Card>
       <Link to={"/"}>Back to gallery</Link>
     </Card>

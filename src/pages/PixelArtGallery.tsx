@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react"
 import { useParams, useSearchParams } from "react-router-dom"
-import classnames from "classnames"
 
 import Sidebar from "../components/Sidebar"
 import ImageDetails from "../components/ImageDetails"
@@ -9,11 +8,7 @@ import PixelArtRepository from "../PixelArtRepository"
 
 PixelArtRepository.load()
 
-interface PixelArtGalleryProps {
-  prefersDarkTheme?: boolean
-}
-
-const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
+const PixelArtGallery = () => {
   const [entries, setPixelArtEntries] = useState(
     PixelArtRepository.findAll().reverse()
   )
@@ -81,12 +76,7 @@ const PixelArtGallery = ({ prefersDarkTheme }: PixelArtGalleryProps) => {
   }, [params, setPixelArtEntries])
 
   return (
-    <div
-      className={classnames("sidebar-layout", {
-        "dark-theme": prefersDarkTheme,
-        "light-theme": !prefersDarkTheme,
-      })}
-    >
+    <div className="sidebar-layout">
       <Sidebar
         entries={entries}
         searchQuery={new URLSearchParams(params).get("q") || ""}
