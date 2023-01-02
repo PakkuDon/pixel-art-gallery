@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 26 Dec 2022 13:00:34 GMT</pubDate>
+        <pubDate>Mon, 02 Jan 2023 06:41:13 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Colorful</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220612-pixeldailies.png" alt="20220612-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Colorful</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/new-worlds-46">New Worlds 46</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220612-pixeldailies</link>
-        <pubDate>Sun, 12 Jun 2022 13:57:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Meadow</title>
         <description>
@@ -712,6 +698,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20221226-pixeldailies</link>
         <pubDate>Mon, 26 Dec 2022 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Hut</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230101-pixeldailies.png" alt="20230101-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Hut</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/nostalgia48">Nostalgia48</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230101-pixeldailies</link>
+        <pubDate>Sun, 01 Jan 2023 12:53:00 GMT</pubDate>
       </item>
     
       </channel>
