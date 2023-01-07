@@ -6,8 +6,6 @@ import ImageDetails from "../components/ImageDetails"
 import extractFilename from "../util/extractFilename"
 import PixelArtRepository from "../PixelArtRepository"
 
-PixelArtRepository.load()
-
 const PixelArtGallery = () => {
   const [entries, setPixelArtEntries] = useState(
     PixelArtRepository.findAll().reverse()
