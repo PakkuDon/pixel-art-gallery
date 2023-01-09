@@ -120,11 +120,11 @@ describe("PixelArtRepository", () => {
 
       expect(PixelArtRepository.countBy((entry) => entry.tags[0])).toEqual([
         {
-          tag: "pixel_dailies",
+          key: "pixel_dailies",
           count: 2,
         },
         {
-          tag: "noprompt",
+          key: "noprompt",
           count: 1,
         },
       ])
@@ -132,11 +132,11 @@ describe("PixelArtRepository", () => {
         PixelArtRepository.countBy((entry) => entry.date.split("-")[0])
       ).toEqual([
         {
-          tag: "2000",
+          key: "2000",
           count: 2,
         },
         {
-          tag: "2001",
+          key: "2001",
           count: 1,
         },
       ])
@@ -160,11 +160,11 @@ describe("PixelArtRepository", () => {
 
       expect(PixelArtRepository.countBy((entry) => entry.tags[0])).toEqual([
         {
-          tag: "noprompt",
+          key: "noprompt",
           count: 1,
         },
         {
-          tag: "pixel_dailies",
+          key: "pixel_dailies",
           count: 1,
         },
       ])

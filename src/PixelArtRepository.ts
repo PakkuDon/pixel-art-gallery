@@ -7,7 +7,7 @@ interface Repository {
   countByTag: () => Array<{ tag: string; count: number }>
   countBy: (
     groupingFunction: (image: PixelArtEntry) => string
-  ) => Array<{ tag: string; count: number }>
+  ) => Array<{ key: string; count: number }>
 }
 
 interface Tally {
@@ -54,7 +54,7 @@ const PixelArtRepository: Repository = {
   },
   countBy(groupingFunction) {
     const tally: Tally = {}
-    const result: Array<{ tag: string; count: number }> = []
+    const result: Array<{ key: string; count: number }> = []
 
     this.entries.forEach((entry: PixelArtEntry) => {
       const key = groupingFunction(entry)
@@ -65,8 +65,8 @@ const PixelArtRepository: Repository = {
       }
     })
 
-    Object.entries(tally).forEach(([tag, count]) => {
-      result.push({ tag, count })
+    Object.entries(tally).forEach(([key, count]) => {
+      result.push({ key, count })
     })
 
     result.sort((a, b) => {
@@ -76,7 +76,7 @@ const PixelArtRepository: Repository = {
       if (a.count < b.count) {
         return 1
       }
-      return a.tag.localeCompare(b.tag)
+      return a.key.localeCompare(b.key)
     })
 
     return result
