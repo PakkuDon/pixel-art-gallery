@@ -94,4 +94,80 @@ describe("PixelArtRepository", () => {
       ])
     })
   })
+
+  describe(".countBy", () => {
+    it("returns tally where results are grouped by provided function", () => {
+      PixelArtRepository.load([
+        {
+          src: "img.png",
+          title: "foo",
+          date: "2000-01-01T23:59+11:00",
+          tags: ["pixel_dailies", "animal"],
+        },
+        {
+          src: "img.jpg",
+          title: "bar",
+          date: "2000-01-01T23:59+11:00",
+          tags: ["pixel_dailies"],
+        },
+        {
+          src: "img.bmp",
+          title: "foobar",
+          date: "2001-01-01T23:59+11:00",
+          tags: ["noprompt"],
+        },
+      ])
+
+      expect(PixelArtRepository.countBy((entry) => entry.tags[0])).toEqual([
+        {
+          tag: "pixel_dailies",
+          count: 2,
+        },
+        {
+          tag: "noprompt",
+          count: 1,
+        },
+      ])
+      expect(
+        PixelArtRepository.countBy((entry) => entry.date.split("-")[0])
+      ).toEqual([
+        {
+          tag: "2000",
+          count: 2,
+        },
+        {
+          tag: "2001",
+          count: 1,
+        },
+      ])
+    })
+
+    it("returns tally sorted by field name if counts are the same", () => {
+      PixelArtRepository.load([
+        {
+          src: "img.png",
+          title: "foo",
+          date: "2000-01-01T23:59+11:00",
+          tags: ["pixel_dailies"],
+        },
+        {
+          src: "img.jpg",
+          title: "bar",
+          date: "2000-01-01T23:59+11:00",
+          tags: ["noprompt"],
+        },
+      ])
+
+      expect(PixelArtRepository.countBy((entry) => entry.tags[0])).toEqual([
+        {
+          tag: "noprompt",
+          count: 1,
+        },
+        {
+          tag: "pixel_dailies",
+          count: 1,
+        },
+      ])
+    })
+  })
 })
