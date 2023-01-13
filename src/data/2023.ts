@@ -46,6 +46,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-01-08T23:58+11:00",
     tags: ["pixel_dailies", "Punch", "drink", "apollo"],
   },
+  {
+    src: "2023/20230113-pixeldailies.png",
+    title: "Belated Pixel Dailies prompt: #promenade",
+    description: `
+      Palette: [Apollo](https://lospec.com/palette-list/apollo)
+
+      Restriction: Your piece must use 1-point perspective
+    `,
+    date: "2023-01-13T23:55+11:00",
+    tags: ["pixel_dailies", "promenade", "landscape", "apollo"],
+  },
 ]
 
 export default entries
