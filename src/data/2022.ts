@@ -213,7 +213,13 @@ const entries: PixelArtEntry[] = [
       200th post. Thanks again for following along! See you at the 300th post.
     `,
     date: "2022-02-12T23:45+11:00",
-    tags: ["pixel_dailies", "celebration", "candle", "sweet-canyon-32"],
+    tags: [
+      "pixel_dailies",
+      "celebration",
+      "milestone_post",
+      "candle",
+      "sweet-canyon-32",
+    ],
   },
   {
     src: "2022/20220213-pixeldailies.png",
