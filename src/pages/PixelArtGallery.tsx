@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react"
 import { useParams, useSearchParams } from "react-router-dom"
 
+import Statistics from "./Statistics"
 import Sidebar from "../components/Sidebar"
 import ImageDetails from "../components/ImageDetails"
 import extractFilename from "../util/extractFilename"
@@ -82,11 +83,15 @@ const PixelArtGallery = () => {
         onSearchQueryChange={onSearchQueryChange}
         countByTag={countByTag}
       />
-      <ImageDetails
-        image={selectedImage}
-        previousImage={entries[selectedIndex - 1]}
-        nextImage={entries[selectedIndex + 1]}
-      />
+      {id === "stats" ? (
+        <Statistics />
+      ) : (
+        <ImageDetails
+          image={selectedImage}
+          previousImage={entries[selectedIndex - 1]}
+          nextImage={entries[selectedIndex + 1]}
+        />
+      )}
     </div>
   )
 }

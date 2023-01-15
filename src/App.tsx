@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import PixelArtRepository from "./PixelArtRepository"
 import PixelArtGallery from "./pages/PixelArtGallery"
-import Statistics from "./pages/Statistics"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import "normalize.css"
@@ -36,7 +35,6 @@ const App = () => {
     <Router basename={basename}>
       <Routes>
         <Route path="/" element={<PixelArtGallery />} />
-        <Route path="/stats" element={<Statistics />} />
         <Route path="/:id" element={<PixelArtGallery />} />
       </Routes>
       <Card>
