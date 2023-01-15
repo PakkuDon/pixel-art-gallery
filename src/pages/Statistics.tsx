@@ -16,8 +16,8 @@ const Statistics = () => {
   }).sort((a, b) => a.key.localeCompare(b.key))
 
   return (
-    <div className="single-column-layout">
-      <Card>
+    <Card>
+      <main className="statistics">
         <div>
           <Link to="/">Back to gallery</Link>
         </div>
@@ -40,8 +40,8 @@ const Statistics = () => {
             </div>
           ))}
         </div>
-      </Card>
-    </div>
+      </main>
+    </Card>
   )
 }
 

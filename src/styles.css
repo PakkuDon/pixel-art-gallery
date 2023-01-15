@@ -54,8 +54,7 @@ img {
   image-rendering: pixelated;
 }
 
-.sidebar-layout,
-.single-column-layout {
+.sidebar-layout {
   grid-template-rows: 75vh;
 }
 
@@ -66,6 +65,11 @@ img {
 .content {
   margin: 0;
   padding: 0.75em 1em;
+}
+
+.statistics {
+  height: 100%;
+  overflow-y: auto;
 }
 
 p {
