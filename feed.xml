@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 08 Jan 2023 13:03:41 GMT</pubDate>
+        <pubDate>Sun, 15 Jan 2023 12:09:43 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #crab</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220628-pixeldailies.png" alt="20220628-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #crab</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/tranquility-plus-39">Tranquility Plus 39</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220628-pixeldailies</link>
-        <pubDate>Tue, 28 Jun 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Potatoes</title>
         <description>
@@ -710,6 +696,21 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230108-pixeldailies</link>
         <pubDate>Sun, 08 Jan 2023 12:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Belated Pixel Dailies prompt: #promenade</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230113-pixeldailies.png" alt="20230113-pixeldailies" />]]>
+          <p>Belated Pixel Dailies prompt: #promenade</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/apollo">Apollo</a></p>
+<p> Restriction: Your piece must use 1-point perspective
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230113-pixeldailies</link>
+        <pubDate>Fri, 13 Jan 2023 12:55:00 GMT</pubDate>
       </item>
     
       </channel>
