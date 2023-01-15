@@ -34,8 +34,7 @@ const App = () => {
   return (
     <Router basename={basename}>
       <Routes>
-        <Route path="/" element={<PixelArtGallery />} />
-        <Route path="/:id" element={<PixelArtGallery />} />
+        <Route path="/:id?" element={<PixelArtGallery />} />
       </Routes>
       <Card>
         <Footer
