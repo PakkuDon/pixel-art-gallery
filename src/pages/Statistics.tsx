@@ -18,13 +18,13 @@ const Statistics = () => {
   return (
     <Card>
       <main className="statistics">
-        <div>
+        <div className="content">
           <Link to="/">Back to gallery</Link>
         </div>
-        <div>
+        <div className="content">
           <TagList countByTag={countByTag} />
         </div>
-        <div>
+        <div className="content">
           <h2>Entries posted each year</h2>
           {countByYear.map(({ key, count }) => (
             <div key={key}>
@@ -32,7 +32,7 @@ const Statistics = () => {
             </div>
           ))}
         </div>
-        <div>
+        <div className="content">
           <h2>Entries posted each month</h2>
           {countByMonth.map(({ key, count }) => (
             <div key={key}>
