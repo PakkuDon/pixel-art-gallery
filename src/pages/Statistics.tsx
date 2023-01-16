@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import { format as formatDate } from "date-fns"
 
 import PixelArtRepository from "../PixelArtRepository"
 import Card from "../components/Card"
@@ -10,10 +11,9 @@ const Statistics = () => {
   const countByYear = PixelArtRepository.countBy((entry) =>
     new Date(entry.date).getFullYear().toString()
   ).sort((a, b) => a.key.localeCompare(b.key))
-  const countByMonth = PixelArtRepository.countBy((entry) => {
-    const date = new Date(entry.date)
-    return `${date.getFullYear()}-${date.getMonth() + 1}`
-  }).sort((a, b) => a.key.localeCompare(b.key))
+  const countByMonth = PixelArtRepository.countBy((entry) =>
+    formatDate(new Date(entry.date), "yyyy-MM")
+  ).sort((a, b) => a.key.localeCompare(b.key))
 
   return (
     <Card>
