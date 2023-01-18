@@ -1,10 +1,20 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Tooltip,
+} from "chart.js"
+import { Bar } from "react-chartjs-2"
 import { format as formatDate } from "date-fns"
 
 import PixelArtRepository from "../PixelArtRepository"
 import Card from "../components/Card"
 import TagList from "../components/Sidebar/TagList"
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip)
 
 const Statistics = () => {
   const countByTag = PixelArtRepository.countByTag()
@@ -26,19 +36,33 @@ const Statistics = () => {
         </div>
         <div className="content">
           <h2>Entries posted each year</h2>
-          {countByYear.map(({ key, count }) => (
-            <div key={key}>
-              <strong>{key}:</strong> {count}
-            </div>
-          ))}
+          <Bar
+            options={{ indexAxis: "y" }}
+            data={{
+              labels: countByYear.map((value) => value.key),
+              datasets: [
+                {
+                  data: countByYear.map((value) => value.count),
+                  backgroundColor: "#336699",
+                },
+              ],
+            }}
+          />
         </div>
         <div className="content">
           <h2>Entries posted each month</h2>
-          {countByMonth.map(({ key, count }) => (
-            <div key={key}>
-              <strong>{key}:</strong> {count}
-            </div>
-          ))}
+          <Bar
+            options={{ indexAxis: "y" }}
+            data={{
+              labels: countByMonth.map((value) => value.key),
+              datasets: [
+                {
+                  data: countByMonth.map((value) => value.count),
+                  backgroundColor: "#336699",
+                },
+              ],
+            }}
+          />
         </div>
       </main>
     </Card>
