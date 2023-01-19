@@ -57,6 +57,15 @@ const entries: PixelArtEntry[] = [
     date: "2023-01-13T23:55+11:00",
     tags: ["pixel_dailies", "promenade", "landscape", "apollo"],
   },
+  {
+    src: "2023/20230119-pixeldailies.png",
+    title: "Pixel Dailies prompt: #overworked",
+    description: `
+      Palette: [Mahyellaw '22](https://lospec.com/palette-list/mahyellaw-22)
+    `,
+    date: "2023-01-19T23:59+11:00",
+    tags: ["pixel_dailies", "overworked", "night", "mahyellaw-22"],
+  },
 ]
 
 export default entries
