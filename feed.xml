@@ -4,23 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 15 Jan 2023 12:09:43 GMT</pubDate>
+        <pubDate>Thu, 19 Jan 2023 13:06:27 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Potatoes</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220702-pixeldailies.png" alt="20220702-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Potatoes</p>
-          <p> Palette: <a href="https://lospec.com/palette-list/gora63">GORA63</a></p>
-<p> <a href="https://www.shutterstock.com/image-photo/baked-potatoes-cheese-bacon-1092212291">Reference image</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220702-pixeldailies</link>
-        <pubDate>Sat, 02 Jul 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Popcorn</title>
         <description>
@@ -711,6 +696,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230113-pixeldailies</link>
         <pubDate>Fri, 13 Jan 2023 12:55:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #overworked</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230119-pixeldailies.png" alt="20230119-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #overworked</p>
+          <p> Palette: <a href="https://lospec.com/palette-list/mahyellaw-22">Mahyellaw &#39;22</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230119-pixeldailies</link>
+        <pubDate>Thu, 19 Jan 2023 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
