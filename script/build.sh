@@ -13,6 +13,9 @@ fi
 echo "🛠 Generating dist build..."
 yarn run webpack --config config/production.config.js
 
+echo "📃 Adding placeholder for statistics page"
+cp dist/index.html dist/stats.html
+
 echo "🏭 Generating build script..."
 yarn run webpack --config config/cli-scripts.config.js
 
