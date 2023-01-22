@@ -66,6 +66,23 @@ const entries: PixelArtEntry[] = [
     date: "2023-01-19T23:59+11:00",
     tags: ["pixel_dailies", "overworked", "night", "mahyellaw-22"],
   },
+  {
+    src: "2023/20230122-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Footprint",
+    description: `
+      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
+
+      Featuring the first sanctuary, Giant Step, from Earthbound / Mother 2
+    `,
+    date: "2023-01-22T23:52+11:00",
+    tags: [
+      "pixel_dailies",
+      "Footprint",
+      "earthbound",
+      "landscape",
+      "nostalgia48",
+    ],
+  },
 ]
 
 export { entries }
