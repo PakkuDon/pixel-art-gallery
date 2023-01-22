@@ -29,10 +29,12 @@ module.exports = {
         tsx: "never",
       },
     ],
+    "import/no-default-export": "error",
     "import/no-extraneous-dependencies": [
       "error",
       { devDependencies: ["**/*.test.*"] },
     ],
+    "import/prefer-default-export": "off",
     "react/function-component-definition": [
       2,
       {
