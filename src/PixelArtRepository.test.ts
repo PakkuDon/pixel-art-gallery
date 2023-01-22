@@ -1,4 +1,4 @@
-import PixelArtRepository from "./PixelArtRepository"
+import { PixelArtRepository } from "./PixelArtRepository"
 
 describe("PixelArtRepository", () => {
   describe(".findAll", () => {

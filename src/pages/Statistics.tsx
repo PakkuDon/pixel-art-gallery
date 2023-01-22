@@ -10,9 +10,9 @@ import {
 import { Bar } from "react-chartjs-2"
 import { format as formatDate } from "date-fns"
 
-import PixelArtRepository from "../PixelArtRepository"
-import Card from "../components/Card"
-import TagList from "../components/Sidebar/TagList"
+import { PixelArtRepository } from "../PixelArtRepository"
+import { Card } from "../components/Card"
+import { TagList } from "../components/Sidebar/TagList"
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip)
 
@@ -69,4 +69,4 @@ const Statistics = () => {
   )
 }
 
-export default Statistics
+export { Statistics }

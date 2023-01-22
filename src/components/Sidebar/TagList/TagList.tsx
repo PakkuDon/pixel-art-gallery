@@ -1,15 +1,15 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-interface PopularTagListProps {
+interface TagListProps {
   countByTag: Array<{ tag: string; count: number }>
   limit?: number
 }
 
-const PopularTagList = ({
+const TagList = ({
   countByTag,
   limit = Number.MAX_SAFE_INTEGER,
-}: PopularTagListProps) => {
+}: TagListProps) => {
   const [visible, setVisible] = useState(false)
 
   if (visible) {
@@ -41,4 +41,4 @@ const PopularTagList = ({
   )
 }
 
-export default PopularTagList
+export { TagList }

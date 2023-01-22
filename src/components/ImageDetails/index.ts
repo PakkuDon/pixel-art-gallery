@@ -1,3 +1,3 @@
-import ImageDetails from "./ImageDetails"
+import { ImageDetails } from "./ImageDetails"
 
-export default ImageDetails
+export { ImageDetails }

@@ -41,4 +41,4 @@ const Footer = ({ prefersDarkTheme, onDarkThemeToggle }: FooterProps) => (
   </footer>
 )
 
-export default Footer
+export { Footer }

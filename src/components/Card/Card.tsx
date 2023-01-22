@@ -7,4 +7,4 @@ interface CardProps {
 }
 const Card = ({ children }: CardProps) => <div className="card">{children}</div>
 
-export default Card
+export { Card }

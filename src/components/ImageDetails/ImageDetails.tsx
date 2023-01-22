@@ -8,9 +8,9 @@ import {
 } from "date-fns"
 import classnames from "classnames"
 
-import Card from "../Card"
-import Slider from "../Slider"
-import extractFilename from "../../util/extractFilename"
+import { Card } from "../Card"
+import { Slider } from "../Slider"
+import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
 import "./ImageDetails.css"
 
@@ -109,4 +109,4 @@ const ImageDetails = ({
   )
 }
 
-export default ImageDetails
+export { ImageDetails }

@@ -2,7 +2,7 @@ import React from "react"
 import { MemoryRouter } from "react-router-dom"
 import { screen, render, fireEvent } from "@testing-library/react"
 
-import TagList from "./TagList"
+import { TagList } from "./TagList"
 
 describe("TagList", () => {
   it("renders an expandable list of tags", async () => {

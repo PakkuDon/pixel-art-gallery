@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import classnames from "classnames"
 
-import extractFilename from "../../../util/extractFilename"
+import { extractFilename } from "../../../util/extractFilename"
 import { PixelArtEntry } from "../../../data"
 
 import "./SidebarEntry.css"
@@ -30,4 +30,4 @@ const SidebarEntry = ({
   )
 }
 
-export default SidebarEntry
+export { SidebarEntry }

@@ -1,5 +1,7 @@
-const PixelArtRepository = require("../../src/PixelArtRepository").default
-const extractFilename = require("../../src/util/extractFilename").default
+const PixelArtRepository =
+  require("../../src/PixelArtRepository").PixelArtRepository
+const extractFilename =
+  require("../../src/util/extractFilename").extractFilename
 
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()

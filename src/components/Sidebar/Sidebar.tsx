@@ -1,10 +1,10 @@
 import React from "react"
 
-import extractFilename from "../../util/extractFilename"
-import Card from "../Card"
+import { extractFilename } from "../../util/extractFilename"
+import { Card } from "../Card"
 import { PixelArtEntry } from "../../data"
-import SidebarEntry from "./SidebarEntry"
-import TagList from "./TagList"
+import { SidebarEntry } from "./SidebarEntry"
+import { TagList } from "./TagList"
 
 import "./Sidebar.css"
 
@@ -71,4 +71,4 @@ const Sidebar = ({
   </Card>
 )
 
-export default Sidebar
+export { Sidebar }

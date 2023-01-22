@@ -2,8 +2,8 @@
 import fs from "fs"
 import path from "path"
 
-import PixelArtRepository from "../PixelArtRepository"
-import extractFilename from "./extractFilename"
+import { PixelArtRepository } from "../PixelArtRepository"
+import { extractFilename } from "./extractFilename"
 
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()

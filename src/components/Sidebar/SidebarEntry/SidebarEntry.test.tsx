@@ -2,7 +2,7 @@ import React from "react"
 import { MemoryRouter } from "react-router-dom"
 import { screen, render } from "@testing-library/react"
 
-import SidebarEntry from "./SidebarEntry"
+import { SidebarEntry } from "./SidebarEntry"
 
 describe("SidebarEntry", () => {
   it("renders thumbnail and link to image", () => {

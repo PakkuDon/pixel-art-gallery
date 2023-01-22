@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import PixelArtRepository from "./PixelArtRepository"
-import PixelArtGallery from "./pages/PixelArtGallery"
-import Card from "./components/Card"
-import Footer from "./components/Footer"
+import { PixelArtRepository } from "./PixelArtRepository"
+import { PixelArtGallery } from "./pages/PixelArtGallery"
+import { Card } from "./components/Card"
+import { Footer } from "./components/Footer"
 import "normalize.css"
 import "./styles.css"
 
@@ -46,4 +46,4 @@ const App = () => {
   )
 }
 
-export default App
+export { App }

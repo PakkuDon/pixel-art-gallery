@@ -1331,4 +1331,4 @@ const entries: PixelArtEntry[] = [
   },
 ]
 
-export default entries
+export { entries }

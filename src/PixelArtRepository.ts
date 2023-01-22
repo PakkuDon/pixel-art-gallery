@@ -1,4 +1,4 @@
-import pixelArtEntries, { PixelArtEntry } from "./data"
+import { entries as pixelArtEntries, PixelArtEntry } from "./data"
 
 interface Repository {
   entries: PixelArtEntry[]
@@ -83,4 +83,4 @@ const PixelArtRepository: Repository = {
   },
 }
 
-export default PixelArtRepository
+export { PixelArtRepository }

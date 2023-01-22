@@ -56,4 +56,4 @@ const Slider = ({ zoom, min, max, increment = 25, onChange }: SliderProps) => {
   )
 }
 
-export default Slider
+export { Slider }

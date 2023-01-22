@@ -1,3 +1,3 @@
-import SidebarEntry from "./SidebarEntry"
+import { SidebarEntry } from "./SidebarEntry"
 
-export default SidebarEntry
+export { SidebarEntry }

@@ -3,9 +3,9 @@ import fs from "fs"
 import path from "path"
 import { marked } from "marked"
 
-import PixelArtRepository from "../PixelArtRepository"
+import { PixelArtRepository } from "../PixelArtRepository"
 import { PixelArtEntry } from "../data"
-import extractFilename from "./extractFilename"
+import { extractFilename } from "./extractFilename"
 
 PixelArtRepository.load()
 const pixelArtEntries = PixelArtRepository.findAll()
@@ -73,4 +73,4 @@ if (process.env.NODE_ENV !== "test") {
   })
 }
 
-export default generateRssFeed
+export { generateRssFeed }
