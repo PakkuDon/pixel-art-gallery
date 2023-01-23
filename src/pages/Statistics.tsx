@@ -5,16 +5,17 @@ import {
   CategoryScale,
   LinearScale,
   BarElement,
+  ArcElement,
   Tooltip,
 } from "chart.js"
-import { Bar } from "react-chartjs-2"
+import { Bar, Pie } from "react-chartjs-2"
 import { format as formatDate } from "date-fns"
 
 import { PixelArtRepository } from "../PixelArtRepository"
 import { Card } from "../components/Card"
 import { TagList } from "../components/Sidebar/TagList"
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip)
+ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Tooltip)
 
 const Statistics = () => {
   const countByTag = PixelArtRepository.countByTag()
@@ -24,6 +25,19 @@ const Statistics = () => {
   const countByMonth = PixelArtRepository.countBy((entry) =>
     formatDate(new Date(entry.date), "yyyy-MM")
   ).sort((a, b) => a.key.localeCompare(b.key))
+  const countByPalette = PixelArtRepository.countBy((entry) => {
+    // Cheap hack to get palette URL
+    // TODO: Introduce palette field to pixel art entries and group by that
+    const description = entry.description
+    if (description?.match("lospec.com/palette-list")) {
+      const paletteUrl = description.match(
+        /lospec\.com\/palette\-list\/([\w\-]+)/
+      )
+      return paletteUrl ? paletteUrl[1] : ""
+    } else {
+      return "custom"
+    }
+  })
 
   return (
     <Card>
@@ -59,6 +73,31 @@ const Statistics = () => {
                 {
                   data: countByMonth.map((value) => value.count),
                   backgroundColor: "#336699",
+                },
+              ],
+            }}
+          />
+        </div>
+        <div className="content">
+          <h2>Palette Usage</h2>
+          <Pie
+            data={{
+              labels: countByPalette.map((value) => value.key),
+              datasets: [
+                {
+                  data: countByPalette.map((value) => value.count),
+                  backgroundColor: new Array(countByPalette.length)
+                    .fill("")
+                    .map(() => {
+                      return `rgba(${Math.floor(
+                        Math.random() * 255
+                      )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
+                        Math.random() * 255
+                      )}, 0.5)`
+                    }),
+                  borderColor: new Array(countByPalette.length).fill(
+                    "transparent"
+                  ),
                 },
               ],
             }}
