@@ -9,13 +9,21 @@ import {
   Tooltip,
 } from "chart.js"
 import { Bar, Pie } from "react-chartjs-2"
+import autocolors from "chartjs-plugin-autocolors"
 import { format as formatDate } from "date-fns"
 
 import { PixelArtRepository } from "../PixelArtRepository"
 import { Card } from "../components/Card"
 import { TagList } from "../components/Sidebar/TagList"
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Tooltip)
+ChartJS.register(
+  autocolors,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  ArcElement,
+  Tooltip
+)
 
 const Statistics = () => {
   const countByTag = PixelArtRepository.countByTag()
@@ -81,23 +89,18 @@ const Statistics = () => {
         <div className="content">
           <h2>Palette Usage</h2>
           <Pie
+            options={{
+              plugins: {
+                autocolors: {
+                  mode: "data",
+                },
+              },
+            }}
             data={{
               labels: countByPalette.map((value) => value.key),
               datasets: [
                 {
                   data: countByPalette.map((value) => value.count),
-                  backgroundColor: new Array(countByPalette.length)
-                    .fill("")
-                    .map(() => {
-                      return `rgba(${Math.floor(
-                        Math.random() * 255
-                      )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
-                        Math.random() * 255
-                      )}, 0.5)`
-                    }),
-                  borderColor: new Array(countByPalette.length).fill(
-                    "transparent"
-                  ),
                 },
               ],
             }}

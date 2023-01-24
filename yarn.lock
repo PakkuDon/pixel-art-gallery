@@ -2669,6 +2669,11 @@ chart.js@^4.1.2:
   dependencies:
     "@kurkle/color" "^0.3.0"
 
+chartjs-plugin-autocolors@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/chartjs-plugin-autocolors/-/chartjs-plugin-autocolors-0.2.1.tgz#860f7d6dc5ecd37bcfe55c31bfd1604cd363e791"
+  integrity sha512-xEMmCaFefyqanstu4DBq9OA0BMvYDIUeHroqiGAT9owjekRFdqAp5nSTwjsjCSERFfMEQRnD+VPkaQ2ZgfxexQ==
+
 check-more-types@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/check-more-types/-/check-more-types-2.24.0.tgz#1420ffb10fd444dcfc79b43891bbfffd32a84600"

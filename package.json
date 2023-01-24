@@ -61,6 +61,7 @@
   },
   "dependencies": {
     "chart.js": "^4.1.2",
+    "chartjs-plugin-autocolors": "^0.2.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.29.2",
     "marked": "^4.0.6",
