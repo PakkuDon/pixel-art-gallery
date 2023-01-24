@@ -36,15 +36,14 @@ const Statistics = () => {
   const countByPalette = PixelArtRepository.countBy((entry) => {
     // Cheap hack to get palette URL
     // TODO: Introduce palette field to pixel art entries and group by that
-    const description = entry.description
+    const { description } = entry
     if (description?.match("lospec.com/palette-list")) {
       const paletteUrl = description.match(
-        /lospec\.com\/palette\-list\/([\w\-]+)/
+        /lospec\.com\/palette-list\/([\w-]+)/
       )
       return paletteUrl ? paletteUrl[1] : ""
-    } else {
-      return "custom"
     }
+    return "custom"
   })
 
   return (
