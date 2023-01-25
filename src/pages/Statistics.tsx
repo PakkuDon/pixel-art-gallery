@@ -25,7 +25,10 @@ ChartJS.register(
   Tooltip
 )
 
-const Statistics = () => {
+interface StatisticsProps {
+  searchQuery: string
+}
+const Statistics = ({ searchQuery }: StatisticsProps) => {
   const countByTag = PixelArtRepository.countByTag()
   const countByYear = PixelArtRepository.countBy((entry) =>
     new Date(entry.date).getFullYear().toString()
@@ -45,12 +48,13 @@ const Statistics = () => {
     }
     return "custom"
   })
+  const queryString = searchQuery ? `?q=${searchQuery}` : ""
 
   return (
     <Card>
       <main className="statistics">
         <div className="content">
-          <Link to="/">Back to gallery</Link>
+          <Link to={`/${queryString}`}>Back to gallery</Link>
         </div>
         <div className="content">
           <TagList countByTag={countByTag} />

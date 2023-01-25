@@ -84,7 +84,7 @@ const PixelArtGallery = () => {
         countByTag={countByTag}
       />
       {id === "stats" ? (
-        <Statistics />
+        <Statistics searchQuery={new URLSearchParams(params).get("q") || ""} />
       ) : (
         <ImageDetails
           image={selectedImage}
