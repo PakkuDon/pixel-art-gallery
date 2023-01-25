@@ -62,7 +62,7 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
         <div className="content">
           <h2>Entries posted each year</h2>
           <Bar
-            options={{ indexAxis: "y" }}
+            options={{ indexAxis: "y", animation: false }}
             data={{
               labels: countByYear.map((value) => value.key),
               datasets: [
@@ -77,7 +77,7 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
         <div className="content">
           <h2>Entries posted each month</h2>
           <Bar
-            options={{ indexAxis: "y" }}
+            options={{ indexAxis: "y", animation: false }}
             data={{
               labels: countByMonth.map((value) => value.key),
               datasets: [
@@ -93,6 +93,7 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
           <h2>Palette Usage</h2>
           <Pie
             options={{
+              animation: false,
               plugins: {
                 autocolors: {
                   mode: "data",
