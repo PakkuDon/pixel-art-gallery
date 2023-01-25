@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import classnames from "classnames"
 
 import "./Footer.css"
@@ -21,6 +22,9 @@ const Footer = ({ prefersDarkTheme, onDarkThemeToggle }: FooterProps) => (
           />{" "}
           Dark theme?
         </label>
+      </li>
+      <li>
+        <Link to="/stats">Portfolio stats</Link>
       </li>
       <li>
         <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
