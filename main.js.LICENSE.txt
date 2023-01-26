@@ -18,6 +18,13 @@
  * Released under the MIT License
  */
 
+/*!
+ * chartjs-plugin-autocolors v0.2.1
+ * https://github.com/kurkle/chartjs-plugin-autocolors#readme
+ * (c) 2023 Jukka Kurkela <jukka.kurkela@gmail.com>
+ * Released under the MIT license
+ */
+
 /**
  * @license React
  * react-dom.production.min.js
