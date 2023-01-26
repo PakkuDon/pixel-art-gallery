@@ -7,6 +7,11 @@ export interface PixelArtEntry {
   src: string
   title: string
   description?: string
+  palette?: {
+    name: string
+    url?: string
+    colours?: string[]
+  }
   date: string
   tags: string[]
   aliases?: string[]
