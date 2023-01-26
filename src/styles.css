@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color-scheme: light;
 }
 
 a {
@@ -30,6 +31,7 @@ button {
 body.dark-theme {
   background: #222;
   color: #fafafa;
+  color-scheme: dark;
 }
 
 .dark-theme a {
