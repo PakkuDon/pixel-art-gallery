@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-if [ -n "$(git status --porcelain | grep 'M src/data.js')" ]; then
-  read -p "src/data.js contains uncomitted changes which will be published. Are you sure you want to continue? (Y/N) " confirm
+if [ -n "$(git status --porcelain | grep 'M src/data')" ]; then
+  read -p "src/data contains uncomitted changes which will be published. Are you sure you want to continue? (Y/N) " confirm
   if [[ $confirm != "y" && $confirm != "Y" ]]; then
     echo "Build cancelled. Exiting..."
     exit 1
