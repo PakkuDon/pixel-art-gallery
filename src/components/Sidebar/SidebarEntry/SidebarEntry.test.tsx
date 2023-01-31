@@ -9,6 +9,9 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -27,6 +30,9 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -44,6 +50,9 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -62,6 +71,9 @@ describe("SidebarEntry", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }

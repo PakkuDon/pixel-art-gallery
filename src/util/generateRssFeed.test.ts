@@ -14,6 +14,9 @@ describe("generateRssFeed", () => {
         description: `
           Palette: [Example link](https://example.com)
         `,
+        palette: {
+          name: "Example link",
+        },
         date: "2020-01-01T00:00+11:00",
         tags: ["a", "b"],
       },
@@ -32,6 +35,9 @@ describe("generateRssFeed", () => {
           description: `
             Palette: [Example link](https://example.com)
           `,
+          palette: {
+            name: "Example link",
+          },
           date: "2020-01-01T00:00+1000",
           tags: ["a", "b"],
         },
@@ -41,6 +47,9 @@ describe("generateRssFeed", () => {
           description: `
             Palette: [Example link](https://example.com)
           `,
+          palette: {
+            name: "Example link",
+          },
           date: "2020-01-01T00:00+1000",
           tags: ["a", "b"],
         },

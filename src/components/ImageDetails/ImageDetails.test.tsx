@@ -10,6 +10,9 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+00:00",
       tags: ["test"],
     }
@@ -32,6 +35,9 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -56,6 +62,9 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -81,6 +90,9 @@ describe("ImageDetails", () => {
       src: "abc123.png",
       title: "Test image",
       description: "Image description",
+      palette: {
+        name: "Some palette",
+      },
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }

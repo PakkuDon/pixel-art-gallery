@@ -6,12 +6,18 @@ describe("PixelArtRepository", () => {
       const entry = {
         src: "img.png",
         title: "foo",
+        palette: {
+          name: "Some palette",
+        },
         date: "2000-01-01T23:59+11:00",
         tags: [],
       }
       const otherEntry = {
         src: "img.jpg",
         title: "bar",
+        palette: {
+          name: "Some palette",
+        },
         date: "2000-01-01T23:59+11:00",
         tags: [],
       }
@@ -28,6 +34,9 @@ describe("PixelArtRepository", () => {
         {
           src: "img.png",
           title: "foo",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: [],
         },
@@ -43,12 +52,18 @@ describe("PixelArtRepository", () => {
         {
           src: "img.png",
           title: "foo",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies", "animal"],
         },
         {
           src: "img.jpg",
           title: "bar",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
@@ -71,12 +86,18 @@ describe("PixelArtRepository", () => {
         {
           src: "img.png",
           title: "foo",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
         {
           src: "img.jpg",
           title: "bar",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["noprompt"],
         },
@@ -101,18 +122,27 @@ describe("PixelArtRepository", () => {
         {
           src: "img.png",
           title: "foo",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies", "animal"],
         },
         {
           src: "img.jpg",
           title: "bar",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
         {
           src: "img.bmp",
           title: "foobar",
+          palette: {
+            name: "Some palette",
+          },
           date: "2001-01-01T23:59+11:00",
           tags: ["noprompt"],
         },
@@ -147,12 +177,18 @@ describe("PixelArtRepository", () => {
         {
           src: "img.png",
           title: "foo",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
         {
           src: "img.jpg",
           title: "bar",
+          palette: {
+            name: "Some palette",
+          },
           date: "2000-01-01T23:59+11:00",
           tags: ["noprompt"],
         },
