@@ -7,7 +7,7 @@ export interface PixelArtEntry {
   src: string
   title: string
   description?: string
-  palette?: {
+  palette: {
     name: string
     url?: string
     colours?: string[]
