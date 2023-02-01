@@ -4,9 +4,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201010-lospecdaily.png",
     title: "Lospec Dailies prompt: #magic",
-    description: `
-      Palette: [MonoMetalic](https://lospec.com/palette-list/monometalic)
-    `,
+    description: ``,
     palette: {
       name: "MonoMetalic",
       url: "https://lospec.com/palette-list/monometalic",
@@ -23,9 +21,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201012-lospecdaily.png",
     title: "Lospec Dailies prompt: #landscape",
-    description: `
-      Palette: [Nintendo Gameboy (Black Zero)](https://lospec.com/palette-list/nintendo-gameboy-black-zero)
-    `,
+    description: ``,
     palette: {
       name: "Nintendo Gameboy (Black Zero)",
       url: "https://lospec.com/palette-list/nintendo-gameboy-black-zero",
@@ -41,9 +37,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201014-lospecdaily.png",
     title: "Lospec Dailies prompt: #rock",
-    description: `
-      Palette: [1bit Monitor Glow](https://lospec.com/palette-list/1bit-monitor-glow)
-    `,
+    description: ``,
     palette: {
       name: "1bit Monitor Glow",
       url: "https://lospec.com/palette-list/1bit-monitor-glow",
@@ -59,9 +53,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201015-lospecdaily.png",
     title: "Lospec Dailies prompt: #dog",
-    description: `
-      Palette: [Cave Rock](https://lospec.com/palette-list/cave-rock)
-    `,
+    description: ``,
     palette: {
       name: "Cave Rock",
       url: "https://lospec.com/palette-list/cave-rock",
@@ -78,9 +70,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201017-lospecdaily.png",
     title: "Lospec Dailies prompt: #tree",
-    description: `
-      Palette: [Touhou PC-9801](https://lospec.com/palette-list/touhou-pc-9801)
-    `,
+    description: ``,
     palette: {
       name: "Touhou PC-9801",
       url: "https://lospec.com/palette-list/touhou-pc-9801",
@@ -96,9 +86,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201018-lospecdaily.png",
     title: "Lospec Dailies prompt: #create",
-    description: `
-      Palette: [Arbitration-26 Palette](https://lospec.com/palette-list/arbitration-26)
-    `,
+    description: ``,
     palette: {
       name: "Arbitration-26",
       url: "https://lospec.com/palette-list/arbitration-26",
@@ -114,9 +102,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201019-lospecdaily.png",
     title: "Lospec Dailies prompt: #fish",
-    description: `
-      Palette: [gamer19](https://lospec.com/palette-list/gamer19)
-    `,
+    description: ``,
     palette: {
       name: "gamer19",
       url: "https://lospec.com/palette-list/gamer19",
@@ -133,9 +119,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201020-lospecdaily.png",
     title: "Lospec Dailies prompt: #dog",
-    description: `
-      Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
-    `,
+    description: ``,
     palette: {
       name: "Golden 6",
       url: "https://lospec.com/palette-list/golden-6",
@@ -153,7 +137,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201024-pixeldailies.png",
     title: "Pixel Dailies prompt: #television",
     description: `
-      Palette: [EG32](https://lospec.com/palette-list/eg32)
       Trivia: First pixel art that I've created in [GIMP](https://www.gimp.org/)
     `,
     palette: {
@@ -167,8 +150,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201104-pixeldailies.png",
     title: "Pixel Dailies prompt: #halloween",
     description: `
-      Palette: [DRZ15A](https://lospec.com/palette-list/drz15a)
-
       Bit belated, but Happy Halloween!
     `,
     palette: {
@@ -181,9 +162,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201106-lospecdaily.png",
     title: "Lospec Dailies prompt: #mushroom",
-    description: `
-      Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
-    `,
+    description: ``,
     palette: {
       name: "Lux3k",
       url: "https://lospec.com/palette-list/lux3k",
@@ -200,9 +179,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201108-lospecdaily.png",
     title: "Lospec Dailies prompt: #clouds",
-    description: `
-      Palette: [Bubblegum 16](https://lospec.com/palette-list/bubblegum-16)
-    `,
+    description: ``,
     palette: {
       name: "Bubblegum 16",
       url: "https://lospec.com/palette-list/bubblegum-16",
@@ -219,9 +196,8 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201108-vic-covid19-press.png",
     title: '"Everyone right to go?"',
     description: `
-      Palette: Sampled from a past press conference: #490172, #D8C8E3, 
-      #F9F9FE, #000000, #262926, #797977, #C8C7D1, #EDC4A6
-
+      Palette sampled from a past press conference
+      
       With today's press conference came the announcement that the border between 
       Metro and Regional Victoria along with the 25km travel limit will be lifted from 
       11:59 PM tonight as Victoria recorded its ninth consecutive day of zero 
@@ -254,8 +230,7 @@ const entries: PixelArtEntry[] = [
     description: `
       Featuring the new wall as seen at the press conference on November 8 2020.
 
-      Palette: Sampled from a past press conference: #D7D8D3, #3C8897,
-      #F9F9FE, #000000, #2D2F3F, #797977, #C8C7D1, #EDC4A6
+      Palette sampled from a past press conference
     `,
     palette: {
       name: "Custom",
@@ -277,7 +252,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201110-pixeldailies.png",
     title: "Pixel Dailies prompt: #Birds",
     description: `
-      Palette: #4F4948, #D9B670, #9EA29F, #EDF0EB
       Restriction: 4 colors max
 
       One of the peregrine falcon chicks from Collins St, Melbourne.
@@ -296,9 +270,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201111-lospecdaily.png",
     title: "Lospec Dailies prompt: #house",
-    description: `
-      Palette: [Slurry GB](https://lospec.com/palette-list/slurry-gb)
-    `,
+    description: ``,
     palette: {
       name: "Slurry GB",
       url: "https://lospec.com/palette-list/slurry-gb",
@@ -309,9 +281,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201114-lospecdaily.png",
     title: "Lospec Dailies prompt: #water",
-    description: `
-      Palette: [Kirby 15](https://lospec.com/palette-list/kirby-15)
-    `,
+    description: ``,
     palette: {
       name: "Kirby 15",
       url: "https://lospec.com/palette-list/kirby-15",
@@ -323,7 +293,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201116-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #ChocolateDesserts",
     description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
       Restriction: Each dessert must be 32x32 pixels or less and contain chocolate
     `,
     palette: {
@@ -343,9 +312,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201117-pixeldailies.png",
     title: "Pixel Dailies prompt: #cityscape",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -357,8 +324,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201119-diagram.png",
     title: "C4 Container Diagram",
     description: `
-      Palette: #ffffff, #428dd4, #07437b, #999999, #686868
-
       I may have made this to mess with someone.
       You can learn more about the C4 model for visualising software architecture
       at [c4model.com](https://c4model.com/)
@@ -373,9 +338,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201120-pixeldailies.png",
     title: "Pixel Dailies prompt: #waffle",
-    description: `
-      Palette: [Cheese Palette](https://lospec.com/palette-list/cheese-palette)
-    `,
+    description: ``,
     palette: {
       name: "Cheese Palette",
       url: "https://lospec.com/palette-list/cheese-palette",
@@ -392,9 +355,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201121-pixeldailies.png",
     title: "Pixel Dailies prompt: #scarab",
-    description: `
-      Palette: [Irenaart 22](https://lospec.com/palette-list/irenaart-22)
-    `,
+    description: ``,
     palette: {
       name: "Irenaart 22",
       url: "https://lospec.com/palette-list/irenaart-22",
@@ -411,8 +372,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201122-lospecdaily.png",
     title: "Lospec Dailies prompt: #landscape",
     description: `
-      Palette: [DarkPastel-36](https://lospec.com/palette-list/darkpastel-36)
-
       The Nobbies, Phillip Island, Australia
     `,
     palette: {
@@ -432,8 +391,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201124-lospecdaily.png",
     title: "Lospec Dailies prompt: #bird",
     description: `
-      Palette: [Combi 16](https://lospec.com/palette-list/combi-16)
-
       House sparrow
     `,
     palette: {
@@ -452,9 +409,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201126-lospecdaily.png",
     title: "Lospec Dailies prompt: #fire",
-    description: `
-      Palette: [Golden Helmet](https://lospec.com/palette-list/golden-helmet)
-    `,
+    description: ``,
     palette: {
       name: "Golden Helmet",
       url: "https://lospec.com/palette-list/golden-helmet",
@@ -471,7 +426,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201128-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #bears",
     description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
       Restriction: 32x32px or less per bear
     `,
     palette: {
@@ -488,8 +442,6 @@ const entries: PixelArtEntry[] = [
       Been struggling with getting the layout right. So far I have a grid with
       more grids inside it but I haven't yet figured out how to constrain the
       height of the inner grid.
-
-      Palette: [1bit black and white](https://lospec.com/palette-list/1bit-black-and-white)
     `,
     palette: {
       name: "1bit black and white",
@@ -502,8 +454,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201201-lospecdaily.png",
     title: "Lospec Dailies prompt: #insect",
     description: `
-      Palette: [15P DX](https://lospec.com/palette-list/15p-dx)
-
       Featuring Sewaddle, the Sewing Pokémon
     `,
     palette: {
@@ -516,9 +466,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201202-pixeldailies.png",
     title: "Pixel Dailies prompt: #badger",
-    description: `
-      Palette: [Starmancer](https://lospec.com/palette-list/starmancer)
-    `,
+    description: ``,
     palette: {
       name: "Starmancer",
       url: "https://lospec.com/palette-list/starmancer",
@@ -536,8 +484,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201203-lospecdaily.png",
     title: "Lospec Dailies prompt: #tree",
     description: `
-      Palette: [Pollen8](https://lospec.com/palette-list/pollen8)
-
       Following [Pixel_red_cat's tree tutorial](https://www.reddit.com/gallery/j9bi2a)
     `,
     palette: {
@@ -550,9 +496,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201205-lospecdaily.png",
     title: "Lospec Dailies prompt: #weapon",
-    description: `
-      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
-    `,
+    description: ``,
     palette: {
       name: "Draxalette",
       url: "https://lospec.com/palette-list/draxalette",
@@ -569,8 +513,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201206-pixeldailies.png",
     title: "Pixel Dailies prompt: #RockFormation",
     description: `
-      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
-
       Uluru, Australia
     `,
     palette: {
@@ -589,9 +531,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201207-diagram.png",
     title: "PlantUML Sequence Diagram",
-    description: `
-      Palette: #000000, #FFFFFF, #EEEEEE, #A80036, #FEFECE
-    `,
+    description: ``,
     palette: {
       name: "Custom",
       colours: ["#000000", "#FFFFFF", "#EEEEEE", "#A80036", "#FEFECE"],
@@ -603,7 +543,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201208-pixeldailies.png",
     title: "Pixel Dailies prompt: #Road",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: Use one-point perspective
     `,
     palette: {
@@ -616,9 +555,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201210-noprompt.png",
     title: "Windowsill with a half-eaten apple and ants",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -630,8 +567,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201210-lospecdaily.png",
     title: "Lospec Dailies prompt: #cat",
     description: `
-      Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
-
       no talk me im angy
     `,
     palette: {
@@ -650,9 +585,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201211-pixeldailies.png",
     title: "Pixel Dailies prompt: #WaterBottle",
-    description: `
-      Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
-    `,
+    description: ``,
     palette: {
       name: "Nanner 32",
       url: "https://lospec.com/palette-list/nanner-32",
@@ -663,9 +596,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201213-lospecdaily.png",
     title: "Lospec Dailies prompt: #mushroom",
-    description: `
-      Palette: [Tropica33](https://lospec.com/palette-list/tropica33)
-    `,
+    description: ``,
     palette: {
       name: "Tropica33",
       url: "https://lospec.com/palette-list/tropica33",
@@ -682,9 +613,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201216-pixeldailies.png",
     title: "Pixel Dailies prompt: #PowerSource",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -695,9 +624,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201218-pixeldailies.png",
     title: "Pixel Dailies prompt: #sour",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -708,9 +635,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201219-pixeldailies.png",
     title: "Pixel Dailies prompt: #pagoda",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -721,9 +646,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201222-pixeldailies.png",
     title: "Pixel Dailies prompt: #reindeer",
-    description: `
-      Palette: [Dreamscape8](https://lospec.com/palette-list/dreamscape8)
-    `,
+    description: ``,
     palette: {
       name: "Dreamscape8",
       url: "https://lospec.com/palette-list/dreamscape8",
@@ -742,7 +665,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201223-pixeldailies.png",
     title: "Pixel Dailies prompt: #present",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: You can only use the colours; gold, white, red and green
     `,
     palette: {
@@ -756,8 +678,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201225-pixeldailies.png",
     title: "Pixel Dailies prompt: #HolidayFood",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Roast turkey with roast pumpkin, peas and mashed potatoes.
       Thing at the top is supposed to be a gravy boat but I have no
       idea what those look like from this perspective.
@@ -773,7 +693,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201225-pixeldailies2.png",
     title: "Pixel Dailies prompt: Set of #Ornaments",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: 16x16px per ornament
     `,
     palette: {
@@ -787,7 +706,6 @@ const entries: PixelArtEntry[] = [
     src: "2020/20201226-pixeldailies.png",
     title: "Pixel Dailies prompt: #candle",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Restriction: 32x32px
     `,
     palette: {
@@ -800,9 +718,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201227-pixeldailies.png",
     title: "Pixel Dailies prompt: #PineTree",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -813,9 +729,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201228-pixeldailies.png",
     title: "Pixel Dailies prompt: #snowy",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -829,8 +743,6 @@ const entries: PixelArtEntry[] = [
     description: `
       This site now has an RSS feed. You can find it in the footer below or at [pakkudon.github.io/pixel-art-gallery/feed.xml](https://pakkudon.github.io/pixel-art-gallery/feed.xml).
       I also don't have an RSS reader so I don't know if this is marked up correctly or if the posts are in the right order. If there's any issues feel free to raise them in the repo.
-
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     palette: {
       name: "Apollo",
@@ -842,9 +754,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201229-pixeldailies.png",
     title: "Pixel Dailies prompt: #ribbon",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -855,9 +765,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2020/20201230-pixeldailies.png",
     title: "Pixel Dailies prompt: #countdown",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -870,7 +778,6 @@ const entries: PixelArtEntry[] = [
     title: "Fireworks attempt for the last pixel art for 2020.",
     description: `
       Thanks to those that have been following along. See you next year!
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
     `,
     palette: {
       name: "Apollo",
