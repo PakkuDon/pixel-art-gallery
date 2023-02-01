@@ -80,6 +80,22 @@ const ImageDetails = ({
             }}
           />
           <div className="content">
+            <strong>Palette: </strong>
+            {image.palette.url ? (
+              <a
+                href={image.palette.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {image.palette.name}
+              </a>
+            ) : (
+              `${image.palette.name}. ${(image.palette.colours || []).join(
+                ", "
+              )}`
+            )}
+          </div>
+          <div className="content">
             <strong>Tags: </strong>
             {image.tags.map((tag, index) => (
               <React.Fragment key={`tag-${tag}`}>
