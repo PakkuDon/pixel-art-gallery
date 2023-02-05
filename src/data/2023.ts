@@ -4,9 +4,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2023/20230101-pixeldailies.png",
     title: "Pixel Dailies prompt: #Hut",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -17,9 +15,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2023/20230103-pixeldailies.png",
     title: "Pixel Dailies prompt: #carving",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -30,9 +26,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2023/20230104-pixeldailies.png",
     title: "Pixel Dailies prompt: #AntFarm",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -43,9 +37,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2023/20230106-pixeldailies.png",
     title: "Pixel Dailies prompt: #Balloons",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -56,9 +48,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2023/20230108-pixeldailies.png",
     title: "Pixel Dailies prompt: #Punch",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -70,8 +60,6 @@ const entries: PixelArtEntry[] = [
     src: "2023/20230113-pixeldailies.png",
     title: "Belated Pixel Dailies prompt: #promenade",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Restriction: Your piece must use 1-point perspective
     `,
     palette: {
@@ -84,9 +72,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2023/20230119-pixeldailies.png",
     title: "Pixel Dailies prompt: #overworked",
-    description: `
-      Palette: [Mahyellaw '22](https://lospec.com/palette-list/mahyellaw-22)
-    `,
+    description: ``,
     palette: {
       name: "Mahyellaw '22",
       url: "https://lospec.com/palette-list/mahyellaw-22",
@@ -98,8 +84,6 @@ const entries: PixelArtEntry[] = [
     src: "2023/20230122-pixeldailies.png",
     title: "Pixel Dailies prompt: #Footprint",
     description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-
       Featuring the first sanctuary, Giant Step, from Earthbound / Mother 2
     `,
     palette: {
