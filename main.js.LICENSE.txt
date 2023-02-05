@@ -12,14 +12,14 @@
  */
 
 /*!
- * Chart.js v4.1.2
+ * Chart.js v4.2.0
  * https://www.chartjs.org
  * (c) 2023 Chart.js Contributors
  * Released under the MIT License
  */
 
 /*!
- * chartjs-plugin-autocolors v0.2.1
+ * chartjs-plugin-autocolors v0.2.2
  * https://github.com/kurkle/chartjs-plugin-autocolors#readme
  * (c) 2023 Jukka Kurkela <jukka.kurkela@gmail.com>
  * Released under the MIT license
@@ -56,7 +56,7 @@
  */
 
 /**
- * @remix-run/router v1.2.1
+ * @remix-run/router v1.3.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -67,7 +67,7 @@
  */
 
 /**
- * React Router DOM v6.6.2
+ * React Router DOM v6.8.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -78,7 +78,7 @@
  */
 
 /**
- * React Router v6.6.2
+ * React Router v6.8.0
  *
  * Copyright (c) Remix Software Inc.
  *
