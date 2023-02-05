@@ -5,8 +5,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220101-pixeldailies.png",
     title: "Pixel Dailies prompt: #YearInReview",
     description: `
-      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
-
       From [Pixel Dailies](https://twitter.com/Pixel_Dailies/status/1476893400775344129):
       > Pixel something you did in 2021 that you're proud of, enjoyed, or are eager to share
 
@@ -29,9 +27,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220102-pixeldailies.png",
     title: "Pixel Dailies prompt: #Stripes",
-    description: `
-      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
-    `,
+    description: ``,
     palette: {
       name: "Sweet Canyon 32",
       url: "https://lospec.com/palette-list/sweet-canyon-32",
@@ -43,8 +39,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220103-pixeldailies.png",
     title: "Pixel Dailies prompt: #Box",
     description: `
-      Palette: [AYY4](https://lospec.com/palette-list/ayy4)
-
       Restriction: 4 colour AYY4 palette
     `,
     palette: {
@@ -57,9 +51,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220104-pixeldailies.png",
     title: "Pixel Dailies prompt: #meter",
-    description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-    `,
+    description: ``,
     palette: {
       name: "Sunshine Valley",
       url: "https://lospec.com/palette-list/sunshine-valley",
@@ -70,9 +62,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220105-pixeldailies.png",
     title: "Pixel Dailies prompt: #EnergyDrink",
-    description: `
-      Palette: [Smoke: It's OK to feel](https://lospec.com/palette-list/smoke-its-ok-to-feel)
-    `,
+    description: ``,
     palette: {
       name: "Smoke: It's OK to feel",
       url: "https://lospec.com/palette-list/smoke-its-ok-to-feel",
@@ -89,9 +79,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220106-pixeldailies.png",
     title: "Pixel Dailies prompt: #Lakehouse",
-    description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-    `,
+    description: ``,
     palette: {
       name: "Sunshine Valley",
       url: "https://lospec.com/palette-list/sunshine-valley",
@@ -102,9 +90,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220107-pixeldailies.png",
     title: "Pixel Dailies prompt: #team",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -115,9 +101,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220108-pixeldailies.png",
     title: "Pixel Dailies prompt: #tent",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -129,8 +113,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220110-pixeldailies.png",
     title: "Pixel Dailies prompt: #herbs",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Chives, mint, bay leaves, rosemary
     `,
     palette: {
@@ -144,7 +126,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220112-pixeldailies.png",
     title: "Pixel Dailies prompt: set of #EggRecipes",
     description: `
-      Palette: [Lux3k](https://lospec.com/palette-list/lux3k)
       Restriction: 32x32px or less per food that includes egg
 
       Fried eggs, pancakes, omelette rice and tamago sushi
@@ -159,9 +140,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220115-pixeldailies.png",
     title: "Pixel Dailies prompt: #combo",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -173,7 +152,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220117-pixeldailies.png",
     title: "Pixel Dailies prompt: #StillLife",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
       Challenge: reference a natural or man-made object in your own house
     `,
     palette: {
@@ -186,9 +164,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220124-pixeldailies.png",
     title: "Pixel Dailies prompt: #Raven",
-    description: `
-      Palette: [Nyx8](https://lospec.com/palette-list/nyx8)
-    `,
+    description: ``,
     palette: {
       name: "Nyx8",
       url: "https://lospec.com/palette-list/nyx8",
@@ -199,9 +175,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220126-lospecdaily.png",
     title: "Lospec Dailies prompt: #forest",
-    description: `
-      Palette: [Camouflage-7](https://lospec.com/palette-list/camouflage-7)
-    `,
+    description: ``,
     palette: {
       name: "Camouflage-7",
       url: "https://lospec.com/palette-list/camouflage-7",
@@ -217,9 +191,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220127-pixeldailies.png",
     title: "Pixel Dailies prompt: #home",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -230,9 +202,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220128-pixeldailies.png",
     title: "Pixel Dailies prompt: #Possum",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -243,9 +213,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220203-pixeldailies.png",
     title: "Pixel Dailies prompt: #Barricade",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -256,9 +224,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220207-noprompt.png",
     title: "Lychee Sponge Cake",
-    description: `
-      Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
-    `,
+    description: ``,
     palette: {
       name: "AAP-64",
       url: "https://lospec.com/palette-list/aap-64",
@@ -270,9 +236,7 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220212-crepe.png",
     title:
       "Crepe with fresh strawberries, raspberry coulis, vanilla ice cream and pistachio",
-    description: `
-      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
-    `,
+    description: ``,
     palette: {
       name: "ZyKro-48",
       url: "https://lospec.com/palette-list/zykro-48",
@@ -284,8 +248,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220212-pixeldailies.png",
     title: "Pixel Dailies prompt: #celebration",
     description: `
-      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
-
       200th post. Thanks again for following along! See you at the 300th post.
     `,
     palette: {
@@ -304,9 +266,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220213-pixeldailies.png",
     title: "Pixel Dailies prompt: #seashore",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -318,8 +278,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220214-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #textures",
     description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-
       From top-left:
       wood, grass, stone
       sand, snow, water
@@ -335,9 +293,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220217-pixeldailies.png",
     title: "Pixel Dailies prompt: #JuiceBox",
-    description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-    `,
+    description: ``,
     palette: {
       name: "superficial-35",
       url: "https://lospec.com/palette-list/superficial-35",
@@ -348,9 +304,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220217-pixeldailies2.png",
     title: "Pixel Dailies prompt: #pyramid",
-    description: `
-      Palette: [Wheat Field](https://lospec.com/palette-list/wheat-field)
-    `,
+    description: ``,
     palette: {
       name: "Wheat Field",
       url: "https://lospec.com/palette-list/wheat-field",
@@ -361,9 +315,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220220-pixeldailies.png",
     title: "Pixel Dailies prompt: #Dark",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -374,9 +326,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220223-pixeldailies.png",
     title: "Pixel Dailies prompt: #halberd",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -387,9 +337,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220227-pixeldailies.png",
     title: "Pixel Dailies prompt: #Tarnished",
-    description: `
-      Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
-    `,
+    description: ``,
     palette: {
       name: "AAP-64",
       url: "https://lospec.com/palette-list/aap-64",
@@ -401,8 +349,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220303-pixeldailies.png",
     title: "Pixel Dailies prompt: #Barrel",
     description: `
-      Palette: [comfy52](https://lospec.com/palette-list/comfy52)
-
       [Reference image](https://www.dreamstime.com/stock-photo-red-wine-grapes-barrel-old-wooden-table-image44545937)
     `,
     palette: {
@@ -416,7 +362,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220305-pixeldailies.png",
     title: "Pixel Dailies prompt: #ruins",
     description: `
-      Palette: [Wheat Field](https://lospec.com/palette-list/wheat-field)
       Restriction: 30x24px or less
     `,
     palette: {
@@ -430,7 +375,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220306-pixeldailies.png",
     title: "Pixel Dailies prompt: #Arid",
     description: `
-      Palette: [golden-sunset](https://lospec.com/palette-list/golden-sunset)
       Restriction: golden-sunset palette
     `,
     palette: {
@@ -443,9 +387,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220307-pixeldailies.png",
     title: "Pixel Dailies prompt: #Crooked",
-    description: `
-      Palette: [WATT32](https://lospec.com/palette-list/watt32)
-    `,
+    description: ``,
     palette: {
       name: "WATT32",
       url: "https://lospec.com/palette-list/watt32",
@@ -463,9 +405,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220308-pixeldailies.png",
     title: "Pixel Dailies prompt: #pizza",
-    description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-    `,
+    description: ``,
     palette: {
       name: "superficial-35",
       url: "https://lospec.com/palette-list/superficial-35",
@@ -477,7 +417,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220309-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #fungi",
     description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
       Restriction: 30x30px or less per fungus
     `,
     palette: {
@@ -490,9 +429,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220310-pixeldailies.png",
     title: "Pixel Dailies prompt: #wolf",
-    description: `
-      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
-    `,
+    description: ``,
     palette: {
       name: "SLSO8",
       url: "https://lospec.com/palette-list/slso8",
@@ -504,8 +441,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220311-pixeldailies.png",
     title: "Pixel Dailies prompt: #teetering",
     description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-
       [Reference image](https://photos.com/featured/rocks-balancing-on-driftwood-sea-in-dimitri-otis.html)
     `,
     palette: {
@@ -518,9 +453,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220312-pixeldailies.png",
     title: "Pixel Dailies prompt: #warped",
-    description: `
-      Palette: [Smoke: It's OK to feel](https://lospec.com/palette-list/smoke-its-ok-to-feel)
-    `,
+    description: ``,
     palette: {
       name: "Smoke: It's OK to feel",
       url: "https://lospec.com/palette-list/smoke-its-ok-to-feel",
@@ -531,9 +464,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220313-pixeldailies.png",
     title: "Pixel Dailies prompt: #Aquatic",
-    description: `
-      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
-    `,
+    description: ``,
     palette: {
       name: "Sweet Canyon 32",
       url: "https://lospec.com/palette-list/sweet-canyon-32",
@@ -544,9 +475,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220314-pixeldailies.png",
     title: "Pixel Dailies prompt: #PocketWatch",
-    description: `
-      Palette: [Moor](https://lospec.com/palette-list/moor)
-    `,
+    description: ``,
     palette: {
       name: "Moor",
       url: "https://lospec.com/palette-list/moor",
@@ -557,9 +486,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220315-pixeldailies.png",
     title: "Pixel Dailies prompt: #windswept",
-    description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-    `,
+    description: ``,
     palette: {
       name: "Polxel-43",
       url: "https://lospec.com/palette-list/polxel-43",
@@ -570,9 +497,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220316-pixeldailies.png",
     title: "Pixel Dailies prompt: #garland",
-    description: `
-      Palette: [Tranquility Plus 39](https://lospec.com/palette-list/tranquility-plus-39)
-    `,
+    description: ``,
     palette: {
       name: "Tranquility Plus 39",
       url: "https://lospec.com/palette-list/tranquility-plus-39",
@@ -583,9 +508,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220317-pixeldailies.png",
     title: "Pixel Dailies prompt: #gold",
-    description: `
-      Palette: [Golden 6](https://lospec.com/palette-list/golden-6)
-    `,
+    description: ``,
     palette: {
       name: "Golden 6",
       url: "https://lospec.com/palette-list/golden-6",
@@ -596,9 +519,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220318-pixeldailies.png",
     title: "Pixel Dailies prompt: #aviary",
-    description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-    `,
+    description: ``,
     palette: {
       name: "Sunshine Valley",
       url: "https://lospec.com/palette-list/sunshine-valley",
@@ -609,9 +530,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220319-pixeldailies.png",
     title: "Pixel Dailies prompt: #TreasureMap",
-    description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-    `,
+    description: ``,
     palette: {
       name: "superficial-35",
       url: "https://lospec.com/palette-list/superficial-35",
@@ -622,9 +541,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220320-pixeldailies.png",
     title: "Pixel Dailies prompt: #Rusty",
-    description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-    `,
+    description: ``,
     palette: {
       name: "superficial-35",
       url: "https://lospec.com/palette-list/superficial-35",
@@ -635,9 +552,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220321-pixeldailies.png",
     title: "Pixel Dailies prompt: #LunchBox",
-    description: `
-      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 64",
       url: "https://lospec.com/palette-list/endesga-64",
@@ -649,8 +564,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220322-pixeldailies.png",
     title: "Pixel Dailies prompt: #RedPanda",
     description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-
       [Reference image](https://www.shutterstock.com/image-photo/red-panda-curled-asleep-tree-1424043)
     `,
     palette: {
@@ -663,9 +576,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220323-pixeldailies.png",
     title: "Pixel Dailies prompt: #glider",
-    description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-    `,
+    description: ``,
     palette: {
       name: "superficial-35",
       url: "https://lospec.com/palette-list/superficial-35",
@@ -677,7 +588,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220325-pixeldailies.png",
     title: "Pixel Dailies prompt: #sky",
     description: `
-      Palette: [golden-sunset](https://lospec.com/palette-list/golden-sunset)
       Restriction: Don't use blue colours.
     `,
     palette: {
@@ -690,9 +600,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220326-pixeldailies.png",
     title: "Pixel Dailies prompt: #Kirby",
-    description: `
-      Palette: [Pink Puff GB](https://lospec.com/palette-list/pink-puff-gb)
-    `,
+    description: ``,
     palette: {
       name: "Pink Puff GB",
       url: "https://lospec.com/palette-list/pink-puff-gb",
@@ -704,8 +612,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220327-pixeldailies.png",
     title: "Pixel Dailies prompt: #Shrub",
     description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-
       Featuring ambusher from LISA: The Painful
     `,
     palette: {
@@ -718,9 +624,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220328-pixeldailies.png",
     title: "Pixel Dailies prompt: #construction",
-    description: `
-      Palette: [Nanner 32](https://lospec.com/palette-list/nanner-32)
-    `,
+    description: ``,
     palette: {
       name: "Nanner 32",
       url: "https://lospec.com/palette-list/nanner-32",
@@ -732,8 +636,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220329-pixeldailies.png",
     title: "Pixel Dailies prompt: #BirdsEyeView",
     description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-
       Pixel a small scene from a straight-down perspective.
     `,
     palette: {
@@ -747,8 +649,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220330-pixeldailies.png",
     title: "Pixel Dailies prompt: #seal",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Featuring Spheal, the Clap Pokémon
     `,
     palette: {
@@ -762,8 +662,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220331-pixeldailies.png",
     title: "Pixel Dailies prompt: #ShoppingMall",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Level 3 Emporium, Melbourne
     `,
     palette: {
@@ -776,9 +674,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220404-pixeldailies.png",
     title: "Pixel Dailies prompt: #CastleInTheSky",
-    description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-    `,
+    description: ``,
     palette: {
       name: "Polxel-43",
       url: "https://lospec.com/palette-list/polxel-43",
@@ -789,9 +685,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220411-pixeldailies.png",
     title: "Pixel Dailies prompt: #Puzzle",
-    description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-    `,
+    description: ``,
     palette: {
       name: "Sunshine Valley",
       url: "https://lospec.com/palette-list/sunshine-valley",
@@ -802,9 +696,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220414-pixeldailies.png",
     title: "Pixel Dailies prompt: #ExplodedView",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -816,8 +708,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220415-pixeldailies.png",
     title: "Pixel Dailies prompt: #HairAccessory",
     description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-
       Featuring Tomoe Mami from Puella Magi Madoka Magica
     `,
     palette: {
@@ -836,9 +726,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220417-pixeldailies.png",
     title: "Pixel Dailies prompt: #FirstPersonHands",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -855,9 +743,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220418-pixeldailies.png",
     title: "Pixel Dailies prompt: #IsometricRoom",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -868,9 +754,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220420-pixeldailies.png",
     title: "Pixel Dailies prompt: #shattered",
-    description: `
-      Palette: [SLSO8](https://lospec.com/palette-list/slso8)
-    `,
+    description: ``,
     palette: {
       name: "SLSO8",
       url: "https://lospec.com/palette-list/slso8",
@@ -881,9 +765,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220421-pixeldailies.png",
     title: "Pixel Dailies prompt: #HealingItem",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -894,9 +776,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220422-pixeldailies.png",
     title: "Pixel Dailies prompt: #prize",
-    description: `
-      Palette: [Smoke: It's OK to feel](https://lospec.com/palette-list/smoke-its-ok-to-feel)
-    `,
+    description: ``,
     palette: {
       name: "Smoke: It's OK to feel",
       url: "https://lospec.com/palette-list/smoke-its-ok-to-feel",
@@ -907,9 +787,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220424-pixeldailies.png",
     title: "Pixel Dailies prompt: #garnish",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -920,9 +798,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220424-hot-chocolate.png",
     title: "Mork Campfire Hot Chocolate",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -933,9 +809,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220425-pixeldailies.png",
     title: "Pixel Dailies prompt: #Table",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -946,9 +820,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220427-pixeldailies.png",
     title: "Pixel Dailies prompt: #phonebooth",
-    description: `
-      Palette: [superficial-35](https://lospec.com/palette-list/superficial-35)
-    `,
+    description: ``,
     palette: {
       name: "superficial-35",
       url: "https://lospec.com/palette-list/superficial-35",
@@ -959,9 +831,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220428-pixeldailies.png",
     title: "Pixel Dailies prompt: #skewer",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -972,9 +842,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220430-pixeldailies.png",
     title: "Pixel Dailies prompt: #paperweight",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -985,9 +853,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220502-pixeldailies.png",
     title: "Pixel Dailies prompt: #TreasureGuardian",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1005,8 +871,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220504-pixeldailies.png",
     title: "Pixel Dailies prompt: #isolated",
     description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-
       Elliðaey, Iceland
     `,
     palette: {
@@ -1026,9 +890,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220506-pixeldailies.png",
     title: "Pixel Dailies prompt: #Mario64",
-    description: `
-      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 64",
       url: "https://lospec.com/palette-list/endesga-64",
@@ -1039,9 +901,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220508-pixeldailies.png",
     title: "Pixel Dailies prompt: #Clock",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1052,9 +912,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220509-rapid-antigen-test.png",
     title: "Negative RAT Test",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1065,9 +923,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220509-pixeldailies.png",
     title: "Pixel Dailies prompt: #Organic",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1078,9 +934,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220511-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #keys",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1091,9 +945,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220513-pixeldailies.png",
     title: "Pixel Dailies prompt: #slice",
-    description: `
-      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
-    `,
+    description: ``,
     palette: {
       name: "ZyKro-48",
       url: "https://lospec.com/palette-list/zykro-48",
@@ -1104,9 +956,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220514-pixeldailies.png",
     title: "Pixel Dailies prompt: #breeze",
-    description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-    `,
+    description: ``,
     palette: {
       name: "Polxel-43",
       url: "https://lospec.com/palette-list/polxel-43",
@@ -1117,9 +967,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220516-pixeldailies.png",
     title: "Pixel Dailies prompt: #WildAnimal",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1130,9 +978,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220517-pixeldailies.png",
     title: "Pixel Dailies prompt: #LighterThanAir",
-    description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-    `,
+    description: ``,
     palette: {
       name: "Polxel-43",
       url: "https://lospec.com/palette-list/polxel-43",
@@ -1143,9 +989,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220519-pixeldailies.png",
     title: "Pixel Dailies prompt: #stretched",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1157,8 +1001,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220522-mockup.png",
     title: "Photo viewer mockup",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Coming to a portfolio near you
     `,
     palette: {
@@ -1171,9 +1013,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220523-pixeldailies.png",
     title: "Pixel Dailies prompt: #Sunlight",
-    description: `
-      Palette: [The Y Gigante Reverted](https://lospec.com/palette-list/the-y-gigante-reverted)
-    `,
+    description: ``,
     palette: {
       name: "The Y Gigante Reverted",
       url: "https://lospec.com/palette-list/the-y-gigante-reverted",
@@ -1190,9 +1030,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220526-pixeldailies.png",
     title: "Pixel Dailies prompt: #empty",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1203,9 +1041,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220529-pixeldailies.png",
     title: "Pixel Dailies prompt: #Rift",
-    description: `
-      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
-    `,
+    description: ``,
     palette: {
       name: "Draxalette",
       url: "https://lospec.com/palette-list/draxalette",
@@ -1216,9 +1052,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220530-landscape.png",
     title: "20220529-pixeldailies without the rift",
-    description: `
-      Palette: [Draxalette](https://lospec.com/palette-list/draxalette)
-    `,
+    description: ``,
     palette: {
       name: "Draxalette",
       url: "https://lospec.com/palette-list/draxalette",
@@ -1229,9 +1063,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220530-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #Planets",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1242,9 +1074,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220531-pixeldailies.png",
     title: "Pixel Dailies prompt: #cool",
-    description: `
-      Palette: [Resurrect 64](https://lospec.com/palette-list/resurrect-64)
-    `,
+    description: ``,
     palette: {
       name: "Resurrect 64",
       url: "https://lospec.com/palette-list/resurrect-64",
@@ -1255,9 +1085,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220603-pixeldailies.png",
     title: "Pixel Dailies prompt: #purple",
-    description: `
-      Palette: [Skyline](https://lospec.com/palette-list/skyline)
-    `,
+    description: ``,
     palette: {
       name: "Skyline",
       url: "https://lospec.com/palette-list/skyline",
@@ -1268,9 +1096,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220605-pixeldailies.png",
     title: "Pixel Dailies prompt: #sandbox",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -1282,9 +1108,7 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220611-pixeldailies.png",
     title:
       "Pixel Dailies prompt: #LuxuryItem. Pixel a luxury item you'd like to have",
-    description: `
-      Palette: [Polxel-43](https://lospec.com/palette-list/polxel-43)
-    `,
+    description: ``,
     palette: {
       name: "Polxel-43",
       url: "https://lospec.com/palette-list/polxel-43",
@@ -1295,9 +1119,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220612-pixeldailies.png",
     title: "Pixel Dailies prompt: #Colorful",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1309,8 +1131,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220613-pixeldailies.png",
     title: "Pixel Dailies prompt: #Meadow",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       [Reference image](https://www.shutterstock.com/image-photo/magic-pink-rhododendron-flowers-glowing-by-340450949)
     `,
     palette: {
@@ -1324,8 +1144,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220620-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #candy,",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Restriction; 24x24 px max per candy
     `,
     palette: {
@@ -1338,9 +1156,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220624-pixeldailies.png",
     title: "Pixel Dailies prompt: #CausticReflection",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -1357,9 +1173,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220627-pixeldailies.png",
     title: "Pixel Dailies prompt: #ExoticFruit",
-    description: `
-      Palette: [AAP-64](https://lospec.com/palette-list/aap-64)
-    `,
+    description: ``,
     palette: {
       name: "AAP-64",
       url: "https://lospec.com/palette-list/aap-64",
@@ -1370,9 +1184,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220628-pixeldailies.png",
     title: "Pixel Dailies prompt: #crab",
-    description: `
-      Palette: [Tranquility Plus 39](https://lospec.com/palette-list/tranquility-plus-39)
-    `,
+    description: ``,
     palette: {
       name: "Tranquility Plus 39",
       url: "https://lospec.com/palette-list/tranquility-plus-39",
@@ -1391,8 +1203,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220702-pixeldailies.png",
     title: "Pixel Dailies prompt: #Potatoes",
     description: `
-      Palette: [GORA63](https://lospec.com/palette-list/gora63)
-
       [Reference image](https://www.shutterstock.com/image-photo/baked-potatoes-cheese-bacon-1092212291)
     `,
     palette: {
@@ -1405,9 +1215,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220703-pixeldailies.png",
     title: "Pixel Dailies prompt: #Popcorn",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1419,7 +1227,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220708-pixeldailies.png",
     title: "Pixel Dailies prompt: Set of #InventoryItems",
     description: `
-      Palette: [Endesga 64](https://lospec.com/palette-list/endesga-64)
       Restriction: 16x16px or less per item
     `,
     palette: {
@@ -1433,7 +1240,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220710-pixeldailies.png",
     title: "Pixel Dailies prompt: #Baked",
     description: `
-      Palette: [Borkfest](https://lospec.com/palette-list/borkfest)
       Restriction: Borkfest palette
     `,
     palette: {
@@ -1446,9 +1252,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220711-pixeldailies.png",
     title: "Pixel Dailies prompt: #Tape",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1459,9 +1263,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220713-pixeldailies.png",
     title: "Pixel Dailies prompt: #checkpoint",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1472,9 +1274,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220714-pixeldailies.png",
     title: "Pixel Dailies prompt: #inverted",
-    description: `
-      Palette: [Waldgeist](https://lospec.com/palette-list/waldgeist)
-    `,
+    description: ``,
     palette: {
       name: "Waldgeist",
       url: "https://lospec.com/palette-list/waldgeist",
@@ -1485,9 +1285,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220716-pixeldailies.png",
     title: "Pixel Dailies prompt: #FloorPlan",
-    description: `
-      Palette: [JustParchment8](https://lospec.com/palette-list/justparchment8)
-    `,
+    description: ``,
     palette: {
       name: "JustParchment8",
       url: "https://lospec.com/palette-list/justparchment8",
@@ -1498,9 +1296,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220717-pixeldailies.png",
     title: "Pixel Dailies prompt: #Plastic",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1511,9 +1307,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220719-pixeldailies.png",
     title: "Pixel Dailies prompt: #AugmentedReality",
-    description: `
-      Palette: [Sunshine Valley](https://lospec.com/palette-list/sunshine-valley)
-    `,
+    description: ``,
     palette: {
       name: "Sunshine Valley",
       url: "https://lospec.com/palette-list/sunshine-valley",
@@ -1524,9 +1318,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220722-pixeldailies.png",
     title: "Pixel Dailies prompt: #onion",
-    description: `
-      Palette: [Moor](https://lospec.com/palette-list/moor)
-    `,
+    description: ``,
     palette: {
       name: "Moor",
       url: "https://lospec.com/palette-list/moor",
@@ -1537,9 +1329,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220724-lospecdaily.png",
     title: "Lospec Dailies prompt: #owl",
-    description: `
-      Palette: [ReWild 64](https://lospec.com/palette-list/rewild-64)
-    `,
+    description: ``,
     palette: {
       name: "ReWild 64",
       url: "https://lospec.com/palette-list/rewild-64",
@@ -1556,9 +1346,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220725-pixeldailies.png",
     title: "Pixel Dailies prompt: #Broken",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -1570,8 +1358,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220728-pixeldailies.png",
     title: "Pixel Dailies prompt: #monument",
     description: `
-      Palette: [The Y masters](https://lospec.com/palette-list/the-y-masters)
-
       Shrine of Remembrance, Melbourne, Victoria
     `,
     palette: {
@@ -1584,9 +1370,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220730-pixeldailies.png",
     title: "Pixel Dailies prompt: #coral",
-    description: `
-      Palette: [Coral Reef](https://lospec.com/palette-list/coral-reef)
-    `,
+    description: ``,
     palette: {
       name: "Coral Reef",
       url: "https://lospec.com/palette-list/coral-reef",
@@ -1597,9 +1381,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220731-pixeldailies.png",
     title: "Pixel Dailies prompt: #Goose",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -1610,9 +1392,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220801-pixeldailies.png",
     title: "Pixel Dailies prompt: #newspaper",
-    description: `
-      Palette: [JustParchment8](https://lospec.com/palette-list/justparchment8)
-    `,
+    description: ``,
     palette: {
       name: "JustParchment8",
       url: "https://lospec.com/palette-list/justparchment8",
@@ -1623,9 +1403,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220804-pixeldailies.png",
     title: "Pixel Dailies prompt: #resources",
-    description: `
-      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
-    `,
+    description: ``,
     palette: {
       name: "ZyKro-48",
       url: "https://lospec.com/palette-list/zykro-48",
@@ -1636,9 +1414,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220807-pixeldailies.png",
     title: "Pixel Dailies prompt: #Bard",
-    description: `
-      Palette: [Moor](https://lospec.com/palette-list/moor)
-    `,
+    description: ``,
     palette: {
       name: "Moor",
       url: "https://lospec.com/palette-list/moor",
@@ -1649,9 +1425,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220810-pixeldailies.png",
     title: "Pixel Dailies prompt: #HotDrink",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1662,9 +1436,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220817-pixeldailies.png",
     title: "Pixel Dailies prompt: #ColdDrink",
-    description: `
-      Palette: [The Y Gigante Reverted](https://lospec.com/palette-list/the-y-gigante-reverted)
-    `,
+    description: ``,
     palette: {
       name: "The Y Gigante Reverted",
       url: "https://lospec.com/palette-list/the-y-gigante-reverted",
@@ -1675,9 +1447,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220820-pixeldailies.png",
     title: "Pixel Dailies prompt: #WashingLine",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -1689,8 +1459,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220911-pixeldailies.png",
     title: "Pixel Dailies prompt: #Scenery",
     description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-
       Redraw of [20220613-pixeldailies](20220613-pixeldailies). Originally started drawing this for [Pixel Dailies' #Remake prompt](https://twitter.com/Pixel_Dailies/status/1561329773372121088) then life happened
 
       This is also my 300th post. Thanks again to those of you following along. I appreciate you. See you at the next one!
@@ -1715,9 +1483,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220915-pixeldailies.png",
     title: "Pixel Dailies prompt: #stamp",
-    description: `
-      Palette: [Evening32](https://lospec.com/palette-list/evening32)
-    `,
+    description: ``,
     palette: {
       name: "Evening32",
       url: "https://lospec.com/palette-list/evening32",
@@ -1728,9 +1494,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220918-pixeldailies.png",
     title: "Pixel Dailies prompt: #AncientScroll",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1741,9 +1505,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20220921-pixeldailies.png",
     title: "Pixel Dailies prompt: #rain",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1755,8 +1517,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20221010-pixeldailies.png",
     title: "Pixel Dailies prompt: #stars",
     description: `
-      Palette: [The Y Gigante Reverted](https://lospec.com/palette-list/the-y-gigante-reverted)
-
       Today's post marks two years since I first started posting these. No redraw this time.
       Thanks again to those of you that have been following along. I hope you're doing well. See you at the next one!
     `,
@@ -1770,9 +1530,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221014-pixeldailies.png",
     title: "Pixel Dailies prompt: #folder",
-    description: `
-      Palette: [Endesga 36](https://lospec.com/palette-list/endesga-36)
-    `,
+    description: ``,
     palette: {
       name: "Endesga 36",
       url: "https://lospec.com/palette-list/endesga-36",
@@ -1783,9 +1541,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221017-pixeldailies.png",
     title: "Pixel Dailies prompt: #Sunset",
-    description: `
-      Palette: [The Y Gigante Reverted](https://lospec.com/palette-list/the-y-gigante-reverted)
-    `,
+    description: ``,
     palette: {
       name: "The Y Gigante Reverted",
       url: "https://lospec.com/palette-list/the-y-gigante-reverted",
@@ -1796,9 +1552,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221022-pixeldailies.png",
     title: "Pixel Dailies prompt: #salmon",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1809,9 +1563,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221027-pixeldailies.png",
     title: "Pixel Dailies prompt: #scales",
-    description: `
-      Palette: [PurpleMorning8](https://lospec.com/palette-list/purplemorning8)
-    `,
+    description: ``,
     palette: {
       name: "PurpleMorning8",
       url: "https://lospec.com/palette-list/purplemorning8",
@@ -1822,9 +1574,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221101-pixeldailies.png",
     title: "Belated post for Pixel Dailies prompt: #Halloween",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1835,9 +1585,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221105-pixeldailies.png",
     title: "Pixel Dailies prompt: #VirtualAssistant",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
@@ -1848,9 +1596,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221117-pixeldailies.png",
     title: "Pixel Dailies prompt: #curtains",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1861,9 +1607,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221119-pixeldailies.png",
     title: "Pixel Dailies prompt: #skybox",
-    description: `
-      Palette: [Nostalgia48](https://lospec.com/palette-list/nostalgia48)
-    `,
+    description: ``,
     palette: {
       name: "Nostalgia48",
       url: "https://lospec.com/palette-list/nostalgia48",
@@ -1875,8 +1619,6 @@ const entries: PixelArtEntry[] = [
     src: "2022/20221123-pixeldailies.png",
     title: "Pixel Dailies prompt: #ComfortFood",
     description: `
-      Palette: [ZyKro-48](https://lospec.com/palette-list/zykro-48)
-
       Spam and egg on rice
     `,
     palette: {
@@ -1889,9 +1631,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221124-pixeldailies.png",
     title: "Pixel Dailies prompt: #mirage",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1902,9 +1642,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221127-pixeldailies.png",
     title: "Pixel Dailies prompt: #Floating",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1915,9 +1653,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221203-pixeldailies.png",
     title: "Pixel Dailies prompt: #imperfection",
-    description: `
-      Palette: [Sweet Canyon 32](https://lospec.com/palette-list/sweet-canyon-32)
-    `,
+    description: ``,
     palette: {
       name: "Sweet Canyon 32",
       url: "https://lospec.com/palette-list/sweet-canyon-32",
@@ -1934,9 +1670,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221205-pixeldailies.png",
     title: "Pixel Dailies prompt: #Lights",
-    description: `
-      Palette: [Apollo](https://lospec.com/palette-list/apollo)
-    `,
+    description: ``,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",
@@ -1947,9 +1681,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221213-sunset.png",
     title: "Sunset study (January 9 2022)",
-    description: `
-      Palette: [Tranquility Plus 39](https://lospec.com/palette-list/tranquility-plus-39)
-    `,
+    description: ``,
     palette: {
       name: "Tranquility Plus 39",
       url: "https://lospec.com/palette-list/tranquility-plus-39",
@@ -1960,9 +1692,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221219-lospecdaily.png",
     title: "Lospec Dailies prompt: #cake",
-    description: `
-      Palette: [Weird autumn](https://lospec.com/palette-list/weird-autumn)
-    `,
+    description: ``,
     palette: {
       name: "Weird autumn",
       url: "https://lospec.com/palette-list/weird-autumn",
@@ -1979,9 +1709,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221225-pixeldailies.png",
     title: "Pixel Dailies prompt: #gift",
-    description: `
-      Palette: [Punolite Plus Plus](https://lospec.com/palette-list/punolite-plus-plus)
-    `,
+    description: ``,
     palette: {
       name: "Punolite Plus Plus",
       url: "https://lospec.com/palette-list/punolite-plus-plus",
@@ -1992,9 +1720,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2022/20221226-pixeldailies.png",
     title: "Pixel Dailies prompt: #Santa",
-    description: `
-      Palette: [New Worlds 46](https://lospec.com/palette-list/new-worlds-46)
-    `,
+    description: ``,
     palette: {
       name: "New Worlds 46",
       url: "https://lospec.com/palette-list/new-worlds-46",
