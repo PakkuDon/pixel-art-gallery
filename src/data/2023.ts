@@ -99,6 +99,17 @@ const entries: PixelArtEntry[] = [
       "nostalgia48",
     ],
   },
+  {
+    src: "2023/20230207-cake.png",
+    title: "Strawberry and watermelon cake",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    date: "2023-02-07T23:56+11:00",
+    tags: ["noprompt", "cake", "food", "apollo"],
+  },
 ]
 
 export { entries }
