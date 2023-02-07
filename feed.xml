@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 05 Feb 2023 23:27:45 GMT</pubDate>
+        <pubDate>Tue, 07 Feb 2023 12:58:08 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: Set of #InventoryItems</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220708-pixeldailies.png" alt="20220708-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: Set of #InventoryItems</p>
-          <p> Restriction: 16x16px or less per item
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220708-pixeldailies</link>
-        <pubDate>Fri, 08 Jul 2022 13:57:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Baked</title>
         <description>
@@ -621,6 +607,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230122-pixeldailies</link>
         <pubDate>Sun, 22 Jan 2023 12:52:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Strawberry and watermelon cake</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230207-cake.png" alt="20230207-cake" />]]>
+          <p>Strawberry and watermelon cake</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230207-cake</link>
+        <pubDate>Tue, 07 Feb 2023 12:56:00 GMT</pubDate>
       </item>
     
       </channel>
