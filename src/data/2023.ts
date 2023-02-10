@@ -110,6 +110,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-07T23:56+11:00",
     tags: ["noprompt", "cake", "food", "apollo"],
   },
+  {
+    src: "2023/20230210-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ErrorMessage",
+    description: ``,
+    palette: {
+      name: "comfy52",
+      url: "https://lospec.com/palette-list/comfy52",
+    },
+    date: "2023-02-10T23:50+11:00",
+    tags: ["pixel_dailies", "ErrorMessage", "computer", "comfy52"],
+  },
 ]
 
 export { entries }
