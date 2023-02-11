@@ -121,6 +121,19 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-10T23:50+11:00",
     tags: ["pixel_dailies", "ErrorMessage", "computer", "comfy52"],
   },
+  {
+    src: "2023/20230211-pixeldailies.png",
+    title: "Pixel Dailies prompt: #containment",
+    description: `
+      Featuring Experiment 667 from OMORI
+    `,
+    palette: {
+      name: "Sweet Canyon 32",
+      url: "https://lospec.com/palette-list/sweet-canyon-32",
+    },
+    date: "2023-02-11T23:05+11:00",
+    tags: ["pixel_dailies", "containment", "OMORI", "sweet-canyon-32"],
+  },
 ]
 
 export { entries }
