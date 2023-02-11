@@ -4,34 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 07 Feb 2023 12:58:08 GMT</pubDate>
+        <pubDate>Sat, 11 Feb 2023 12:06:55 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Baked</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220710-pixeldailies.png" alt="20220710-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Baked</p>
-          <p> Restriction: Borkfest palette
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220710-pixeldailies</link>
-        <pubDate>Sun, 10 Jul 2022 13:58:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #Tape</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220711-pixeldailies.png" alt="20220711-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Tape</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220711-pixeldailies</link>
-        <pubDate>Mon, 11 Jul 2022 10:53:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #checkpoint</title>
         <description>
@@ -619,6 +593,32 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230207-cake</link>
         <pubDate>Tue, 07 Feb 2023 12:56:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ErrorMessage</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230210-pixeldailies.png" alt="20230210-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #ErrorMessage</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230210-pixeldailies</link>
+        <pubDate>Fri, 10 Feb 2023 12:50:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #containment</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230211-pixeldailies.png" alt="20230211-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #containment</p>
+          <p> Featuring Experiment 667 from OMORI
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230211-pixeldailies</link>
+        <pubDate>Sat, 11 Feb 2023 12:05:00 GMT</pubDate>
       </item>
     
       </channel>
