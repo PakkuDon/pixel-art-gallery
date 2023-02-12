@@ -1525,7 +1525,13 @@ const entries: PixelArtEntry[] = [
       url: "https://lospec.com/palette-list/the-y-gigante-reverted",
     },
     date: "2022-10-10T23:54+11:00",
-    tags: ["pixel_dailies", "stars", "clouds", "the-y-gigante-reverted"],
+    tags: [
+      "pixel_dailies",
+      "stars",
+      "clouds",
+      "anniversary_post",
+      "the-y-gigante-reverted",
+    ],
   },
   {
     src: "2022/20221014-pixeldailies.png",

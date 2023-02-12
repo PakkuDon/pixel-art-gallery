@@ -1320,7 +1320,14 @@ const entries: PixelArtEntry[] = [
       url: "https://lospec.com/palette-list/monometalic",
     },
     date: "2021-10-10T13:20+11:00",
-    tags: ["noprompt", "rabbit", "redraw", "animal", "monometalic"],
+    tags: [
+      "noprompt",
+      "rabbit",
+      "redraw",
+      "animal",
+      "anniversary_post",
+      "monometalic",
+    ],
   },
   {
     src: "2021/20211011-on-tap.png",
