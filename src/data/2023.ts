@@ -134,6 +134,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-11T23:05+11:00",
     tags: ["pixel_dailies", "containment", "OMORI", "sweet-canyon-32"],
   },
+  {
+    src: "2023/20230213-clouds.png",
+    title: "Cloud study",
+    description: ``,
+    palette: {
+      name: "Bloxels Palette",
+      url: "https://lospec.com/palette-list/bloxels-palette",
+    },
+    date: "2023-02-13T23:59+11:00",
+    tags: ["noprompt", "clouds", "sky", "sunset", "bloxels-palette"],
+  },
 ]
 
 export { entries }
