@@ -29,6 +29,7 @@ interface StatisticsProps {
   searchQuery: string
 }
 const Statistics = ({ searchQuery }: StatisticsProps) => {
+  const totalEntries = PixelArtRepository.findAll().length
   const countByTag = PixelArtRepository.countByTag()
   const countByYear = PixelArtRepository.countBy((entry) =>
     new Date(entry.date).getFullYear().toString()
@@ -92,7 +93,12 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
               },
             }}
             data={{
-              labels: countByPalette.map((value) => value.key),
+              labels: countByPalette.map((value) => {
+                const percentage = ((value.count / totalEntries) * 100).toFixed(
+                  1
+                )
+                return `${value.key} (${percentage}%)`
+              }),
               datasets: [
                 {
                   data: countByPalette.map((value) => value.count),
