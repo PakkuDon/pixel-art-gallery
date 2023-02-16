@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import {
   Chart as ChartJS,
@@ -41,6 +41,10 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
     (entry) => entry.palette.name
   )
   const queryString = searchQuery ? `?q=${searchQuery}` : ""
+
+  useEffect(() => {
+    document.title = "Pixel Art Gallery - Portfolio stats"
+  })
 
   return (
     <Card>
