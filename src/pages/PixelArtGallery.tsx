@@ -44,7 +44,9 @@ const PixelArtGallery = () => {
   }, [selectedImage])
 
   useEffect(() => {
-    if (selectedImage) {
+    if (id === "stats") {
+      document.title = "Pixel Art Gallery - Portfolio stats"
+    } else if (selectedImage) {
       const filename = extractFilename(selectedImage.src)
       document.title = `Pixel Art Gallery - ${filename}`
     } else {
