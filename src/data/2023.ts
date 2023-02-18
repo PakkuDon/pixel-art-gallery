@@ -145,6 +145,20 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-13T23:59+11:00",
     tags: ["noprompt", "clouds", "sky", "sunset", "bloxels-palette"],
   },
+  {
+    src: "2023/20230218-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ToyCapsule",
+    description: `
+      Restriction: Your capsule must be 40x40px or smaller
+      Featuring Fuecoco from Pokemon Scarlet and Violet
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    date: "2023-02-18T23:34+11:00",
+    tags: ["pixel_dailies", "ToyCapsule", "pokemon", "nostalgia48"],
+  },
 ]
 
 export { entries }
