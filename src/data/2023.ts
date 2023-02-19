@@ -159,6 +159,22 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-18T23:34+11:00",
     tags: ["pixel_dailies", "ToyCapsule", "pokemon", "nostalgia48"],
   },
+  {
+    src: "2023/20230219-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #Blocks",
+    description: ``,
+    palette: {
+      name: "Nintendo Entertainment System",
+      url: "https://lospec.com/palette-list/nintendo-entertainment-system",
+    },
+    date: "2023-02-19T20:56+11:00",
+    tags: [
+      "pixel_dailies",
+      "Blocks",
+      "tetris",
+      "nintendo-entertainment-system",
+    ],
+  },
 ]
 
 export { entries }
