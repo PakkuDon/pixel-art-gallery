@@ -175,6 +175,17 @@ const entries: PixelArtEntry[] = [
       "nintendo-entertainment-system",
     ],
   },
+  {
+    src: "2023/20230220-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Donut",
+    description: ``,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    date: "2023-02-20T23:59+11:00",
+    tags: ["pixel_dailies", "Donut", "food", "gora63"],
+  },
 ]
 
 export { entries }
