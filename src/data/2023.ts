@@ -203,6 +203,19 @@ const entries: PixelArtEntry[] = [
       "nostalgia48",
     ],
   },
+  {
+    src: "2023/20230224-tileset.png",
+    title: "Tileset for 20230224-pixeldailies",
+    description: `
+      Tiles used in [20230224-pixeldailies](20230224-pixeldailies)
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    date: "2023-02-24T01:04+11:00",
+    tags: ["tileset", "isometric", "nostalgia48"],
+  },
 ]
 
 export { entries }
