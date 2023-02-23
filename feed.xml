@@ -4,32 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 20 Feb 2023 13:20:32 GMT</pubDate>
+        <pubDate>Thu, 23 Feb 2023 14:06:04 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #AugmentedReality</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220719-pixeldailies.png" alt="20220719-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #AugmentedReality</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220719-pixeldailies</link>
-        <pubDate>Tue, 19 Jul 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #onion</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220722-pixeldailies.png" alt="20220722-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #onion</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220722-pixeldailies</link>
-        <pubDate>Fri, 22 Jul 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #owl</title>
         <description>
@@ -621,6 +597,32 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230220-pixeldailies</link>
         <pubDate>Mon, 20 Feb 2023 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #GridBased</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230224-pixeldailies.png" alt="20230224-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #GridBased</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230224-pixeldailies</link>
+        <pubDate>Thu, 23 Feb 2023 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Tileset for 20230224-pixeldailies</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230224-tileset.png" alt="20230224-tileset" />]]>
+          <p>Tileset for 20230224-pixeldailies</p>
+          <p> Tiles used in <a href="20230224-pixeldailies">20230224-pixeldailies</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230224-tileset</link>
+        <pubDate>Thu, 23 Feb 2023 14:04:00 GMT</pubDate>
       </item>
     
       </channel>
