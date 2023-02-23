@@ -186,6 +186,23 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-20T23:59+11:00",
     tags: ["pixel_dailies", "Donut", "food", "gora63"],
   },
+  {
+    src: "2023/20230224-pixeldailies.png",
+    title: "Pixel Dailies prompt: #GridBased",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    date: "2023-02-24T00:59+11:00",
+    tags: [
+      "pixel_dailies",
+      "GridBased",
+      "isometric",
+      "landscape",
+      "nostalgia48",
+    ],
+  },
 ]
 
 export { entries }
