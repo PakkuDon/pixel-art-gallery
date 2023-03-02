@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 23 Feb 2023 14:06:04 GMT</pubDate>
+        <pubDate>Thu, 02 Mar 2023 07:50:48 GMT</pubDate>
         
-      <item>
-        <title>Lospec Dailies prompt: #owl</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220724-lospecdaily.png" alt="20220724-lospecdaily" />]]>
-          <p>Lospec Dailies prompt: #owl</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220724-lospecdaily</link>
-        <pubDate>Sun, 24 Jul 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Broken</title>
         <description>
@@ -623,6 +611,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230224-tileset</link>
         <pubDate>Thu, 23 Feb 2023 14:04:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Stars</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230302-stars.gif" alt="20230302-stars" />]]>
+          <p>Stars</p>
+          <p> First attempt at making animated pixel art
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230302-stars</link>
+        <pubDate>Thu, 02 Mar 2023 07:49:00 GMT</pubDate>
       </item>
     
       </channel>
