@@ -216,6 +216,19 @@ const entries: PixelArtEntry[] = [
     date: "2023-02-24T01:04+11:00",
     tags: ["tileset", "isometric", "nostalgia48"],
   },
+  {
+    src: "2023/20230302-stars.gif",
+    title: "Stars",
+    description: `
+      First attempt at making animated pixel art
+    `,
+    palette: {
+      name: "SLSO8",
+      url: "https://lospec.com/palette-list/slso8",
+    },
+    date: "2023-03-02T18:49+11:00",
+    tags: ["noprompt", "stars", "animated", "slso8"],
+  },
 ]
 
 export { entries }
