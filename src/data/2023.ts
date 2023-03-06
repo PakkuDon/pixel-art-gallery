@@ -229,6 +229,19 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-02T18:49+11:00",
     tags: ["noprompt", "stars", "animated", "slso8"],
   },
+  {
+    src: "2023/20230306-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Doodle",
+    description: `
+      Time restriction: instead of 24 hours you have 12 hours
+    `,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    date: "2023-03-06T23:59+11:00",
+    tags: ["pixel_dailies", "Doodle", "amongus", "Apollo"],
+  },
 ]
 
 export { entries }
