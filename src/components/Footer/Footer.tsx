@@ -24,7 +24,7 @@ const Footer = ({ prefersDarkTheme, onDarkThemeToggle }: FooterProps) => (
         </label>
       </li>
       <li>
-        <Link to="/stats">Portfolio stats</Link>
+        <Link to="/stats">Stats</Link>
       </li>
       <li>
         <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
