@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 02 Mar 2023 07:50:48 GMT</pubDate>
+        <pubDate>Wed, 08 Mar 2023 12:04:22 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Broken</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220725-pixeldailies.png" alt="20220725-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Broken</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220725-pixeldailies</link>
-        <pubDate>Mon, 25 Jul 2022 13:49:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #monument</title>
         <description>
@@ -625,6 +613,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230302-stars</link>
         <pubDate>Thu, 02 Mar 2023 07:49:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Doodle</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230306-pixeldailies.png" alt="20230306-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Doodle</p>
+          <p> Time restriction: instead of 24 hours you have 12 hours
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230306-pixeldailies</link>
+        <pubDate>Mon, 06 Mar 2023 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
