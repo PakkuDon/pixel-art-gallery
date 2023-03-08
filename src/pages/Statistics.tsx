@@ -49,6 +49,16 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
           <Link to={`/${queryString}`}>Back to gallery</Link>
         </div>
         <div className="content">
+          <div>
+            <strong>Total entries: </strong>
+            <span>{PixelArtRepository.findAll().length}</span>
+          </div>
+          <div>
+            <strong>Palettes used: </strong>
+            <span>{countByPalette.length}</span>
+          </div>
+        </div>
+        <div className="content">
           <TagList countByTag={countByTag} />
         </div>
         <div className="content">
