@@ -242,6 +242,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-06T23:59+11:00",
     tags: ["pixel_dailies", "Doodle", "amongus", "Apollo"],
   },
+  {
+    src: "2023/20230309-pixeldailies.png",
+    title: "Pixel Dailies prompt: #beam",
+    description: ``,
+    palette: {
+      name: "Golden 6",
+      url: "https://lospec.com/palette-list/golden-6",
+    },
+    date: "2023-03-09T23:54+11:00",
+    tags: ["pixel_dailies", "beam", "landscape", "golden-6"],
+  },
 ]
 
 export { entries }
