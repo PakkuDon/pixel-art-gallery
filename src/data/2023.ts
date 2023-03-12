@@ -253,6 +253,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-09T23:54+11:00",
     tags: ["pixel_dailies", "beam", "landscape", "golden-6"],
   },
+  {
+    src: "2023/20230312-pixeldailies.png",
+    title: "Pixel Dailies prompt: #EmbroideryPattern",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    date: "2023-03-12T23:59+11:00",
+    tags: ["pixel_dailies", "EmbroideryPattern", "flower", "apollo"],
+  },
 ]
 
 export { entries }
