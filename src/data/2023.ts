@@ -264,6 +264,25 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-12T23:59+11:00",
     tags: ["pixel_dailies", "EmbroideryPattern", "flower", "apollo"],
   },
+  {
+    src: "2023/20230313-aesthetics.gif",
+    title: "Outrun aesthetic",
+    description: ``,
+    palette: {
+      name: "chasm",
+      url: "https://lospec.com/palette-list/chasm",
+    },
+    date: "2023-03-13T21:46+11:00",
+    tags: [
+      "noprompt",
+      "animated",
+      "synthwave",
+      "vaporwave",
+      "outrun",
+      "sunset",
+      "chasm",
+    ],
+  },
 ]
 
 export { entries }
