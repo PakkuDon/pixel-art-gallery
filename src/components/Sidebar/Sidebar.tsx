@@ -1,10 +1,10 @@
 import React from "react"
 
 import { extractFilename } from "../../util/extractFilename"
-import { Card } from "../Card"
+import { Card } from "../Card/Card"
 import { PixelArtEntry } from "../../data"
-import { SidebarEntry } from "./SidebarEntry"
-import { TagList } from "./TagList"
+import { SidebarEntry } from "./SidebarEntry/SidebarEntry"
+import { TagList } from "./TagList/TagList"
 
 import "./Sidebar.css"
 

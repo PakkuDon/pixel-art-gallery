@@ -8,8 +8,8 @@ import {
 } from "date-fns"
 import classnames from "classnames"
 
-import { Card } from "../Card"
-import { Slider } from "../Slider"
+import { Card } from "../Card/Card"
+import { Slider } from "../Slider/Slider"
 import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
 import "./ImageDetails.css"

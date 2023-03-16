@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback } from "react"
 import { useParams, useSearchParams } from "react-router-dom"
 
 import { Statistics } from "./Statistics"
-import { Sidebar } from "../components/Sidebar"
-import { ImageDetails } from "../components/ImageDetails"
+import { Sidebar } from "../components/Sidebar/Sidebar"
+import { ImageDetails } from "../components/ImageDetails/ImageDetails"
 import { extractFilename } from "../util/extractFilename"
 import { PixelArtRepository } from "../PixelArtRepository"
 

@@ -13,8 +13,8 @@ import autocolors from "chartjs-plugin-autocolors"
 import { format as formatDate } from "date-fns"
 
 import { PixelArtRepository } from "../PixelArtRepository"
-import { Card } from "../components/Card"
-import { TagList } from "../components/Sidebar/TagList"
+import { Card } from "../components/Card/Card"
+import { TagList } from "../components/Sidebar/TagList/TagList"
 
 ChartJS.register(
   autocolors,

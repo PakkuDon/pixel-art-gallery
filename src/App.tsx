@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import { PixelArtRepository } from "./PixelArtRepository"
 import { PixelArtGallery } from "./pages/PixelArtGallery"
-import { Card } from "./components/Card"
-import { Footer } from "./components/Footer"
+import { Card } from "./components/Card/Card"
+import { Footer } from "./components/Footer/Footer"
 import "normalize.css"
 import "./styles.css"
 
