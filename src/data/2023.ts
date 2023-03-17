@@ -292,7 +292,14 @@ const entries: PixelArtEntry[] = [
       url: "https://lospec.com/palette-list/purplemorning8",
     },
     date: "2023-03-17T23:59+11:00",
-    tags: ["pixel_dailies", "horizon", "landscape", "beach", "purplemorning8"],
+    tags: [
+      "pixel_dailies",
+      "horizon",
+      "landscape",
+      "beach",
+      "sunset",
+      "purplemorning8",
+    ],
   },
 ]
 
