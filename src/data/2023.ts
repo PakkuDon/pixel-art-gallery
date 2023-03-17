@@ -283,6 +283,17 @@ const entries: PixelArtEntry[] = [
       "chasm",
     ],
   },
+  {
+    src: "2023/20230317-pixeldailies.png",
+    title: "Pixel Dailies prompt: #horizon",
+    description: ``,
+    palette: {
+      name: "PurpleMorning8",
+      url: "https://lospec.com/palette-list/purplemorning8",
+    },
+    date: "2023-03-17T23:59+11:00",
+    tags: ["pixel_dailies", "horizon", "landscape", "beach", "purplemorning8"],
+  },
 ]
 
 export { entries }
