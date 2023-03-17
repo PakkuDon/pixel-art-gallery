@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 13 Mar 2023 10:48:03 GMT</pubDate>
+        <pubDate>Fri, 17 Mar 2023 13:04:09 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #newspaper</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220801-pixeldailies.png" alt="20220801-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #newspaper</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220801-pixeldailies</link>
-        <pubDate>Mon, 01 Aug 2022 13:51:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #resources</title>
         <description>
@@ -625,6 +613,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230313-aesthetics</link>
         <pubDate>Mon, 13 Mar 2023 10:46:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #horizon</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230317-pixeldailies.png" alt="20230317-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #horizon</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230317-pixeldailies</link>
+        <pubDate>Fri, 17 Mar 2023 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
