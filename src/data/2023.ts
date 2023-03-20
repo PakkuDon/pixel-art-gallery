@@ -301,6 +301,21 @@ const entries: PixelArtEntry[] = [
       "purplemorning8",
     ],
   },
+  {
+    src: "2023/20230320-pixeldailies.png",
+    title: "Pixel Dailies prompt: #SavePoint",
+    description: `
+      > With the door closed behind you, your adventure will truly begin...
+      > The power of adventure shines within you.
+      > Deltarune Chapter 1
+    `,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    date: "2023-03-20T23:48+11:00",
+    tags: ["pixel_dailies", "SavePoint", "deltarune", "apollo"],
+  },
 ]
 
 export { entries }
