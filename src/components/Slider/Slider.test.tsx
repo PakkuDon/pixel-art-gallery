@@ -10,12 +10,14 @@ describe("Slider", () => {
       zoom: 50,
       min: 0,
       max: 100,
+      label: "Something",
       onChange: jest.fn(),
     }
 
     render(<Slider {...props} />)
     const slider = screen.getByRole("slider")
 
+    expect(screen.getByText("Something")).toBeInTheDocument()
     expect(parseInt(slider.getAttribute("value") as string, 10)).toBe(
       props.zoom
     )
@@ -28,6 +30,7 @@ describe("Slider", () => {
       zoom: 50,
       min: 0,
       max: 100,
+      label: "Something",
       onChange: jest.fn(),
     }
 
@@ -43,6 +46,7 @@ describe("Slider", () => {
       zoom: 50,
       min: 0,
       max: 100,
+      label: "Something",
       onChange: jest.fn(),
     }
 
@@ -58,6 +62,7 @@ describe("Slider", () => {
       zoom: 100,
       min: 0,
       max: 100,
+      label: "Something",
       onChange: jest.fn(),
     }
 
@@ -73,6 +78,7 @@ describe("Slider", () => {
       zoom: 0,
       min: 0,
       max: 100,
+      label: "Something",
       onChange: jest.fn(),
     }
 

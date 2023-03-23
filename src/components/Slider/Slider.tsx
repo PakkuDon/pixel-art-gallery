@@ -4,10 +4,18 @@ interface SliderProps {
   zoom: number
   min: number
   max: number
+  label: String
   increment?: number
   onChange: (zoom: number) => void
 }
-const Slider = ({ zoom, min, max, increment = 25, onChange }: SliderProps) => {
+const Slider = ({
+  zoom,
+  min,
+  max,
+  label,
+  increment = 25,
+  onChange,
+}: SliderProps) => {
   const incrementZoom = useCallback(() => {
     if (zoom + increment <= max) {
       onChange(zoom + increment)
@@ -34,7 +42,7 @@ const Slider = ({ zoom, min, max, increment = 25, onChange }: SliderProps) => {
   return (
     <div>
       <label htmlFor="zoom-input">
-        Zoom
+        {label}
         <input
           type="range"
           id="zoom-input"

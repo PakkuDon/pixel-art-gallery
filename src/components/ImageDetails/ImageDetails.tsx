@@ -66,6 +66,7 @@ const ImageDetails = ({
               zoom={zoom}
               min={100}
               max={500}
+              label="Zoom"
               increment={50}
               onChange={handleZoomChange}
             />
