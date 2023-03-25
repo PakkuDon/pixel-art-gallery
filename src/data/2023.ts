@@ -316,6 +316,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-20T23:48+11:00",
     tags: ["pixel_dailies", "SavePoint", "deltarune", "apollo"],
   },
+  {
+    src: "2023/20230325-pixeldailies.png",
+    title: "Pixel Dailies prompt: #contrail",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    date: "2023-03-25T23:29+11:00",
+    tags: ["pixel_dailies", "contrail", "cloud", "plane", "nostalgia48"],
+  },
 ]
 
 export { entries }
