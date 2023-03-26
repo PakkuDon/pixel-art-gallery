@@ -327,6 +327,19 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-25T23:29+11:00",
     tags: ["pixel_dailies", "contrail", "cloud", "plane", "nostalgia48"],
   },
+  {
+    src: "2023/20230326-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Ferns",
+    description: `
+      Restriction: moonlight-gb 4 colors palette
+    `,
+    palette: {
+      name: "Moonlight GB",
+      url: "https://lospec.com/palette-list/moonlight-gb",
+    },
+    date: "2023-03-26T23:59+11:00",
+    tags: ["pixel_dailies", "Ferns", "plant", "moonlight-gb"],
+  },
 ]
 
 export { entries }
