@@ -77,7 +77,7 @@ const ImageDetails = ({
             {formatDistanceToNow(parsedDate, { addSuffix: true })})
           </div>
           <div
-            className={classnames("description", "scrollable", "content")}
+            className={classnames("description", "content")}
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: `<strong>${image.title || ""}</strong><br />${marked(
