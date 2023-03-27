@@ -71,6 +71,11 @@ const ImageDetails = ({
               onChange={handleZoomChange}
             />
           </div>
+          <div className="content">
+            <strong>Posted:</strong>{" "}
+            {formatDate(parsedDate, "MMM d yyyy h:mm aa O")} (
+            {formatDistanceToNow(parsedDate, { addSuffix: true })})
+          </div>
           <div
             className={classnames("description", "scrollable", "content")}
             // eslint-disable-next-line react/no-danger
@@ -106,11 +111,6 @@ const ImageDetails = ({
                 {index < image.tags.length - 1 && ", "}
               </React.Fragment>
             ))}
-          </div>
-          <div className="content">
-            <strong>Posted:</strong>{" "}
-            {formatDate(parsedDate, "MMM d yyyy h:mm aa O")} (
-            {formatDistanceToNow(parsedDate, { addSuffix: true })})
           </div>
         </div>
         <div className={classnames("navigation", "content")}>
