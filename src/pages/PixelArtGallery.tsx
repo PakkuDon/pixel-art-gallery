@@ -26,9 +26,9 @@ const PixelArtGallery = () => {
 
     if (selectedFilename) {
       setSelectedImage(
-        entries.find(
+        PixelArtRepository.findAll(
           (image) => selectedFilename === extractFilename(image.src)
-        ) ?? entries[0]
+        )[0] ?? entries[0]
       )
     }
   }, [id])
