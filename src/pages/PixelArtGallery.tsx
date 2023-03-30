@@ -5,6 +5,7 @@ import { Statistics } from "./Statistics"
 import { Sidebar } from "../components/Sidebar/Sidebar"
 import { ImageDetails } from "../components/ImageDetails/ImageDetails"
 import { extractFilename } from "../util/extractFilename"
+import { findMatchingEntries } from "../util/findMatchingEntries"
 import { PixelArtRepository } from "../PixelArtRepository"
 
 const PixelArtGallery = () => {
@@ -67,10 +68,7 @@ const PixelArtGallery = () => {
     )
 
     const matchingEntries = PixelArtRepository.findAll(
-      (entry) =>
-        (entry.title && entry.title.toLowerCase().includes(searchQuery)) ||
-        entry.description?.toLowerCase().includes(searchQuery) ||
-        entry.tags.some((tag) => tag.toLowerCase() === searchQuery)
+      findMatchingEntries(searchQuery)
     ).reverse()
 
     setPixelArtEntries(matchingEntries)
