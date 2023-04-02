@@ -64,7 +64,7 @@ const PixelArtGallery = () => {
 
   useEffect(() => {
     const searchQuery = decodeURIComponent(
-      new URLSearchParams(params).get("q")?.trim().toLowerCase() || ""
+      new URLSearchParams(params).get("q")?.trim() || ""
     )
 
     const matchingEntries = PixelArtRepository.findAll(
