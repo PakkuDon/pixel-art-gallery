@@ -1,7 +1,7 @@
-import { findMatchingEntries } from "./findMatchingEntries";
-import { PixelArtEntry } from "../data";
+import { matchesSearchQuery } from "./matchesSearchQuery"
+import { PixelArtEntry } from "../data"
 
-describe("findMatchingEntries", () => {
+describe("matchesSearchQuery", () => {
   it("returns true when entry's title includes query regardless of case", () => {
     const entry: PixelArtEntry = {
       src: "",
@@ -13,10 +13,10 @@ describe("findMatchingEntries", () => {
       tags: [],
     }
 
-    expect(findMatchingEntries("foo")(entry)).toBeTruthy()
-    expect(findMatchingEntries("FOO")(entry)).toBeTruthy()
-    expect(findMatchingEntries("baR")(entry)).toBeTruthy()
-    expect(findMatchingEntries("something")(entry)).toBeFalsy()
+    expect(matchesSearchQuery("foo")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("FOO")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("baR")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("something")(entry)).toBeFalsy()
   })
 
   it("returns true when entry's description includes query regardless of case", () => {
@@ -30,8 +30,8 @@ describe("findMatchingEntries", () => {
       tags: [],
     }
 
-    expect(findMatchingEntries("something")(entry)).toBeTruthy()
-    expect(findMatchingEntries("SOME")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("something")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("SOME")(entry)).toBeTruthy()
   })
 
   it("returns true when entry's tags include query regardless of case", () => {
@@ -45,9 +45,9 @@ describe("findMatchingEntries", () => {
       tags: ["pixels", "landscape"],
     }
 
-    expect(findMatchingEntries("pixels")(entry)).toBeTruthy()
-    expect(findMatchingEntries("pixelS")(entry)).toBeTruthy()
-    expect(findMatchingEntries("landscape")(entry)).toBeTruthy()
-    expect(findMatchingEntries("land")(entry)).toBeFalsy()
+    expect(matchesSearchQuery("pixels")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("pixelS")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("landscape")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("land")(entry)).toBeFalsy()
   })
 })
