@@ -7,7 +7,7 @@ describe("matchesSearchQuery", () => {
       src: "",
       title: "foobar",
       palette: {
-        name: "something",
+        name: "",
       },
       date: "",
       tags: [],
@@ -22,7 +22,7 @@ describe("matchesSearchQuery", () => {
   it("returns true when entry's description includes query regardless of case", () => {
     const entry: PixelArtEntry = {
       src: "",
-      title: "foobar",
+      title: "",
       description: "something",
       palette: {
         name: "",
@@ -38,9 +38,9 @@ describe("matchesSearchQuery", () => {
   it("returns true when entry's tags include query regardless of case", () => {
     const entry: PixelArtEntry = {
       src: "",
-      title: "foobar",
+      title: "",
       palette: {
-        name: "something",
+        name: "",
       },
       date: "",
       tags: ["pixels", "landscape"],
