@@ -340,6 +340,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-03-26T23:59+11:00",
     tags: ["pixel_dailies", "Ferns", "plant", "moonlight-gb"],
   },
+  {
+    src: "2023/20230403-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Goldfish",
+    description: ``,
+    palette: {
+      name: "AAP-64",
+      url: "https://lospec.com/palette-list/aap-64",
+    },
+    date: "2023-04-03T23:24+10:00",
+    tags: ["pixel_dailies", "Goldfish", "fish", "aap-64"],
+  },
 ]
 
 export { entries }
