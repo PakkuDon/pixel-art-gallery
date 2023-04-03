@@ -1,11 +1,11 @@
 import { PixelArtEntry } from "../data/index"
 
 const matchesSearchQuery = (searchQuery: string) => (entry: PixelArtEntry) => {
-  searchQuery = searchQuery.toLowerCase()
+  const lowerCaseSearchQuery = searchQuery.toLowerCase()
   return (
-    (entry.title && entry.title.toLowerCase().includes(searchQuery)) ||
-    entry.description?.toLowerCase().includes(searchQuery) ||
-    entry.tags.some((tag) => tag.toLowerCase() === searchQuery)
+    (entry.title && entry.title.toLowerCase().includes(lowerCaseSearchQuery)) ||
+    entry.description?.toLowerCase().includes(lowerCaseSearchQuery) ||
+    entry.tags.some((tag) => tag.toLowerCase() === lowerCaseSearchQuery)
   )
 }
 
