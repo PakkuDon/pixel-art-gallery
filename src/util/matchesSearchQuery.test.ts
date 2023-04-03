@@ -23,8 +23,9 @@ describe("matchesSearchQuery", () => {
     const entry: PixelArtEntry = {
       src: "",
       title: "foobar",
+      description: "something",
       palette: {
-        name: "something",
+        name: "",
       },
       date: "",
       tags: [],
