@@ -13,10 +13,10 @@ describe("matchesSearchQuery", () => {
       tags: [],
     }
 
-    expect(matchesSearchQuery("foo")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("FOO")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("baR")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("something")(entry)).toBeFalsy()
+    expect(matchesSearchQuery("foo", entry)).toBeTruthy()
+    expect(matchesSearchQuery("FOO", entry)).toBeTruthy()
+    expect(matchesSearchQuery("baR", entry)).toBeTruthy()
+    expect(matchesSearchQuery("something", entry)).toBeFalsy()
   })
 
   it("returns true when entry's description includes query regardless of case", () => {
@@ -31,8 +31,8 @@ describe("matchesSearchQuery", () => {
       tags: [],
     }
 
-    expect(matchesSearchQuery("something")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("SOME")(entry)).toBeTruthy()
+    expect(matchesSearchQuery("something", entry)).toBeTruthy()
+    expect(matchesSearchQuery("SOME", entry)).toBeTruthy()
   })
 
   it("returns true when entry's tags include query regardless of case", () => {
@@ -46,9 +46,9 @@ describe("matchesSearchQuery", () => {
       tags: ["pixels", "landscape"],
     }
 
-    expect(matchesSearchQuery("pixels")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("pixelS")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("landscape")(entry)).toBeTruthy()
-    expect(matchesSearchQuery("land")(entry)).toBeFalsy()
+    expect(matchesSearchQuery("pixels", entry)).toBeTruthy()
+    expect(matchesSearchQuery("pixelS", entry)).toBeTruthy()
+    expect(matchesSearchQuery("landscape", entry)).toBeTruthy()
+    expect(matchesSearchQuery("land", entry)).toBeFalsy()
   })
 })

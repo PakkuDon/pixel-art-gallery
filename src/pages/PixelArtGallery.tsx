@@ -67,8 +67,8 @@ const PixelArtGallery = () => {
       new URLSearchParams(params).get("q")?.trim() || ""
     )
 
-    const matchingEntries = PixelArtRepository.findAll(
-      matchesSearchQuery(searchQuery)
+    const matchingEntries = PixelArtRepository.findAll((entry) =>
+      matchesSearchQuery(searchQuery, entry)
     ).reverse()
 
     setPixelArtEntries(matchingEntries)
