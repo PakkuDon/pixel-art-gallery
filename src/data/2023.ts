@@ -351,6 +351,19 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-03T23:24+10:00",
     tags: ["pixel_dailies", "Goldfish", "fish", "aap-64"],
   },
+  {
+    src: "2023/20230405-pixeldailies.png",
+    title: "Pixel Dailies prompt: #memory",
+    description: `
+      [It's Just a Burning Memory - The Caretaker](https://www.youtube.com/watch?v=xADSDapqn9o)
+    `,
+    palette: {
+      name: "DarkPastel-36",
+      url: "https://lospec.com/palette-list/darkpastel-36",
+    },
+    date: "2023-04-05T22:57+10:00",
+    tags: ["pixel_dailies", "memory", "darkpastel-36"],
+  },
 ]
 
 export { entries }
