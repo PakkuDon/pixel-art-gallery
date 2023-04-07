@@ -375,6 +375,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-06T23:40+10:00",
     tags: ["pixel_dailies", "pepper", "food", "apollo"],
   },
+  {
+    src: "2023/20230407-pixeldailies.png",
+    title: "Pixel Dailies prompt: #crucible",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    date: "2023-04-07T18:16+10:00",
+    tags: ["pixel_dailies", "crucible", "metal", "apollo"],
+  },
 ]
 
 export { entries }
