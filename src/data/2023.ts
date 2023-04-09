@@ -386,6 +386,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-07T18:16+10:00",
     tags: ["pixel_dailies", "crucible", "metal", "apollo"],
   },
+  {
+    src: "2023/20230409-easter.png",
+    title: "Easter 2023",
+    description: ``,
+    palette: {
+      name: "New Worlds 46",
+      url: "https://lospec.com/palette-list/new-worlds-46",
+    },
+    date: "2023-04-09T23:58+10:00",
+    tags: ["noprompt", "easter", "food", "new-worlds-46"],
+  },
 ]
 
 export { entries }
