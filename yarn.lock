@@ -1349,10 +1349,10 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@mermaid-js/mermaid-cli@^9.1.4":
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/@mermaid-js/mermaid-cli/-/mermaid-cli-9.4.0.tgz#9be4a3a7a4d111f9db8650a785bbfeeb7ded70c9"
-  integrity sha512-/Nqs8Xtasw5wvop1PPiqmSx5SUxq/yARH+0EhEHAx8MVdbZXtUnzuK+Yv6NgpD2/Fb84/N3jF08zmIiJSyT5Lg==
+"@mermaid-js/mermaid-cli@^10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@mermaid-js/mermaid-cli/-/mermaid-cli-10.0.2.tgz#7f71c4a0b1177a96ecb459da51cb663523624232"
+  integrity sha512-dz5ye9wWJjL3jtWtL6pYeKwo74CeCbn8SpvxKEH4Wuc0esDvSpxC+J/Wlsbd6BKvMzLN2J+5voy03kto0J7mOg==
   dependencies:
     chalk "^5.0.1"
     commander "^10.0.0"
