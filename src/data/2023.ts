@@ -397,6 +397,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-09T23:58+10:00",
     tags: ["noprompt", "easter", "food", "new-worlds-46"],
   },
+  {
+    src: "2023/20230411-pixeldailies.png",
+    title: "Pixel Dailies prompt: #rails",
+    description: ``,
+    palette: {
+      name: "Sweet Canyon 32",
+      url: "https://lospec.com/palette-list/sweet-canyon-32",
+    },
+    date: "2023-04-11T23:59+10:00",
+    tags: ["pixel_dailies", "rails", "landscape", "sweet-canyon-32"],
+  },
 ]
 
 export { entries }
