@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 10 Apr 2023 13:43:58 GMT</pubDate>
+        <pubDate>Wed, 12 Apr 2023 09:40:09 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #rain</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20220921-pixeldailies.png" alt="20220921-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #rain</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20220921-pixeldailies</link>
-        <pubDate>Wed, 21 Sep 2022 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #stars</title>
         <description>
@@ -629,6 +617,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230409-easter</link>
         <pubDate>Sun, 09 Apr 2023 13:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #rails</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230411-pixeldailies.png" alt="20230411-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #rails</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230411-pixeldailies</link>
+        <pubDate>Tue, 11 Apr 2023 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
