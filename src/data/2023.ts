@@ -408,6 +408,19 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-11T23:59+10:00",
     tags: ["pixel_dailies", "rails", "landscape", "sweet-canyon-32"],
   },
+  {
+    src: "2023/20230418-pixeldailies.png",
+    title: "Pixel Dailies prompt: #VisualPun",
+    description: `
+      Emotional baggage
+    `,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    date: "2023-04-18T22:03+10:00",
+    tags: ["pixel_dailies", "VisualPun", "apollo"],
+  },
 ]
 
 export { entries }
