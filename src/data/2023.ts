@@ -421,6 +421,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-18T22:03+10:00",
     tags: ["pixel_dailies", "VisualPun", "apollo"],
   },
+  {
+    src: "2023/20230426-pixeldailies.png",
+    title: "Pixel Dailies prompt: #egg",
+    description: ``,
+    palette: {
+      name: "PARADISE 30",
+      url: "https://lospec.com/palette-list/paradise-30",
+    },
+    date: "2023-04-26T23:58+10:00",
+    tags: ["pixel_dailies", "egg", "nest", "paradise-30"],
+  },
 ]
 
 export { entries }
