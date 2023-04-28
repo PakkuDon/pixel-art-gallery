@@ -432,6 +432,25 @@ const entries: PixelArtEntry[] = [
     date: "2023-04-26T23:58+10:00",
     tags: ["pixel_dailies", "egg", "nest", "paradise-30"],
   },
+  {
+    src: "2023/20230428-pixeldailies.png",
+    title: "Pixel Dailies prompt: #meadow",
+    description: `
+      This post also marks my 1000th commit to this repo. See you at the next milestone!
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    date: "2023-04-28T23:59+10:00",
+    tags: [
+      "pixel_dailies",
+      "meadow",
+      "landscape",
+      "milestone_post",
+      "nostalgia48",
+    ],
+  },
 ]
 
 export { entries }
