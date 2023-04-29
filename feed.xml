@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Wed, 26 Apr 2023 14:00:14 GMT</pubDate>
+        <pubDate>Sat, 29 Apr 2023 08:17:02 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Sunset</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221017-pixeldailies.png" alt="20221017-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Sunset</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20221017-pixeldailies</link>
-        <pubDate>Mon, 17 Oct 2022 12:44:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #salmon</title>
         <description>
@@ -629,6 +617,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230426-pixeldailies</link>
         <pubDate>Wed, 26 Apr 2023 13:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #meadow</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230428-pixeldailies.png" alt="20230428-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #meadow</p>
+          <p> This post also marks my 1000th commit to this repo. See you at the next milestone!
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230428-pixeldailies</link>
+        <pubDate>Fri, 28 Apr 2023 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
