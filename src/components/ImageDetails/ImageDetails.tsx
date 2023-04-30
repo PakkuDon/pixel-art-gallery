@@ -60,17 +60,17 @@ const ImageDetails = ({
             style={{ transform: `scale(${zoom / 100})` }}
           />
         </div>
+        <div className="content">
+          <Slider
+            zoom={zoom}
+            min={100}
+            max={500}
+            label="Zoom"
+            increment={50}
+            onChange={handleZoomChange}
+          />
+        </div>
         <div className="image-metadata">
-          <div className="content">
-            <Slider
-              zoom={zoom}
-              min={100}
-              max={500}
-              label="Zoom"
-              increment={50}
-              onChange={handleZoomChange}
-            />
-          </div>
           <div className="content">
             <strong>Posted:</strong>{" "}
             {formatDate(parsedDate, "MMM d yyyy h:mm aa O")} (
