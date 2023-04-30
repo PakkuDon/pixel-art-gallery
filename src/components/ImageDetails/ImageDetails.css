@@ -17,8 +17,6 @@
 
 .image-metadata {
   max-height: 100%;
-  display: grid;
-  min-height: 0;
   overflow: auto;
 }
 
