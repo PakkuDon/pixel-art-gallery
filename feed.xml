@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sat, 29 Apr 2023 08:17:02 GMT</pubDate>
+        <pubDate>Mon, 08 May 2023 14:48:23 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #salmon</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221022-pixeldailies.png" alt="20221022-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #salmon</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20221022-pixeldailies</link>
-        <pubDate>Sat, 22 Oct 2022 12:45:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #scales</title>
         <description>
@@ -631,6 +619,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230428-pixeldailies</link>
         <pubDate>Fri, 28 Apr 2023 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Blue</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230508-pixeldailies.png" alt="20230508-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Blue</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230508-pixeldailies</link>
+        <pubDate>Mon, 08 May 2023 13:58:00 GMT</pubDate>
       </item>
     
       </channel>
