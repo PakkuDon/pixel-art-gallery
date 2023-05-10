@@ -460,12 +460,18 @@ const entries: PixelArtEntry[] = [
       url: "https://lospec.com/palette-list/nostalgia48",
     },
     date: "2023-05-08T23:58+10:00",
-    tags: [
-      "pixel_dailies",
-      "Blue",
-      "landscape",
-      "nostalgia48",
-    ],
+    tags: ["pixel_dailies", "Blue", "landscape", "nostalgia48"],
+  },
+  {
+    src: "2023/20230510-pixeldailies.png",
+    title: "Pixel Dailies prompt: #BusStop",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    date: "2023-05-10T23:58+10:00",
+    tags: ["pixel_dailies", "BusStop", "landscape", "nostalgia48"],
   },
 ]
 
