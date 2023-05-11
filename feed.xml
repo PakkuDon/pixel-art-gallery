@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 08 May 2023 14:48:23 GMT</pubDate>
+        <pubDate>Thu, 11 May 2023 13:58:48 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #scales</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221027-pixeldailies.png" alt="20221027-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #scales</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20221027-pixeldailies</link>
-        <pubDate>Thu, 27 Oct 2022 10:44:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Belated post for Pixel Dailies prompt: #Halloween</title>
         <description>
@@ -631,6 +619,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230508-pixeldailies</link>
         <pubDate>Mon, 08 May 2023 13:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #BusStop</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230510-pixeldailies.png" alt="20230510-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #BusStop</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230510-pixeldailies</link>
+        <pubDate>Wed, 10 May 2023 13:58:00 GMT</pubDate>
       </item>
     
       </channel>
