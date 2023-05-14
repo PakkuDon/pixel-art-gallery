@@ -473,6 +473,17 @@ const entries: PixelArtEntry[] = [
     date: "2023-05-10T23:58+10:00",
     tags: ["pixel_dailies", "BusStop", "landscape", "nostalgia48"],
   },
+  {
+    src: "2023/20230514-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Floppydisk",
+    description: ``,
+    palette: {
+      name: "PARADISE 30",
+      url: "https://lospec.com/palette-list/paradise-30",
+    },
+    date: "2023-05-14T22:42+10:00",
+    tags: ["pixel_dailies", "Floppydisk", "paradise-30"],
+  },
 ]
 
 export { entries }
