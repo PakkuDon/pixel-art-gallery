@@ -9,6 +9,8 @@
   grid-auto-flow: column;
   margin: 0;
   width: max-content;
+  /* Hack to remove vertical scrollbar on mobile layout */
+  padding-bottom: 5px;
 }
 
 .entriesList a {
