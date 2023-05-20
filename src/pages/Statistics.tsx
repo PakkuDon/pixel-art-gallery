@@ -40,6 +40,9 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
   const countByPalette = PixelArtRepository.countBy(
     (entry) => entry.palette.name
   )
+  const countByResolution = PixelArtRepository.countBy(
+    (entry) => entry.resolution || ""
+  )
   const queryString = searchQuery ? `?q=${searchQuery}` : ""
 
   return (
@@ -112,6 +115,32 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
               datasets: [
                 {
                   data: countByPalette.map((value) => value.count),
+                },
+              ],
+            }}
+          />
+        </div>
+        <div className="content">
+          <h2>Resolution</h2>
+          <Pie
+            options={{
+              animation: false,
+              plugins: {
+                autocolors: {
+                  mode: "data",
+                },
+              },
+            }}
+            data={{
+              labels: countByResolution.map((value) => {
+                const percentage = ((value.count / totalEntries) * 100).toFixed(
+                  1
+                )
+                return `${value.key} (${percentage}%)`
+              }),
+              datasets: [
+                {
+                  data: countByResolution.map((value) => value.count),
                 },
               ],
             }}
