@@ -8,7 +8,7 @@ import {
   ArcElement,
   Tooltip,
 } from "chart.js"
-import { Bar, Pie } from "react-chartjs-2"
+import { Bar } from "react-chartjs-2"
 import autocolors from "chartjs-plugin-autocolors"
 import { format as formatDate } from "date-fns"
 
@@ -96,8 +96,9 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
         </div>
         <div className="content">
           <h2>Palette Usage</h2>
-          <Pie
+          <Bar
             options={{
+              indexAxis: "y",
               animation: false,
               plugins: {
                 autocolors: {
@@ -122,8 +123,9 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
         </div>
         <div className="content">
           <h2>Resolution</h2>
-          <Pie
+          <Bar
             options={{
+              indexAxis: "y",
               animation: false,
               plugins: {
                 autocolors: {
