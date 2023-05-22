@@ -9,6 +9,7 @@ describe("matchesSearchQuery", () => {
       palette: {
         name: "",
       },
+      resolution: "1x1",
       date: "",
       tags: [],
     }
@@ -27,6 +28,7 @@ describe("matchesSearchQuery", () => {
       palette: {
         name: "",
       },
+      resolution: "1x1",
       date: "",
       tags: [],
     }
@@ -42,6 +44,7 @@ describe("matchesSearchQuery", () => {
       palette: {
         name: "",
       },
+      resolution: "1x1",
       date: "",
       tags: ["pixels", "landscape"],
     }

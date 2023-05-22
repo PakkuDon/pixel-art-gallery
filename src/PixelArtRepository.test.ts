@@ -9,6 +9,7 @@ describe("PixelArtRepository", () => {
         palette: {
           name: "Some palette",
         },
+        resolution: "1x1",
         date: "2000-01-01T23:59+11:00",
         tags: [],
       }
@@ -18,6 +19,7 @@ describe("PixelArtRepository", () => {
         palette: {
           name: "Some palette",
         },
+        resolution: "1x1",
         date: "2000-01-01T23:59+11:00",
         tags: [],
       }
@@ -37,6 +39,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: [],
         },
@@ -55,6 +58,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies", "animal"],
         },
@@ -64,6 +68,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
@@ -89,6 +94,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
@@ -98,6 +104,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["noprompt"],
         },
@@ -125,6 +132,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies", "animal"],
         },
@@ -134,6 +142,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
@@ -143,6 +152,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2001-01-01T23:59+11:00",
           tags: ["noprompt"],
         },
@@ -180,6 +190,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["pixel_dailies"],
         },
@@ -189,6 +200,7 @@ describe("PixelArtRepository", () => {
           palette: {
             name: "Some palette",
           },
+          resolution: "1x1",
           date: "2000-01-01T23:59+11:00",
           tags: ["noprompt"],
         },

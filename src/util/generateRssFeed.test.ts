@@ -17,6 +17,7 @@ describe("generateRssFeed", () => {
         palette: {
           name: "Example link",
         },
+        resolution: "1x1",
         date: "2020-01-01T00:00+11:00",
         tags: ["a", "b"],
       },
@@ -38,6 +39,7 @@ describe("generateRssFeed", () => {
           palette: {
             name: "Example link",
           },
+          resolution: "1x1",
           date: "2020-01-01T00:00+1000",
           tags: ["a", "b"],
         },
@@ -50,6 +52,7 @@ describe("generateRssFeed", () => {
           palette: {
             name: "Example link",
           },
+          resolution: "1x1",
           date: "2020-01-01T00:00+1000",
           tags: ["a", "b"],
         },

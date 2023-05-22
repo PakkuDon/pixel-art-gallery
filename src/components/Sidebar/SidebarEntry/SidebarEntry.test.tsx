@@ -12,6 +12,7 @@ describe("SidebarEntry", () => {
       palette: {
         name: "Some palette",
       },
+      resolution: "1x1",
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -33,6 +34,7 @@ describe("SidebarEntry", () => {
       palette: {
         name: "Some palette",
       },
+      resolution: "1x1",
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -53,6 +55,7 @@ describe("SidebarEntry", () => {
       palette: {
         name: "Some palette",
       },
+      resolution: "1x1",
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
@@ -74,6 +77,7 @@ describe("SidebarEntry", () => {
       palette: {
         name: "Some palette",
       },
+      resolution: "1x1",
       date: "2000-01-01T00:00+10:00",
       tags: ["test"],
     }
