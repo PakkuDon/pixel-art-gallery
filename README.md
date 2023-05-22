@@ -63,6 +63,7 @@ yarn deploy
     url: "Link to palette. Optional",
     colours: ["Array of colours for palette", "Optional"],
   },
+  resolution: "widthxheight",
   date: "Date in ISO 8601 format (eg: 2020-01-01T23:59+11:00)",
   tags: ["words", "can contain spaces"],
   aliases: ["optiona list of other URL slugs to use for this entry"],
