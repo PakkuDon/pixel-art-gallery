@@ -12,7 +12,7 @@ export interface PixelArtEntry {
     url?: string
     colours?: string[]
   }
-  resolution?: string
+  resolution: string
   date: string
   tags: string[]
   aliases?: string[]
