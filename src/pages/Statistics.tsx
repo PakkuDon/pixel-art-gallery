@@ -130,6 +130,7 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
               plugins: {
                 autocolors: {
                   mode: "data",
+                  offset: 2,
                 },
               },
             }}
