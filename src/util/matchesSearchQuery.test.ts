@@ -2,7 +2,7 @@ import { matchesSearchQuery } from "./matchesSearchQuery"
 import { PixelArtEntry } from "../data"
 
 describe("matchesSearchQuery", () => {
-  it("returns true when entry's title includes query regardless of case", () => {
+  it("matches when entry's title includes query regardless of case", () => {
     const entry: PixelArtEntry = {
       src: "",
       title: "foobar",
@@ -20,7 +20,7 @@ describe("matchesSearchQuery", () => {
     expect(matchesSearchQuery("something", entry)).toBeFalsy()
   })
 
-  it("returns true when entry's description includes query regardless of case", () => {
+  it("matches when entry's description includes query regardless of case", () => {
     const entry: PixelArtEntry = {
       src: "",
       title: "",
@@ -37,7 +37,7 @@ describe("matchesSearchQuery", () => {
     expect(matchesSearchQuery("SOME", entry)).toBeTruthy()
   })
 
-  it("returns true when entry's tags include query regardless of case", () => {
+  it("matches when entry's tags include query regardless of case", () => {
     const entry: PixelArtEntry = {
       src: "",
       title: "",
