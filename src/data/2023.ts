@@ -541,6 +541,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-05-14T22:42+10:00",
     tags: ["pixel_dailies", "Floppydisk", "paradise-30"],
   },
+  {
+    src: "2023/20230529-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Toy",
+    description: ``,
+    palette: {
+      name: "Wholesome 76",
+      url: "https://lospec.com/palette-list/wholesome-76",
+    },
+    resolution: "64x64",
+    date: "2023-05-29T23:59+10:00",
+    tags: ["pixel_dailies", "Toy", "blahaj", "wholesome-76"],
+  },
 ]
 
 export { entries }
