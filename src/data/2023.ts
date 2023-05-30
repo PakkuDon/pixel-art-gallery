@@ -383,7 +383,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-03-26T23:59+11:00",
-    tags: ["pixel_dailies", "Ferns", "plant", "moonlight-gb"],
+    tags: ["pixel_dailies", "Ferns", "plant", "64x64", "moonlight-gb"],
   },
   {
     src: "2023/20230403-pixeldailies.png",
@@ -395,7 +395,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-03T23:24+10:00",
-    tags: ["pixel_dailies", "Goldfish", "fish", "aap-64"],
+    tags: ["pixel_dailies", "Goldfish", "fish", "64x64", "aap-64"],
   },
   {
     src: "2023/20230405-pixeldailies.png",
@@ -409,7 +409,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-05T22:57+10:00",
-    tags: ["pixel_dailies", "memory", "darkpastel-36"],
+    tags: ["pixel_dailies", "memory", "64x64", "darkpastel-36"],
   },
   {
     src: "2023/20230406-pixeldailies.png",
@@ -421,7 +421,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-06T23:40+10:00",
-    tags: ["pixel_dailies", "pepper", "food", "apollo"],
+    tags: ["pixel_dailies", "pepper", "food", "64x64", "apollo"],
   },
   {
     src: "2023/20230407-pixeldailies.png",
@@ -433,7 +433,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-07T18:16+10:00",
-    tags: ["pixel_dailies", "crucible", "metal", "apollo"],
+    tags: ["pixel_dailies", "crucible", "metal", "64x64", "apollo"],
   },
   {
     src: "2023/20230409-easter.png",
@@ -445,7 +445,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-09T23:58+10:00",
-    tags: ["noprompt", "easter", "food", "new-worlds-46"],
+    tags: ["noprompt", "easter", "food", "64x64", "new-worlds-46"],
   },
   {
     src: "2023/20230411-pixeldailies.png",
@@ -457,7 +457,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-11T23:59+10:00",
-    tags: ["pixel_dailies", "rails", "landscape", "sweet-canyon-32"],
+    tags: ["pixel_dailies", "rails", "landscape", "64x64", "sweet-canyon-32"],
   },
   {
     src: "2023/20230418-pixeldailies.png",
@@ -471,7 +471,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-18T22:03+10:00",
-    tags: ["pixel_dailies", "VisualPun", "apollo"],
+    tags: ["pixel_dailies", "VisualPun", "64x64", "apollo"],
   },
   {
     src: "2023/20230426-pixeldailies.png",
@@ -483,7 +483,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-04-26T23:58+10:00",
-    tags: ["pixel_dailies", "egg", "nest", "paradise-30"],
+    tags: ["pixel_dailies", "egg", "nest", "64x64", "paradise-30"],
   },
   {
     src: "2023/20230428-pixeldailies.png",
@@ -502,6 +502,7 @@ const entries: PixelArtEntry[] = [
       "meadow",
       "landscape",
       "milestone_post",
+      "64x64",
       "nostalgia48",
     ],
   },
@@ -515,7 +516,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-05-08T23:58+10:00",
-    tags: ["pixel_dailies", "Blue", "landscape", "nostalgia48"],
+    tags: ["pixel_dailies", "Blue", "landscape", "64x64", "nostalgia48"],
   },
   {
     src: "2023/20230510-pixeldailies.png",
@@ -527,7 +528,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-05-10T23:58+10:00",
-    tags: ["pixel_dailies", "BusStop", "landscape", "nostalgia48"],
+    tags: ["pixel_dailies", "BusStop", "landscape", "64x64", "nostalgia48"],
   },
   {
     src: "2023/20230514-pixeldailies.png",
@@ -539,7 +540,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-05-14T22:42+10:00",
-    tags: ["pixel_dailies", "Floppydisk", "paradise-30"],
+    tags: ["pixel_dailies", "Floppydisk", "64x64", "paradise-30"],
   },
   {
     src: "2023/20230529-pixeldailies.png",
@@ -551,7 +552,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-05-29T23:59+10:00",
-    tags: ["pixel_dailies", "Toy", "blahaj", "wholesome-76"],
+    tags: ["pixel_dailies", "Toy", "blahaj", "64x64", "wholesome-76"],
   },
 ]
 
