@@ -8,7 +8,8 @@ const matchesSearchQuery = (searchQuery: string, entry: PixelArtEntry) => {
   }
   return (
     (entry.title && entry.title.toLowerCase().includes(lowerCaseSearchQuery)) ||
-    entry.description?.toLowerCase().includes(lowerCaseSearchQuery) || false
+    entry.description?.toLowerCase().includes(lowerCaseSearchQuery) ||
+    false
   )
 }
 
