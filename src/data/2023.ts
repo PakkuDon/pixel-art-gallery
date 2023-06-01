@@ -554,6 +554,20 @@ const entries: PixelArtEntry[] = [
     date: "2023-05-29T23:59+10:00",
     tags: ["pixel_dailies", "Toy", "blahaj", "64x64", "wholesome-76"],
   },
+  {
+    src: "2023/20230601-pixeldailies.png",
+    title: "Pixel Dailies prompt: #landmark",
+    description: `
+      Royal Exhibition Building, Melbourne, Victoria
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-06-01T23:59+10:00",
+    tags: ["pixel_dailies", "landmark", "landscape", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
