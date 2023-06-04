@@ -580,6 +580,20 @@ const entries: PixelArtEntry[] = [
     date: "2023-06-02T23:59+10:00",
     tags: ["pixel_dailies", "bandage", "64x64", "antiquity16"],
   },
+  {
+    src: "2023/20230604-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Console",
+    description: `
+      Restriction: 2 bit matrix palette
+    `,
+    palette: {
+      name: "2 Bit Matrix",
+      url: "https://lospec.com/palette-list/2-bit-matrix",
+    },
+    resolution: "64x64",
+    date: "2023-06-04T23:58+10:00",
+    tags: ["pixel_dailies", "Console", "64x64", "2-bit-matrix"],
+  },
 ]
 
 export { entries }
