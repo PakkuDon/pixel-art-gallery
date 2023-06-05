@@ -594,6 +594,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-06-04T23:58+10:00",
     tags: ["pixel_dailies", "Console", "64x64", "2-bit-matrix"],
   },
+  {
+    src: "2023/20230605-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Liquid",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-06-05T23:59+10:00",
+    tags: ["pixel_dailies", "Liquid", "cat", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
