@@ -22,7 +22,8 @@ const TagList = ({
         </div>
         {countByTag.slice(0, limit).map(({ tag, count }, index) => (
           <React.Fragment key={`tag-with-count-${tag}`}>
-            <Link to={`?q=${tag}`}>
+            {/* "%2523" is '#' encoded */}
+            <Link to={`?q=%2523${tag}`}>
               {tag} ({count})
             </Link>
             {index < countByTag.length - 1 && ", "}

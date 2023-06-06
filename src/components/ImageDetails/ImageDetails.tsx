@@ -105,7 +105,8 @@ const ImageDetails = ({
             <strong>Tags: </strong>
             {image.tags.map((tag, index) => (
               <React.Fragment key={`tag-${tag}`}>
-                <Link to={`?q=${tag}`} className="tag">
+                {/* "%2523" is '#' encoded */}
+                <Link to={`?q=%2523${tag}`} className="tag">
                   {tag}
                 </Link>
                 {index < image.tags.length - 1 && ", "}
