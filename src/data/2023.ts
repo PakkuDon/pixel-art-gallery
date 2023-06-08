@@ -606,6 +606,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-06-05T23:59+10:00",
     tags: ["pixel_dailies", "Liquid", "cat", "64x64", "apollo"],
   },
+  {
+    src: "2023/20230608-pixeldailies.png",
+    title: "Pixel Dailies prompt: #toolbox",
+    description: ``,
+    palette: {
+      name: "PARADISE 30",
+      url: "https://lospec.com/palette-list/paradise-30",
+    },
+    resolution: "64x64",
+    date: "2023-06-08T23:19+10:00",
+    tags: ["pixel_dailies", "toolbox", "64x64", "paradise-30"],
+  },
 ]
 
 export { entries }
