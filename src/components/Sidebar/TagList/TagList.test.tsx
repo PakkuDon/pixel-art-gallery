@@ -39,7 +39,7 @@ describe("TagList", () => {
     fireEvent.click(screen.getByText(/Show/))
     expect(screen.queryByRole("link", { name: /someTag .*3/ })).toHaveAttribute(
       "href",
-      "/?q=someTag"
+      "/?q=%2523someTag"
     )
   })
 
