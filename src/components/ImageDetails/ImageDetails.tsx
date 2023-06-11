@@ -7,6 +7,7 @@ import {
   formatDistanceToNow,
 } from "date-fns"
 import classnames from "classnames"
+import { encodeURIFragment } from "../../util/encodeURIFragment"
 
 import { Card } from "../Card/Card"
 import { Slider } from "../Slider/Slider"
@@ -33,7 +34,7 @@ const ImageDetails = ({
   const [params] = useSearchParams()
 
   const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
-  const queryString = searchQuery ? `?q=${searchQuery}` : ""
+  const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
   const previousLink = previousImage
     ? `/${extractFilename(previousImage.src)}${queryString}`
     : ""
@@ -105,8 +106,7 @@ const ImageDetails = ({
             <strong>Tags: </strong>
             {image.tags.map((tag, index) => (
               <React.Fragment key={`tag-${tag}`}>
-                {/* "%2523" is '#' encoded */}
-                <Link to={`?q=%2523${tag}`} className="tag">
+                <Link to={encodeURIFragment(`?q=#${tag}`)} className="tag">
                   {tag}
                 </Link>
                 {index < image.tags.length - 1 && ", "}

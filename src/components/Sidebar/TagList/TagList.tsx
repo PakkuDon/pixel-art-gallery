@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
+import { encodeURIFragment } from "../../../util/encodeURIFragment"
 
 interface TagListProps {
   countByTag: Array<{ tag: string; count: number }>
@@ -23,7 +24,7 @@ const TagList = ({
         {countByTag.slice(0, limit).map(({ tag, count }, index) => (
           <React.Fragment key={`tag-with-count-${tag}`}>
             {/* "%2523" is '#' encoded */}
-            <Link to={`?q=%2523${tag}`}>
+            <Link to={encodeURIFragment(`?q=#${tag}`)}>
               {tag} ({count})
             </Link>
             {index < countByTag.length - 1 && ", "}

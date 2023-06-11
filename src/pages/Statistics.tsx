@@ -13,6 +13,7 @@ import autocolors from "chartjs-plugin-autocolors"
 import { format as formatDate } from "date-fns"
 
 import { PixelArtRepository } from "../PixelArtRepository"
+import { encodeURIFragment } from "../util/encodeURIFragment"
 import { Card } from "../components/Card/Card"
 import { TagList } from "../components/Sidebar/TagList/TagList"
 
@@ -43,7 +44,7 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
   const countByResolution = PixelArtRepository.countBy(
     (entry) => entry.resolution || ""
   )
-  const queryString = searchQuery ? `?q=${searchQuery}` : ""
+  const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
 
   return (
     <Card>
