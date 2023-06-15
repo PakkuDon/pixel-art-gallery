@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useCallback } from "react"
 import { useParams, useSearchParams } from "react-router-dom"
 
-import { Statistics } from "./Statistics"
-import { Sidebar } from "../components/Sidebar/Sidebar"
-import { ImageDetails } from "../components/ImageDetails/ImageDetails"
-import { extractFilename } from "../util/extractFilename"
-import { matchesSearchQuery } from "../util/matchesSearchQuery"
-import { PixelArtRepository } from "../PixelArtRepository"
+import { Statistics } from "./pages/Statistics"
+import { Sidebar } from "./components/Sidebar/Sidebar"
+import { ImageDetails } from "./pages/ImageDetails"
+import { extractFilename } from "./util/extractFilename"
+import { matchesSearchQuery } from "./util/matchesSearchQuery"
+import { PixelArtRepository } from "./PixelArtRepository"
 
 const PixelArtGallery = () => {
   const [entries, setPixelArtEntries] = useState(

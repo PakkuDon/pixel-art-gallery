@@ -10,20 +10,14 @@ import {
 import autocolors from "chartjs-plugin-autocolors"
 
 import { PixelArtRepository } from "./PixelArtRepository"
-import { PixelArtGallery } from "./pages/PixelArtGallery"
+import { PixelArtGallery } from "./PixelArtGallery"
 import { Card } from "./components/Card/Card"
 import { Footer } from "./components/Footer/Footer"
 import "normalize.css"
 import "./styles.css"
 
 PixelArtRepository.load()
-ChartJS.register(
-  autocolors,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Tooltip
-)
+ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
 
 const App = () => {
   const [prefersDarkTheme, setPrefersDarkTheme] = useState(false)
