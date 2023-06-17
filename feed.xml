@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 12 Jun 2023 07:00:33 GMT</pubDate>
+        <pubDate>Sat, 17 Jun 2023 13:13:13 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #imperfection</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221203-pixeldailies.png" alt="20221203-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #imperfection</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20221203-pixeldailies</link>
-        <pubDate>Sat, 03 Dec 2022 12:30:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Lights</title>
         <description>
@@ -633,6 +621,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230608-pixeldailies</link>
         <pubDate>Thu, 08 Jun 2023 13:19:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #debuff</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230617-pixeldailies.png" alt="20230617-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #debuff</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230617-pixeldailies</link>
+        <pubDate>Sat, 17 Jun 2023 13:12:00 GMT</pubDate>
       </item>
     
       </channel>
