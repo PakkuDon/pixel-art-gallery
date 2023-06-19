@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import classnames from "classnames"
 
 import { extractFilename } from "../../../util/extractFilename"
+import { encodeURIFragment } from "../../../util/encodeURIFragment"
 import { PixelArtEntry } from "../../../data"
 
 import "./SidebarEntry.css"
@@ -18,7 +19,7 @@ const SidebarEntry = ({
   isSelected,
   searchQuery,
 }: SidebarEntryProps) => {
-  const queryString = searchQuery ? `?q=${searchQuery}` : ""
+  const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
 
   return (
     <Link
