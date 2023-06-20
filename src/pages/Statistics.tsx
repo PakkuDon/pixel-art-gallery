@@ -11,6 +11,8 @@ import { TagList } from "../components/Sidebar/TagList/TagList"
 interface StatisticsProps {
   searchQuery: string
 }
+const PALETTE_USAGE_THRESHOLD = 4
+const RESOLUTION_USAGE_THRESHOLD = 1
 const Statistics = ({ searchQuery }: StatisticsProps) => {
   const totalEntries = PixelArtRepository.findAll().length
   const countByTag = PixelArtRepository.countByTag()
@@ -20,13 +22,35 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
   const countByMonth = PixelArtRepository.countBy((entry) =>
     formatDate(new Date(entry.date), "yyyy-MM")
   ).sort((a, b) => a.key.localeCompare(b.key))
-  const countByPalette = PixelArtRepository.countBy(
-    (entry) => entry.palette.name
-  )
-  const countByResolution = PixelArtRepository.countBy(
+  let countByPalette = PixelArtRepository.countBy((entry) => entry.palette.name)
+  let countByResolution = PixelArtRepository.countBy(
     (entry) => entry.resolution || ""
   )
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
+
+  // Filter out palettes and resolutions with few records
+  const otherPalettes = countByPalette.filter(
+    ({ count }) => count <= PALETTE_USAGE_THRESHOLD
+  )
+  countByPalette = [
+    ...countByPalette.filter(({ count }) => count > PALETTE_USAGE_THRESHOLD),
+    {
+      key: "other",
+      count: otherPalettes.reduce((total, { count }) => total + count, 0),
+    },
+  ]
+  const otherResolutions = countByResolution.filter(
+    ({ count }) => count <= RESOLUTION_USAGE_THRESHOLD
+  )
+  countByResolution = [
+    ...countByResolution.filter(
+      ({ count }) => count > RESOLUTION_USAGE_THRESHOLD
+    ),
+    {
+      key: "other",
+      count: otherResolutions.reduce((total, { count }) => total + count, 0),
+    },
+  ]
 
   return (
     <Card>
