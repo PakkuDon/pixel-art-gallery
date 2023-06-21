@@ -70,7 +70,7 @@ describe("SidebarEntry", () => {
     expect(screen.getByRole("link")).toHaveAttribute("href", "/abc123?q=pixel")
   })
 
-  it("appends search query to link as is if it contains special characters", () => {
+  it("appends tag with hash encoded if present in search query", () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
@@ -91,7 +91,7 @@ describe("SidebarEntry", () => {
 
     expect(screen.getByRole("link")).toHaveAttribute(
       "href",
-      "/abc123?q=something else #tags"
+      "/abc123?q=something else %2523tags"
     )
   })
 })
