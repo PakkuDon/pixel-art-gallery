@@ -1,13 +1,5 @@
 import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Tooltip,
-} from "chart.js"
-import autocolors from "chartjs-plugin-autocolors"
 
 import { PixelArtRepository } from "./PixelArtRepository"
 import { PixelArtGallery } from "./PixelArtGallery"
@@ -17,7 +9,6 @@ import "normalize.css"
 import "./styles.css"
 
 PixelArtRepository.load()
-ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
 
 const App = () => {
   const [prefersDarkTheme, setPrefersDarkTheme] = useState(false)

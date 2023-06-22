@@ -2,11 +2,21 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { Bar } from "react-chartjs-2"
 import { format as formatDate } from "date-fns"
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Tooltip,
+} from "chart.js"
+import autocolors from "chartjs-plugin-autocolors"
 
 import { PixelArtRepository } from "../PixelArtRepository"
 import { encodeURIFragment } from "../util/encodeURIFragment"
 import { Card } from "../components/Card/Card"
 import { TagList } from "../components/Sidebar/TagList/TagList"
+
+ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
 
 interface StatisticsProps {
   searchQuery: string
