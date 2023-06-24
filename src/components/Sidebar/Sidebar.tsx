@@ -4,7 +4,7 @@ import { extractFilename } from "../../util/extractFilename"
 import { Card } from "../Card/Card"
 import { PixelArtEntry } from "../../data"
 import { SidebarEntry } from "./SidebarEntry/SidebarEntry"
-import { TagList } from "./TagList/TagList"
+import { TagList } from "../TagList/TagList"
 
 import "./Sidebar.css"
 

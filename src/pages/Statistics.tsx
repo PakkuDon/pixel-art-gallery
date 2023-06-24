@@ -14,7 +14,7 @@ import autocolors from "chartjs-plugin-autocolors"
 import { PixelArtRepository } from "../PixelArtRepository"
 import { encodeURIFragment } from "../util/encodeURIFragment"
 import { Card } from "../components/Card/Card"
-import { TagList } from "../components/Sidebar/TagList/TagList"
+import { TagList } from "../components/TagList/TagList"
 
 ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
 

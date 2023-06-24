@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-import { Accordion } from "../../Accordion/Accordion"
-import { encodeURIFragment } from "../../../util/encodeURIFragment"
+import { Accordion } from "../Accordion/Accordion"
+import { encodeURIFragment } from "../../util/encodeURIFragment"
 
 interface TagListProps {
   countByTag: Array<{ tag: string; count: number }>
