@@ -7,13 +7,13 @@ import {
   formatDistanceToNow,
 } from "date-fns"
 import classnames from "classnames"
-import { encodeURIFragment } from "../util/encodeURIFragment"
+import { encodeURIFragment } from "../../util/encodeURIFragment"
 
-import { Card } from "../components/Card/Card"
-import { Slider } from "../components/Slider/Slider"
-import { extractFilename } from "../util/extractFilename"
-import { PixelArtEntry } from "../data"
-import "./ImageDetails/ImageDetails.css"
+import { Card } from "../../components/Card/Card"
+import { Slider } from "../../components/Slider/Slider"
+import { extractFilename } from "../../util/extractFilename"
+import { PixelArtEntry } from "../../data"
+import "./ImageDetails.css"
 
 marked.setOptions({
   breaks: true,
