@@ -3,14 +3,14 @@
 title Deployment process
 
 start
-if (no uncomitted changes to src/data.js?) then (start build)
-  :compile application and output to dist/;
-  :copy images to dist directory;
+if (no uncomitted changes in src/data/?) then (start build)
+  :compile frontend code to dist/main.js;
+  :compile build scripts for other artifacts;
+  :copy images to dist/;
   repeat
-    :generate HTML page 
-    with preview and bundle.js;
+    :generate page for entry;
   repeat while (has more images?) is (Yes)
-  :generate RSS feed using latest entries;
+  :generate dist/feed.xml;
   :push dist/ to remote gh-pages branch;
 else (exit)
 endif
