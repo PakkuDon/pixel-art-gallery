@@ -6,10 +6,10 @@ start
 if (no uncomitted changes to src/data.js?) then (start build)
   :compile application and output to dist/;
   :copy images to dist directory;
-  repeat :for each pixel art entry;
+  repeat
     :generate HTML page 
     with preview and bundle.js;
-  repeat while (more images?) is (repeat)
+  repeat while (has more images?) is (Yes)
   :generate RSS feed using latest entries;
   :push dist/ to remote gh-pages branch;
 else (exit)
