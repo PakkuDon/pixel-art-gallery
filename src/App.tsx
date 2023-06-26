@@ -29,8 +29,9 @@ const App = () => {
 
   // eslint-disable-next-line no-restricted-globals
   const basename = location.hostname.includes("github")
-    ? "pixel-art-gallery"
-    : ""
+    ? "/pixel-art-gallery/"
+    : "/"
+
   return (
     <Router basename={basename}>
       <Routes>
