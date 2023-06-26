@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 26 Jun 2023 13:17:44 GMT</pubDate>
+        <pubDate>Mon, 26 Jun 2023 13:40:48 GMT</pubDate>
         
-      <item>
-        <title>Sunset study (January 9 2022)</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221213-sunset.png" alt="20221213-sunset" />]]>
-          <p>Sunset study (January 9 2022)</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20221213-sunset</link>
-        <pubDate>Tue, 13 Dec 2022 12:57:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #cake</title>
         <description>
@@ -633,6 +621,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230618-pixeldailies</link>
         <pubDate>Sun, 18 Jun 2023 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Spark</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230626-pixeldailies.png" alt="20230626-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Spark</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230626-pixeldailies</link>
+        <pubDate>Mon, 26 Jun 2023 13:40:00 GMT</pubDate>
       </item>
     
       </channel>
