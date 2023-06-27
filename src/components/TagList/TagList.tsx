@@ -16,7 +16,6 @@ const TagList = ({
   <Accordion openLabel="Show most used tags" closeLabel="Hide most used tags">
     {countByTag.slice(0, limit).map(({ tag, count }, index) => (
       <React.Fragment key={`tag-with-count-${tag}`}>
-        {/* "%2523" is '#' encoded */}
         <Link to={encodeURIFragment(`?q=#${tag}`)}>
           {tag} ({count})
         </Link>
