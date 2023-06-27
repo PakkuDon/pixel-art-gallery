@@ -1,19 +1,23 @@
 import React, { useState } from "react"
 
 interface AccordionProps {
-  openLabel: string
-  closeLabel: string
+  label: string
   children: React.ReactNode
 }
-const Accordion = ({ openLabel, closeLabel, children }: AccordionProps) => {
+const Accordion = ({ label, children }: AccordionProps) => {
   const [visible, setVisible] = useState(false)
 
   if (visible) {
     return (
       <div>
         <div>
-          <button type="button" onClick={() => setVisible(false)}>
-            {closeLabel}
+          {label}
+          <button
+            type="button"
+            onClick={() => setVisible(false)}
+            aria-label={`Hide ${label}`}
+          >
+            -
           </button>
         </div>
         {children}
@@ -22,8 +26,13 @@ const Accordion = ({ openLabel, closeLabel, children }: AccordionProps) => {
   }
   return (
     <div>
-      <button type="button" onClick={() => setVisible(true)}>
-        {openLabel}
+      {label}
+      <button
+        type="button"
+        onClick={() => setVisible(true)}
+        aria-label={`Show ${label}`}
+      >
+        +
       </button>
     </div>
   )

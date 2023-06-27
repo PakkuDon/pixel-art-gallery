@@ -17,13 +17,13 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByText(/Show/))
+    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.getByText(/someTag .*3/)).toBeInTheDocument()
     expect(screen.getByText(/anotherTag .*1/)).toBeInTheDocument()
-    expect(screen.getByText(/Hide/)).toBeInTheDocument()
+    expect(screen.getByLabelText(/Hide/)).toBeInTheDocument()
 
-    fireEvent.click(screen.getByText(/Hide/))
-    expect(screen.getByText(/Show/)).toBeInTheDocument()
+    fireEvent.click(screen.getByLabelText(/Hide/))
+    expect(screen.getByLabelText(/Show/)).toBeInTheDocument()
     expect(screen.queryByText(/someTag .*3/)).not.toBeInTheDocument()
   })
 
@@ -36,7 +36,7 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByText(/Show/))
+    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.queryByRole("link", { name: /someTag .*3/ })).toHaveAttribute(
       "href",
       "/?q=%2523someTag"
@@ -64,7 +64,7 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByText(/Show/))
+    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.getByText(/tag10/)).toBeInTheDocument()
     expect(screen.queryByText(/tag11/)).not.toBeInTheDocument()
   })
@@ -90,7 +90,7 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByText(/Show/))
+    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.getByText(/tag1 \(/)).toBeInTheDocument()
     expect(screen.getByText(/tag11/)).toBeInTheDocument()
   })
