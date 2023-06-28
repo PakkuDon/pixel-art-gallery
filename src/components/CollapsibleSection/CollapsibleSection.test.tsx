@@ -1,16 +1,16 @@
 import React from "react"
 import { screen, fireEvent, render } from "@testing-library/react"
 
-import { Accordion } from "./Accordion"
+import { CollapsibleSection } from "./CollapsibleSection"
 
-describe("Accordion", () => {
+describe("CollapsibleSection", () => {
   it("is closed by default", () => {
-    render(<Accordion label="Label">Content</Accordion>)
+    render(<CollapsibleSection label="Label">Content</CollapsibleSection>)
     expect(screen.queryByText("Content")).not.toBeInTheDocument()
   })
 
   it("displays passed in children when open", () => {
-    render(<Accordion label="Label">Content</Accordion>)
+    render(<CollapsibleSection label="Label">Content</CollapsibleSection>)
     fireEvent.click(screen.getByLabelText("Show Label"))
     expect(screen.getByText("Content")).toBeInTheDocument()
   })

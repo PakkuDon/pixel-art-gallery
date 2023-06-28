@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 
-interface AccordionProps {
+interface CollapsibleSectionProps {
   label: string
   children: React.ReactNode
 }
-const Accordion = ({ label, children }: AccordionProps) => {
+const CollapsibleSection = ({ label, children }: CollapsibleSectionProps) => {
   const [visible, setVisible] = useState(false)
 
   if (visible) {
@@ -38,4 +38,4 @@ const Accordion = ({ label, children }: AccordionProps) => {
   )
 }
 
-export { Accordion }
+export { CollapsibleSection }
