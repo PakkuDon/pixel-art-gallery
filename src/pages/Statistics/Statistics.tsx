@@ -14,6 +14,7 @@ import autocolors from "chartjs-plugin-autocolors"
 import { PixelArtRepository } from "../../PixelArtRepository"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { Card } from "../../components/Card/Card"
+import { CollapsibleSection } from "../../components/CollapsibleSection/CollapsibleSection"
 import { TagList } from "../../components/TagList/TagList"
 
 ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
@@ -79,7 +80,9 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
           </div>
         </div>
         <div className="content">
-          <TagList countByTag={countByTag} />
+          <CollapsibleSection label="Tag usage">
+            <TagList countByTag={countByTag} />
+          </CollapsibleSection>
         </div>
         <div className="content">
           <h2>Entries posted each year</h2>

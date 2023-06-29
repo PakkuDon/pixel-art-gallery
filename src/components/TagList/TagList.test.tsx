@@ -1,11 +1,11 @@
 import React from "react"
 import { MemoryRouter } from "react-router-dom"
-import { screen, render, fireEvent } from "@testing-library/react"
+import { screen, render } from "@testing-library/react"
 
 import { TagList } from "./TagList"
 
 describe("TagList", () => {
-  it("renders an expandable list of tags", async () => {
+  it("renders list of tags", async () => {
     const tagList = [
       { tag: "someTag", count: 3 },
       { tag: "anotherTag", count: 1 },
@@ -17,14 +17,8 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.getByText(/someTag .*3/)).toBeInTheDocument()
     expect(screen.getByText(/anotherTag .*1/)).toBeInTheDocument()
-    expect(screen.getByLabelText(/Hide/)).toBeInTheDocument()
-
-    fireEvent.click(screen.getByLabelText(/Hide/))
-    expect(screen.getByLabelText(/Show/)).toBeInTheDocument()
-    expect(screen.queryByText(/someTag .*3/)).not.toBeInTheDocument()
   })
 
   it("renders link to filter entries by tag and number of times tag is used", () => {
@@ -36,7 +30,6 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.queryByRole("link", { name: /someTag .*3/ })).toHaveAttribute(
       "href",
       "/?q=%2523someTag"
@@ -64,7 +57,6 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.getByText(/tag10/)).toBeInTheDocument()
     expect(screen.queryByText(/tag11/)).not.toBeInTheDocument()
   })
@@ -90,7 +82,6 @@ describe("TagList", () => {
       </MemoryRouter>
     )
 
-    fireEvent.click(screen.getByLabelText(/Show/))
     expect(screen.getByText(/tag1 \(/)).toBeInTheDocument()
     expect(screen.getByText(/tag11/)).toBeInTheDocument()
   })

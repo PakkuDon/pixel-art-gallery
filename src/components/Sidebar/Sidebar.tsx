@@ -1,5 +1,6 @@
 import React from "react"
 
+import { CollapsibleSection } from "../CollapsibleSection/CollapsibleSection"
 import { extractFilename } from "../../util/extractFilename"
 import { Card } from "../Card/Card"
 import { PixelArtEntry } from "../../data"
@@ -45,10 +46,14 @@ const Sidebar = ({
           </button>
         </div>
         <div className="content">
-          <div>
-            {entries.length} {entries.length === 1 ? "entry" : "entries"}.
-          </div>
-          <TagList countByTag={countByTag} limit={10} />
+          <CollapsibleSection label="Most used tags">
+            <>
+              <div>
+                {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+              </div>
+              <TagList countByTag={countByTag} limit={10} />
+            </>
+          </CollapsibleSection>
         </div>
       </div>
       <div className="entriesList">
