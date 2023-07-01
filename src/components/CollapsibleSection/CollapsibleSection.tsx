@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./CollapsibleSection.css"
 
 interface CollapsibleSectionProps {
   label: string
@@ -10,7 +11,7 @@ const CollapsibleSection = ({ label, children }: CollapsibleSectionProps) => {
   if (visible) {
     return (
       <div>
-        <div>
+        <div className="collapsibleHeader">
           {label}
           <button
             type="button"
@@ -25,7 +26,7 @@ const CollapsibleSection = ({ label, children }: CollapsibleSectionProps) => {
     )
   }
   return (
-    <div>
+    <div className="collapsibleHeader">
       {label}
       <button
         type="button"
