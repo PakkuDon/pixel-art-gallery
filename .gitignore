@@ -3,6 +3,7 @@ node_modules
 # Compiled assets
 dist
 script/generated
+.next/
 
 # Test artifacts
 cypress/screenshots
