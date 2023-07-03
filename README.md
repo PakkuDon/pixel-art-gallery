@@ -73,6 +73,23 @@ yarn deploy
 - Run development server to preview changes.
 - Run `yarn deploy` to build assets, link previews and generate RSS feed. This script will also deploy these to Github pages
 
+### Directory structure
+```sh
+.
+├── config          - Webpack config
+├── cypress         - Integration tests
+├── dist            - Production-ready assets
+├── doc             - Diagrams and images used in documents
+│   └── adr         - Architecture Decision Records
+├── img             - Pixel artwork
+├── script          - Scripts for building production assets
+└── src             - Source code for React application
+    ├── components  - Components reused across other components
+    ├── data        - Metadata for pixel art
+    ├── pages       - Top-level route handlers
+    └── util        - Helper functions
+```
+
 ## Deployment process
 
 ![Deployment workflow](doc/deployment.png)
