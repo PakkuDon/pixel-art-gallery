@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "./script/build.sh",
+    "build": "next build",
     "deploy": "gh-pages -d dist",
     "predeploy": "yarn build",
-    "dev": "webpack serve  --config config/development.config.js",
+    "dev": "next dev",
     "format": "prettier --write .",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
