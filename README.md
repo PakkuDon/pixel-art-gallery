@@ -74,6 +74,7 @@ yarn deploy
 - Run `yarn deploy` to build assets, link previews and generate RSS feed. This script will also deploy these to Github pages
 
 ### Directory structure
+
 ```sh
 .
 ├── config          - Webpack config
