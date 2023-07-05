@@ -1,5 +1,4 @@
 import React from "react"
-import { MemoryRouter } from "react-router-dom"
 import { screen, render } from "@testing-library/react"
 
 import ImageDetails from "./page"
@@ -18,11 +17,7 @@ describe("ImageDetails", () => {
       tags: ["test"],
     }
 
-    render(
-      <MemoryRouter>
-        <ImageDetails image={img} />
-      </MemoryRouter>
-    )
+    render(<ImageDetails image={img} />)
 
     expect(screen.getByText("Test image")).toBeInTheDocument()
     expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
@@ -44,11 +39,7 @@ describe("ImageDetails", () => {
       tags: ["test"],
     }
 
-    render(
-      <MemoryRouter>
-        <ImageDetails image={img} />
-      </MemoryRouter>
-    )
+    render(<ImageDetails image={img} />)
 
     expect(screen.getByText("Previous")).toBeInTheDocument()
     expect(
@@ -76,11 +67,7 @@ describe("ImageDetails", () => {
       src: "nextImage.png",
     }
 
-    render(
-      <MemoryRouter>
-        <ImageDetails image={img} nextImage={nextImage} />
-      </MemoryRouter>
-    )
+    render(<ImageDetails image={img} nextImage={nextImage} />)
 
     expect(screen.getByRole("link", { name: "Next" })).toHaveAttribute(
       "href",
@@ -105,11 +92,7 @@ describe("ImageDetails", () => {
       src: "previousImage.png",
     }
 
-    render(
-      <MemoryRouter>
-        <ImageDetails image={img} previousImage={previousImage} />
-      </MemoryRouter>
-    )
+    render(<ImageDetails image={img} previousImage={previousImage} />)
 
     expect(screen.getByRole("link", { name: "Previous" })).toHaveAttribute(
       "href",

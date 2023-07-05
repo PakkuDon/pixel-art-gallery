@@ -1,5 +1,4 @@
 import React from "react"
-import { MemoryRouter } from "react-router-dom"
 import { screen, render } from "@testing-library/react"
 
 import { SidebarEntry } from "./SidebarEntry"
@@ -17,11 +16,7 @@ describe("SidebarEntry", () => {
       tags: ["test"],
     }
 
-    render(
-      <MemoryRouter>
-        <SidebarEntry entry={img} />
-      </MemoryRouter>
-    )
+    render(<SidebarEntry entry={img} />)
 
     expect(screen.getByRole("link")).toHaveAttribute("href", "/abc123")
     expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
@@ -39,11 +34,7 @@ describe("SidebarEntry", () => {
       tags: ["test"],
     }
 
-    render(
-      <MemoryRouter>
-        <SidebarEntry entry={img} isSelected />
-      </MemoryRouter>
-    )
+    render(<SidebarEntry entry={img} isSelected />)
 
     expect(screen.getByRole("link")).toHaveClass("selected")
   })
@@ -61,11 +52,7 @@ describe("SidebarEntry", () => {
     }
     const searchQuery = "pixel"
 
-    render(
-      <MemoryRouter>
-        <SidebarEntry entry={img} searchQuery={searchQuery} />
-      </MemoryRouter>
-    )
+    render(<SidebarEntry entry={img} searchQuery={searchQuery} />)
 
     expect(screen.getByRole("link")).toHaveAttribute("href", "/abc123?q=pixel")
   })
@@ -83,11 +70,7 @@ describe("SidebarEntry", () => {
     }
     const searchQuery = "something else #tags"
 
-    render(
-      <MemoryRouter>
-        <SidebarEntry entry={img} searchQuery={searchQuery} />
-      </MemoryRouter>
-    )
+    render(<SidebarEntry entry={img} searchQuery={searchQuery} />)
 
     expect(screen.getByRole("link")).toHaveAttribute(
       "href",

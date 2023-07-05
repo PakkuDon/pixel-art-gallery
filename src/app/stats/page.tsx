@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import Link from "next/link"
 import { Bar } from "react-chartjs-2"
 import { format as formatDate } from "date-fns"
 import {
@@ -67,7 +67,7 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
     <Card>
       <main className="statistics">
         <div className="content">
-          <Link to={`/${queryString}`}>Back to gallery</Link>
+          <Link href={`/${queryString}`}>Back to gallery</Link>
         </div>
         <div className="content">
           <div>

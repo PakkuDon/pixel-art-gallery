@@ -1,7 +1,8 @@
-'use client'
+"use client"
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
-import { Link, useSearchParams } from "react-router-dom"
+import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 import {
   format as formatDate,
   parseISO as parseISODate,
@@ -32,9 +33,9 @@ const ImageDetails = ({
   nextImage,
 }: ImageDetailsProps) => {
   const [zoom, setZoom] = useState(200)
-  const [params] = useSearchParams()
+  const params = useSearchParams()
 
-  const searchQuery = new URLSearchParams(params).get("q")?.trim() || ""
+  const searchQuery = params.get("q")?.trim() || ""
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
   const previousLink = previousImage
     ? `/${extractFilename(previousImage.src)}${queryString}`
@@ -107,7 +108,7 @@ const ImageDetails = ({
             <strong>Tags: </strong>
             {image.tags.map((tag, index) => (
               <React.Fragment key={`tag-${tag}`}>
-                <Link to={encodeURIFragment(`?q=#${tag}`)} className="tag">
+                <Link href={encodeURIFragment(`?q=#${tag}`)} className="tag">
                   {tag}
                 </Link>
                 {index < image.tags.length - 1 && ", "}
@@ -117,11 +118,11 @@ const ImageDetails = ({
         </div>
         <div className={classnames("navigation", "content")}>
           {previousLink ? (
-            <Link to={previousLink}>Previous</Link>
+            <Link href={previousLink}>Previous</Link>
           ) : (
             <span>Previous</span>
           )}
-          {nextLink ? <Link to={nextLink}>Next</Link> : <span>Next</span>}
+          {nextLink ? <Link href={nextLink}>Next</Link> : <span>Next</span>}
         </div>
       </main>
     </Card>

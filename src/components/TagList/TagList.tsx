@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import Link from "next/link"
 
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 
@@ -15,7 +15,7 @@ const TagList = ({
   <>
     {countByTag.slice(0, limit).map(({ tag, count }, index) => (
       <React.Fragment key={`tag-with-count-${tag}`}>
-        <Link to={encodeURIFragment(`?q=#${tag}`)}>
+        <Link href={encodeURIFragment(`?q=#${tag}`)}>
           {tag} ({count})
         </Link>
         {index < countByTag.length - 1 && ", "}

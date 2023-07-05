@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import Link from "next/link"
 import classnames from "classnames"
 
 import { extractFilename } from "../../../util/extractFilename"
@@ -24,7 +24,7 @@ const SidebarEntry = ({
   return (
     <Link
       className={classnames("entry", { selected: isSelected })}
-      to={`/${extractFilename(entry.src)}${queryString}`}
+      href={`/${extractFilename(entry.src)}${queryString}`}
     >
       <img src={`img/${entry.src}`} alt={entry.src} loading="lazy" />
     </Link>
