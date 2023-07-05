@@ -1,3 +1,4 @@
 dist
 script/generated
+.next/
 doc/adr/README.md
