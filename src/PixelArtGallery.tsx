@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react"
 import { useParams, useSearchParams } from "react-router-dom"
 
-import { Statistics } from "./pages/Statistics/Statistics"
+import Statistics from "./app/stats/page"
 import { Sidebar } from "./components/Sidebar/Sidebar"
-import { ImageDetails } from "./pages/ImageDetails/ImageDetails"
+import ImageDetails from "./app/[[...id]]/page"
 import { extractFilename } from "./util/extractFilename"
 import { matchesSearchQuery } from "./util/matchesSearchQuery"
 import { PixelArtRepository } from "./PixelArtRepository"

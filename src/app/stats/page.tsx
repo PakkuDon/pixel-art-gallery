@@ -174,4 +174,4 @@ const Statistics = ({ searchQuery }: StatisticsProps) => {
   )
 }
 
-export { Statistics }
+export default Statistics

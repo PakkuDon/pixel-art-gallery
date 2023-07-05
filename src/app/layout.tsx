@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import React, { useEffect, useState } from "react"
 import "normalize.css"
 
@@ -47,9 +47,7 @@ const RootLayout = ({ children }: LayoutProps) => {
         />
         <title>Pixel Art Gallery</title>
       </head>
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }

@@ -1,3 +1,4 @@
+'use client'
 import React, { useCallback, useState } from "react"
 import { marked } from "marked"
 import { Link, useSearchParams } from "react-router-dom"
@@ -13,7 +14,7 @@ import { Card } from "../../components/Card/Card"
 import { Slider } from "../../components/Slider/Slider"
 import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
-import "./ImageDetails.css"
+import "./page.css"
 
 marked.setOptions({
   breaks: true,
@@ -127,4 +128,4 @@ const ImageDetails = ({
   )
 }
 
-export { ImageDetails }
+export default ImageDetails
