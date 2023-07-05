@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Fri, 30 Jun 2023 07:49:54 GMT</pubDate>
+        <pubDate>Wed, 05 Jul 2023 08:44:57 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #gift</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2022/20221225-pixeldailies.png" alt="20221225-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #gift</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20221225-pixeldailies</link>
-        <pubDate>Sun, 25 Dec 2022 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Santa</title>
         <description>
@@ -633,6 +621,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230629-pixeldailies</link>
         <pubDate>Thu, 29 Jun 2023 13:55:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #burrito</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230702-pixeldailies.png" alt="20230702-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #burrito</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230702-pixeldailies</link>
+        <pubDate>Sun, 02 Jul 2023 13:54:00 GMT</pubDate>
       </item>
     
       </channel>
