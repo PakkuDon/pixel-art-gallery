@@ -1,6 +1,7 @@
 "use client"
 import React from "react"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 import { Bar } from "react-chartjs-2"
 import { format as formatDate } from "date-fns"
 import {
@@ -20,12 +21,11 @@ import { TagList } from "../../components/TagList/TagList"
 
 ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
 
-interface StatisticsProps {
-  searchQuery: string
-}
 const PALETTE_USAGE_THRESHOLD = 4
 const RESOLUTION_USAGE_THRESHOLD = 1
-const Statistics = ({ searchQuery }: StatisticsProps) => {
+const Statistics = () => {
+  const params = useSearchParams()
+  const searchQuery = params.get("q")
   const totalEntries = PixelArtRepository.findAll().length
   const countByTag = PixelArtRepository.countByTag()
   const countByYear = PixelArtRepository.countBy((entry) =>
