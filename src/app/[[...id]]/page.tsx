@@ -9,12 +9,13 @@ import {
   formatDistanceToNow,
 } from "date-fns"
 import classnames from "classnames"
-import { encodeURIFragment } from "../../util/encodeURIFragment"
 
+import { PixelArtRepository } from "../../PixelArtRepository"
+import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { Card } from "../../components/Card/Card"
 import { Slider } from "../../components/Slider/Slider"
 import { extractFilename } from "../../util/extractFilename"
-import { PixelArtEntry } from "../../data"
+import { matchesSearchQuery } from "../../util/matchesSearchQuery"
 import "./page.css"
 
 marked.setOptions({
@@ -22,20 +23,40 @@ marked.setOptions({
   gfm: true,
 })
 
-interface ImageDetailsProps {
-  image: PixelArtEntry
-  previousImage?: PixelArtEntry
-  nextImage?: PixelArtEntry
+export function generateStaticParams(): { id: string }[] {
+  const entries = PixelArtRepository.findAll()
+  return entries.map((image) => ({
+    id: extractFilename(image.src),
+  }))
 }
-const ImageDetails = ({
-  image,
-  previousImage,
-  nextImage,
-}: ImageDetailsProps) => {
-  const [zoom, setZoom] = useState(200)
-  const params = useSearchParams()
 
-  const searchQuery = params.get("q")?.trim() || ""
+interface ImageDetailsParams {
+  params: {
+    // id will only contain 1 value or be undefined
+    // It is an array as this page uses optional catch-all segments
+    id?: string[]
+  }
+}
+
+const ImageDetails = ({ params }: ImageDetailsParams) => {
+  const [zoom, setZoom] = useState(200)
+  const id = params.id ? params.id[0] : ""
+  const searchParams = useSearchParams()
+  const searchQuery = searchParams.get("q")?.trim() || ""
+  const entries = PixelArtRepository.findAll((entry) =>
+    matchesSearchQuery(searchQuery, entry)
+  ).reverse()
+
+  const image =
+    PixelArtRepository.findAll(
+      (image) => id === extractFilename(image.src)
+    )[0] ?? entries[0]
+  const imageIndex = entries.findIndex(
+    (image) => id === extractFilename(image.src)
+  )
+  const previousImage = entries[imageIndex - 1]
+  const nextImage = entries[imageIndex + 1]
+
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
   const previousLink = previousImage
     ? `/${extractFilename(previousImage.src)}${queryString}`
