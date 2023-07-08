@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react"
 import "normalize.css"
 
 import { PixelArtRepository } from "../PixelArtRepository"
+import { Card } from "../components/Card/Card"
+import { Footer } from "../components/Footer/Footer"
 import "./styles.css"
 
 PixelArtRepository.load()
@@ -47,7 +49,20 @@ const RootLayout = ({ children }: LayoutProps) => {
         />
         <title>Pixel Art Gallery</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <div id="app">
+          <div className="sidebar-layout">
+            <div>{/* Sidebar */}</div>
+            {children}
+          </div>
+          <Card>
+            <Footer
+              prefersDarkTheme={prefersDarkTheme}
+              onDarkThemeToggle={() => setPrefersDarkTheme(!prefersDarkTheme)}
+            />
+          </Card>
+        </div>
+      </body>
     </html>
   )
 }
