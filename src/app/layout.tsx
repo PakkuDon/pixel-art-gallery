@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react"
 import "normalize.css"
 
 import { PixelArtRepository } from "../PixelArtRepository"
+import { Sidebar } from "../components/Sidebar/Sidebar"
 import { Card } from "../components/Card/Card"
 import { Footer } from "../components/Footer/Footer"
 import "./styles.css"
@@ -52,7 +53,7 @@ const RootLayout = ({ children }: LayoutProps) => {
       <body>
         <div id="app">
           <div className="sidebar-layout">
-            <div>{/* Sidebar */}</div>
+            <Sidebar />
             {children}
           </div>
           <Card>
