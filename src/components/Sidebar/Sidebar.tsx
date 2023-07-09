@@ -1,7 +1,8 @@
 import React from "react"
-import { usePathname, useSearchParams } from "next/navigation"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 import { CollapsibleSection } from "../CollapsibleSection/CollapsibleSection"
+import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { extractFilename } from "../../util/extractFilename"
 import { matchesSearchQuery } from "../../util/matchesSearchQuery"
 import { Card } from "../Card/Card"
@@ -13,11 +14,17 @@ import "./Sidebar.css"
 
 const Sidebar = () => {
   const pathname = usePathname()
+  const router = useRouter()
   const countByTag = PixelArtRepository.countByTag()
   const searchQuery = useSearchParams().get("q")?.trim() || ""
   const entries = PixelArtRepository.findAll((entry) =>
     matchesSearchQuery(searchQuery, entry)
   ).reverse()
+
+  const onSearchQueryChange = (query: string) => {
+    const queryString = query ? `?q=${encodeURIFragment(query)}` : ""
+    router.push(`${pathname}${queryString}`)
+  }
 
   return (
     <Card>
@@ -29,14 +36,18 @@ const Sidebar = () => {
                 id="search-input"
                 type="text"
                 value={decodeURIComponent(searchQuery)}
-                onChange={() => {}}
+                onChange={(event) => {
+                  onSearchQueryChange(event.target.value)
+                }}
                 placeholder="Search"
               />
             </label>
             <button
               type="button"
               aria-label="Clear search field"
-              onClick={() => {}}
+              onClick={() => {
+                onSearchQueryChange("")
+              }}
             >
               x
             </button>
