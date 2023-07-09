@@ -51,9 +51,10 @@ const ImageDetails = ({ params }: ImageDetailsParams) => {
     PixelArtRepository.findAll(
       (image) => id === extractFilename(image.src)
     )[0] ?? entries[0]
-  const imageIndex = entries.findIndex(
-    (image) => id === extractFilename(image.src)
-  )
+  let imageIndex = 0
+  if (id !== "") {
+    imageIndex = entries.findIndex((image) => id === extractFilename(image.src))
+  }
   const previousImage = entries[imageIndex - 1]
   const nextImage = entries[imageIndex + 1]
 
