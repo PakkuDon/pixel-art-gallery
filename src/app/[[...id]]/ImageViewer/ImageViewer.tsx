@@ -5,6 +5,7 @@ import classnames from "classnames"
 
 import { Slider } from "../../../components/Slider/Slider"
 import { PixelArtEntry } from "../../../data"
+import "./ImageViewer.css"
 
 interface ImageViewerProps {
   image: PixelArtEntry
