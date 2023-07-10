@@ -60,17 +60,4 @@ const generateRssFeed = ({
   `
 }
 
-const outputFile = path.join(__dirname, "../../dist/feed.xml")
-
-if (process.env.NODE_ENV !== "test") {
-  const xml = generateRssFeed({ entries: pixelArtEntries, limit: 50 })
-  fs.writeFile(outputFile, xml, (error) => {
-    if (error) {
-      console.error(error)
-    } else {
-      console.log(`RSS feed written to ${outputFile}`)
-    }
-  })
-}
-
 export { generateRssFeed }
