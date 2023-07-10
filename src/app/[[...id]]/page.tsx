@@ -1,5 +1,6 @@
 "use client"
-import React, { useCallback, useState } from "react"
+
+import React from "react"
 import { marked } from "marked"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
@@ -13,7 +14,7 @@ import classnames from "classnames"
 import { PixelArtRepository } from "../../PixelArtRepository"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { Card } from "../../components/Card/Card"
-import { Slider } from "../../components/Slider/Slider"
+import { ImageViewer } from "./ImageViewer/ImageViewer"
 import { extractFilename } from "../../util/extractFilename"
 import { matchesSearchQuery } from "../../util/matchesSearchQuery"
 import "./page.css"
@@ -39,7 +40,6 @@ interface ImageDetailsParams {
 }
 
 const ImageDetails = ({ params }: ImageDetailsParams) => {
-  const [zoom, setZoom] = useState(200)
   const id = params.id ? params.id[0] : ""
   const searchParams = useSearchParams()
   const searchQuery = searchParams.get("q")?.trim() || ""
@@ -66,35 +66,12 @@ const ImageDetails = ({ params }: ImageDetailsParams) => {
     ? `/${extractFilename(nextImage.src)}${queryString}`
     : ""
 
-  const handleZoomChange = useCallback(
-    (value: number) => {
-      setZoom(value)
-    },
-    [setZoom]
-  )
   const parsedDate = parseISODate(image.date)
 
   return (
     <Card>
       <main className="image-details">
-        <div className={classnames("image-viewer", "scrollable")}>
-          <img
-            src={`img/${image.src}`}
-            alt={image.src}
-            className="pixelArt"
-            style={{ transform: `scale(${zoom / 100})` }}
-          />
-        </div>
-        <div className="content">
-          <Slider
-            zoom={zoom}
-            min={100}
-            max={500}
-            label="Zoom"
-            increment={50}
-            onChange={handleZoomChange}
-          />
-        </div>
+        <ImageViewer image={image} />
         <div className="image-metadata">
           <div className="content">
             <strong>Posted:</strong>{" "}
