@@ -44,7 +44,7 @@ const ImageDetails = ({ params }: ImageDetailsParams) => {
   const searchParams = useSearchParams()
   const searchQuery = searchParams.get("q")?.trim() || ""
   const entries = PixelArtRepository.findAll((entry) =>
-    matchesSearchQuery(searchQuery, entry)
+    matchesSearchQuery(decodeURIComponent(searchQuery), entry)
   ).reverse()
 
   const image =
