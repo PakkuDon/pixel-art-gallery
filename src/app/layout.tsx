@@ -1,5 +1,6 @@
 "use client"
-import React, { useEffect, useState } from "react"
+
+import React from "react"
 import "normalize.css"
 
 import { PixelArtRepository } from "../PixelArtRepository"
@@ -14,22 +15,6 @@ interface LayoutProps {
   children: React.ReactNode
 }
 const RootLayout = ({ children }: LayoutProps) => {
-  const [prefersDarkTheme, setPrefersDarkTheme] = useState(false)
-
-  useEffect(() => {
-    if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    ) {
-      setPrefersDarkTheme(true)
-    }
-  }, [])
-
-  useEffect(() => {
-    document.body.classList.remove("dark-theme", "light-theme")
-    document.body.classList.add(prefersDarkTheme ? "dark-theme" : "light-theme")
-  }, [prefersDarkTheme])
-
   return (
     <html lang="en">
       <head>
@@ -57,10 +42,7 @@ const RootLayout = ({ children }: LayoutProps) => {
             {children}
           </div>
           <Card>
-            <Footer
-              prefersDarkTheme={prefersDarkTheme}
-              onDarkThemeToggle={() => setPrefersDarkTheme(!prefersDarkTheme)}
-            />
+            <Footer />
           </Card>
         </div>
       </body>

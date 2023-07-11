@@ -2,26 +2,14 @@ import React from "react"
 import Link from "next/link"
 import classnames from "classnames"
 
+import { DarkModeToggle } from "./DarkModeToggle/DarkModeToggle"
 import "./Footer.css"
 
-interface FooterProps {
-  prefersDarkTheme: boolean
-  onDarkThemeToggle: () => void
-}
-
-const Footer = ({ prefersDarkTheme, onDarkThemeToggle }: FooterProps) => (
+const Footer = () => (
   <footer className={classnames("footer", "content")}>
     <ul>
       <li>
-        <label htmlFor="prefers-dark-theme">
-          <input
-            type="checkbox"
-            id="prefers-dark-theme"
-            checked={prefersDarkTheme}
-            onChange={() => onDarkThemeToggle()}
-          />{" "}
-          Dark theme?
-        </label>
+        <DarkModeToggle />
       </li>
       <li>
         <Link href="/stats">Stats</Link>
