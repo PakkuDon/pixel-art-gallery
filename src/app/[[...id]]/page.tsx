@@ -39,6 +39,8 @@ interface ImageDetailsParams {
   }
 }
 
+PixelArtRepository.load()
+
 const ImageDetails = ({ params }: ImageDetailsParams) => {
   const id = params.id ? params.id[0] : ""
   const searchParams = useSearchParams()

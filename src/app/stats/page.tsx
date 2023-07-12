@@ -1,31 +1,22 @@
-"use client"
 import React from "react"
-import Link from "next/link"
-import { useSearchParams } from "next/navigation"
-import { Bar } from "react-chartjs-2"
+
 import { format as formatDate } from "date-fns"
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Tooltip,
-} from "chart.js"
-import autocolors from "chartjs-plugin-autocolors"
 
 import { PixelArtRepository } from "../../PixelArtRepository"
-import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { Card } from "../../components/Card/Card"
 import { CollapsibleSection } from "../../components/CollapsibleSection/CollapsibleSection"
+import { EntriesPostedEachYear } from "./EntriesPostedEachYear"
+import { EntriesPostedEachMonth } from "./EntriesPostedEachMonth"
+import { PaletteUsage } from "./PaletteUsage"
+import { ResolutionUsage } from "./ResolutionUsage"
+import { LinkToGallery } from "./LinkToGallery"
 import { TagList } from "../../components/TagList/TagList"
 
-ChartJS.register(autocolors, CategoryScale, LinearScale, BarElement, Tooltip)
+PixelArtRepository.load()
 
 const PALETTE_USAGE_THRESHOLD = 4
 const RESOLUTION_USAGE_THRESHOLD = 1
 const Statistics = () => {
-  const params = useSearchParams()
-  const searchQuery = params.get("q")
   const totalEntries = PixelArtRepository.findAll().length
   const countByTag = PixelArtRepository.countByTag()
   const countByYear = PixelArtRepository.countBy((entry) =>
@@ -38,7 +29,6 @@ const Statistics = () => {
   let countByResolution = PixelArtRepository.countBy(
     (entry) => entry.resolution || ""
   )
-  const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
 
   // Filter out palettes and resolutions with few records
   const otherPalettes = countByPalette.filter(
@@ -68,7 +58,7 @@ const Statistics = () => {
     <Card>
       <main className="statistics">
         <div className="content">
-          <Link href={`/${queryString}`}>Back to gallery</Link>
+          <LinkToGallery />
         </div>
         <div className="content">
           <div>
@@ -86,88 +76,21 @@ const Statistics = () => {
           </CollapsibleSection>
         </div>
         <div className="content">
-          <h2>Entries posted each year</h2>
-          <Bar
-            options={{ indexAxis: "y", animation: false }}
-            data={{
-              labels: countByYear.map((value) => value.key),
-              datasets: [
-                {
-                  data: countByYear.map((value) => value.count),
-                  backgroundColor: "#336699",
-                },
-              ],
-            }}
+          <EntriesPostedEachYear countByYear={countByYear} />
+        </div>
+        <div className="content">
+          <EntriesPostedEachMonth countByMonth={countByMonth} />
+        </div>
+        <div className="content">
+          <PaletteUsage
+            countByPalette={countByPalette}
+            totalEntries={totalEntries}
           />
         </div>
         <div className="content">
-          <h2>Entries posted each month</h2>
-          <Bar
-            options={{ indexAxis: "y", animation: false }}
-            data={{
-              labels: countByMonth.map((value) => value.key),
-              datasets: [
-                {
-                  data: countByMonth.map((value) => value.count),
-                  backgroundColor: "#336699",
-                },
-              ],
-            }}
-          />
-        </div>
-        <div className="content">
-          <h2>Palette Usage</h2>
-          <Bar
-            options={{
-              indexAxis: "y",
-              animation: false,
-              plugins: {
-                autocolors: {
-                  mode: "data",
-                },
-              },
-            }}
-            data={{
-              labels: countByPalette.map((value) => {
-                const percentage = ((value.count / totalEntries) * 100).toFixed(
-                  1
-                )
-                return `${value.key} (${percentage}%)`
-              }),
-              datasets: [
-                {
-                  data: countByPalette.map((value) => value.count),
-                },
-              ],
-            }}
-          />
-        </div>
-        <div className="content">
-          <h2>Resolution</h2>
-          <Bar
-            options={{
-              indexAxis: "y",
-              animation: false,
-              plugins: {
-                autocolors: {
-                  mode: "data",
-                  offset: 2,
-                },
-              },
-            }}
-            data={{
-              labels: countByResolution.map((value) => {
-                const percentage = ((value.count / totalEntries) * 100).toFixed(
-                  1
-                )
-                return `${value.key} (${percentage}%)`
-              }),
-              datasets: [
-                {
-                  data: countByResolution.map((value) => value.count),
-                },
-              ],
-            }}
+          <ResolutionUsage
+            countByResolution={countByResolution}
+            totalEntries={totalEntries}
           />
         </div>
       </main>
