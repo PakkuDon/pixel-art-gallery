@@ -24,11 +24,13 @@ marked.setOptions({
   gfm: true,
 })
 
-export function generateStaticParams(): { id: string }[] {
+export function generateStaticParams(): { id: string[] }[] {
   const entries = PixelArtRepository.findAll()
-  return entries.map((image) => ({
-    id: extractFilename(image.src),
-  }))
+  return entries
+    .map((image) => ({
+      id: [extractFilename(image.src)],
+    }))
+    .concat({ id: [] })
 }
 
 interface ImageDetailsParams {
