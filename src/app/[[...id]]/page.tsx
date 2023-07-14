@@ -1,9 +1,6 @@
-"use client"
-
-import React from "react"
+import React, { Suspense } from "react"
 import { marked } from "marked"
 import Link from "next/link"
-import { useSearchParams } from "next/navigation"
 import {
   format as formatDate,
   parseISO as parseISODate,
@@ -15,14 +12,21 @@ import { PixelArtRepository } from "../../PixelArtRepository"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { Card } from "../../components/Card/Card"
 import { ImageViewer } from "./ImageViewer/ImageViewer"
+import { Pagination } from "./Pagination"
 import { extractFilename } from "../../util/extractFilename"
-import { matchesSearchQuery } from "../../util/matchesSearchQuery"
 import "./page.css"
 
 marked.setOptions({
   breaks: true,
   gfm: true,
 })
+
+const PaginationPlaceholder = () => (
+  <div className={classnames("navigation", "content")}>
+    <span>Previous</span>
+    <span>Next</span>
+  </div>
+)
 
 export function generateStaticParams(): { id: string[] }[] {
   const entries = PixelArtRepository.findAll()
@@ -45,31 +49,10 @@ PixelArtRepository.load()
 
 const ImageDetails = ({ params }: ImageDetailsParams) => {
   const id = params.id ? params.id[0] : ""
-  const searchParams = useSearchParams()
-  const searchQuery = searchParams.get("q")?.trim() || ""
-  const entries = PixelArtRepository.findAll((entry) =>
-    matchesSearchQuery(decodeURIComponent(searchQuery), entry)
-  ).reverse()
+  const entries = PixelArtRepository.findAll().reverse()
 
   const image =
-    PixelArtRepository.findAll(
-      (image) => id === extractFilename(image.src)
-    )[0] ?? entries[0]
-  let imageIndex = 0
-  if (id !== "") {
-    imageIndex = entries.findIndex((image) => id === extractFilename(image.src))
-  }
-  const previousImage = entries[imageIndex - 1]
-  const nextImage = entries[imageIndex + 1]
-
-  const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
-  const previousLink = previousImage
-    ? `/${extractFilename(previousImage.src)}${queryString}`
-    : ""
-  const nextLink = nextImage
-    ? `/${extractFilename(nextImage.src)}${queryString}`
-    : ""
-
+    entries.find((image) => id === extractFilename(image.src)) ?? entries[0]
   const parsedDate = parseISODate(image.date)
 
   return (
@@ -119,14 +102,9 @@ const ImageDetails = ({ params }: ImageDetailsParams) => {
             ))}
           </div>
         </div>
-        <div className={classnames("navigation", "content")}>
-          {previousLink ? (
-            <Link href={previousLink}>Previous</Link>
-          ) : (
-            <span>Previous</span>
-          )}
-          {nextLink ? <Link href={nextLink}>Next</Link> : <span>Next</span>}
-        </div>
+        <Suspense fallback={<PaginationPlaceholder />}>
+          <Pagination id={id} />
+        </Suspense>
       </main>
     </Card>
   )
