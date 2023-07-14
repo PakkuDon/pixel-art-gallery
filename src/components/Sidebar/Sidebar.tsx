@@ -14,6 +14,8 @@ import { TagList } from "../TagList/TagList"
 
 import "./Sidebar.css"
 
+PixelArtRepository.load()
+
 const Sidebar = () => {
   const pathname = usePathname()
   const router = useRouter()
