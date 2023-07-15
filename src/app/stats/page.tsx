@@ -1,5 +1,5 @@
-import React from "react"
-
+import React, { Suspense } from "react"
+import Link from "next/link"
 import { format as formatDate } from "date-fns"
 
 import { PixelArtRepository } from "../../PixelArtRepository"
@@ -13,6 +13,8 @@ import { LinkToGallery } from "./LinkToGallery"
 import { TagList } from "../../components/TagList/TagList"
 
 PixelArtRepository.load()
+
+const LinkToGalleryPlaceholder = () => <Link href={"/"}>Back to gallery</Link>
 
 const PALETTE_USAGE_THRESHOLD = 4
 const RESOLUTION_USAGE_THRESHOLD = 1
@@ -58,7 +60,9 @@ const Statistics = () => {
     <Card>
       <main className="statistics">
         <div className="content">
-          <LinkToGallery />
+          <Suspense fallback={<LinkToGalleryPlaceholder />}>
+            <LinkToGallery />
+          </Suspense>
         </div>
         <div className="content">
           <div>
