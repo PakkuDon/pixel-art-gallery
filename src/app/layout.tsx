@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Suspense } from "react"
 import "normalize.css"
 
 import { PixelArtRepository } from "../PixelArtRepository"
@@ -8,6 +8,8 @@ import { Footer } from "../components/Footer/Footer"
 import "./styles.css"
 
 PixelArtRepository.load()
+
+const SidebarPlaceholder = () => <Card>Loading...</Card>
 
 interface LayoutProps {
   children: React.ReactNode
@@ -36,7 +38,9 @@ const RootLayout = ({ children }: LayoutProps) => {
       <body>
         <div id="app">
           <div className="sidebar-layout">
-            <Sidebar />
+            <Suspense fallback={<SidebarPlaceholder />}>
+              <Sidebar />
+            </Suspense>
             {children}
           </div>
           <Card>
