@@ -1,6 +1,7 @@
 import React, { Suspense } from "react"
-import "normalize.css"
+import { Noto_Sans } from "next/font/google"
 
+import "normalize.css"
 import { PixelArtRepository } from "../PixelArtRepository"
 import { Sidebar } from "../components/Sidebar/Sidebar"
 import { Card } from "../components/Card/Card"
@@ -8,6 +9,12 @@ import { Footer } from "../components/Footer/Footer"
 import "./styles.css"
 
 PixelArtRepository.load()
+
+const notoSans = Noto_Sans({
+  weight: "400",
+  display: "swap",
+  subsets: ["latin"],
+})
 
 const SidebarPlaceholder = () => <Card>Loading...</Card>
 
@@ -23,19 +30,9 @@ const RootLayout = ({ children }: LayoutProps) => {
         <meta name="description" content="Pixel art by PakkuDon." />
         <meta property="og:description" content="Pixel art by PakkuDon." />
         <meta name="twitter:card" content="summary" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin=""
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
-          rel="stylesheet"
-        />
         <title>Pixel Art Gallery</title>
       </head>
-      <body>
+      <body className={notoSans.className}>
         <div id="app">
           <div className="sidebar-layout">
             <Suspense fallback={<SidebarPlaceholder />}>
