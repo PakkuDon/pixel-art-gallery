@@ -1,5 +1,6 @@
 import React, { Suspense } from "react"
 import { marked } from "marked"
+import { redirect } from "next/navigation"
 import Link from "next/link"
 import {
   format as formatDate,
@@ -15,6 +16,7 @@ import { ImageViewer } from "./ImageViewer/ImageViewer"
 import { Pagination } from "./Pagination"
 import { extractFilename } from "../../util/extractFilename"
 import "./page.css"
+import { PixelArtEntry } from "../../data"
 
 marked.setOptions({
   breaks: true,
@@ -30,9 +32,12 @@ const PaginationPlaceholder = () => (
 
 export function generateStaticParams(): { id: string[] }[] {
   const entries = PixelArtRepository.findAll()
-  return entries
-    .map((image) => ({
-      id: [extractFilename(image.src)],
+  const ids = entries.map((image) => extractFilename(image.src))
+  const aliases = entries.map((image) => image.aliases || [])
+  return ids
+    .concat(aliases.flat())
+    .map((param) => ({
+      id: [param],
     }))
     .concat({ id: [] })
 }
@@ -50,9 +55,23 @@ PixelArtRepository.load()
 const ImageDetails = ({ params }: ImageDetailsParams) => {
   const id = params.id ? params.id[0] : ""
   const entries = PixelArtRepository.findAll().reverse()
+  let image: PixelArtEntry | undefined
 
-  const image =
-    entries.find((image) => id === extractFilename(image.src)) ?? entries[0]
+  if (id) {
+    image = entries.find((image) => id === extractFilename(image.src))
+    // Redirect to new URL if id is alias for entry
+    if (!image) {
+      const imageForAlias = entries.find((image) => image.aliases?.includes(id))
+      if (imageForAlias) {
+        return redirect(`/${extractFilename(imageForAlias.src)}`)
+      }
+    }
+  }
+
+  if (!image) {
+    image = entries[0]
+  }
+
   const parsedDate = parseISODate(image.date)
 
   return (
@@ -97,7 +116,7 @@ const ImageDetails = ({ params }: ImageDetailsParams) => {
                 <Link href={encodeURIFragment(`?q=#${tag}`)} className="tag">
                   {tag}
                 </Link>
-                {index < image.tags.length - 1 && ", "}
+                {index < image!.tags.length - 1 && ", "}
               </React.Fragment>
             ))}
           </div>
