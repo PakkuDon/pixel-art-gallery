@@ -1,4 +1,5 @@
 import React, { Suspense } from "react"
+import { Metadata } from "next"
 import { Noto_Sans } from "next/font/google"
 
 import "normalize.css"
@@ -18,6 +19,17 @@ const notoSans = Noto_Sans({
 
 const SidebarPlaceholder = () => <Card>Loading...</Card>
 
+export const metadata: Metadata = {
+  title: {
+    default: "Pixel Art Gallery",
+    template: "%s - Pixel Art Gallery",
+  },
+  metadataBase: new URL("https://pakkudon.github.io/pixel-art-gallery"),
+  openGraph: {
+    description: "Pixel art by PakkuDon",
+  },
+}
+
 interface LayoutProps {
   children: React.ReactNode
 }
@@ -26,11 +38,6 @@ const RootLayout = ({ children }: LayoutProps) => {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Pixel art by PakkuDon." />
-        <meta property="og:description" content="Pixel art by PakkuDon." />
-        <meta name="twitter:card" content="summary" />
-        <title>Pixel Art Gallery</title>
       </head>
       <body className={notoSans.className}>
         <div id="app">

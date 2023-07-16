@@ -1,5 +1,6 @@
 import React, { Suspense } from "react"
 import Link from "next/link"
+import { Metadata } from "next"
 import { format as formatDate } from "date-fns"
 
 import { PixelArtRepository } from "../../PixelArtRepository"
@@ -18,6 +19,11 @@ const LinkToGalleryPlaceholder = () => <Link href={"/"}>Back to gallery</Link>
 
 const PALETTE_USAGE_THRESHOLD = 4
 const RESOLUTION_USAGE_THRESHOLD = 1
+
+export const metadata: Metadata = {
+  title: "Portfolio stats",
+}
+
 const Statistics = () => {
   const totalEntries = PixelArtRepository.findAll().length
   const countByTag = PixelArtRepository.countByTag()

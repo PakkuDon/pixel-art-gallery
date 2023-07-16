@@ -1,5 +1,6 @@
 import React, { Suspense } from "react"
 import { marked } from "marked"
+import { Metadata } from "next"
 import { redirect } from "next/navigation"
 import Link from "next/link"
 import {
@@ -48,6 +49,25 @@ interface ImageDetailsParams {
     // It is an array as this page uses optional catch-all segments
     id?: string[]
   }
+}
+
+export function generateMetadata({ params }: ImageDetailsParams): Metadata {
+  const id = params.id ? params.id[0] : ""
+  const image = PixelArtRepository.findAll(
+    (image) => id === extractFilename(image.src)
+  )[0]
+
+  if (image) {
+    return {
+      title: `${extractFilename(image.src)}`,
+      openGraph: {
+        title: `${extractFilename(image.src)} - Pixel Art Gallery`,
+        description: image.title,
+        images: [`img/${image.src}`],
+      },
+    }
+  }
+  return {}
 }
 
 PixelArtRepository.load()
