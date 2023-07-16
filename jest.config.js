@@ -1,15 +1,19 @@
 /** @type {import('@ts-jest/dist/types').InitialOptionsTsJest} */
 
+const nextJest = require("next/jest")
+
+const createJestConfig = nextJest({
+  dir: "./",
+})
+
 // Use UTC time in tests
 process.env.TZ = "UTC"
 
-module.exports = {
+const customJestConfig = {
   clearMocks: true,
   coverageProvider: "v8",
   testEnvironment: "jsdom",
-  moduleNameMapper: {
-    "\\.css$": "identity-obj-proxy",
-  },
-  preset: "ts-jest",
   setupFilesAfterEnv: ["<rootDir>/jest-setup.ts"],
 }
+
+module.exports = createJestConfig(customJestConfig)
