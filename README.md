@@ -91,10 +91,6 @@ yarn deploy
     └── util        - Helper functions
 ```
 
-## Deployment process
-
-![Deployment workflow](doc/deployment.png)
-
 ## Architecture Decisions
 
 This project uses [Architecture Decision Records](https://adr.github.io/) to capture the rationale (or lack thereof) for architecturally significant decisions. You can find them at [doc/adr/](doc/adr/).
