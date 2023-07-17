@@ -8,7 +8,7 @@ Hosted at https://pakkudon.github.io/pixel-art-gallery/
 
 Most of these pieces were created in [GIMP](https://www.gimp.org/) with a few earlier pieces created in [Lospec's Pixel Editor](https://lospec.com/pixel-editor/). Images are either inspired by prompts from Lospec or Pixel Dailies or from other reference images.
 
-The gallery itself is built using React and TypeScript. CSS is also processed with [Autoprefixer](https://www.npmjs.com/package/autoprefixer) to generate vendor-specific prefixes.
+The gallery itself is built using Next.js and TypeScript.
 
 ## Development
 
@@ -22,7 +22,7 @@ The gallery itself is built using React and TypeScript. CSS is also processed wi
 - Clone repo
 - `cd` into cloned repo and run `yarn install` to install dependencies
 - Run `yarn dev` to start local development server
-- Visit `localhost:8080` or whichever port the above server has used to view the page
+- Visit `localhost:3000` or whichever port the above server has used to view the page
 
 ### Scripts
 
@@ -39,7 +39,7 @@ yarn lint
 # Runs unit tests
 yarn test
 
-# Generates bundled assets, link previews and RSS feed. Artifacts are written to `dist/`
+# Generate production-ready assets. Artifacts are written to `dist/`
 yarn build
 
 # Runs `build` script and pushes generated assets to Github Pages
@@ -48,7 +48,7 @@ yarn deploy
 
 ### Add pixel art entry
 
-- Add new pixel art images to `img/<current year>` directory
+- Add new pixel art images to `public/img/<current year>` directory
 - Add JSON entry for new image to `src/data/<current year>.ts`. Entries are written in chronological order. Schema for JSON object is as follows:
 
 ```js
@@ -77,17 +77,17 @@ yarn deploy
 
 ```sh
 .
-├── config          - Webpack config
 ├── cypress         - Integration tests
 ├── dist            - Production-ready assets
 ├── doc             - Diagrams and images used in documents
 │   └── adr         - Architecture Decision Records
-├── img             - Pixel artwork
-├── script          - Scripts for building production assets
+├── public          - Static assets
+│   └── img         - Pixel artwork
+├── script          - Helper scripts
 └── src             - Source code for React application
+    ├── app         - Top-level route handlers
     ├── components  - Components reused across other components
     ├── data        - Metadata for pixel art
-    ├── pages       - Top-level route handlers
     └── util        - Helper functions
 ```
 
