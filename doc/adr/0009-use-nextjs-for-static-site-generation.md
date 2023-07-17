@@ -4,7 +4,7 @@ Date: 2023-07-03
 
 ## Status
 
-Accepted
+Accepted (Implemented 2023-07-17)
 
 ## Context
 
@@ -29,3 +29,5 @@ The only source of data for this application is a set of JSON files that are exp
 - Directory structure will be modified to conform with Next.js' conventions
 - All pages will be statically generated and hydrated on the client-side. This will enable us to improve performance by reducing the bundle size sent back to the user
 - Behaviour between the local development environment and what's rendered in production will be more closely aligned as we will generate the same HTML in both cases
+- Rendering of RSS feed and specific pages for each pixel art entry will be handled by Next.js. This will reduce the number of steps required during the deployment process
+- Compilation will be performed using Next.js' compiler which will allow us to remove Webpack and other associated dependencies
