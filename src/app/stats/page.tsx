@@ -15,7 +15,7 @@ import { TagList } from "../../components/TagList/TagList"
 
 PixelArtRepository.load()
 
-const LinkToGalleryPlaceholder = () => <Link href={"/"}>Back to gallery</Link>
+const LinkToGalleryPlaceholder = () => <Link href="/">Back to gallery</Link>
 
 const PALETTE_USAGE_THRESHOLD = 4
 const RESOLUTION_USAGE_THRESHOLD = 1

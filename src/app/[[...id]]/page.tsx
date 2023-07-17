@@ -32,7 +32,7 @@ interface PageParams {
 export function generateMetadata({ params }: PageParams): Metadata {
   const id = params.id ? params.id[0] : ""
   const image = PixelArtRepository.findAll(
-    (image) => id === extractFilename(image.src)
+    (entry) => id === extractFilename(entry.src)
   )[0]
 
   if (image) {
@@ -56,10 +56,10 @@ const Page = ({ params }: PageParams) => {
   let image: PixelArtEntry | undefined
 
   if (id) {
-    image = entries.find((image) => id === extractFilename(image.src))
+    image = entries.find((entry) => id === extractFilename(entry.src))
     // Redirect to new URL if id is alias for entry
     if (!image) {
-      const imageForAlias = entries.find((image) => image.aliases?.includes(id))
+      const imageForAlias = entries.find((entry) => entry.aliases?.includes(id))
       if (imageForAlias) {
         return redirect(`/${extractFilename(imageForAlias.src)}`)
       }
@@ -67,7 +67,7 @@ const Page = ({ params }: PageParams) => {
   }
 
   if (!image) {
-    image = entries[0]
+    ;[image] = entries
   }
 
   return <ImageDetails image={image} />

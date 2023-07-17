@@ -1,6 +1,6 @@
 import React, { Suspense } from "react"
 import { Metadata } from "next"
-import { Noto_Sans } from "next/font/google"
+import { Noto_Sans as NotoSans } from "next/font/google"
 
 import "normalize.css"
 import { PixelArtRepository } from "../PixelArtRepository"
@@ -11,7 +11,7 @@ import "./styles.css"
 
 PixelArtRepository.load()
 
-const notoSans = Noto_Sans({
+const notoSans = NotoSans({
   weight: "400",
   display: "swap",
   subsets: ["latin"],
@@ -33,27 +33,25 @@ export const metadata: Metadata = {
 interface LayoutProps {
   children: React.ReactNode
 }
-const RootLayout = ({ children }: LayoutProps) => {
-  return (
-    <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-      </head>
-      <body className={notoSans.className}>
-        <div id="app">
-          <div className="sidebar-layout">
-            <Suspense fallback={<SidebarPlaceholder />}>
-              <Sidebar />
-            </Suspense>
-            {children}
-          </div>
-          <Card>
-            <Footer />
-          </Card>
+const RootLayout = ({ children }: LayoutProps) => (
+  <html lang="en">
+    <head>
+      <meta charSet="UTF-8" />
+    </head>
+    <body className={notoSans.className}>
+      <div id="app">
+        <div className="sidebar-layout">
+          <Suspense fallback={<SidebarPlaceholder />}>
+            <Sidebar />
+          </Suspense>
+          {children}
         </div>
-      </body>
-    </html>
-  )
-}
+        <Card>
+          <Footer />
+        </Card>
+      </div>
+    </body>
+  </html>
+)
 
 export default RootLayout
