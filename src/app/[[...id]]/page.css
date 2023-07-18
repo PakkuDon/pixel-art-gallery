@@ -9,12 +9,6 @@
   overflow: auto;
 }
 
-.image-viewer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .image-metadata {
   max-height: 100%;
   overflow: auto;

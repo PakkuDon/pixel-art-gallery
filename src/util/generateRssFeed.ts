@@ -1,6 +1,4 @@
 /* eslint-disable no-console */
-import fs from "fs"
-import path from "path"
 import { marked } from "marked"
 
 import { PixelArtRepository } from "../PixelArtRepository"
@@ -8,7 +6,6 @@ import { PixelArtEntry } from "../data"
 import { extractFilename } from "./extractFilename"
 
 PixelArtRepository.load()
-const pixelArtEntries = PixelArtRepository.findAll()
 
 const generateRssFeed = ({
   entries = [],
@@ -58,19 +55,6 @@ const generateRssFeed = ({
       </channel>
     </rss>
   `
-}
-
-const outputFile = path.join(__dirname, "../../dist/feed.xml")
-
-if (process.env.NODE_ENV !== "test") {
-  const xml = generateRssFeed({ entries: pixelArtEntries, limit: 50 })
-  fs.writeFile(outputFile, xml, (error) => {
-    if (error) {
-      console.error(error)
-    } else {
-      console.log(`RSS feed written to ${outputFile}`)
-    }
-  })
 }
 
 export { generateRssFeed }

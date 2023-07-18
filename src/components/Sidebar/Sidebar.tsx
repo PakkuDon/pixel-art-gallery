@@ -1,79 +1,91 @@
+"use client"
+
 import React from "react"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 import { CollapsibleSection } from "../CollapsibleSection/CollapsibleSection"
+import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { extractFilename } from "../../util/extractFilename"
+import { matchesSearchQuery } from "../../util/matchesSearchQuery"
 import { Card } from "../Card/Card"
-import { PixelArtEntry } from "../../data"
+import { PixelArtRepository } from "../../PixelArtRepository"
 import { SidebarEntry } from "./SidebarEntry/SidebarEntry"
 import { TagList } from "../TagList/TagList"
 
 import "./Sidebar.css"
 
-interface SidebarProps {
-  entries: PixelArtEntry[]
-  searchQuery: string
-  selectedImage: PixelArtEntry
-  countByTag: Array<{ tag: string; count: number }>
-  onSearchQueryChange: (query: string) => void
+PixelArtRepository.load()
+
+const Sidebar = () => {
+  const pathname = usePathname()
+  const router = useRouter()
+  const countByTag = PixelArtRepository.countByTag()
+  const searchQuery = useSearchParams().get("q")?.trim() || ""
+  const entries = PixelArtRepository.findAll((entry) =>
+    matchesSearchQuery(decodeURIComponent(searchQuery), entry)
+  ).reverse()
+
+  const onSearchQueryChange = (query: string) => {
+    const queryString = query ? `?q=${encodeURIFragment(query)}` : ""
+    router.push(`${pathname}${queryString}`)
+  }
+
+  return (
+    <Card>
+      <aside className="sidebar">
+        <div className="header">
+          <div className="search-bar">
+            <label htmlFor="search-input">
+              <input
+                id="search-input"
+                type="text"
+                value={decodeURIComponent(searchQuery)}
+                onChange={(event) => {
+                  onSearchQueryChange(event.target.value)
+                }}
+                placeholder="Search"
+              />
+            </label>
+            <button
+              type="button"
+              aria-label="Clear search field"
+              onClick={() => {
+                onSearchQueryChange("")
+              }}
+            >
+              x
+            </button>
+          </div>
+          <div className="content">
+            <CollapsibleSection label="Most used tags">
+              <>
+                <div>
+                  {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+                </div>
+                <TagList countByTag={countByTag} limit={10} />
+              </>
+            </CollapsibleSection>
+          </div>
+        </div>
+        <div className="entriesList">
+          {entries.map((entry, index) => {
+            const isSelected =
+              extractFilename(entry.src) === extractFilename(pathname) ||
+              (pathname === "/" && index === 0)
+
+            return (
+              <SidebarEntry
+                key={`sidebar-item-${entry.src}`}
+                entry={entry}
+                isSelected={isSelected}
+                searchQuery={searchQuery}
+              />
+            )
+          })}
+        </div>
+      </aside>
+    </Card>
+  )
 }
-
-const Sidebar = ({
-  entries,
-  searchQuery,
-  selectedImage,
-  countByTag,
-  onSearchQueryChange,
-}: SidebarProps) => (
-  <Card>
-    <aside className="sidebar">
-      <div className="header">
-        <div className="search-bar">
-          <label htmlFor="search-input">
-            <input
-              id="search-input"
-              type="text"
-              value={decodeURIComponent(searchQuery)}
-              onChange={(event) => onSearchQueryChange(event.target.value)}
-              placeholder="Search"
-            />
-          </label>
-          <button
-            type="button"
-            aria-label="Clear search field"
-            onClick={() => onSearchQueryChange("")}
-          >
-            x
-          </button>
-        </div>
-        <div className="content">
-          <CollapsibleSection label="Most used tags">
-            <>
-              <div>
-                {entries.length} {entries.length === 1 ? "entry" : "entries"}.
-              </div>
-              <TagList countByTag={countByTag} limit={10} />
-            </>
-          </CollapsibleSection>
-        </div>
-      </div>
-      <div className="entriesList">
-        {entries.map((entry) => {
-          const filename = extractFilename(entry.src)
-          const selectedFilename = extractFilename(selectedImage.src)
-          const isSelected = filename === selectedFilename
-
-          return (
-            <SidebarEntry
-              key={`sidebar-item-${entry.src}`}
-              entry={entry}
-              isSelected={isSelected}
-              searchQuery={searchQuery}
-            />
-          )
-        })}
-      </div>
-    </aside>
-  </Card>
-)
 
 export { Sidebar }
