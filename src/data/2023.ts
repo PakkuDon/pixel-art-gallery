@@ -678,6 +678,26 @@ const entries: PixelArtEntry[] = [
     date: "2023-07-02T23:54+10:00",
     tags: ["pixel_dailies", "burrito", "food", "64x64", "gora63"],
   },
+  {
+    src: "2023/20230718-mini-gallery.png",
+    title: "Mini gallery",
+    description: `
+      Bit of a meta post to announce that I've rewritten this
+      site in [Next.js](https://nextjs.org/).
+      There's still a few performance issues to iron out but
+      it's simplified a few things in this codebase.
+
+      For those wondering what something like this may entail
+      you can find the details in [this pull request](https://github.com/PakkuDon/pixel-art-gallery/pull/1).
+    `,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-07-18T23:58+10:00",
+    tags: ["noprompt", "meta", "update", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
