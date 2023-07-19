@@ -57,13 +57,11 @@ const Sidebar = () => {
             </button>
           </div>
           <div className="content">
+            {entries.length} {entries.length === 1 ? "entry" : "entries"}.
+          </div>
+          <div className="content">
             <CollapsibleSection label="Most used tags">
-              <>
-                <div>
-                  {entries.length} {entries.length === 1 ? "entry" : "entries"}.
-                </div>
-                <TagList countByTag={countByTag} limit={10} />
-              </>
+              <TagList countByTag={countByTag} limit={10} />
             </CollapsibleSection>
           </div>
         </div>
