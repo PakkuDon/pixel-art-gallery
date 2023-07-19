@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "next build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -t -d dist",
     "predeploy": "yarn build",
     "dev": "next dev",
     "format": "prettier --write .",
