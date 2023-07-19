@@ -1,0 +1,1 @@
+.image-viewer{display:flex;justify-content:center;align-items:center}.image-details{display:grid;grid-template-rows:2fr min-content 1fr min-content;height:100%;max-height:80vh}.scrollable{overflow:auto}.image-metadata{max-height:100%;overflow:auto}.navigation{display:flex;justify-content:space-between}.tag:before{content:"#"}
