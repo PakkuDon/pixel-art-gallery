@@ -5,6 +5,7 @@ const nextConfig = {
   output: "export",
   distDir: "dist",
   basePath: "/pixel-art-gallery",
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
