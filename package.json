@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "next build",
+    "build": "rm -rf dist && next build",
     "deploy": "gh-pages -t -d dist",
     "predeploy": "BASE_PATH='/pixel-art-gallery' yarn build",
     "dev": "next dev",
