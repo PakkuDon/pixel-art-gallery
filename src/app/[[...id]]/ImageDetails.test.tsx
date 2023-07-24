@@ -4,11 +4,12 @@ import { screen, render } from "@testing-library/react"
 import { ImageDetails } from "./ImageDetails"
 import { PixelArtRepository } from "../../PixelArtRepository"
 
-// Required as <ImageDetails /> renders a pagination component
-// which uses Next.js' useSearchParms function to determine
-// which images to link to
+// Required as <ImageDetails /> uses Next.js' usePathname and
+// it renders <Pagination> which uses Next.js' useSearchParms
+// function to determine which images to link to
 jest.mock("next/navigation", () => ({
   ...jest.requireActual("next/navigation"),
+  usePathname: () => "",
   useSearchParams: () => ({ get: () => "" }),
 }))
 
@@ -30,7 +31,7 @@ describe("ImageDetails", () => {
     render(<ImageDetails image={img} />)
 
     expect(screen.getByText("Test image")).toBeInTheDocument()
-    expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
+    expect(screen.getByRole("img")).toHaveAttribute("src", "/img/abc123.png")
     expect(screen.getByText("Image description")).toBeInTheDocument()
     expect(screen.getByText(/Jan 1 2000 12:00 AM/)).toBeInTheDocument()
     expect(screen.getByText("test")).toBeInTheDocument()
