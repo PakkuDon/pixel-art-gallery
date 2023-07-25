@@ -26,8 +26,8 @@ const Sidebar = () => {
   ).reverse()
 
   const onSearchQueryChange = (query: string) => {
-    const queryString = query ? `?q=${encodeURIFragment(query)}` : ""
-    router.push(`${pathname}${queryString}`)
+    const queryString = `?q=${encodeURIFragment(query)}`
+    router.push(queryString)
   }
 
   return (
