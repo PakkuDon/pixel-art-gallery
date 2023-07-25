@@ -29,6 +29,9 @@ const Sidebar = () => {
     const queryString = `?q=${encodeURIFragment(query)}`
     router.push(queryString)
   }
+  const basePath = pathname.includes("/pixel-art-gallery")
+    ? "/pixel-art-gallery/"
+    : "/"
 
   return (
     <Card>
@@ -68,8 +71,8 @@ const Sidebar = () => {
         <div className="entriesList">
           {entries.map((entry, index) => {
             const isSelected =
-              extractFilename(entry.src) === extractFilename(pathname) ||
-              (pathname === "/" && index === 0)
+              pathname.includes(extractFilename(entry.src)) ||
+              (pathname === basePath && index === 0)
 
             return (
               <SidebarEntry
