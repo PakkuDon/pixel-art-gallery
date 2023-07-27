@@ -15,9 +15,9 @@ const Footer = () => (
         <Link href="/stats">Stats</Link>
       </li>
       <li>
-        <a href="./feed.xml" target="_blank" rel="noopener noreferrer">
+        <Link href="/feed.xml" target="_blank">
           RSS Feed
-        </a>
+        </Link>
       </li>
       <li>
         Source code on{" "}

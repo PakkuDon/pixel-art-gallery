@@ -26,7 +26,7 @@ describe("Pixel Art Gallery", () => {
     let slug = extractFilename(testEntry.src)
 
     cy.contains(pixelArtEntries.length)
-    cy.get(`a[href='/${slug}'`).should("exist")
+    cy.get(`a[href='/${slug}/'`).should("exist")
   })
 
   context("when URL contains pixel art ID", () => {
@@ -35,7 +35,7 @@ describe("Pixel Art Gallery", () => {
         let testEntry = selectRandomEntry()
         let slug = extractFilename(testEntry.src)
 
-        cy.get(`a[href='/${slug}'`).click()
+        cy.get(`a[href='/${slug}/'`).click()
         cy.get("main img")
           .should("have.attr", "src")
           .should("contain", testEntry.src)

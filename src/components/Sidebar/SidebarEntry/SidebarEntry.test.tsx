@@ -2,6 +2,11 @@ import React from "react"
 import { screen, render } from "@testing-library/react"
 
 import { SidebarEntry } from "./SidebarEntry"
+// Required as <SidebarEntry /> uses Next.js' usePathname function
+jest.mock("next/navigation", () => ({
+  ...jest.requireActual("next/navigation"),
+  usePathname: () => "",
+}))
 
 describe("SidebarEntry", () => {
   it("renders thumbnail and link to image", () => {
@@ -19,7 +24,7 @@ describe("SidebarEntry", () => {
     render(<SidebarEntry entry={img} />)
 
     expect(screen.getByRole("link")).toHaveAttribute("href", "/abc123")
-    expect(screen.getByRole("img")).toHaveAttribute("src", "img/abc123.png")
+    expect(screen.getByRole("img")).toHaveAttribute("src", "/img/abc123.png")
   })
 
   it("highlights image if selected", () => {

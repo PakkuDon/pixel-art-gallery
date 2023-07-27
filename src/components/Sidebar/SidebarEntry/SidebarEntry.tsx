@@ -1,6 +1,8 @@
 import React from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import classnames from "classnames"
+import path from "path"
 
 import { extractFilename } from "../../../util/extractFilename"
 import { encodeURIFragment } from "../../../util/encodeURIFragment"
@@ -20,13 +22,20 @@ const SidebarEntry = ({
   searchQuery,
 }: SidebarEntryProps) => {
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
+  const basePath = usePathname().includes("/pixel-art-gallery")
+    ? "/pixel-art-gallery"
+    : ""
 
   return (
     <Link
       className={classnames("entry", { selected: isSelected })}
       href={`/${extractFilename(entry.src)}${queryString}`}
     >
-      <img src={`img/${entry.src}`} alt={entry.src} loading="lazy" />
+      <img
+        src={path.join(`/${basePath}`, `/img/${entry.src}`)}
+        alt={entry.src}
+        loading="lazy"
+      />
     </Link>
   )
 }

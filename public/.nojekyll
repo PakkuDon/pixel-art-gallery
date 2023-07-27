@@ -1,0 +1,7 @@
+# This file is required to opt-out of Jekyll processing on Github Pages
+# Jekyll processing needs to be disabled as Jekyll ignores files
+# and directories that start with _. Next.js uses this prefix in its export
+#
+# References
+#   - https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
+#   - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#troubleshooting-publishing-from-a-branch
