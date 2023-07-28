@@ -15,11 +15,6 @@ import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
 
-marked.setOptions({
-  breaks: true,
-  gfm: true,
-})
-
 const PaginationPlaceholder = () => (
   <div className={classnames("navigation", "content")}>
     <span>Previous</span>

@@ -15,8 +15,6 @@ const generateRssFeed = ({
   limit?: number
 }) => {
   marked.setOptions({
-    breaks: true,
-    gfm: true,
     xhtml: true,
   })
   let filteredEntries = entries
