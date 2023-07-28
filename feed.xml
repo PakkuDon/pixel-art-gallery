@@ -4,7 +4,7 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 27 Jul 2023 12:56:17 GMT</pubDate>
+        <pubDate>Fri, 28 Jul 2023 09:24:14 GMT</pubDate>
         
       <item>
         <title>Pixel Dailies prompt: #Hut</title>
@@ -161,7 +161,8 @@
         <description>
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230218-pixeldailies.png" alt="20230218-pixeldailies" />]]>
           <p>Pixel Dailies prompt: #ToyCapsule</p>
-          <p> Restriction: Your capsule must be 40x40px or smaller<br/> Featuring Fuecoco from Pokemon Scarlet and Violet
+          <p> Restriction: Your capsule must be 40x40px or smaller
+ Featuring Fuecoco from Pokemon Scarlet and Violet
  </p>
 
         </description>
@@ -302,7 +303,9 @@
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230320-pixeldailies.png" alt="20230320-pixeldailies" />]]>
           <p>Pixel Dailies prompt: #SavePoint</p>
           <blockquote>
-<p>With the door closed behind you, your adventure will truly begin...<br/>The power of adventure shines within you.<br/>Deltarune Chapter 1
+<p>With the door closed behind you, your adventure will truly begin...
+The power of adventure shines within you.
+Deltarune Chapter 1
  </p>
 </blockquote>
 
@@ -629,8 +632,12 @@
         <description>
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230718-mini-gallery.png" alt="20230718-mini-gallery" />]]>
           <p>Mini gallery</p>
-          <p> Bit of a meta post to announce that I&#39;ve rewritten this<br/> site in <a href="https://nextjs.org/">Next.js</a>.<br/> There&#39;s still a few performance issues to iron out but<br/> it&#39;s simplified a few things in this codebase.</p>
-<p> For those wondering what something like this may entail<br/> you can find the details in <a href="https://github.com/PakkuDon/pixel-art-gallery/pull/1">this pull request</a>.
+          <p> Bit of a meta post to announce that I&#39;ve rewritten this
+ site in <a href="https://nextjs.org/">Next.js</a>.
+ There&#39;s still a few performance issues to iron out but
+ it&#39;s simplified a few things in this codebase.</p>
+<p> For those wondering what something like this may entail
+ you can find the details in <a href="https://github.com/PakkuDon/pixel-art-gallery/pull/1">this pull request</a>.
  </p>
 
         </description>
