@@ -1,9 +1,9 @@
 "use client"
 
+import path from "path"
 import React, { useCallback, useState } from "react"
 import { usePathname } from "next/navigation"
 import classnames from "classnames"
-import path from "path"
 
 import { Slider } from "../../../components/Slider/Slider"
 import { PixelArtEntry } from "../../../data"
