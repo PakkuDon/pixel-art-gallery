@@ -698,6 +698,20 @@ const entries: PixelArtEntry[] = [
     date: "2023-07-18T23:58+10:00",
     tags: ["noprompt", "meta", "update", "64x64", "apollo"],
   },
+  {
+    src: "2023/20230728-mini-gallery.png",
+    title: "Mini gallery (Light theme)",
+    description: `
+      [20230728-mini-gallery](20230728-mini-gallery) but recoloured
+    `,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-07-28T19:58+10:00",
+    tags: ["noprompt", "meta", "redraw", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
