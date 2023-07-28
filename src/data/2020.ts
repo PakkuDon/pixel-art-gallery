@@ -294,7 +294,6 @@ const entries: PixelArtEntry[] = [
       Their feathers have changed a lot recently but they still have some fluff.
 
       You can find the livestream at https://www.367collinsfalcons.com.au/
-
     `,
     palette: {
       name: "Custom",
@@ -379,6 +378,7 @@ const entries: PixelArtEntry[] = [
     title: "C4 Container Diagram",
     description: `
       I may have made this to mess with someone.
+
       You can learn more about the C4 model for visualising software architecture
       at [c4model.com](https://c4model.com/)
     `,
@@ -793,6 +793,7 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: #HolidayFood",
     description: `
       Roast turkey with roast pumpkin, peas and mashed potatoes.
+
       Thing at the top is supposed to be a gravy boat but I have no
       idea what those look like from this perspective.
     `,
@@ -861,6 +862,7 @@ const entries: PixelArtEntry[] = [
     title: "No prompt, only a feature release",
     description: `
       This site now has an RSS feed. You can find it in the footer below or at [pakkudon.github.io/pixel-art-gallery/feed.xml](https://pakkudon.github.io/pixel-art-gallery/feed.xml).
+
       I also don't have an RSS reader so I don't know if this is marked up correctly or if the posts are in the right order. If there's any issues feel free to raise them in the repo.
     `,
     palette: {

@@ -304,8 +304,11 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: Set of #textures",
     description: `
       From top-left:
+
       wood, grass, stone
+
       sand, snow, water
+
       cheese, cake, chocolate
     `,
     palette: {
@@ -1766,6 +1769,7 @@ const entries: PixelArtEntry[] = [
     title: "Pixel Dailies prompt: #stars",
     description: `
       Today's post marks two years since I first started posting these. No redraw this time.
+
       Thanks again to those of you that have been following along. I hope you're doing well. See you at the next one!
     `,
     palette: {

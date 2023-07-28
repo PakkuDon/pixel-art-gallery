@@ -1478,6 +1478,7 @@ const entries: PixelArtEntry[] = [
     title: "Redraw of 20201010-lospecdaily",
     description: `
       One year on. Same subject, same palette. See [20201010-lospecdaily](20201010-lospecdaily).
+
       Thanks to everyone who's been following along over the past year. I appreciate you all.
       See you at the 200th post :D
     `,
