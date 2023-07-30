@@ -14,7 +14,7 @@ The gallery itself is built using Next.js and TypeScript.
 
 ### Prerequisites
 
-- Node (Built using v16 but may work with earlier versions)
+- Node (Built using v18 but may work with earlier versions)
 - Yarn
 
 ### Local Development
