@@ -4,32 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Fri, 28 Jul 2023 09:24:14 GMT</pubDate>
+        <pubDate>Sun, 30 Jul 2023 13:31:50 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Hut</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230101-pixeldailies.png" alt="20230101-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Hut</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230101-pixeldailies</link>
-        <pubDate>Sun, 01 Jan 2023 12:53:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #carving</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230103-pixeldailies.png" alt="20230103-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #carving</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230103-pixeldailies</link>
-        <pubDate>Tue, 03 Jan 2023 05:40:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #AntFarm</title>
         <description>
@@ -643,6 +619,32 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230718-mini-gallery</link>
         <pubDate>Tue, 18 Jul 2023 13:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Mini gallery (Light theme)</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230728-mini-gallery.png" alt="20230728-mini-gallery" />]]>
+          <p>Mini gallery (Light theme)</p>
+          <p> <a href="20230728-mini-gallery">20230728-mini-gallery</a> but recoloured
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230728-mini-gallery</link>
+        <pubDate>Fri, 28 Jul 2023 09:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #bubble</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230730-pixeldailies.png" alt="20230730-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #bubble</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230730-pixeldailies</link>
+        <pubDate>Sun, 30 Jul 2023 13:27:00 GMT</pubDate>
       </item>
     
       </channel>
