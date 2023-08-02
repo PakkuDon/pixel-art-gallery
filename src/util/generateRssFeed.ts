@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 import { marked } from "marked"
+import { markedXhtml } from "marked-xhtml"
 
 import { PixelArtRepository } from "../PixelArtRepository"
 import { PixelArtEntry } from "../data"
@@ -15,8 +16,12 @@ const generateRssFeed = ({
   limit?: number
 }) => {
   marked.setOptions({
-    xhtml: true,
+    // These options disabled to silence warnings about their deprecation
+    // Ref: https://github.com/markedjs/marked/releases/tag/v5.0.0
+    headerIds: false,
+    mangle: false,
   })
+  marked.use(markedXhtml())
   let filteredEntries = entries
 
   if (limit) {
