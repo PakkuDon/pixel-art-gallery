@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 30 Jul 2023 13:31:50 GMT</pubDate>
+        <pubDate>Thu, 03 Aug 2023 14:07:10 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #AntFarm</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230104-pixeldailies.png" alt="20230104-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #AntFarm</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230104-pixeldailies</link>
-        <pubDate>Wed, 04 Jan 2023 12:38:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Balloons</title>
         <description>
@@ -645,6 +633,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230730-pixeldailies</link>
         <pubDate>Sun, 30 Jul 2023 13:27:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Lospec Dailies prompt: #mountain</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230803-lospecdaily.png" alt="20230803-lospecdaily" />]]>
+          <p>Lospec Dailies prompt: #mountain</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230803-lospecdaily</link>
+        <pubDate>Thu, 03 Aug 2023 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
