@@ -724,6 +724,25 @@ const entries: PixelArtEntry[] = [
     date: "2023-07-30T23:27+10:00",
     tags: ["pixel_dailies", "bubble", "64x64", "the-last-autumn"],
   },
+  {
+    src: "2023/20230803-lospecdaily.png",
+    title: "Lospec Dailies prompt: #mountain",
+    description: ``,
+    palette: {
+      name: "Telephrion22",
+      url: "https://lospec.com/palette-list/telephrion22",
+    },
+    resolution: "64x64",
+    date: "2023-08-03T23:59+10:00",
+    tags: [
+      "lospecdailies",
+      "mountain",
+      "lospec_palette_of_the_day",
+      "landscape",
+      "64x64",
+      "telephrion22",
+    ],
+  },
 ]
 
 export { entries }
