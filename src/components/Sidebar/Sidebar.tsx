@@ -22,7 +22,7 @@ const Sidebar = () => {
   const countByTag = PixelArtRepository.countByTag()
   const searchQuery = useSearchParams().get("q")?.trim() || ""
   const entries = PixelArtRepository.findAll((entry) =>
-    matchesSearchQuery(decodeURIComponent(searchQuery), entry)
+    matchesSearchQuery(decodeURIComponent(searchQuery), entry),
   ).reverse()
 
   const onSearchQueryChange = (query: string) => {

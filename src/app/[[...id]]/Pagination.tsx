@@ -16,7 +16,7 @@ const Pagination = ({ id }: { id: string }) => {
   const searchParams = useSearchParams()
   const searchQuery = searchParams.get("q")?.trim() || ""
   const entries = PixelArtRepository.findAll((entry) =>
-    matchesSearchQuery(decodeURIComponent(searchQuery), entry)
+    matchesSearchQuery(decodeURIComponent(searchQuery), entry),
   ).reverse()
 
   let imageIndex = 0

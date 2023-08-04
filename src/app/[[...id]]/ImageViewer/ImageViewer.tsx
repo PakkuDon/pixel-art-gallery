@@ -26,7 +26,7 @@ const ImageViewer = ({ image }: ImageViewerProps) => {
     (value: number) => {
       setZoom(value)
     },
-    [setZoom]
+    [setZoom],
   )
 
   return (

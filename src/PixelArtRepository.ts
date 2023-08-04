@@ -6,7 +6,7 @@ interface Repository {
   findAll: (predicate?: (image: PixelArtEntry) => boolean) => PixelArtEntry[]
   countByTag: () => Array<{ tag: string; count: number }>
   countBy: (
-    groupingFunction: (image: PixelArtEntry) => string
+    groupingFunction: (image: PixelArtEntry) => string,
   ) => Array<{ key: string; count: number }>
 }
 

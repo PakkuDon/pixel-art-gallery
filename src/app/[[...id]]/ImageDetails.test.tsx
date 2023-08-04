@@ -55,7 +55,7 @@ describe("ImageDetails", () => {
 
     expect(screen.getByText("Previous")).toBeInTheDocument()
     expect(
-      screen.queryByRole("link", { name: "Previous" })
+      screen.queryByRole("link", { name: "Previous" }),
     ).not.toBeInTheDocument()
 
     expect(screen.getByText("Next")).toBeInTheDocument()
@@ -85,7 +85,7 @@ describe("ImageDetails", () => {
 
     expect(screen.getByRole("link", { name: "Next" })).toHaveAttribute(
       "href",
-      "/nextImage"
+      "/nextImage",
     )
   })
 
@@ -112,7 +112,7 @@ describe("ImageDetails", () => {
 
     expect(screen.getByRole("link", { name: "Previous" })).toHaveAttribute(
       "href",
-      "/previousImage"
+      "/previousImage",
     )
   })
 })

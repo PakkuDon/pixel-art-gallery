@@ -28,19 +28,19 @@ const Statistics = () => {
   const totalEntries = PixelArtRepository.findAll().length
   const countByTag = PixelArtRepository.countByTag()
   const countByYear = PixelArtRepository.countBy((entry) =>
-    new Date(entry.date).getFullYear().toString()
+    new Date(entry.date).getFullYear().toString(),
   ).sort((a, b) => a.key.localeCompare(b.key))
   const countByMonth = PixelArtRepository.countBy((entry) =>
-    formatDate(new Date(entry.date), "yyyy-MM")
+    formatDate(new Date(entry.date), "yyyy-MM"),
   ).sort((a, b) => a.key.localeCompare(b.key))
   let countByPalette = PixelArtRepository.countBy((entry) => entry.palette.name)
   let countByResolution = PixelArtRepository.countBy(
-    (entry) => entry.resolution || ""
+    (entry) => entry.resolution || "",
   )
 
   // Filter out palettes and resolutions with few records
   const otherPalettes = countByPalette.filter(
-    ({ count }) => count <= PALETTE_USAGE_THRESHOLD
+    ({ count }) => count <= PALETTE_USAGE_THRESHOLD,
   )
   countByPalette = [
     ...countByPalette.filter(({ count }) => count > PALETTE_USAGE_THRESHOLD),
@@ -50,11 +50,11 @@ const Statistics = () => {
     },
   ]
   const otherResolutions = countByResolution.filter(
-    ({ count }) => count <= RESOLUTION_USAGE_THRESHOLD
+    ({ count }) => count <= RESOLUTION_USAGE_THRESHOLD,
   )
   countByResolution = [
     ...countByResolution.filter(
-      ({ count }) => count > RESOLUTION_USAGE_THRESHOLD
+      ({ count }) => count > RESOLUTION_USAGE_THRESHOLD,
     ),
     {
       key: "other",

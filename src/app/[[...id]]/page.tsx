@@ -32,7 +32,7 @@ interface PageParams {
 export function generateMetadata({ params }: PageParams): Metadata {
   const id = params.id ? params.id[0] : ""
   const image = PixelArtRepository.findAll(
-    (entry) => id === extractFilename(entry.src)
+    (entry) => id === extractFilename(entry.src),
   )[0]
 
   if (image) {

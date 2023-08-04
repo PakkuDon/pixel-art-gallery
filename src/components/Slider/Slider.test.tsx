@@ -19,7 +19,7 @@ describe("Slider", () => {
 
     expect(screen.getByText("Something")).toBeInTheDocument()
     expect(parseInt(slider.getAttribute("value") as string, 10)).toBe(
-      props.zoom
+      props.zoom,
     )
     expect(parseInt(slider.getAttribute("min") as string, 10)).toBe(0)
     expect(parseInt(slider.getAttribute("max") as string, 10)).toBe(100)

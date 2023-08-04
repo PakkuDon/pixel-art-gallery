@@ -36,7 +36,7 @@ const Slider = ({
     (event: React.ChangeEvent<HTMLInputElement>) => {
       onChange(parseInt(event.target.value, 10))
     },
-    [onChange]
+    [onChange],
   )
 
   return (

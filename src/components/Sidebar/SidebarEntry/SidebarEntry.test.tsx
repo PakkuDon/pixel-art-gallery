@@ -79,7 +79,7 @@ describe("SidebarEntry", () => {
 
     expect(screen.getByRole("link")).toHaveAttribute(
       "href",
-      "/abc123?q=something else %23tags"
+      "/abc123?q=something else %23tags",
     )
   })
 })

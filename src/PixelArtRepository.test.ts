@@ -27,7 +27,7 @@ describe("PixelArtRepository", () => {
       PixelArtRepository.load([entry, otherEntry])
 
       expect(
-        PixelArtRepository.findAll((image) => image.title === "foo")
+        PixelArtRepository.findAll((image) => image.title === "foo"),
       ).toEqual([entry])
     })
 
@@ -169,7 +169,7 @@ describe("PixelArtRepository", () => {
         },
       ])
       expect(
-        PixelArtRepository.countBy((entry) => entry.date.split("-")[0])
+        PixelArtRepository.countBy((entry) => entry.date.split("-")[0]),
       ).toEqual([
         {
           key: "2000",

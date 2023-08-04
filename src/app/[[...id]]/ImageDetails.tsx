@@ -47,7 +47,7 @@ export const ImageDetails = ({ image }: { image: PixelArtEntry }) => {
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: `<strong>${image.title || ""}</strong><br />${marked(
-                image.description ? image.description.replace(/ +/g, " ") : ""
+                image.description ? image.description.replace(/ +/g, " ") : "",
               )}`,
             }}
           />
@@ -63,7 +63,7 @@ export const ImageDetails = ({ image }: { image: PixelArtEntry }) => {
               </a>
             ) : (
               `${image.palette.name}. ${(image.palette.colours || []).join(
-                ", "
+                ", ",
               )}`
             )}
           </div>

@@ -23,7 +23,7 @@ describe("TagList", () => {
 
     expect(screen.queryByRole("link", { name: /someTag .*3/ })).toHaveAttribute(
       "href",
-      "?q=%23someTag"
+      "?q=%23someTag",
     )
   })
 
