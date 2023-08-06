@@ -4160,10 +4160,10 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-marked-xhtml@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/marked-xhtml/-/marked-xhtml-1.0.1.tgz#c2037d23aa31086d4d535ad24051e5097494d545"
-  integrity sha512-39luwZLIq9nEQEO81rsoc380Yh638GRQucl35gQCnNmMS6tvatx460Xd7oG8zzKUi9E8S1qgMvSHqLxKjuVWag==
+marked-xhtml@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/marked-xhtml/-/marked-xhtml-1.0.3.tgz#3d41122b48fcb4657fadb373a15b4e46dd92ea8d"
+  integrity sha512-m036M7iXw7VXJoSEJq3oQEzvEqgJTLN1DJfhwM4No7abENqnjLoY48kuRP+6PB9TboF12rijYJYSt124FSuGdA==
 
 marked@^6.0.0:
   version "6.0.0"

@@ -22,11 +22,6 @@
       }
     ]
   },
-  "include": [
-    "types.d.ts",
-    "./jest-setup.ts",
-    ".next/types/**/*.ts",
-    "dist/types/**/*.ts"
-  ],
+  "include": ["./jest-setup.ts", ".next/types/**/*.ts", "dist/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
