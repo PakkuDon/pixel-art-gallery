@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 03 Aug 2023 14:07:10 GMT</pubDate>
+        <pubDate>Thu, 10 Aug 2023 12:26:32 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Balloons</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230106-pixeldailies.png" alt="20230106-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Balloons</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230106-pixeldailies</link>
-        <pubDate>Fri, 06 Jan 2023 12:17:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Punch</title>
         <description>
@@ -645,6 +633,20 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230803-lospecdaily</link>
         <pubDate>Thu, 03 Aug 2023 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: Set of #pictograms</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230810-pixeldailies.png" alt="20230810-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: Set of #pictograms</p>
+          <p> Restriction: Each pictogram should be 32x32 or smaller
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230810-pixeldailies</link>
+        <pubDate>Thu, 10 Aug 2023 12:17:00 GMT</pubDate>
       </item>
     
       </channel>
