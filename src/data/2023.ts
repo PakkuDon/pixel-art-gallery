@@ -743,6 +743,20 @@ const entries: PixelArtEntry[] = [
       "telephrion22",
     ],
   },
+  {
+    src: "2023/20230810-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #pictograms",
+    description: `
+      Restriction: Each pictogram should be 32x32 or smaller
+    `,
+    palette: {
+      name: "1bit Monitor Glow",
+      url: "https://lospec.com/palette-list/1bit-monitor-glow",
+    },
+    resolution: "64x64",
+    date: "2023-08-10T22:17+10:00",
+    tags: ["pixel_dailies", "pictograms", "64x64", "1bit-monitor-glow"],
+  },
 ]
 
 export { entries }
