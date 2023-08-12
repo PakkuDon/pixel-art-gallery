@@ -757,6 +757,25 @@ const entries: PixelArtEntry[] = [
     date: "2023-08-10T22:17+10:00",
     tags: ["pixel_dailies", "pictograms", "64x64", "1bit-monitor-glow"],
   },
+  {
+    src: "2023/20230812-pixeldailies.png",
+    title: "Pixel Dailies prompt: #energy",
+    description: ``,
+    palette: {
+      name: "MistyShore28",
+      url: "https://lospec.com/palette-list/mistyshore28",
+    },
+    resolution: "64x64",
+    date: "2023-08-12T23:59+10:00",
+    tags: [
+      "pixel_dailies",
+      "energy",
+      "night",
+      "clouds",
+      "64x64",
+      "mistyshore28",
+    ],
+  },
 ]
 
 export { entries }
