@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 10 Aug 2023 12:26:32 GMT</pubDate>
+        <pubDate>Sun, 13 Aug 2023 02:30:10 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Punch</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230108-pixeldailies.png" alt="20230108-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Punch</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230108-pixeldailies</link>
-        <pubDate>Sun, 08 Jan 2023 12:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Belated Pixel Dailies prompt: #promenade</title>
         <description>
@@ -647,6 +635,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230810-pixeldailies</link>
         <pubDate>Thu, 10 Aug 2023 12:17:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #energy</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230812-pixeldailies.png" alt="20230812-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #energy</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230812-pixeldailies</link>
+        <pubDate>Sat, 12 Aug 2023 13:59:00 GMT</pubDate>
       </item>
     
       </channel>
