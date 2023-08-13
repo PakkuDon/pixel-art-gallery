@@ -2,12 +2,10 @@
 
 import path from "path"
 import React, { useCallback, useState } from "react"
-import { usePathname } from "next/navigation"
 import classnames from "classnames"
 
 import { Slider } from "../../../components/Slider/Slider"
 import { PixelArtEntry } from "../../../data"
-import nextConfig from "../../../../next.config.js"
 import "./ImageViewer.css"
 
 interface ImageViewerProps {
@@ -16,10 +14,7 @@ interface ImageViewerProps {
 const ImageViewer = ({ image }: ImageViewerProps) => {
   // Fallback required as basePath is set to env var which
   // is only present on server-side render
-  const basePath =
-    nextConfig.basePath || usePathname().includes("/pixel-art-gallery")
-      ? "/pixel-art-gallery"
-      : ""
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
   const [zoom, setZoom] = useState(200)
 
   const handleZoomChange = useCallback(

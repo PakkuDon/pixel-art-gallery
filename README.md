@@ -39,12 +39,9 @@ yarn lint
 # Runs unit tests
 yarn test
 
-# Generate production-ready assets. Artifacts are written to `dist/`
+# Generate production-ready assets. Artifacts are written to `dist/pixel-art-gallery`
+# as application is hosted on subpath in production
 yarn build
-
-# Write production-ready assets to dist/pixel-art-gallery
-# This can be used to simulate how the application will behave when deployed to a subpath
-BASE_PATH='/pixel-art-gallery' yarn build
 
 # Runs `build` script and pushes generated assets to Github Pages
 yarn deploy

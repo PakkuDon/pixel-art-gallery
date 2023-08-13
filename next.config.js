@@ -4,9 +4,9 @@
 
 const path = require("path")
 
-// BASE_PATH defines what subpath the application will be hosted at
+// NEXT_PUBLIC_BASE_PATH defines what subpath the application will be hosted at
 // This can be used to see how the app will behave on Github Pages
-const basePath = process.env.BASE_PATH ?? ""
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
 
 // IS_DEPLOY determines whether or not the dist bundle should include
 // the basePath. This is not required on Github Pages as the files are

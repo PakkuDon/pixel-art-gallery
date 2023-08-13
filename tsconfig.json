@@ -22,6 +22,11 @@
       }
     ]
   },
-  "include": ["./jest-setup.ts", ".next/types/**/*.ts", "dist/types/**/*.ts"],
+  "include": [
+    "./jest-setup.ts",
+    ".next/types/**/*.ts",
+    "dist/types/**/*.ts",
+    "dist/pixel-art-gallery/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

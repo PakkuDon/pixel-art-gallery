@@ -1,7 +1,6 @@
 import path from "path"
 import React from "react"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import classnames from "classnames"
 
 import { extractFilename } from "../../../util/extractFilename"
@@ -22,9 +21,7 @@ const SidebarEntry = ({
   searchQuery,
 }: SidebarEntryProps) => {
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
-  const basePath = usePathname().includes("/pixel-art-gallery")
-    ? "/pixel-art-gallery"
-    : ""
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
   return (
     <Link
@@ -32,7 +29,7 @@ const SidebarEntry = ({
       href={`/${extractFilename(entry.src)}${queryString}`}
     >
       <img
-        src={path.join(`/${basePath}`, `/img/${entry.src}`)}
+        src={path.join(basePath, `/img/${entry.src}`)}
         alt={entry.src}
         loading="lazy"
       />
