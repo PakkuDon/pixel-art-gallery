@@ -776,6 +776,18 @@ const entries: PixelArtEntry[] = [
       "mistyshore28",
     ],
   },
+  {
+    src: "2023/20230814-pixeldailies.png",
+    title: "Pixel Dailies prompt: #obstacle",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-08-14T23:35+10:00",
+    tags: ["pixel_dailies", "obstacle", "landscape", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
