@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 14 Aug 2023 02:47:12 GMT</pubDate>
+        <pubDate>Mon, 14 Aug 2023 13:35:54 GMT</pubDate>
         
-      <item>
-        <title>Belated Pixel Dailies prompt: #promenade</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230113-pixeldailies.png" alt="20230113-pixeldailies" />]]>
-          <p>Belated Pixel Dailies prompt: #promenade</p>
-          <p> Restriction: Your piece must use 1-point perspective
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230113-pixeldailies</link>
-        <pubDate>Fri, 13 Jan 2023 12:55:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #overworked</title>
         <description>
@@ -647,6 +633,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230812-pixeldailies</link>
         <pubDate>Sat, 12 Aug 2023 13:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #obstacle</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230814-pixeldailies.png" alt="20230814-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #obstacle</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230814-pixeldailies</link>
+        <pubDate>Mon, 14 Aug 2023 13:35:00 GMT</pubDate>
       </item>
     
       </channel>
