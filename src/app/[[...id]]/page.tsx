@@ -43,6 +43,9 @@ export function generateMetadata({ params }: PageParams): Metadata {
         description: image.title,
         images: [`img/${image.src}`],
       },
+      twitter: {
+        card: "summary_large_image",
+      },
     }
   }
   return {}
