@@ -788,6 +788,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-08-14T23:35+10:00",
     tags: ["pixel_dailies", "obstacle", "landscape", "64x64", "nostalgia48"],
   },
+  {
+    src: "2023/20230815-pixeldailies.gif",
+    title: "Pixel Dailies prompt: #charge",
+    description: ``,
+    palette: {
+      name: "1bit Monitor Glow",
+      url: "https://lospec.com/palette-list/1bit-monitor-glow",
+    },
+    resolution: "64x64",
+    date: "2023-08-15T23:14+10:00",
+    tags: ["pixel_dailies", "charge", "animated", "64x64", "1bit-monitor-glow"],
+  },
 ]
 
 export { entries }
