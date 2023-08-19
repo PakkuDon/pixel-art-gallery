@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 15 Aug 2023 13:15:06 GMT</pubDate>
+        <pubDate>Sat, 19 Aug 2023 13:40:21 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Footprint</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230122-pixeldailies.png" alt="20230122-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #Footprint</p>
-          <p> Featuring the first sanctuary, Giant Step, from Earthbound / Mother 2
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230122-pixeldailies</link>
-        <pubDate>Sun, 22 Jan 2023 12:52:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Strawberry and watermelon cake</title>
         <description>
@@ -645,6 +631,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230815-pixeldailies</link>
         <pubDate>Tue, 15 Aug 2023 13:14:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #LoadingIcon</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230819-pixeldailies.png" alt="20230819-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #LoadingIcon</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230819-pixeldailies</link>
+        <pubDate>Sat, 19 Aug 2023 13:38:00 GMT</pubDate>
       </item>
     
       </channel>
