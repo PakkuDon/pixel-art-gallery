@@ -800,6 +800,24 @@ const entries: PixelArtEntry[] = [
     date: "2023-08-15T23:14+10:00",
     tags: ["pixel_dailies", "charge", "animated", "64x64", "1bit-monitor-glow"],
   },
+  {
+    src: "2023/20230819-pixeldailies.png",
+    title: "Pixel Dailies prompt: #LoadingIcon",
+    description: ``,
+    palette: {
+      name: "Smoke: It's OK to feel",
+      url: "https://lospec.com/palette-list/smoke-its-ok-to-feel",
+    },
+    resolution: "64x64",
+    date: "2023-08-19T23:38+10:00",
+    tags: [
+      "pixel_dailies",
+      "LoadingIcon",
+      "glass",
+      "64x64",
+      "smoke-its-ok-to-feel",
+    ],
+  },
 ]
 
 export { entries }
