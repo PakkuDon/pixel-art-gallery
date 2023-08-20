@@ -11,7 +11,7 @@ const EntriesPostedEachMonth = ({
   countByMonth: { key: string; count: number }[]
 }) => (
   <>
-    <h2>Entries posted each year</h2>
+    <h2>Entries posted each month</h2>
     <Bar
       options={{ indexAxis: "y", animation: false }}
       data={{

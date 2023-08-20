@@ -13,7 +13,7 @@ const ResolutionUsage = ({
   totalEntries: number
 }) => (
   <>
-    <h2>Palette Usage</h2>
+    <h2>Resolutions used</h2>
     <Bar
       options={{
         indexAxis: "y",
