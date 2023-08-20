@@ -117,7 +117,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-01-08T23:20+11:00",
-    tags: ["pixel_dailies", "tent", "64x64", "apollo"],
+    tags: ["pixel_dailies", "tent", "night", "64x64", "apollo"],
   },
   {
     src: "2022/20220110-pixeldailies.png",
@@ -1783,6 +1783,7 @@ const entries: PixelArtEntry[] = [
       "stars",
       "clouds",
       "anniversary_post",
+      "night",
       "96x64",
       "the-y-gigante-reverted",
     ],

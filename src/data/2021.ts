@@ -303,7 +303,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-01-30T23:38+11:00",
-    tags: ["pixel_dailies", "halo", "moon", "sky", "64x64", "apollo"],
+    tags: ["pixel_dailies", "halo", "moon", "sky", "night", "64x64", "apollo"],
   },
   {
     src: "2021/20210131-pixeldailies.png",
@@ -473,7 +473,15 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-02-14T23:59+11:00",
-    tags: ["noprompt", "crab", "valentines", "animal", "64x64", "apollo"],
+    tags: [
+      "noprompt",
+      "crab",
+      "valentines",
+      "animal",
+      "night",
+      "64x64",
+      "apollo",
+    ],
   },
   {
     src: "2021/20210215-pixeldailies.png",
@@ -739,7 +747,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-03-18T23:42+11:00",
-    tags: ["noprompt", "boat", "water", "64x64", "earth-vibes"],
+    tags: ["noprompt", "boat", "water", "night", "64x64", "earth-vibes"],
   },
   {
     src: "2021/20210318-pixeldailies.png",
@@ -776,6 +784,7 @@ const entries: PixelArtEntry[] = [
       "owl",
       "bird",
       "animal",
+      "night",
       "64x64",
       "apollo",
     ],
@@ -1357,7 +1366,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-09-17T23:58+10:00",
-    tags: ["pixel_dailies", "diner", "64x64", "watt32"],
+    tags: ["pixel_dailies", "diner", "night", "64x64", "watt32"],
   },
   {
     src: "2021/20210918-pixeldailies.png",
@@ -1681,7 +1690,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-12-05T23:47+11:00",
-    tags: ["pixel_dailies", "Icy", "landscape", "64x64", "icywitch"],
+    tags: ["pixel_dailies", "Icy", "landscape", "night", "64x64", "icywitch"],
   },
   {
     src: "2021/20211206-pixeldailies.png",

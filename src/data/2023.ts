@@ -80,7 +80,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-01-13T23:55+11:00",
-    tags: ["pixel_dailies", "promenade", "landscape", "64x64", "apollo"],
+    tags: [
+      "pixel_dailies",
+      "promenade",
+      "landscape",
+      "night",
+      "64x64",
+      "apollo",
+    ],
   },
   {
     src: "2023/20230119-pixeldailies.png",
@@ -281,7 +288,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-03-09T23:54+11:00",
-    tags: ["pixel_dailies", "beam", "landscape", "64x64", "golden-6"],
+    tags: ["pixel_dailies", "beam", "landscape", "night", "64x64", "golden-6"],
   },
   {
     src: "2023/20230312-pixeldailies.png",
