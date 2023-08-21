@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sat, 19 Aug 2023 13:40:21 GMT</pubDate>
+        <pubDate>Mon, 21 Aug 2023 13:12:35 GMT</pubDate>
         
-      <item>
-        <title>Strawberry and watermelon cake</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230207-cake.png" alt="20230207-cake" />]]>
-          <p>Strawberry and watermelon cake</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230207-cake</link>
-        <pubDate>Tue, 07 Feb 2023 12:56:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #ErrorMessage</title>
         <description>
@@ -643,6 +631,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230819-pixeldailies</link>
         <pubDate>Sat, 19 Aug 2023 13:38:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ladder</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230821-pixeldailies.png" alt="20230821-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #ladder</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230821-pixeldailies</link>
+        <pubDate>Mon, 21 Aug 2023 13:11:00 GMT</pubDate>
       </item>
     
       </channel>
