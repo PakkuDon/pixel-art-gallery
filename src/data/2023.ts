@@ -825,6 +825,25 @@ const entries: PixelArtEntry[] = [
       "smoke-its-ok-to-feel",
     ],
   },
+  {
+    src: "2023/20230821-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ladder",
+    description: ``,
+    palette: {
+      name: "PurpleMorning8",
+      url: "https://lospec.com/palette-list/purplemorning8",
+    },
+    resolution: "64x64",
+    date: "2023-08-21T23:11+10:00",
+    tags: [
+      "pixel_dailies",
+      "ladder",
+      "night",
+      "clouds",
+      "64x64",
+      "purplemorning8",
+    ],
+  },
 ]
 
 export { entries }
