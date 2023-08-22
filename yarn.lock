@@ -4100,10 +4100,10 @@ marked-xhtml@^1.0.3:
   resolved "https://registry.yarnpkg.com/marked-xhtml/-/marked-xhtml-1.0.4.tgz#70be1967d49161c0f9bc3c7bde963fd1b1b1a129"
   integrity sha512-KVcfbo8bEXRy8QEjodjou48K6r+DH5oRRq8HS0gwsmjavYZQ2O7x/6qBflECA3MOwaaNX7tBUc6GrwoIciqxGw==
 
-marked@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-6.0.0.tgz#80cd7f51145437cffe9f541a318b9882f75601df"
-  integrity sha512-7E3m/xIlymrFL5gWswIT4CheIE3fDeh51NV09M4x8iOc7NDYlyERcQMLAIHcSlrvwliwbPQ4OGD+MpPSYiQcqw==
+marked@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-7.0.4.tgz#e2558ee2d535b9df6a27c6e282dc603a18388a6d"
+  integrity sha512-t8eP0dXRJMtMvBojtkcsA7n48BkauktUKzfkPSCq85ZMTJ0v76Rke4DYz01omYpPTUh4p/f7HePgRo3ebG8+QQ==
 
 merge-stream@^2.0.0:
   version "2.0.0"
