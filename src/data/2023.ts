@@ -844,6 +844,18 @@ const entries: PixelArtEntry[] = [
       "purplemorning8",
     ],
   },
+  {
+    src: "2023/20230824-pixeldailies.png",
+    title: "Pixel Dailies prompt: #moss",
+    description: ``,
+    palette: {
+      name: "PARADISE 30",
+      url: "https://lospec.com/palette-list/paradise-30",
+    },
+    resolution: "64x64",
+    date: "2023-08-24T23:54+10:00",
+    tags: ["pixel_dailies", "moss", "rock", "64x64", "paradise-30"],
+  },
 ]
 
 export { entries }
