@@ -856,6 +856,24 @@ const entries: PixelArtEntry[] = [
     date: "2023-08-24T23:54+10:00",
     tags: ["pixel_dailies", "moss", "rock", "64x64", "paradise-30"],
   },
+  {
+    src: "2023/20230825-pixeldailies.png",
+    title: "Pixel Dailies prompt: #packaging",
+    description: ``,
+    palette: {
+      name: "Endesga 36",
+      url: "https://lospec.com/palette-list/endesga-36",
+    },
+    resolution: "64x64",
+    date: "2023-08-25T23:39+10:00",
+    tags: [
+      "pixel_dailies",
+      "packaging",
+      "lospec_palette_of_the_day",
+      "64x64",
+      "endesga-36",
+    ],
+  },
 ]
 
 export { entries }
