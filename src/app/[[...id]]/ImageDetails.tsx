@@ -5,11 +5,11 @@ import classnames from "classnames"
 import {
   format as formatDate,
   parseISO as parseISODate,
-  formatDistanceToNow,
 } from "date-fns"
 
 import { Card } from "../../components/Card/Card"
 import { ImageViewer } from "./ImageViewer/ImageViewer"
+import { RelativeTime } from "./RelativeTime"
 import { Pagination } from "./Pagination"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { extractFilename } from "../../util/extractFilename"
@@ -40,7 +40,7 @@ export const ImageDetails = ({ image }: { image: PixelArtEntry }) => {
           <div className="content">
             <strong>Posted:</strong>{" "}
             {formatDate(parsedDate, "MMM d yyyy h:mm aa O")} (
-            {formatDistanceToNow(parsedDate, { addSuffix: true })})
+            <RelativeTime date={parsedDate} />)
           </div>
           <div
             className={classnames("description", "content")}
