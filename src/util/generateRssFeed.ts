@@ -15,12 +15,6 @@ const generateRssFeed = ({
   entries: PixelArtEntry[]
   limit?: number
 }) => {
-  marked.setOptions({
-    // These options disabled to silence warnings about their deprecation
-    // Ref: https://github.com/markedjs/marked/releases/tag/v5.0.0
-    headerIds: false,
-    mangle: false,
-  })
   marked.use(markedXhtml())
   let filteredEntries = entries
 

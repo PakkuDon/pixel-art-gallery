@@ -23,12 +23,6 @@ const PaginationPlaceholder = () => (
 )
 
 export const ImageDetails = ({ image }: { image: PixelArtEntry }) => {
-  marked.setOptions({
-    // These options disabled to silence warnings about their deprecation
-    // Ref: https://github.com/markedjs/marked/releases/tag/v5.0.0
-    headerIds: false,
-    mangle: false,
-  })
   const id = extractFilename(image.src)
   const parsedDate = parseISODate(image.date)
 
