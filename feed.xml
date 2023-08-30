@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Fri, 25 Aug 2023 13:40:38 GMT</pubDate>
+        <pubDate>Wed, 30 Aug 2023 12:17:34 GMT</pubDate>
         
-      <item>
-        <title>Cloud study</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230213-clouds.png" alt="20230213-clouds" />]]>
-          <p>Cloud study</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230213-clouds</link>
-        <pubDate>Mon, 13 Feb 2023 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #ToyCapsule</title>
         <description>
@@ -641,6 +629,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230825-pixeldailies</link>
         <pubDate>Fri, 25 Aug 2023 13:39:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ReactionImage</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230830-pixeldailies.png" alt="20230830-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #ReactionImage</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230830-pixeldailies</link>
+        <pubDate>Wed, 30 Aug 2023 12:14:00 GMT</pubDate>
       </item>
     
       </channel>
