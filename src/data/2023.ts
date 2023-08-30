@@ -874,6 +874,24 @@ const entries: PixelArtEntry[] = [
       "endesga-36",
     ],
   },
+  {
+    src: "2023/20230830-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ReactionImage",
+    description: ``,
+    palette: {
+      name: "golden-sunset",
+      url: "https://lospec.com/palette-list/golden-sunset",
+    },
+    resolution: "64x64",
+    date: "2023-08-30T22:14+10:00",
+    tags: [
+      "pixel_dailies",
+      "ReactionImage",
+      "pokemon",
+      "64x64",
+      "golden-sunset",
+    ],
+  },
 ]
 
 export { entries }
