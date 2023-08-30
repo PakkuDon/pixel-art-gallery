@@ -2,10 +2,7 @@ import React, { Suspense } from "react"
 import Link from "next/link"
 import { marked } from "marked"
 import classnames from "classnames"
-import {
-  format as formatDate,
-  parseISO as parseISODate,
-} from "date-fns"
+import { format as formatDate, parseISO as parseISODate } from "date-fns"
 
 import { Card } from "../../components/Card/Card"
 import { ImageViewer } from "./ImageViewer/ImageViewer"
