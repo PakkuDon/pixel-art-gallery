@@ -677,6 +677,7 @@ const entries: PixelArtEntry[] = [
       "lospecdailies",
       "cat",
       "lospec_palette_of_the_day",
+      "meme",
       "animal",
       "64x64",
       "nanner-32",

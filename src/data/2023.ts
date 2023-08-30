@@ -887,6 +887,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "ReactionImage",
+      "meme",
       "pokemon",
       "64x64",
       "golden-sunset",
