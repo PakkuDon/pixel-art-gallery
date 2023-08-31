@@ -2,5 +2,7 @@
 
 import { formatDistanceToNow } from "date-fns"
 
-export const RelativeTime = ({ date }: { date: Date }) =>
-  formatDistanceToNow(date, { addSuffix: true })
+const RelativeTime = ({ date }: { date: Date }) =>
+  `(${formatDistanceToNow(date, { addSuffix: true })})`
+
+export default RelativeTime

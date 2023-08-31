@@ -1,16 +1,18 @@
 import React, { Suspense } from "react"
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import { marked } from "marked"
 import classnames from "classnames"
 import { format as formatDate, parseISO as parseISODate } from "date-fns"
 
 import { Card } from "../../components/Card/Card"
 import { ImageViewer } from "./ImageViewer/ImageViewer"
-import { RelativeTime } from "./RelativeTime"
 import { Pagination } from "./Pagination"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
+
+const RelativeTime = dynamic(() => import("./RelativeTime"), { ssr: false })
 
 const PaginationPlaceholder = () => (
   <div className={classnames("navigation", "content")}>
@@ -30,8 +32,8 @@ export const ImageDetails = ({ image }: { image: PixelArtEntry }) => {
         <div className="image-metadata">
           <div className="content">
             <strong>Posted:</strong>{" "}
-            {formatDate(parsedDate, "MMM d yyyy h:mm aa O")} (
-            <RelativeTime date={parsedDate} />)
+            {formatDate(parsedDate, "MMM d yyyy h:mm aa O")}{" "}
+            <RelativeTime date={parsedDate} />
           </div>
           <div
             className={classnames("description", "content")}
