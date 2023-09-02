@@ -4,23 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 31 Aug 2023 09:36:27 GMT</pubDate>
+        <pubDate>Sat, 02 Sep 2023 12:45:59 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #ToyCapsule</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230218-pixeldailies.png" alt="20230218-pixeldailies" />]]>
-          <p>Pixel Dailies prompt: #ToyCapsule</p>
-          <p> Restriction: Your capsule must be 40x40px or smaller
- Featuring Fuecoco from Pokemon Scarlet and Violet
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230218-pixeldailies</link>
-        <pubDate>Sat, 18 Feb 2023 12:34:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: Set of #Blocks</title>
         <description>
@@ -641,6 +626,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230830-pixeldailies</link>
         <pubDate>Wed, 30 Aug 2023 12:14:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Shiitake</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230902-pixeldailies.png" alt="20230902-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #Shiitake</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230902-pixeldailies</link>
+        <pubDate>Sat, 02 Sep 2023 12:44:00 GMT</pubDate>
       </item>
     
       </channel>
