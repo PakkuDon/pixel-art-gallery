@@ -81,7 +81,7 @@ const Statistics = () => {
           </div>
         </div>
         <div className="content">
-          <CollapsibleSection label="Tag usage">
+          <CollapsibleSection label={<h2>Tag usage</h2>}>
             <TagList countByTag={countByTag} />
           </CollapsibleSection>
         </div>

@@ -4,7 +4,7 @@ import React, { useState } from "react"
 import "./CollapsibleSection.css"
 
 interface CollapsibleSectionProps {
-  label: string
+  label: React.ReactNode
   children: React.ReactNode
 }
 const CollapsibleSection = ({ label, children }: CollapsibleSectionProps) => {
