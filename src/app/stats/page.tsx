@@ -1,7 +1,7 @@
 import React, { Suspense } from "react"
 import Link from "next/link"
 import { Metadata } from "next"
-import { format as formatDate } from "date-fns"
+import { format as formatDate, parseISO as parseISODate } from "date-fns"
 
 import { PixelArtRepository } from "../../PixelArtRepository"
 import { Card } from "../../components/Card/Card"
@@ -25,7 +25,8 @@ export const metadata: Metadata = {
 }
 
 const Statistics = () => {
-  const totalEntries = PixelArtRepository.findAll().length
+  const entries = PixelArtRepository.findAll()
+  const totalEntries = entries.length
   const countByTag = PixelArtRepository.countByTag()
   const countByYear = PixelArtRepository.countBy((entry) =>
     new Date(entry.date).getFullYear().toString(),
@@ -71,9 +72,28 @@ const Statistics = () => {
           </Suspense>
         </div>
         <div className="content">
+          <h2>Overview</h2>
+          <div>
+            <strong>First entry posted: </strong>
+            <span>
+              {formatDate(
+                parseISODate(entries[0].date),
+                "MMM d yyyy h:mm aa O",
+              )}
+            </span>
+          </div>
+          <div>
+            <strong>Last entry posted: </strong>
+            <span>
+              {formatDate(
+                parseISODate(entries[entries.length - 1].date),
+                "MMM d yyyy h:mm aa O",
+              )}
+            </span>
+          </div>
           <div>
             <strong>Total entries: </strong>
-            <span>{PixelArtRepository.findAll().length}</span>
+            <span>{totalEntries}</span>
           </div>
           <div>
             <strong>Palettes used: </strong>
