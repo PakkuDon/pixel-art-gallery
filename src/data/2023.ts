@@ -912,6 +912,22 @@ const entries: PixelArtEntry[] = [
       "nostalgia48",
     ],
   },
+  {
+    src: "2023/20230906-sheep-on-a-hill.png",
+    title: "Sheep on a Hill",
+    description: `
+      Someone at work described a painting they saw at an event.
+
+      I said "I could draw that". So I did
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-09-06T23:56+10:00",
+    tags: ["noprompt", "landscape", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
