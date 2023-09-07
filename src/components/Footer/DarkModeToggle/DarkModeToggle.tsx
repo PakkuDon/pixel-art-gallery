@@ -4,7 +4,8 @@ import React, { useState, useEffect, useCallback } from "react"
 
 const DarkModeToggle = () => {
   const [prefersDarkTheme, setPrefersDarkTheme] = useState(
-    localStorage.getItem("theme") === "dark",
+    typeof localStorage !== "undefined" &&
+      localStorage.getItem("theme") === "dark",
   )
 
   useEffect(() => {
