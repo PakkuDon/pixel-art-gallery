@@ -4,7 +4,7 @@ import path from "path"
 import React, { useCallback, useState } from "react"
 import classnames from "classnames"
 
-import { Slider } from "../../../components/Slider/Slider"
+import { Slider } from "../../Slider/Slider"
 import { PixelArtEntry } from "../../../data"
 import "./ImageViewer.css"
 

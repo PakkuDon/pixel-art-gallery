@@ -5,7 +5,7 @@ import { marked } from "marked"
 import classnames from "classnames"
 import { format as formatDate, parseISO as parseISODate } from "date-fns"
 
-import { Card } from "../../components/Card/Card"
+import { Card } from "../Card/Card"
 import { ImageViewer } from "./ImageViewer/ImageViewer"
 import { Pagination } from "./Pagination"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
