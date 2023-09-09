@@ -1,6 +1,6 @@
 1:HL["/pixel-art-gallery/_next/static/media/659df64606270f52-s.p.woff2",{"as":"font","type":"font/woff2"}]
 2:HL["/pixel-art-gallery/_next/static/css/8195b2823a5e4ad8.css",{"as":"style"}]
-0:["KHHiGa9yHfitpWXGzWsql",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/pixel-art-gallery/_next/static/css/8195b2823a5e4ad8.css","precedence":"next"}]],"$L4"]]]]
+0:["AnWHCt9rD4I1N9UgXCbzJ",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/pixel-art-gallery/_next/static/css/8195b2823a5e4ad8.css","precedence":"next"}]],"$L4"]]]]
 5:HL["/pixel-art-gallery/_next/static/css/2c0779ef905187b9.css",{"as":"style"}]
 6:"$Sreact.suspense"
 7:I{"id":5635,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","576:static/chunks/576-7fbc760fdd2a3008.js","185:static/chunks/app/layout-545fade4789fe21f.js"],"name":"Sidebar","async":false}
@@ -9,7 +9,7 @@
 b:I{"id":699,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","35:static/chunks/35-08ca97a406405552.js","576:static/chunks/576-7fbc760fdd2a3008.js","931:static/chunks/app/page-aa3a1301d496d3ab.js"],"name":"ImageViewer","async":false}
 c:I{"id":3699,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","35:static/chunks/35-08ca97a406405552.js","576:static/chunks/576-7fbc760fdd2a3008.js","931:static/chunks/app/page-aa3a1301d496d3ab.js"],"name":"NoSSR","async":false}
 d:I{"id":898,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","35:static/chunks/35-08ca97a406405552.js","576:static/chunks/576-7fbc760fdd2a3008.js","931:static/chunks/app/page-aa3a1301d496d3ab.js"],"name":"","async":false}
-e:I{"id":6685,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","35:static/chunks/35-08ca97a406405552.js","576:static/chunks/576-7fbc760fdd2a3008.js","931:static/chunks/app/page-aa3a1301d496d3ab.js"],"name":"","async":false}
+e:I{"id":6685,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","576:static/chunks/576-7fbc760fdd2a3008.js","185:static/chunks/app/layout-545fade4789fe21f.js"],"name":"","async":false}
 f:I{"id":355,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","35:static/chunks/35-08ca97a406405552.js","576:static/chunks/576-7fbc760fdd2a3008.js","931:static/chunks/app/page-aa3a1301d496d3ab.js"],"name":"Pagination","async":false}
 10:I{"id":1795,"chunks":["569:static/chunks/569-5f99e298c36caa9a.js","576:static/chunks/576-7fbc760fdd2a3008.js","185:static/chunks/app/layout-545fade4789fe21f.js"],"name":"DarkModeToggle","async":false}
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Pixel Art Gallery"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","3",{"property":"og:description","content":"Pixel art by PakkuDon"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:description","content":"Pixel art by PakkuDon"}],["$","meta","6",{"name":"next-size-adjust"}]]
