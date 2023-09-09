@@ -32,7 +32,11 @@ export function generateMetadata({ params }: PageParams): Metadata {
   if (image) {
     return {
       title: `${extractFilename(image.src)}`,
-
+      openGraph: {
+        title: `${extractFilename(image.src)} - Pixel Art Gallery`,
+        description: image.title,
+        images: [`img/${image.src}`],
+      },
       twitter: {
         card: "summary_large_image",
       },
