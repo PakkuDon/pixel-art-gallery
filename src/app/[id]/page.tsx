@@ -6,7 +6,6 @@ import { PixelArtRepository } from "../../PixelArtRepository"
 import { extractFilename } from "../../util/extractFilename"
 import { ImageDetails } from "../../components/ImageDetails/ImageDetails"
 
-import "./page.css"
 import { PixelArtEntry } from "../../data"
 
 export function generateStaticParams(): { id: string }[] {

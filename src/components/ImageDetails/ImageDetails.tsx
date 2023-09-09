@@ -11,6 +11,7 @@ import { Pagination } from "./Pagination"
 import { encodeURIFragment } from "../../util/encodeURIFragment"
 import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
+import "./ImageDetails.css"
 
 const RelativeTime = dynamic(() => import("./RelativeTime"), { ssr: false })
 
