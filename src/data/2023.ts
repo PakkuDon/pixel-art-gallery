@@ -928,6 +928,20 @@ const entries: PixelArtEntry[] = [
     date: "2023-09-06T23:56+10:00",
     tags: ["noprompt", "landscape", "64x64", "nostalgia48"],
   },
+  {
+    src: "2023/20230910-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Tall",
+    description: `
+      Restriction: Citrink palette
+    `,
+    palette: {
+      name: "Citrink",
+      url: "https://lospec.com/palette-list/citrink",
+    },
+    resolution: "64x64",
+    date: "2023-09-10T23:59+10:00",
+    tags: ["pixel_dailies", "Tall", "night", "64x64", "citrink"],
+  },
 ]
 
 export { entries }
