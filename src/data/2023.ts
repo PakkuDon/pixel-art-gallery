@@ -942,6 +942,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-09-10T23:59+10:00",
     tags: ["pixel_dailies", "Tall", "night", "64x64", "citrink"],
   },
+  {
+    src: "2023/20230912-pixeldailies.png",
+    title: "Pixel Dailies prompt: #eye",
+    description: ``,
+    palette: {
+      name: "comfy52",
+      url: "https://lospec.com/palette-list/comfy52",
+    },
+    resolution: "64x64",
+    date: "2023-09-12T21:59+10:00",
+    tags: ["pixel_dailies", "eye", "64x64", "comfy52"],
+  },
 ]
 
 export { entries }
