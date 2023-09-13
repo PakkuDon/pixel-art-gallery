@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 12 Sep 2023 12:02:33 GMT</pubDate>
+        <pubDate>Wed, 13 Sep 2023 13:25:53 GMT</pubDate>
         
-      <item>
-        <title>Tileset for 20230224-pixeldailies</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230224-tileset.png" alt="20230224-tileset" />]]>
-          <p>Tileset for 20230224-pixeldailies</p>
-          <p> Tiles used in <a href="20230224-pixeldailies">20230224-pixeldailies</a>
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230224-tileset</link>
-        <pubDate>Thu, 23 Feb 2023 14:04:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Stars</title>
         <description>
@@ -643,6 +629,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230912-pixeldailies</link>
         <pubDate>Tue, 12 Sep 2023 11:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #rulebook</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230913-pixeldailies.png" alt="20230913-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #rulebook</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230913-pixeldailies</link>
+        <pubDate>Wed, 13 Sep 2023 13:24:00 GMT</pubDate>
       </item>
     
       </channel>
