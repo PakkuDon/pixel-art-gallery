@@ -954,6 +954,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-09-12T21:59+10:00",
     tags: ["pixel_dailies", "eye", "64x64", "comfy52"],
   },
+  {
+    src: "2023/20230913-pixeldailies.png",
+    title: "Pixel Dailies prompt: #rulebook",
+    description: ``,
+    palette: {
+      name: "Waldgeist",
+      url: "https://lospec.com/palette-list/waldgeist",
+    },
+    resolution: "64x64",
+    date: "2023-09-13T23:24+10:00",
+    tags: ["pixel_dailies", "rulebook", "64x64", "waldgeist"],
+  },
 ]
 
 export { entries }
