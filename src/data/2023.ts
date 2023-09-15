@@ -966,6 +966,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-09-13T23:24+10:00",
     tags: ["pixel_dailies", "rulebook", "64x64", "waldgeist"],
   },
+  {
+    src: "2023/20230915-pixeldailies.png",
+    title: "Pixel Dailies prompt: #compass",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-09-15T23:54+10:00",
+    tags: ["pixel_dailies", "compass", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
