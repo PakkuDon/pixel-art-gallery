@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Wed, 13 Sep 2023 13:25:53 GMT</pubDate>
+        <pubDate>Fri, 15 Sep 2023 13:58:22 GMT</pubDate>
         
-      <item>
-        <title>Stars</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230302-stars.gif" alt="20230302-stars" />]]>
-          <p>Stars</p>
-          <p> First attempt at making animated pixel art
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230302-stars</link>
-        <pubDate>Thu, 02 Mar 2023 07:49:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Doodle</title>
         <description>
@@ -641,6 +627,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230913-pixeldailies</link>
         <pubDate>Wed, 13 Sep 2023 13:24:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #compass</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230915-pixeldailies.png" alt="20230915-pixeldailies" />]]>
+          <p>Pixel Dailies prompt: #compass</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230915-pixeldailies</link>
+        <pubDate>Fri, 15 Sep 2023 13:54:00 GMT</pubDate>
       </item>
     
       </channel>
