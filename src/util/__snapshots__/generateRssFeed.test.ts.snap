@@ -12,7 +12,7 @@ exports[`generateRssFeed generates RSS feed containing pixel art entries 1`] = `
       <item>
         <title>Example image with markdown</title>
         <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/example.png" alt="example" />]]>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/example.png" alt="" />]]>
           <p>Example image with markdown</p>
           <p> Palette: <a href="https://example.com">Example link</a>
  </p>

@@ -29,7 +29,7 @@ const ImageViewer = ({ image }: ImageViewerProps) => {
       <div className={classnames("image-viewer", "scrollable")}>
         <img
           src={path.join(`/${basePath}`, `/img/${image.src}`)}
-          alt={image.src}
+          alt=""
           className="pixelArt"
           style={{ transform: `scale(${zoom / 100})` }}
         />

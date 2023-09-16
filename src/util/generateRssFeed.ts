@@ -31,7 +31,7 @@ const generateRssFeed = ({
         <description>
           <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/${
             pixelArt.src
-          }" alt="${filename}" />]]>
+          }" alt="" />]]>
           <p>${pixelArt.title || ""}</p>
           ${marked((pixelArt.description || "").replace(/ +/g, " "))}
         </description>
