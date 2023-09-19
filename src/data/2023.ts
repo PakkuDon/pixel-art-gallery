@@ -990,6 +990,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-09-18T23:46+10:00",
     tags: ["pixel_dailies", "Pie", "food", "64x64", "zykro-48"],
   },
+  {
+    src: "2023/20230919-pixeldailies.png",
+    title: "Pixel Dailies prompt: #wedge",
+    description: ``,
+    palette: {
+      name: "ZyKro-48",
+      url: "https://lospec.com/palette-list/zykro-48",
+    },
+    resolution: "64x64",
+    date: "2023-09-19T23:57+10:00",
+    tags: ["pixel_dailies", "wedge", "fruit", "food", "64x64", "zykro-48"],
+  },
 ]
 
 export { entries }
