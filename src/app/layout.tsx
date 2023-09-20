@@ -27,7 +27,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://pakkudon.github.io/pixel-art-gallery"),
   openGraph: {
     siteName: "Pixel Art Gallery | PakkuDon",
-    description: "Pixel art by PakkuDon",
   },
 }
 
