@@ -22,6 +22,9 @@ const RESOLUTION_USAGE_THRESHOLD = 1
 
 export const metadata: Metadata = {
   title: "Portfolio stats",
+  openGraph: {
+    siteName: "Pixel Art Gallery | PakkuDon",
+  },
 }
 
 const Statistics = () => {
