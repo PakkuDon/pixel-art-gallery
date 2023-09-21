@@ -3,8 +3,8 @@ TODO: Generate using opengraph-image.ts instead
 opengraph-image.ts currently cannot be used due to the issue described in
 https://github.com/vercel/next.js/issues/51147
 */
-import fs from "fs"
 import path from "path"
+import sharp from "sharp"
 
 import { PixelArtRepository } from "../../../PixelArtRepository"
 import { extractFilename } from "../../../util/extractFilename"
@@ -24,7 +24,7 @@ export function generateStaticParams(): RouteParams[] {
   }))
 }
 
-export function GET(_: Request, { params }: { params: RouteParams }) {
+export async function GET(_: Request, { params }: { params: RouteParams }) {
   const { id } = params
   const image = PixelArtRepository.findAll((entry) => {
     const aliases = entry.aliases || []
@@ -32,7 +32,13 @@ export function GET(_: Request, { params }: { params: RouteParams }) {
   })[0]
 
   const filePath = path.join(__dirname, "../../../../../public/img", image.src)
-  const buffer = fs.readFileSync(filePath)
+  const [width, height] = image.resolution
+    .split("x")
+    .map((value) => parseInt(value, 10))
+
+  const buffer = await sharp(filePath)
+    .resize({ width: width * 2, height: height * 2, kernel: "nearest" })
+    .toBuffer()
 
   return new Response(buffer, {
     headers: {
