@@ -1,6 +1,6 @@
 1:HL["/pixel-art-gallery/_next/static/media/659df64606270f52-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/pixel-art-gallery/_next/static/css/1c5760db9e51edf7.css","style"]
-0:["n6EG3pL84l2NasmJAxwro",[[["",{"children":[["id","20220612-pixeldailies","d"],{"children":["__PAGE__?{\"id\":\"20220612-pixeldailies\"}",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/pixel-art-gallery/_next/static/css/1c5760db9e51edf7.css","precedence":"next"}]],"$L4"]]]]
+0:["Erff2nzQNLEn3WKxl6NZ8",[[["",{"children":[["id","20220612-pixeldailies","d"],{"children":["__PAGE__?{\"id\":\"20220612-pixeldailies\"}",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/pixel-art-gallery/_next/static/css/1c5760db9e51edf7.css","precedence":"next"}]],"$L4"]]]]
 5:HL["/pixel-art-gallery/_next/static/css/2a47a0be02786b93.css","style"]
 6:"$Sreact.suspense"
 7:I{"id":4397,"chunks":["569:static/chunks/569-eee132e1a9250728.js","999:static/chunks/999-a5c300849ae22a7f.js","185:static/chunks/app/layout-4f87af73c9999896.js"],"name":"Sidebar","async":false}
