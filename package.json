@@ -52,6 +52,7 @@
     "normalize.css": "^8.0.1",
     "react": "^18.0.0",
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "sharp": "^0.32.6"
   }
 }
