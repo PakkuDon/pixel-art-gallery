@@ -67,7 +67,7 @@ yarn deploy
   resolution: "widthxheight",
   date: "Date in ISO 8601 format (eg: 2020-01-01T23:59+11:00)",
   tags: ["words", "can contain spaces"],
-  aliases: ["optiona list of other URL slugs to use for this entry"],
+  aliases: ["optional list of other URL slugs to use for this entry"],
 },
 ```
 
