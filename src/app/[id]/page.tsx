@@ -36,7 +36,7 @@ export function generateMetadata({ params }: PageParams): Metadata {
         title: `${extractFilename(image.src)}`,
         siteName: "Pixel Art Gallery | PakkuDon",
         description: image.title,
-        images: [`img/${image.src}`],
+        images: [`${extractFilename(image.src)}/opengraph.png`],
       },
       twitter: {
         card: "summary_large_image",
