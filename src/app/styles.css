@@ -26,6 +26,12 @@ a:hover {
 button {
   border: none;
   border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e0e0e0;
 }
 
 body.dark-theme {
@@ -45,6 +51,10 @@ body.dark-theme {
 .dark-theme button {
   background: #303030;
   color: #fafafa;
+}
+
+.dark-theme button:hover {
+  background: #404040;
 }
 
 .dark-theme input {
