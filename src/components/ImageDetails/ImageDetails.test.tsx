@@ -1,5 +1,5 @@
 import React from "react"
-import { screen, render } from "@testing-library/react"
+import { screen, render, waitFor } from "@testing-library/react"
 
 import { ImageDetails } from "./ImageDetails"
 import { PixelArtRepository } from "../../PixelArtRepository"
@@ -14,7 +14,7 @@ jest.mock("next/navigation", () => ({
 }))
 
 describe("ImageDetails", () => {
-  it("renders image details", () => {
+  it("renders image details", async () => {
     const img = {
       src: "abc123.png",
       title: "Test image",
@@ -30,6 +30,7 @@ describe("ImageDetails", () => {
 
     render(<ImageDetails image={img} />)
 
+    await waitFor(() => screen.getByText(/Test image/))
     expect(screen.getByText("Test image")).toBeInTheDocument()
     expect(screen.getByRole("img")).toHaveAttribute("src", "/img/abc123.png")
     expect(screen.getByText("Image description")).toBeInTheDocument()
