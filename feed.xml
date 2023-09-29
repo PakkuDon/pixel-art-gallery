@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 26 Sep 2023 13:52:16 GMT</pubDate>
+        <pubDate>Fri, 29 Sep 2023 13:58:46 GMT</pubDate>
         
-      <item>
-        <title>Outrun aesthetic</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230313-aesthetics.gif" alt="" />]]>
-          <p>Outrun aesthetic</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230313-aesthetics</link>
-        <pubDate>Mon, 13 Mar 2023 10:46:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #horizon</title>
         <description>
@@ -637,6 +625,18 @@ Deltarune Chapter 1
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20230924-pixeldailies</link>
         <pubDate>Sun, 24 Sep 2023 13:36:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #bread</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230929-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #bread</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20230929-pixeldailies</link>
+        <pubDate>Fri, 29 Sep 2023 13:56:00 GMT</pubDate>
       </item>
     
       </channel>
