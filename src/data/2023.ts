@@ -1026,6 +1026,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-09-29T23:56+10:00",
     tags: ["pixel_dailies", "bread", "food", "64x64", "gora63"],
   },
+  {
+    src: "2023/20231001-pixeldailies.png",
+    title: "Pixel Dailies prompt: #pumpkin",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-10-01T23:56+11:00",
+    tags: ["pixel_dailies", "pumpkin", "food", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
