@@ -1050,6 +1050,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-02T23:36+11:00",
     tags: ["pixel_dailies", "Withered", "glass", "flower", "64x64", "comfy52"],
   },
+  {
+    src: "2023/20231003-pixeldailies.png",
+    title: "Pixel Dailies prompt: #tomb",
+    description: ``,
+    palette: {
+      name: "antiquity16",
+      url: "https://lospec.com/palette-list/antiquity16",
+    },
+    resolution: "64x64",
+    date: "2023-10-03T23:49+11:00",
+    tags: ["pixel_dailies", "tomb", "grass", "64x64", "antiquity16"],
+  },
 ]
 
 export { entries }
