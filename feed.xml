@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 03 Oct 2023 12:50:32 GMT</pubDate>
+        <pubDate>Wed, 04 Oct 2023 12:49:42 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Ferns</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230326-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Ferns</p>
-          <p> Restriction: moonlight-gb 4 colors palette
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230326-pixeldailies</link>
-        <pubDate>Sun, 26 Mar 2023 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Goldfish</title>
         <description>
@@ -631,6 +617,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20231003-pixeldailies</link>
         <pubDate>Tue, 03 Oct 2023 12:49:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #dance</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231004-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #dance</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231004-pixeldailies</link>
+        <pubDate>Wed, 04 Oct 2023 12:48:00 GMT</pubDate>
       </item>
     
       </channel>
