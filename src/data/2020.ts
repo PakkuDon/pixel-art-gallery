@@ -107,6 +107,7 @@ const entries: PixelArtEntry[] = [
       "lospecdailies",
       "create",
       "lospec_palette_of_the_day",
+      "person",
       "64x64",
       "arbitration-26",
     ],
@@ -258,7 +259,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2020-11-08T23:09+11:00",
-    tags: ["noprompt", "64x64", "covid-19"],
+    tags: ["noprompt", "64x64", "person", "covid-19"],
   },
   {
     src: "2020/20201108-vic-covid19-pressv2.png",
@@ -283,7 +284,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2020-11-08T23:27+11:00",
-    tags: ["noprompt", "64x64", "covid-19"],
+    tags: ["noprompt", "64x64", "person", "covid-19"],
   },
   {
     src: "2020/20201110-pixeldailies.png",

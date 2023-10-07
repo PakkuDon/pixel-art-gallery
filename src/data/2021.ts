@@ -289,7 +289,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-01-29T22:57+11:00",
-    tags: ["pixel_dailies", "landscape", "mountain", "64x64", "blues-gb"],
+    tags: [
+      "pixel_dailies",
+      "landscape",
+      "person",
+      "mountain",
+      "64x64",
+      "blues-gb",
+    ],
   },
   {
     src: "2021/20210130-pixeldailies.png",
@@ -437,7 +444,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-02-12T23:02+11:00",
-    tags: ["pixel_dailies", "hansomcab", "64x64", "apollo"],
+    tags: ["pixel_dailies", "hansomcab", "person", "64x64", "apollo"],
   },
   {
     src: "2021/20210212-noprompt.png",
@@ -543,7 +550,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-02-26T23:02+11:00",
-    tags: ["pixel_dailies", "red", "transistor", "64x64", "earth-vibes"],
+    tags: [
+      "pixel_dailies",
+      "red",
+      "transistor",
+      "person",
+      "64x64",
+      "earth-vibes",
+    ],
   },
   {
     src: "2021/20210228-pixeldailies.png",
@@ -1007,7 +1021,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-05-16T21:26+10:00",
-    tags: ["pixel_dailies", "Bookworm", "window", "64x64", "slso8"],
+    tags: ["pixel_dailies", "Bookworm", "person", "window", "64x64", "slso8"],
   },
   {
     src: "2021/20210519-pixeldailies.png",
@@ -1209,7 +1223,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-07-21T00:50+10:00",
-    tags: ["noprompt", "OMORI", "64x64", "endesga-36"],
+    tags: ["noprompt", "OMORI", "person", "64x64", "endesga-36"],
   },
   {
     src: "2021/20210722-pixeldailies.png",
@@ -1583,7 +1597,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-11-06T23:48+11:00",
-    tags: ["pixel_dailies", "victory", "celeste", "64x64", "nostalgia48"],
+    tags: [
+      "pixel_dailies",
+      "victory",
+      "person",
+      "celeste",
+      "64x64",
+      "nostalgia48",
+    ],
   },
   {
     src: "2021/20211109-pixeldailies.png",

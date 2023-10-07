@@ -687,7 +687,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-03-23T23:59+11:00",
-    tags: ["pixel_dailies", "glider", "landscape", "64x64", "superficial-35"],
+    tags: [
+      "pixel_dailies",
+      "glider",
+      "person",
+      "landscape",
+      "64x64",
+      "superficial-35",
+    ],
   },
   {
     src: "2022/20220325-pixeldailies.png",
@@ -727,7 +734,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-03-27T22:24+11:00",
-    tags: ["pixel_dailies", "Shrub", "LISA", "64x64", "superficial-35"],
+    tags: [
+      "pixel_dailies",
+      "Shrub",
+      "person",
+      "LISA",
+      "64x64",
+      "superficial-35",
+    ],
   },
   {
     src: "2022/20220328-pixeldailies.png",
@@ -847,6 +861,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "HairAccessory",
+      "person",
       "pmmm",
       "tomoe-mami",
       "64x64",
