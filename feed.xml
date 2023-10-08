@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Wed, 04 Oct 2023 12:49:42 GMT</pubDate>
+        <pubDate>Sun, 08 Oct 2023 10:57:03 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Goldfish</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230403-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Goldfish</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230403-pixeldailies</link>
-        <pubDate>Mon, 03 Apr 2023 13:24:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #memory</title>
         <description>
@@ -629,6 +617,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20231004-pixeldailies</link>
         <pubDate>Wed, 04 Oct 2023 12:48:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Dan Andrews</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231008-dan-andrews.png" alt="" />]]>
+          <p>Dan Andrews</p>
+          <p> <a href="https://twitter.com/DanielAndrewsMP/status/646090251446845440">Reference image</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231008-dan-andrews</link>
+        <pubDate>Sun, 08 Oct 2023 10:06:00 GMT</pubDate>
       </item>
     
       </channel>
