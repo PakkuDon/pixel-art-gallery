@@ -1074,6 +1074,20 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-04T23:48+11:00",
     tags: ["pixel_dailies", "dance", "person", "64x64", "apollo"],
   },
+  {
+    src: "2023/20231008-dan-andrews.png",
+    title: "Dan Andrews",
+    description: `
+      [Reference image](https://twitter.com/DanielAndrewsMP/status/646090251446845440)
+    `,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-10-08T21:06+11:00",
+    tags: ["noprompt", "auspol", "person", "meme", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
