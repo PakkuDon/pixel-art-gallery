@@ -1088,6 +1088,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-08T21:06+11:00",
     tags: ["noprompt", "auspol", "person", "meme", "64x64", "apollo"],
   },
+  {
+    src: "2023/20231009-pixeldailies.png",
+    title: "Pixel Dailies prompt: #luckycharm",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-10-09T23:27+11:00",
+    tags: ["pixel_dailies", "luckycharm", "cat", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
