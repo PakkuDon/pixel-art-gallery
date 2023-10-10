@@ -1100,6 +1100,31 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-09T23:27+11:00",
     tags: ["pixel_dailies", "luckycharm", "cat", "64x64", "apollo"],
   },
+  {
+    src: "2023/20231010-landscape.png",
+    title: "By the ocean",
+    description: `
+      This post marks both my 400th published pixel art entry
+      and three years since I first started posting.
+
+      Thanks again for all your support over these years.
+      See you at the next milestone and / or anniversary!
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-10-10T23:53+11:00",
+    tags: [
+      "noprompt",
+      "landscape",
+      "anniversary_post",
+      "milestone_post",
+      "64x64",
+      "nostalgia48",
+    ],
+  },
 ]
 
 export { entries }
