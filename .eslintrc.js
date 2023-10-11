@@ -9,6 +9,7 @@ module.exports = {
     "plugin:jest-dom/recommended",
     "airbnb",
     "prettier",
+    "plugin:@next/next/recommended"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
