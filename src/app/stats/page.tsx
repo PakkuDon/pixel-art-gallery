@@ -1,5 +1,6 @@
 import React, { Suspense } from "react"
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import { Metadata } from "next"
 import { format as formatDate, parseISO as parseISODate } from "date-fns"
 
@@ -12,6 +13,10 @@ import { PaletteUsage } from "./PaletteUsage"
 import { ResolutionUsage } from "./ResolutionUsage"
 import { LinkToGallery } from "./LinkToGallery"
 import { TagList } from "../../components/TagList/TagList"
+const RelativeTime = dynamic(
+  () => import("../../components/RelativeTime/RelativeTime"),
+  { ssr: false },
+)
 
 PixelArtRepository.load()
 
@@ -66,6 +71,9 @@ const Statistics = () => {
     },
   ]
 
+  const firstPostDate = parseISODate(entries[0].date)
+  const lastPostDate = parseISODate(entries[entries.length - 1].date)
+
   return (
     <Card>
       <main className="statistics">
@@ -78,21 +86,17 @@ const Statistics = () => {
           <h2>Overview</h2>
           <div>
             <strong>First entry posted: </strong>
-            <span>
-              {formatDate(
-                parseISODate(entries[0].date),
-                "MMM d yyyy h:mm aa O",
-              )}
-            </span>
+            <div>
+              {formatDate(firstPostDate, "MMM d yyyy h:mm aa O")}{" "}
+              <RelativeTime date={firstPostDate} />
+            </div>
           </div>
           <div>
             <strong>Last entry posted: </strong>
-            <span>
-              {formatDate(
-                parseISODate(entries[entries.length - 1].date),
-                "MMM d yyyy h:mm aa O",
-              )}
-            </span>
+            <div>
+              {formatDate(lastPostDate, "MMM d yyyy h:mm aa O")}{" "}
+              <RelativeTime date={lastPostDate} />
+            </div>
           </div>
           <div>
             <strong>Total entries: </strong>
