@@ -13,6 +13,7 @@ import { PaletteUsage } from "./PaletteUsage"
 import { ResolutionUsage } from "./ResolutionUsage"
 import { LinkToGallery } from "./LinkToGallery"
 import { TagList } from "../../components/TagList/TagList"
+
 const RelativeTime = dynamic(
   () => import("../../components/RelativeTime/RelativeTime"),
   { ssr: false },
