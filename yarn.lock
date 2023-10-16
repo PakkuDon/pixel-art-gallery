@@ -907,10 +907,12 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
-"@types/marked@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-5.0.2.tgz#ca6b0cd7a5c8799c8cd0963df0b3e1a9021dcdfa"
-  integrity sha512-OucS4KMHhFzhz27KxmWg7J+kIYqyqoW5kdIEI319hqARQQUTqhao3M/F+uFnDXD0Rg72iDDZxZNxq5gvctmLlg==
+"@types/marked@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-6.0.0.tgz#4dbc7df4add578ef87eb6ca2c6927c97b0531abf"
+  integrity sha512-jmjpa4BwUsmhxcfsgUit/7A9KbrC48Q0q8KvnY107ogcjGgTFDlIL3RpihNpx2Mu1hM4mdFQjoVc4O6JoGKHsA==
+  dependencies:
+    marked "*"
 
 "@types/node@*":
   version "20.8.5"
@@ -4188,10 +4190,10 @@ marked-xhtml@^1.0.6:
   resolved "https://registry.yarnpkg.com/marked-xhtml/-/marked-xhtml-1.0.6.tgz#00edd9904379236a35a3cb4366152a4517d1cce1"
   integrity sha512-m8VxJYiaRvzb1gfTYpGohg+Cwkuu0Q838IdlB3awkesZG5ni9lMmDQNd0h+KLgFYt4NKjqhgD1E5n9UJ0idH4Q==
 
-marked@^9.0.0:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-9.1.1.tgz#16d6f6bbaa433176c8ab16d3bfd11ca94e36e5c4"
-  integrity sha512-ZmXkUGH54U4rEy3GL9vYj8+S1PHJx/zz5pc4Frn7UdGiNREKT12fWBJ5a5ffjFtghx9C9912vEg9Zra1Nf7CnA==
+marked@*, marked@^9.1.2:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-9.1.2.tgz#a54ca772d2b5a43de7d8ed40111354b4b7985527"
+  integrity sha512-qoKMJqK0w6vkLk8+KnKZAH6neUZSNaQqVZ/h2yZ9S7CbLuFHyS2viB0jnqcWF9UKjwsAbMrQtnQhdmdvOVOw9w==
 
 merge-stream@^2.0.0:
   version "2.0.0"
