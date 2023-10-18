@@ -1125,6 +1125,18 @@ const entries: PixelArtEntry[] = [
       "nostalgia48",
     ],
   },
+  {
+    src: "2023/20231018-pixeldailies.png",
+    title: "Pixel Dailies prompt: #shellfish",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-10-18T23:45+11:00",
+    tags: ["pixel_dailies", "shellfish", "shrimp", "animal", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
