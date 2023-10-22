@@ -1149,6 +1149,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-19T23:57+11:00",
     tags: ["pixel_dailies", "airborne", "microbe", "64x64", "apollo"],
   },
+  {
+    src: "2023/20231022-pixeldailies.png",
+    title: "Pixel Dailies prompt: #pattern",
+    description: ``,
+    palette: {
+      name: "Winter Wonderland",
+      url: "https://lospec.com/palette-list/winter-wonderland",
+    },
+    resolution: "64x64",
+    date: "2023-10-22T23:30+11:00",
+    tags: ["pixel_dailies", "pattern", "stars", "64x64", "winter-wonderland"],
+  },
 ]
 
 export { entries }
