@@ -1161,6 +1161,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-22T23:30+11:00",
     tags: ["pixel_dailies", "pattern", "stars", "64x64", "winter-wonderland"],
   },
+  {
+    src: "2023/20231024-pixeldailies.png",
+    title: "Pixel Dailies prompt: #PicnicSpot",
+    description: ``,
+    palette: {
+      name: "Telephrion22",
+      url: "https://lospec.com/palette-list/telephrion22",
+    },
+    resolution: "64x64",
+    date: "2023-10-24T23:57+11:00",
+    tags: ["pixel_dailies", "PicnicSpot", "landscape", "64x64", "telephrion22"],
+  },
 ]
 
 export { entries }
