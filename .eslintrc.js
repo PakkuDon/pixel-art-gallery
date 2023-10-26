@@ -38,6 +38,8 @@ module.exports = {
     // Project doesn't use PropTypes
     "react/require-default-props": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
+    // Skipped as project doesn't use Next' Image
+    "@next/next/no-img-element": "off",
   },
   settings: {
     "import/resolver": {
