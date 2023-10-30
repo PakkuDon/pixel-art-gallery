@@ -14,7 +14,6 @@
     "test:e2e": "cypress run"
   },
   "devDependencies": {
-    "@mermaid-js/mermaid-cli": "^10.0.2",
     "@next/eslint-plugin-next": "^14.0.0",
     "@testing-library/jest-dom": "^6.1.2",
     "@testing-library/react": "^14.0.0",
