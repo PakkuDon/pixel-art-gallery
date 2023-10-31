@@ -1185,6 +1185,26 @@ const entries: PixelArtEntry[] = [
     date: "2023-10-28T23:59+11:00",
     tags: ["pixel_dailies", "Spider", "drink", "64x64", "comfy52"],
   },
+  {
+    src: "2023/20231031-pixeldailies.png",
+    title: "Pixel Dailies prompt: #HalloweenCostume",
+    description: ``,
+    palette: {
+      name: "Wholesome 76",
+      url: "https://lospec.com/palette-list/wholesome-76",
+    },
+    resolution: "64x64",
+    date: "2023-10-31T23:58+11:00",
+    tags: [
+      "pixel_dailies",
+      "HalloweenCostume",
+      "halloween",
+      "blahaj",
+      "witch",
+      "64x64",
+      "wholesome-76",
+    ],
+  },
 ]
 
 export { entries }
