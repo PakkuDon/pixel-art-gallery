@@ -1205,6 +1205,28 @@ const entries: PixelArtEntry[] = [
       "wholesome-76",
     ],
   },
+  {
+    src: "2023/20231103-pixeldailies.png",
+    title: "Pixel Dailies prompt: Set of #insects",
+    description: `
+      Restriction: each insect should be 16x16px or less
+    `,
+    palette: {
+      name: "JustParchment8",
+      url: "https://lospec.com/palette-list/justparchment8",
+    },
+    resolution: "64x32",
+    date: "2023-11-03T23:42+11:00",
+    tags: [
+      "pixel_dailies",
+      "insects",
+      "ladybug",
+      "dragonfly",
+      "bee",
+      "64x32",
+      "justparchment8",
+    ],
+  },
 ]
 
 export { entries }
