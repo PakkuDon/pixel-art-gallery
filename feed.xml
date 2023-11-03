@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 31 Oct 2023 12:59:54 GMT</pubDate>
+        <pubDate>Fri, 03 Nov 2023 12:45:35 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Blue</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230508-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Blue</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230508-pixeldailies</link>
-        <pubDate>Mon, 08 May 2023 13:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #BusStop</title>
         <description>
@@ -630,6 +618,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20231031-pixeldailies</link>
         <pubDate>Tue, 31 Oct 2023 12:58:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: Set of #insects</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231103-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: Set of #insects</p>
+          <p> Restriction: each insect should be 16x16px or less
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231103-pixeldailies</link>
+        <pubDate>Fri, 03 Nov 2023 12:42:00 GMT</pubDate>
       </item>
     
       </channel>
