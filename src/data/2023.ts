@@ -1227,6 +1227,18 @@ const entries: PixelArtEntry[] = [
       "justparchment8",
     ],
   },
+  {
+    src: "2023/20231105-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Pasta",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-11-05T23:35+11:00",
+    tags: ["pixel_dailies", "Pasta", "food", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
