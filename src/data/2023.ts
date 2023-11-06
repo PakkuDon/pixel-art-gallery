@@ -1239,6 +1239,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-05T23:35+11:00",
     tags: ["pixel_dailies", "Pasta", "food", "64x64", "apollo"],
   },
+  {
+    src: "2023/20231106-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Bullet",
+    description: ``,
+    palette: {
+      name: "New Worlds 46",
+      url: "https://lospec.com/palette-list/new-worlds-46",
+    },
+    resolution: "64x64",
+    date: "2023-11-06T23:22+11:00",
+    tags: ["pixel_dailies", "Bullet", "64x64", "new-worlds-46"],
+  },
 ]
 
 export { entries }
