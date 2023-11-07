@@ -1251,6 +1251,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-06T23:22+11:00",
     tags: ["pixel_dailies", "Bullet", "64x64", "new-worlds-46"],
   },
+  {
+    src: "2023/20231107-pixeldailies.png",
+    title: "Pixel Dailies prompt: #net",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-11-07T23:18+11:00",
+    tags: ["pixel_dailies", "net", "sport", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
