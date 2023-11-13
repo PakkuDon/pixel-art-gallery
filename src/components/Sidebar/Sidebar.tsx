@@ -38,17 +38,14 @@ const Sidebar = () => {
       <aside className="sidebar">
         <div className="header">
           <div className="search-bar">
-            <label htmlFor="search-input">
-              <input
-                id="search-input"
-                type="text"
-                value={decodeURIComponent(searchQuery)}
-                onChange={(event) => {
-                  onSearchQueryChange(event.target.value)
-                }}
-                placeholder="Search"
-              />
-            </label>
+            <input
+              type="text"
+              value={decodeURIComponent(searchQuery)}
+              onChange={(event) => {
+                onSearchQueryChange(event.target.value)
+              }}
+              placeholder="Search"
+            />
             <button
               type="button"
               aria-label="Clear search field"
