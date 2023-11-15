@@ -46,7 +46,7 @@
     "chartjs-plugin-autocolors": "^0.2.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.29.2",
-    "marked": "^9.1.2",
+    "marked": "^10.0.0",
     "marked-xhtml": "^1.0.6",
     "next": "^14.0.0",
     "normalize.css": "^8.0.1",
