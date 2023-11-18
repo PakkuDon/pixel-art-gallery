@@ -22,6 +22,9 @@ const SidebarEntry = ({
 }: SidebarEntryProps) => {
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
+  const [width, height] = entry.resolution
+    .split("x")
+    .map((value) => parseInt(value, 10))
 
   return (
     <Link
@@ -31,6 +34,8 @@ const SidebarEntry = ({
       <img
         src={path.join(basePath, `/img/${entry.src}`)}
         alt={entry.src}
+        width={width}
+        height={height}
         loading="lazy"
       />
     </Link>

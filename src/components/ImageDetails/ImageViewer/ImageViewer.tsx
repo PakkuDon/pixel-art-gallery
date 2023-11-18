@@ -16,6 +16,9 @@ const ImageViewer = ({ image }: ImageViewerProps) => {
   // is only present on server-side render
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
   const [zoom, setZoom] = useState(200)
+  const [width, height] = image.resolution
+    .split("x")
+    .map((value) => parseInt(value, 10))
 
   const handleZoomChange = useCallback(
     (value: number) => {
@@ -32,6 +35,8 @@ const ImageViewer = ({ image }: ImageViewerProps) => {
           alt=""
           className="pixelArt"
           style={{ transform: `scale(${zoom / 100})` }}
+          width={width}
+          height={height}
         />
       </div>
       <div className="content">
