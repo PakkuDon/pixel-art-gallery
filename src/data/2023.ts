@@ -1275,6 +1275,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-12T22:12+11:00",
     tags: ["pixel_dailies", "Broccoli", "food", "64x64", "nostalgia48"],
   },
+  {
+    src: "2023/20231120-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Couch",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2023-11-20T23:48+11:00",
+    tags: ["pixel_dailies", "Couch", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
