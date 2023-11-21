@@ -1287,6 +1287,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-20T23:48+11:00",
     tags: ["pixel_dailies", "Couch", "64x64", "apollo"],
   },
+  {
+    src: "2023/20231121-pixeldailies.png",
+    title: "Pixel Dailies prompt: #label",
+    description: ``,
+    palette: {
+      name: "The Y Gigante Reverted",
+      url: "https://lospec.com/palette-list/the-y-gigante-reverted",
+    },
+    resolution: "64x64",
+    date: "2023-11-21T23:59+11:00",
+    tags: ["pixel_dailies", "label", "food", "64x64", "the-y-gigante-reverted"],
+  },
 ]
 
 export { entries }
