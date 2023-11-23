@@ -1299,6 +1299,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-21T23:59+11:00",
     tags: ["pixel_dailies", "label", "food", "64x64", "the-y-gigante-reverted"],
   },
+  {
+    src: "2023/20231124-pixeldailies.png",
+    title: "Pixel Dailies prompt: #card",
+    description: ``,
+    palette: {
+      name: "Endesga 36",
+      url: "https://lospec.com/palette-list/endesga-36",
+    },
+    resolution: "64x64",
+    date: "2023-11-24T01:29+11:00",
+    tags: ["pixel_dailies", "card", "pokemon", "64x64", "endesga-36"],
+  },
 ]
 
 export { entries }
