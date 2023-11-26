@@ -1311,6 +1311,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-24T01:29+11:00",
     tags: ["pixel_dailies", "card", "pokemon", "64x64", "endesga-36"],
   },
+  {
+    src: "2023/20231126-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Snowball",
+    description: ``,
+    palette: {
+      name: "Winter Wonderland",
+      url: "https://lospec.com/palette-list/winter-wonderland",
+    },
+    resolution: "64x64",
+    date: "2023-11-26T19:08+11:00",
+    tags: ["pixel_dailies", "Snowball", "snow", "64x64", "winter-wonderland"],
+  },
 ]
 
 export { entries }
