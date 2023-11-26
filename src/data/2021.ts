@@ -851,7 +851,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-03-29T23:52+11:00",
-    tags: ["pixel_dailies", "CardGame", "64x64", "ice-cream-gb"],
+    tags: ["pixel_dailies", "CardGame", "card", "64x64", "ice-cream-gb"],
   },
   {
     src: "2021/20210330-pixeldailies.png",
@@ -899,7 +899,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-04-07T22:55+10:00",
-    tags: ["pixel_dailies", "PunchCard", "64x64", "apollo"],
+    tags: ["pixel_dailies", "PunchCard", "card", "64x64", "apollo"],
   },
   {
     src: "2021/20210408-pixeldailies.png",
