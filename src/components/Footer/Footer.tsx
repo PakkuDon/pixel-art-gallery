@@ -15,7 +15,7 @@ const Footer = () => (
         <Link href="/stats">Stats</Link>
       </li>
       <li>
-        <Link href="/feed.xml" target="_blank">
+        <Link href="/feed.xml" target="_blank" prefetch={false}>
           RSS Feed
         </Link>
       </li>
