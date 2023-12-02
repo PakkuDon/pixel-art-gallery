@@ -1323,6 +1323,18 @@ const entries: PixelArtEntry[] = [
     date: "2023-11-26T19:08+11:00",
     tags: ["pixel_dailies", "Snowball", "snow", "64x64", "winter-wonderland"],
   },
+  {
+    src: "2023/20231202-pixeldailies.png",
+    title: "Pixel Dailies prompt: #mistletoe",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-12-02T23:59+11:00",
+    tags: ["pixel_dailies", "mistletoe", "plant", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
