@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 04 Dec 2023 12:52:38 GMT</pubDate>
+        <pubDate>Mon, 11 Dec 2023 13:00:25 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Spark</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230626-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Spark</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230626-pixeldailies</link>
-        <pubDate>Mon, 26 Jun 2023 13:40:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #sandwich</title>
         <description>
@@ -628,6 +616,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20231204-pixeldailies</link>
         <pubDate>Mon, 04 Dec 2023 12:50:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #breakfast</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231211-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #breakfast</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231211-pixeldailies</link>
+        <pubDate>Mon, 11 Dec 2023 12:59:00 GMT</pubDate>
       </item>
     
       </channel>
