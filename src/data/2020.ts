@@ -840,6 +840,7 @@ const entries: PixelArtEntry[] = [
       "pixel_dailies",
       "christmas",
       "candle",
+      "holly",
       "fire",
       "flame",
       "32x32",
