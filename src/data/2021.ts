@@ -863,7 +863,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-03-30T23:59+11:00",
-    tags: ["pixel_dailies", "Daffodils", "flower", "64x64", "endesga-36"],
+    tags: [
+      "pixel_dailies",
+      "Daffodils",
+      "flower",
+      "plant",
+      "64x64",
+      "endesga-36",
+    ],
   },
   {
     src: "2021/20210331-pixeldailies.png",

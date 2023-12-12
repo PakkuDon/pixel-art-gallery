@@ -131,7 +131,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-01-10T23:26+11:00",
-    tags: ["pixel_dailies", "herbs", "64x64", "apollo"],
+    tags: ["pixel_dailies", "herbs", "plant", "64x64", "apollo"],
   },
   {
     src: "2022/20220112-pixeldailies.png",
@@ -994,7 +994,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-04-25T12:41+10:00",
-    tags: ["pixel_dailies", "Table", "furniture", "64x64", "new-worlds-46"],
+    tags: [
+      "pixel_dailies",
+      "Table",
+      "furniture",
+      "plant",
+      "64x64",
+      "new-worlds-46",
+    ],
   },
   {
     src: "2022/20220427-pixeldailies.png",
@@ -1124,6 +1131,7 @@ const entries: PixelArtEntry[] = [
       "Organic",
       "food",
       "fruit",
+      "plant",
       "64x64",
       "new-worlds-46",
     ],
@@ -1964,7 +1972,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-11-27T23:59+11:00",
-    tags: ["pixel_dailies", "Floating", "flower", "64x64", "apollo"],
+    tags: ["pixel_dailies", "Floating", "flower", "plant", "64x64", "apollo"],
   },
   {
     src: "2022/20221203-pixeldailies.png",
