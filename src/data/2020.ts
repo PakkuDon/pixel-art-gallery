@@ -484,6 +484,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "lospecdailies",
       "fire",
+      "flame",
       "lospec_palette_of_the_day",
       "night",
       "64x64",
@@ -835,7 +836,15 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "32x32",
     date: "2020-12-26T22:19+11:00",
-    tags: ["pixel_dailies", "christmas", "candle", "32x32", "apollo"],
+    tags: [
+      "pixel_dailies",
+      "christmas",
+      "candle",
+      "fire",
+      "flame",
+      "32x32",
+      "apollo",
+    ],
   },
   {
     src: "2020/20201227-pixeldailies.png",

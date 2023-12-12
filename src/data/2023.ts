@@ -659,7 +659,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-06-26T23:40+10:00",
-    tags: ["pixel_dailies", "Spark", "64x64", "paradise-30"],
+    tags: ["pixel_dailies", "Spark", "fire", "64x64", "paradise-30"],
   },
   {
     src: "2023/20230629-pixeldailies.png",
