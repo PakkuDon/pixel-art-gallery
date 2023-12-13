@@ -165,6 +165,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "television",
+      "furniture",
       "lospec_palette_of_the_day",
       "64x64",
       "eg32",

@@ -685,7 +685,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-03-13T23:17+11:00",
-    tags: ["pixel_dailies", "vanity", "milestone_post", "64x64", "endesga-36"],
+    tags: [
+      "pixel_dailies",
+      "vanity",
+      "milestone_post",
+      "furniture",
+      "64x64",
+      "endesga-36",
+    ],
   },
   {
     src: "2021/20210314-noprompt.png",
@@ -1375,7 +1382,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-09-09T23:51+10:00",
-    tags: ["pixel_dailies", "bookstore", "interior", "64x64", "nostalgia48"],
+    tags: [
+      "pixel_dailies",
+      "bookstore",
+      "interior",
+      "furniture",
+      "64x64",
+      "nostalgia48",
+    ],
   },
   {
     src: "2021/20210917-pixeldailies.png",

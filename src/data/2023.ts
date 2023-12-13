@@ -1143,7 +1143,15 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-10-18T23:45+11:00",
-    tags: ["pixel_dailies", "shellfish", "shrimp", "animal", "64x64", "apollo"],
+    tags: [
+      "pixel_dailies",
+      "shellfish",
+      "shrimp",
+      "animal",
+      "furniture",
+      "64x64",
+      "apollo",
+    ],
   },
   {
     src: "2023/20231019-pixeldailies.png",
@@ -1293,7 +1301,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-11-20T23:48+11:00",
-    tags: ["pixel_dailies", "Couch", "plant", "64x64", "apollo"],
+    tags: ["pixel_dailies", "Couch", "furniture", "plant", "64x64", "apollo"],
   },
   {
     src: "2023/20231121-pixeldailies.png",

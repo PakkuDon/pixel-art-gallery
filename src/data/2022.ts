@@ -907,7 +907,13 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-04-18T20:35+10:00",
-    tags: ["pixel_dailies", "IsometricRoom", "64x64", "nostalgia48"],
+    tags: [
+      "pixel_dailies",
+      "IsometricRoom",
+      "furniture",
+      "64x64",
+      "nostalgia48",
+    ],
   },
   {
     src: "2022/20220420-pixeldailies.png",
