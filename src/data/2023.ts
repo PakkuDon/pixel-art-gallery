@@ -1375,6 +1375,25 @@ const entries: PixelArtEntry[] = [
     date: "2023-12-11T23:59+11:00",
     tags: ["pixel_dailies", "breakfast", "food", "64x64", "zykro-48"],
   },
+  {
+    src: "2023/20231219-pixeldailies.png",
+    title: "Pixel Dailies prompt: #volcano",
+    description: ``,
+    palette: {
+      name: "Scenery 28",
+      url: "https://lospec.com/palette-list/scenery-28",
+    },
+    resolution: "64x64",
+    date: "2023-12-19T23:59+11:00",
+    tags: [
+      "pixel_dailies",
+      "volcano",
+      "fire",
+      "landscape",
+      "64x64",
+      "scenery-28",
+    ],
+  },
 ]
 
 export { entries }
