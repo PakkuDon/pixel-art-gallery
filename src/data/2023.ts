@@ -1394,6 +1394,24 @@ const entries: PixelArtEntry[] = [
       "scenery-28",
     ],
   },
+  {
+    src: "2023/20231223-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Decoration",
+    description: ``,
+    palette: {
+      name: "Sweet Canyon 32",
+      url: "https://lospec.com/palette-list/sweet-canyon-32",
+    },
+    resolution: "64x64",
+    date: "2023-12-23T23:44+11:00",
+    tags: [
+      "pixel_dailies",
+      "Decoration",
+      "christmas",
+      "64x64",
+      "sweet-canyon-32",
+    ],
+  },
 ]
 
 export { entries }
