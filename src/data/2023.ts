@@ -1412,6 +1412,26 @@ const entries: PixelArtEntry[] = [
       "sweet-canyon-32",
     ],
   },
+  {
+    src: "2023/20231224-hot-chocolate.png",
+    title: "Hot chocolate (2023-12-24)",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "72x72",
+    date: "2023-12-24T23:56+11:00",
+    tags: [
+      "noprompt",
+      "drink",
+      "christmas",
+      "chocolate",
+      "glass",
+      "72x72",
+      "nostalgia48",
+    ],
+  },
 ]
 
 export { entries }
