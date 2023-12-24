@@ -4,51 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 11 Dec 2023 13:00:25 GMT</pubDate>
+        <pubDate>Sun, 24 Dec 2023 12:58:06 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #sandwich</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230629-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #sandwich</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230629-pixeldailies</link>
-        <pubDate>Thu, 29 Jun 2023 13:55:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #burrito</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230702-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #burrito</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230702-pixeldailies</link>
-        <pubDate>Sun, 02 Jul 2023 13:54:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Mini gallery</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230718-mini-gallery.png" alt="" />]]>
-          <p>Mini gallery</p>
-          <p> Bit of a meta post to announce that I&#39;ve rewritten this
- site in <a href="https://nextjs.org/">Next.js</a>.
- There&#39;s still a few performance issues to iron out but
- it&#39;s simplified a few things in this codebase.</p>
-<p> For those wondering what something like this may entail
- you can find the details in <a href="https://github.com/PakkuDon/pixel-art-gallery/pull/1">this pull request</a>.
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230718-mini-gallery</link>
-        <pubDate>Tue, 18 Jul 2023 13:58:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Mini gallery (Light theme)</title>
         <description>
@@ -628,6 +585,42 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20231211-pixeldailies</link>
         <pubDate>Mon, 11 Dec 2023 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #volcano</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231219-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #volcano</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231219-pixeldailies</link>
+        <pubDate>Tue, 19 Dec 2023 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Decoration</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231223-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #Decoration</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231223-pixeldailies</link>
+        <pubDate>Sat, 23 Dec 2023 12:44:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Hot chocolate (2023-12-24)</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231224-hot-chocolate.png" alt="" />]]>
+          <p>Hot chocolate (2023-12-24)</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231224-hot-chocolate</link>
+        <pubDate>Sun, 24 Dec 2023 12:56:00 GMT</pubDate>
       </item>
     
       </channel>
