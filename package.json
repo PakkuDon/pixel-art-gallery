@@ -44,7 +44,7 @@
     "chart.js": "^4.1.2",
     "chartjs-plugin-autocolors": "^0.2.1",
     "classnames": "^2.3.1",
-    "date-fns": "^2.29.2",
+    "date-fns": "^3.0.6",
     "marked": "^11.1.0",
     "marked-xhtml": "^1.0.6",
     "next": "^14.0.0",
