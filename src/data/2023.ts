@@ -1432,6 +1432,18 @@ const entries: PixelArtEntry[] = [
       "nostalgia48",
     ],
   },
+  {
+    src: "2023/20231226-pixeldailies.png",
+    title: "Pixel Dailies prompt: #ornament",
+    description: ``,
+    palette: {
+      name: "Endesga 36",
+      url: "https://lospec.com/palette-list/endesga-36",
+    },
+    resolution: "64x64",
+    date: "2023-12-26T23:29+11:00",
+    tags: ["pixel_dailies", "ornament", "christmas", "64x64", "endesga-36"],
+  },
 ]
 
 export { entries }
