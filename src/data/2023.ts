@@ -1444,6 +1444,22 @@ const entries: PixelArtEntry[] = [
     date: "2023-12-26T23:29+11:00",
     tags: ["pixel_dailies", "ornament", "christmas", "64x64", "endesga-36"],
   },
+  {
+    src: "2023/20231231-pixeldailies.png",
+    title: "Pixel Dailies prompt: #photo",
+    description: `
+      Based off a photo I took of the Royal Exhibition Building in Melbourne.
+
+      This is also my last post for 2023. See you in the new year!
+    `,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2023-12-31T23:56+11:00",
+    tags: ["pixel_dailies", "photo", "landscape", "landmark", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
