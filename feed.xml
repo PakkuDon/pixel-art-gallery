@@ -4,34 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 24 Dec 2023 12:58:06 GMT</pubDate>
+        <pubDate>Sun, 31 Dec 2023 12:57:48 GMT</pubDate>
         
-      <item>
-        <title>Mini gallery (Light theme)</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230728-mini-gallery.png" alt="" />]]>
-          <p>Mini gallery (Light theme)</p>
-          <p> <a href="20230728-mini-gallery">20230728-mini-gallery</a> but recoloured
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230728-mini-gallery</link>
-        <pubDate>Fri, 28 Jul 2023 09:58:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #bubble</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230730-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #bubble</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230730-pixeldailies</link>
-        <pubDate>Sun, 30 Jul 2023 13:27:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Lospec Dailies prompt: #mountain</title>
         <description>
@@ -621,6 +595,33 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20231224-hot-chocolate</link>
         <pubDate>Sun, 24 Dec 2023 12:56:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #ornament</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231226-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #ornament</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231226-pixeldailies</link>
+        <pubDate>Tue, 26 Dec 2023 12:29:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #photo</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231231-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #photo</p>
+          <p> Based off a photo I took of the Royal Exhibition Building in Melbourne.</p>
+<p> This is also my last post for 2023. See you in the new year!
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20231231-pixeldailies</link>
+        <pubDate>Sun, 31 Dec 2023 12:56:00 GMT</pubDate>
       </item>
     
       </channel>
