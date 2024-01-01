@@ -2,6 +2,7 @@ import { entries as entries2020 } from "./2020"
 import { entries as entries2021 } from "./2021"
 import { entries as entries2022 } from "./2022"
 import { entries as entries2023 } from "./2023"
+import { entries as entries2024 } from "./2024"
 
 export interface PixelArtEntry {
   src: string
@@ -23,6 +24,7 @@ const entries: PixelArtEntry[] = [
   ...entries2021,
   ...entries2022,
   ...entries2023,
+  ...entries2024,
 ]
 
 export { entries }

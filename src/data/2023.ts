@@ -1458,7 +1458,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-12-31T23:56+11:00",
-    tags: ["pixel_dailies", "photo", "landscape", "landmark", "64x64", "nostalgia48"],
+    tags: [
+      "pixel_dailies",
+      "photo",
+      "landscape",
+      "landmark",
+      "64x64",
+      "nostalgia48",
+    ],
   },
 ]
 
