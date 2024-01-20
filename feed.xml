@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sat, 06 Jan 2024 11:09:25 GMT</pubDate>
+        <pubDate>Sat, 20 Jan 2024 10:21:40 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #energy</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230812-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #energy</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230812-pixeldailies</link>
-        <pubDate>Sat, 12 Aug 2023 13:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #obstacle</title>
         <description>
@@ -620,6 +608,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20240106-pixeldailies</link>
         <pubDate>Sat, 06 Jan 2024 11:08:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Saucer</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240120-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #Saucer</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20240120-pixeldailies</link>
+        <pubDate>Sat, 20 Jan 2024 10:18:00 GMT</pubDate>
       </item>
     
       </channel>
