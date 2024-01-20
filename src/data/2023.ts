@@ -288,7 +288,15 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2023-03-09T23:54+11:00",
-    tags: ["pixel_dailies", "beam", "landscape", "night", "64x64", "golden-6"],
+    tags: [
+      "pixel_dailies",
+      "beam",
+      "landscape",
+      "night",
+      "ufo",
+      "64x64",
+      "golden-6",
+    ],
   },
   {
     src: "2023/20230312-pixeldailies.png",
