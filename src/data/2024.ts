@@ -25,6 +25,25 @@ const entries: PixelArtEntry[] = [
     date: "2024-01-06T22:08+11:00",
     tags: ["pixel_dailies", "bait", "fish", "plastic", "64x64", "comfy52"],
   },
+  {
+    src: "2024/20240120-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Saucer",
+    description: ``,
+    palette: {
+      name: "2 Bit Matrix",
+      url: "https://lospec.com/palette-list/2-bit-matrix",
+    },
+    resolution: "64x64",
+    date: "2024-01-20T21:18+11:00",
+    tags: [
+      "pixel_dailies",
+      "Saucer",
+      "ufo",
+      "landscape",
+      "64x64",
+      "2-bit-matrix",
+    ],
+  },
 ]
 
 export { entries }
