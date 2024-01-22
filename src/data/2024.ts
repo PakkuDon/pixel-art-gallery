@@ -44,6 +44,20 @@ const entries: PixelArtEntry[] = [
       "2-bit-matrix",
     ],
   },
+  {
+    src: "2024/20240122-pixeldailies.png",
+    title: "Pixel Dailies prompt: #mart",
+    description: `
+      Moon Mart, West Melbourne
+    `,
+    palette: {
+      name: "The Y masters",
+      url: "https://lospec.com/palette-list/the-y-masters",
+    },
+    resolution: "96x64",
+    date: "2024-01-22T23:59+11:00",
+    tags: ["pixel_dailies", "mart", "landmark", "96x64", "the-y-masters"],
+  },
 ]
 
 export { entries }
