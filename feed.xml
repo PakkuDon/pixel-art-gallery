@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 22 Jan 2024 13:13:55 GMT</pubDate>
+        <pubDate>Tue, 23 Jan 2024 10:21:16 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #charge</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230815-pixeldailies.gif" alt="" />]]>
-          <p>Pixel Dailies prompt: #charge</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230815-pixeldailies</link>
-        <pubDate>Tue, 15 Aug 2023 13:14:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #LoadingIcon</title>
         <description>
@@ -622,6 +610,22 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20240122-pixeldailies</link>
         <pubDate>Mon, 22 Jan 2024 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Good Feeds icon v1</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240123-good-feeds.png" alt="" />]]>
+          <p>Good Feeds icon v1</p>
+          <p> Made a favicon for a new side project. Decided to include it here because it counts as pixel art. Maybe.</p>
+<p> Comically oversized marker is comically oversized so that it&#39;s visible in the browser tab.</p>
+<p> You can find my new project at <a href="https://pakkudon.github.io/good-feeds/">https://pakkudon.github.io/good-feeds/</a>
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20240123-good-feeds</link>
+        <pubDate>Tue, 23 Jan 2024 09:17:00 GMT</pubDate>
       </item>
     
       </channel>
