@@ -58,6 +58,24 @@ const entries: PixelArtEntry[] = [
     date: "2024-01-22T23:59+11:00",
     tags: ["pixel_dailies", "mart", "landmark", "96x64", "the-y-masters"],
   },
+  {
+    src: "2024/20240123-good-feeds.png",
+    title: "Good Feeds icon v1",
+    description: `
+      Made a favicon for a new side project. Decided to include it here because it counts as pixel art. Maybe.
+
+      Comically oversized marker is comically oversized so that it's visible in the browser tab.
+
+      You can find my new project at https://pakkudon.github.io/good-feeds/
+    `,
+    palette: {
+      name: "The Y masters",
+      url: "https://lospec.com/palette-list/the-y-masters",
+    },
+    resolution: "144x144",
+    date: "2024-01-23T20:17+11:00",
+    tags: ["noprompt", "map", "icon", "144x144", "the-y-masters"],
+  },
 ]
 
 export { entries }
