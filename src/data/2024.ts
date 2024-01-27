@@ -76,6 +76,26 @@ const entries: PixelArtEntry[] = [
     date: "2024-01-23T20:17+11:00",
     tags: ["noprompt", "map", "icon", "144x144", "the-y-masters"],
   },
+  {
+    src: "2024/20240127-pixeldailies.png",
+    title: "Pixel Dailies prompt: #mysterious",
+    description: ``,
+    palette: {
+      name: "Wholesome 76",
+      url: "https://lospec.com/palette-list/wholesome-76",
+    },
+    resolution: "96x64",
+    date: "2024-01-27T23:58+11:00",
+    tags: [
+      "pixel_dailies",
+      "mysterious",
+      "landscape",
+      "clouds",
+      "earth",
+      "96x64",
+      "wholesome-76",
+    ],
+  },
 ]
 
 export { entries }
