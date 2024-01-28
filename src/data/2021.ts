@@ -83,7 +83,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-01-11T23:59+11:00",
-    tags: ["pixel_dailies", "doorway", "64x64", "draxalette"],
+    tags: ["pixel_dailies", "doorway", "door", "64x64", "draxalette"],
   },
   {
     src: "2021/20210114-pixeldailies.png",

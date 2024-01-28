@@ -92,6 +92,8 @@ const entries: PixelArtEntry[] = [
       "landscape",
       "clouds",
       "earth",
+      "door",
+      "doorway",
       "96x64",
       "wholesome-76",
     ],
