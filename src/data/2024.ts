@@ -98,6 +98,18 @@ const entries: PixelArtEntry[] = [
       "wholesome-76",
     ],
   },
+  {
+    src: "2024/20240129-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Desk",
+    description: ``,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2024-01-29T23:17+11:00",
+    tags: ["pixel_dailies", "Desk", "furniture", "computer", "64x64", "apollo"],
+  },
 ]
 
 export { entries }
