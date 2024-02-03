@@ -110,6 +110,27 @@ const entries: PixelArtEntry[] = [
     date: "2024-01-29T23:17+11:00",
     tags: ["pixel_dailies", "Desk", "furniture", "computer", "64x64", "apollo"],
   },
+  {
+    src: "2024/20240203-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Blank",
+    description: ``,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    resolution: "64x64",
+    date: "2024-02-03T23:44+11:00",
+    tags: [
+      "pixel_dailies",
+      "Blank",
+      "landscape",
+      "beach",
+      "seashore",
+      "easel",
+      "64x64",
+      "gora63",
+    ],
+  },
 ]
 
 export { entries }
