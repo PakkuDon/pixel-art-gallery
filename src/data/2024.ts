@@ -131,6 +131,18 @@ const entries: PixelArtEntry[] = [
       "gora63",
     ],
   },
+  {
+    src: "2024/20240204-sandwich.png",
+    title: "Turkey sandwich with brie, spinach and cranberry sauce",
+    description: ``,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    resolution: "64x64",
+    date: "2024-02-04T22:35+11:00",
+    tags: ["noprompt", "food", "sandwich", "64x64", "gora63"],
+  },
 ]
 
 export { entries }
