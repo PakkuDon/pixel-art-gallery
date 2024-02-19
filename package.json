@@ -47,7 +47,7 @@
     "date-fns": "^3.0.6",
     "marked": "^12.0.0",
     "marked-xhtml": "^1.0.9",
-    "next": "^14.0.0",
+    "next": "^14.1.0",
     "normalize.css": "^8.0.1",
     "react": "^18.0.0",
     "react-chartjs-2": "^5.2.0",
