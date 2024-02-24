@@ -444,7 +444,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-03-06T23:44+11:00",
-    tags: ["pixel_dailies", "Arid", "desert", "64x64", "golden-sunset"],
+    tags: [
+      "pixel_dailies",
+      "Arid",
+      "desert",
+      "sunset",
+      "64x64",
+      "golden-sunset",
+    ],
   },
   {
     src: "2022/20220307-pixeldailies.png",
@@ -579,7 +586,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2022-03-15T23:25+11:00",
-    tags: ["pixel_dailies", "windswept", "dandelion", "64x64", "polxel-43"],
+    tags: [
+      "pixel_dailies",
+      "windswept",
+      "dandelion",
+      "sunset",
+      "64x64",
+      "polxel-43",
+    ],
   },
   {
     src: "2022/20220316-pixeldailies.png",

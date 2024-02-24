@@ -186,6 +186,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "halloween",
+      "sunset",
       "lospec_palette_of_the_day",
       "64x64",
       "drz15a",
@@ -647,6 +648,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "pixel_dailies",
       "road",
+      "sunset",
       "lospec_palette_of_the_day",
       "64x64",
       "apollo",
