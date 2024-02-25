@@ -18,15 +18,15 @@
     "isolatedModules": true,
     "plugins": [
       {
-        "name": "next",
-      },
-    ],
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "./jest-setup.ts",
     ".next/types/**/*.ts",
     "dist/types/**/*.ts",
-    "dist/pixel-art-gallery/types/**/*.ts",
+    "dist/pixel-art-gallery/types/**/*.ts"
   ],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules"]
 }
