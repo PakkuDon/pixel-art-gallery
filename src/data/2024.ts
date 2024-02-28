@@ -162,6 +162,20 @@ const entries: PixelArtEntry[] = [
       "the-crow",
     ],
   },
+  {
+    src: "2024/20240229-pokemon-red.png",
+    title: "Pokemon Red",
+    description: `
+      Happy belated Pokemon Day to all who celebrate!
+    `,
+    palette: {
+      name: "Endesga 64",
+      url: "https://lospec.com/palette-list/endesga-64",
+    },
+    resolution: "64x64",
+    date: "2024-02-29T00:12+11:00",
+    tags: ["noprompt", "pokemon", "64x64", "endesga-64"],
+  },
 ]
 
 export { entries }
