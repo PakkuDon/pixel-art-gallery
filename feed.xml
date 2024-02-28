@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sun, 25 Feb 2024 13:06:03 GMT</pubDate>
+        <pubDate>Wed, 28 Feb 2024 13:13:24 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Shiitake</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230902-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Shiitake</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230902-pixeldailies</link>
-        <pubDate>Sat, 02 Sep 2023 12:44:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Sheep on a Hill</title>
         <description>
@@ -626,6 +614,20 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20240225-pixeldailies</link>
         <pubDate>Sun, 25 Feb 2024 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pokemon Red</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240229-pokemon-red.png" alt="" />]]>
+          <p>Pokemon Red</p>
+          <p> Happy belated Pokemon Day to all who celebrate!
+ </p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20240229-pokemon-red</link>
+        <pubDate>Wed, 28 Feb 2024 13:12:00 GMT</pubDate>
       </item>
     
       </channel>
