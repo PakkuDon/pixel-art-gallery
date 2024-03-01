@@ -176,6 +176,18 @@ const entries: PixelArtEntry[] = [
     date: "2024-02-29T00:12+11:00",
     tags: ["noprompt", "pokemon", "64x64", "endesga-64"],
   },
+  {
+    src: "2024/20240301-strawberry-shortcake.png",
+    title: "Strawberry shortcake",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-03-01T23:54+11:00",
+    tags: ["noprompt", "food", "cake", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
