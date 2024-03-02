@@ -188,6 +188,18 @@ const entries: PixelArtEntry[] = [
     date: "2024-03-01T23:54+11:00",
     tags: ["noprompt", "food", "cake", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20240302-pixeldailies.png",
+    title: "Pixel Dailies prompt: #Rice",
+    description: ``,
+    palette: {
+      name: "Endesga 64",
+      url: "https://lospec.com/palette-list/endesga-64",
+    },
+    resolution: "64x64",
+    date: "2024-03-02T23:20+11:00",
+    tags: ["pixel_dailies", "Rice", "food", "64x64", "endesga-64"],
+  },
 ]
 
 export { entries }
