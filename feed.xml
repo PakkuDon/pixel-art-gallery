@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Sat, 02 Mar 2024 12:23:08 GMT</pubDate>
+        <pubDate>Tue, 05 Mar 2024 12:26:23 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #eye</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20230912-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #eye</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20230912-pixeldailies</link>
-        <pubDate>Tue, 12 Sep 2023 11:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #rulebook</title>
         <description>
@@ -623,6 +611,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20240302-pixeldailies</link>
         <pubDate>Sat, 02 Mar 2024 12:20:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #grass</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240305-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #grass</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20240305-pixeldailies</link>
+        <pubDate>Tue, 05 Mar 2024 12:25:00 GMT</pubDate>
       </item>
     
       </channel>
