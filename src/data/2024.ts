@@ -200,6 +200,25 @@ const entries: PixelArtEntry[] = [
     date: "2024-03-02T23:20+11:00",
     tags: ["pixel_dailies", "Rice", "food", "64x64", "endesga-64"],
   },
+  {
+    src: "2024/20240305-pixeldailies.png",
+    title: "Pixel Dailies prompt: #grass",
+    description: ``,
+    palette: {
+      name: "The Y Gigante Reverted",
+      url: "https://lospec.com/palette-list/the-y-gigante-reverted",
+    },
+    resolution: "64x64",
+    date: "2024-03-05T23:25+11:00",
+    tags: [
+      "pixel_dailies",
+      "grass",
+      "beach",
+      "landscape",
+      "64x64",
+      "the-y-gigante-reverted",
+    ],
+  },
 ]
 
 export { entries }
