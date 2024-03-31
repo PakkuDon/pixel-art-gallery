@@ -219,6 +219,18 @@ const entries: PixelArtEntry[] = [
       "the-y-gigante-reverted",
     ],
   },
+  {
+    src: "2024/20240331-easter.png",
+    title: "Happy Easter!",
+    description: ``,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    resolution: "64x64",
+    date: "2024-03-31T23:59+11:00",
+    tags: ["noprompt", "easter", "basket", "eggs", "64x64", "gora63"],
+  },
 ]
 
 export { entries }
