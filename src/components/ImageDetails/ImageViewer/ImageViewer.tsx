@@ -32,6 +32,8 @@ const ImageViewer = ({ image }: ImageViewerProps) => {
       <div className={classnames("image-viewer", "scrollable")}>
         <img
           src={path.join(`/${basePath}`, `/img/${image.src}`)}
+          /* Set key to force img element to re-render. Resolves issue where previous image is briefly visible when switching images */
+          key={image.src}
           alt=""
           className="pixelArt"
           style={{ transform: `scale(${zoom / 100})` }}
