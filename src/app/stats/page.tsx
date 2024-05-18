@@ -43,6 +43,11 @@ const Statistics = () => {
   const countByMonth = PixelArtRepository.countBy((entry) =>
     formatDate(new Date(entry.date), "yyyy-MM"),
   ).sort((a, b) => a.key.localeCompare(b.key))
+
+  // Zero-fill months where I didn't post anything
+  // TODO: Calculate these automatically if I have more breaks
+  countByMonth.push({ key: "2024-04", count: 0 })
+
   let countByPalette = PixelArtRepository.countBy((entry) => entry.palette.name)
   let countByResolution = PixelArtRepository.countBy(
     (entry) => entry.resolution || "",
