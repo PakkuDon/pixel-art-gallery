@@ -240,7 +240,7 @@ const entries: PixelArtEntry[] = [
       url: "https://lospec.com/palette-list/gora63",
     },
     resolution: "64x64",
-    date: "2024-06-02T23:59+11:00",
+    date: "2024-06-02T23:59+10:00",
     tags: ["pixel_dailies", "prairie", "landscape", "grass", "64x64", "gora63"],
   },
   {
