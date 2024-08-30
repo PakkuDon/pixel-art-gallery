@@ -327,6 +327,18 @@ const entries: PixelArtEntry[] = [
     date: "2024-08-26T23:59+10:00",
     tags: ["pixel_dailies", "RiceBall", "food", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20240830-pixeldailies.png",
+    title: "Pixel Dailies prompt: #farm",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-08-30T23:57+10:00",
+    tags: ["pixel_dailies", "farm", "landscape", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
