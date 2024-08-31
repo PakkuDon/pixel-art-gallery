@@ -339,6 +339,25 @@ const entries: PixelArtEntry[] = [
     date: "2024-08-30T23:57+10:00",
     tags: ["pixel_dailies", "farm", "landscape", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20240831-pixeldailies.png",
+    title: "Pixel Dailies prompt: #vacation",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2024-08-31T23:48+10:00",
+    tags: [
+      "pixel_dailies",
+      "vacation",
+      "landscape",
+      "beach",
+      "64x64",
+      "nostalgia48",
+    ],
+  },
 ]
 
 export { entries }
