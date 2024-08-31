@@ -127,6 +127,7 @@ const entries: PixelArtEntry[] = [
       "fish",
       "lospec_palette_of_the_day",
       "animal",
+      "water",
       "64x64",
       "gamer19",
     ],
@@ -375,7 +376,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2020-11-17T01:11+11:00",
-    tags: ["pixel_dailies", "cityscape", "night", "64x64", "endesga-36"],
+    tags: [
+      "pixel_dailies",
+      "cityscape",
+      "night",
+      "water",
+      "64x64",
+      "endesga-36",
+    ],
   },
   {
     src: "2020/20201119-diagram.png",

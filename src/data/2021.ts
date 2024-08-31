@@ -336,7 +336,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-02-01T23:20+11:00",
-    tags: ["pixel_dailies", "springs", "64x64", "marshmellow32"],
+    tags: ["pixel_dailies", "springs", "water", "64x64", "marshmellow32"],
   },
   {
     src: "2021/20210203-pixeldailies.png",
@@ -468,7 +468,7 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-02-13T23:29+11:00",
-    tags: ["pixel_dailies", "abyss", "underwater", "64x64", "seafoam"],
+    tags: ["pixel_dailies", "abyss", "underwater", "water", "64x64", "seafoam"],
   },
   {
     src: "2021/20210214-noprompt.png",
@@ -536,7 +536,14 @@ const entries: PixelArtEntry[] = [
     },
     resolution: "64x64",
     date: "2021-02-24T00:17+11:00",
-    tags: ["pixel_dailies", "dam", "landscape", "64x64", "tranquility-plus-39"],
+    tags: [
+      "pixel_dailies",
+      "dam",
+      "landscape",
+      "water",
+      "64x64",
+      "tranquility-plus-39",
+    ],
   },
   {
     src: "2021/20210226-pixeldailies.png",
@@ -1444,6 +1451,7 @@ const entries: PixelArtEntry[] = [
     tags: [
       "lospecdailies",
       "clouds",
+      "water",
       "lospec_palette_of_the_day",
       "64x64",
       "grape-soda-arcade",
@@ -1468,6 +1476,7 @@ const entries: PixelArtEntry[] = [
       "noprompt",
       "landscape",
       "landmark",
+      "water",
       "192x108",
       "sweet-canyon-extended-64",
     ],
