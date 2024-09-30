@@ -361,6 +361,18 @@ const entries: PixelArtEntry[] = [
       "nostalgia48",
     ],
   },
+  {
+    src: "2024/20240930-teh-tarik.png",
+    title: "Teh tarik",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-09-30T23:15+10:00",
+    tags: ["noprompt", "drink", "teh_tarik", "glass", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
