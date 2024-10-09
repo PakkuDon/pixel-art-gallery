@@ -373,6 +373,33 @@ const entries: PixelArtEntry[] = [
     date: "2024-09-30T23:15+10:00",
     tags: ["noprompt", "drink", "teh_tarik", "glass", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20241010-sunset-orb.png",
+    title: "Sunset orb",
+    description: `
+      Started drawing this sometime in March 2024. Managed to get this out in time for Pixel Art Day.
+
+      Today also marks 4 years since my first pixel art post. Thanks all for the support! I hope you're doing well.
+    `,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    resolution: "64x64",
+    date: "2024-10-10T08:35+11:00",
+    tags: [
+      "noprompt",
+      "sunset",
+      "glass",
+      "landscape",
+      "cloud",
+      "anniversary_post",
+      "pixel_art_day",
+      "ドットの日",
+      "64x64",
+      "gora63",
+    ],
+  },
 ]
 
 export { entries }
