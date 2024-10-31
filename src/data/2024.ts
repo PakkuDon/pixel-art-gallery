@@ -400,6 +400,26 @@ const entries: PixelArtEntry[] = [
       "gora63",
     ],
   },
+  {
+    src: "2024/20241031-pixeldailies.png",
+    title: "Pixel Dailies prompt: #doorstep, decorated for Halloween",
+    description: `Happy Halloween to all who celebrate!`,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-10-31T17:23+11:00",
+    tags: [
+      "pixel_dailies",
+      "doorstep",
+      "halloween",
+      "door",
+      "pumpkin",
+      "64x64",
+      "the-crow",
+    ],
+  },
 ]
 
 export { entries }
