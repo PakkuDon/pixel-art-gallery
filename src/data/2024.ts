@@ -420,6 +420,19 @@ const entries: PixelArtEntry[] = [
       "the-crow",
     ],
   },
+  {
+    src: "2024/20241108-pixeldailies.png",
+    title:
+      "Pixel Dailies prompt: Set of #cookies. Restriction: 20x20px or less per cookie",
+    description: `Happy Halloween to all who celebrate!`,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    resolution: "64x64",
+    date: "2024-11-08T23:55+11:00",
+    tags: ["pixel_dailies", "cookie", "food", "set", "64x64", "gora63"],
+  },
 ]
 
 export { entries }
