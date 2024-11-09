@@ -424,7 +424,7 @@ const entries: PixelArtEntry[] = [
     src: "2024/20241108-pixeldailies.png",
     title:
       "Pixel Dailies prompt: Set of #cookies. Restriction: 20x20px or less per cookie",
-    description: `Happy Halloween to all who celebrate!`,
+    description: ``,
     palette: {
       name: "GORA63",
       url: "https://lospec.com/palette-list/gora63",
