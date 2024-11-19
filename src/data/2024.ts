@@ -454,6 +454,18 @@ const entries: PixelArtEntry[] = [
       "gora63",
     ],
   },
+  {
+    src: "2024/20241119-pixeldailies.png",
+    title: "Pixel Dailies prompt: #fish",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-11-19T23:50+11:00",
+    tags: ["pixel_dailies", "fish", "blahaj", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
