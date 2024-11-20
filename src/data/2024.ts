@@ -466,6 +466,25 @@ const entries: PixelArtEntry[] = [
     date: "2024-11-19T23:50+11:00",
     tags: ["pixel_dailies", "fish", "blahaj", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20241120-siffrin.png",
+    title: "Siffrin (In Stars and Time)",
+    description: `Happy 1 year Anniversary In Stars and Time!`,
+    palette: {
+      name: "2-bit Grayscale",
+      url: "https://lospec.com/palette-list/2-bit-grayscale",
+    },
+    resolution: "160x108",
+    date: "2024-11-20T23:05+11:00",
+    tags: [
+      "noprompt",
+      "InStarsAndTime",
+      "isat",
+      "siffrin",
+      "160x108",
+      "2-bit-grayscale",
+    ],
+  },
 ]
 
 export { entries }
