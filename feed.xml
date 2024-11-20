@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Tue, 19 Nov 2024 13:04:20 GMT</pubDate>
+        <pubDate>Wed, 20 Nov 2024 12:08:00 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Spider</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231028-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Spider</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20231028-pixeldailies</link>
-        <pubDate>Sat, 28 Oct 2023 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #HalloweenCostume</title>
         <description>
@@ -620,6 +608,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20241119-pixeldailies</link>
         <pubDate>Tue, 19 Nov 2024 12:50:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Siffrin (In Stars and Time)</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20241120-siffrin.png" alt="" />]]>
+          <p>Siffrin (In Stars and Time)</p>
+          <p>Happy 1 year Anniversary In Stars and Time!</p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20241120-siffrin</link>
+        <pubDate>Wed, 20 Nov 2024 12:05:00 GMT</pubDate>
       </item>
     
       </channel>
