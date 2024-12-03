@@ -4,22 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Mon, 02 Dec 2024 11:55:59 GMT</pubDate>
+        <pubDate>Tue, 03 Dec 2024 08:18:58 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: Set of #insects</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231103-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: Set of #insects</p>
-          <p> Restriction: each insect should be 16x16px or less
- </p>
-
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20231103-pixeldailies</link>
-        <pubDate>Fri, 03 Nov 2023 12:42:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #Pasta</title>
         <description>
@@ -622,6 +608,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20241202-pixel-artvent</link>
         <pubDate>Mon, 02 Dec 2024 11:36:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Artvent prompt: #Coal</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20241203-pixel-artvent.png" alt="" />]]>
+          <p>Pixel Artvent prompt: #Coal</p>
+          <p><a href="https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n">Prompt list for Pixel Artvent</a></p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20241203-pixel-artvent</link>
+        <pubDate>Tue, 03 Dec 2024 08:16:00 GMT</pubDate>
       </item>
     
       </channel>
