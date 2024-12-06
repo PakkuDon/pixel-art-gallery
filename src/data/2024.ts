@@ -533,6 +533,24 @@ const entries: PixelArtEntry[] = [
     date: "2024-12-05T23:05+11:00",
     tags: ["pixel-artvent", "Bauble", "christmas", "16x16", "the-crow"],
   },
+  {
+    src: "2024/20241206-pixel-artvent.png",
+    title: "Pixel Artvent prompt: #Snowflake",
+    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n)`,
+    palette: {
+      name: "Winter Wonderland",
+      url: "https://lospec.com/palette-list/winter-wonderland",
+    },
+    resolution: "16x16",
+    date: "2024-12-06T17:48+11:00",
+    tags: [
+      "pixel-artvent",
+      "Snowflake",
+      "christmas",
+      "16x16",
+      "winter-wonderland",
+    ],
+  },
 ]
 
 export { entries }
