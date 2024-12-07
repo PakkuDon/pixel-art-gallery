@@ -8,7 +8,7 @@
     "deploy": "gh-pages -t -d dist",
     "predeploy": "IS_DEPLOY=true yarn build",
     "dev": "next dev",
-    "format": "prettier --write .",
+    "format": "prettier --list-different --write .",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
     "test:e2e": "cypress run"
