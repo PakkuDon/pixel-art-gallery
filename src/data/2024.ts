@@ -563,6 +563,18 @@ const entries: PixelArtEntry[] = [
     date: "2024-12-07T23:36+11:00",
     tags: ["pixel-artvent", "Present", "christmas", "16x16", "the-crow"],
   },
+  {
+    src: "2024/20241208-pixel-artvent.png",
+    title: "Pixel Artvent prompt: #SantaHat",
+    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n)`,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "16x16",
+    date: "2024-12-08T23:44+11:00",
+    tags: ["pixel-artvent", "SantaHat", "christmas", "16x16", "apollo"],
+  },
 ]
 
 export { entries }
