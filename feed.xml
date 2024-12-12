@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 12 Dec 2024 07:36:21 GMT</pubDate>
+        <pubDate>Thu, 12 Dec 2024 20:51:32 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Finch</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2023/20231204-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Finch</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20231204-pixeldailies</link>
-        <pubDate>Mon, 04 Dec 2023 12:50:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #breakfast</title>
         <description>
@@ -630,6 +618,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20241212-pixel-artvent</link>
         <pubDate>Thu, 12 Dec 2024 07:16:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Artvent prompt: #Log</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20241213-pixel-artvent.png" alt="" />]]>
+          <p>Pixel Artvent prompt: #Log</p>
+          <p><a href="https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n">Prompt list for Pixel Artvent</a></p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20241213-pixel-artvent</link>
+        <pubDate>Thu, 12 Dec 2024 20:50:00 GMT</pubDate>
       </item>
     
       </channel>
