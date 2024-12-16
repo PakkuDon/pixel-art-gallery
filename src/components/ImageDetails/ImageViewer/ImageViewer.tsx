@@ -45,7 +45,7 @@ const ImageViewer = ({ image }: ImageViewerProps) => {
         <Slider
           zoom={zoom}
           min={100}
-          max={500}
+          max={800}
           label="Zoom"
           increment={50}
           onChange={handleZoomChange}
