@@ -697,6 +697,18 @@ const entries: PixelArtEntry[] = [
     date: "2024-12-17T21:08+11:00",
     tags: ["pixel-artvent", "Pinecone", "christmas", "16x16", "gora63"],
   },
+  {
+    src: "2024/20241217-pixeldailies.png",
+    title: "Pixel Dailies prompt: #apple",
+    description: `Restriction: your entry must be pixeled in 5 minutes or less ([to make up for the late start](https://bsky.app/profile/pixeldailies.bsky.social/post/3ldie2e4ztk2u))`,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-12-17T23:09+11:00",
+    tags: ["pixel_dailies", "apple", "food", "fruit", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
