@@ -685,6 +685,18 @@ const entries: PixelArtEntry[] = [
     date: "2024-12-16T22:54+11:00",
     tags: ["pixel-artvent", "Eggnog", "drink", "christmas", "16x16", "gora63"],
   },
+  {
+    src: "2024/20241217-pixel-artvent.png",
+    title: "Pixel Artvent prompt: #Pinecone",
+    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n)`,
+    palette: {
+      name: "GORA63",
+      url: "https://lospec.com/palette-list/gora63",
+    },
+    resolution: "16x16",
+    date: "2024-12-17T21:08+11:00",
+    tags: ["pixel-artvent", "Pinecone", "christmas", "16x16", "gora63"],
+  },
 ]
 
 export { entries }
