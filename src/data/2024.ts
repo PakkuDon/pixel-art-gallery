@@ -709,6 +709,25 @@ const entries: PixelArtEntry[] = [
     date: "2024-12-17T23:09+11:00",
     tags: ["pixel_dailies", "apple", "food", "fruit", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20241218-pixel-artvent.png",
+    title: "Pixel Artvent prompt: #CandyCane",
+    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n)`,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "16x16",
+    date: "2024-12-18T18:40+11:00",
+    tags: [
+      "pixel-artvent",
+      "CandyCane",
+      "food",
+      "christmas",
+      "16x16",
+      "the-crow",
+    ],
+  },
 ]
 
 export { entries }
