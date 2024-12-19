@@ -728,6 +728,25 @@ const entries: PixelArtEntry[] = [
       "the-crow",
     ],
   },
+  {
+    src: "2024/20241219-pixel-artvent.png",
+    title: "Pixel Artvent prompt: #Mistletoe",
+    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n)`,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "16x16",
+    date: "2024-12-19T23:49+11:00",
+    tags: [
+      "pixel-artvent",
+      "Mistletoe",
+      "plant",
+      "christmas",
+      "16x16",
+      "the-crow",
+    ],
+  },
 ]
 
 export { entries }
