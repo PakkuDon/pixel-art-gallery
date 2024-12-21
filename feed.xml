@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Fri, 20 Dec 2024 12:42:29 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 12:52:22 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #Saucer</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240120-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Saucer</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20240120-pixeldailies</link>
-        <pubDate>Sat, 20 Jan 2024 10:18:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #mart</title>
         <description>
@@ -636,6 +624,19 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20241220-pixel-artvent</link>
         <pubDate>Fri, 20 Dec 2024 12:40:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Artvent prompt: #Star</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20241221-pixel-artvent.png" alt="" />]]>
+          <p>Pixel Artvent prompt: #Star</p>
+          <p><a href="https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n">Prompt list for Pixel Artvent</a></p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20241221-pixel-artvent</link>
+        <pubDate>Sat, 21 Dec 2024 12:50:00 GMT</pubDate>
       </item>
     
       </channel>
