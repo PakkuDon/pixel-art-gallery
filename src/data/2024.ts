@@ -793,7 +793,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2024/20241223-pixel-artvent.png",
     title: "Pixel Artvent prompt: #HotCocoa",
-    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds23n)`,
+    description: `[Prompt list for Pixel Artvent](https://bsky.app/profile/pixelartjourney.bsky.social/post/3lc6cgoxds22n)`,
     palette: {
       name: "The Crow",
       url: "https://lospec.com/palette-list/the-crow",
