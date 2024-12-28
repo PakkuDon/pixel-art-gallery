@@ -843,6 +843,24 @@ const entries: PixelArtEntry[] = [
       "the-crow",
     ],
   },
+  {
+    src: "2024/20241228-lospecdaily.png",
+    title: "Lospec Dailies prompt: #tree",
+    description: ``,
+    palette: {
+      name: "SoftDecay GB",
+      url: "https://lospec.com/palette-list/softdecay-gb",
+    },
+    resolution: "64x64",
+    date: "2024-12-28T13:28+11:00",
+    tags: [
+      "lospecdailies",
+      "tree",
+      "lospec_palette_of_the_day",
+      "64x64",
+      "softdecay-gb",
+    ],
+  },
 ]
 
 export { entries }
