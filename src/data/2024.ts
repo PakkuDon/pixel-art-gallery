@@ -861,6 +861,18 @@ const entries: PixelArtEntry[] = [
       "softdecay-gb",
     ],
   },
+  {
+    src: "2024/20241230-pixeldailies.png",
+    title: "Pixel Dailies prompt: #note",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2024-12-30T13:27+11:00",
+    tags: ["pixel_dailies", "note", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
