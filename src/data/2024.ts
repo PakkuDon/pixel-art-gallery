@@ -873,6 +873,28 @@ const entries: PixelArtEntry[] = [
     date: "2024-12-30T13:27+11:00",
     tags: ["pixel_dailies", "note", "64x64", "the-crow"],
   },
+  {
+    src: "2024/20241231-sunset.png",
+    title: "Sunset",
+    description: `Last pixel art entry for the year.
+
+    Happy 2025 everyone! Hoping the new year treats you well.
+    `,
+    palette: {
+      name: "The Y Gigante Reverted",
+      url: "https://lospec.com/palette-list/the-y-gigante-reverted",
+    },
+    resolution: "64x64",
+    date: "2024-12-31T23:31+11:00",
+    tags: [
+      "noprompt",
+      "sunset",
+      "water",
+      "landscape",
+      "64x64",
+      "the-y-gigante-reverted",
+    ],
+  },
 ]
 
 export { entries }
