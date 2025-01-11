@@ -4,32 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Fri, 03 Jan 2025 06:53:20 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 11:26:26 GMT</pubDate>
         
-      <item>
-        <title>Strawberry shortcake</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240301-strawberry-shortcake.png" alt="" />]]>
-          <p>Strawberry shortcake</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20240301-strawberry-shortcake</link>
-        <pubDate>Fri, 01 Mar 2024 12:54:00 GMT</pubDate>
-      </item>
-    
-
-      <item>
-        <title>Pixel Dailies prompt: #Rice</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240302-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #Rice</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20240302-pixeldailies</link>
-        <pubDate>Sat, 02 Mar 2024 12:20:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #grass</title>
         <description>
@@ -637,6 +613,31 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20250103-pixeldailies</link>
         <pubDate>Fri, 03 Jan 2025 06:52:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #strawberry</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2025/20250106-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #strawberry</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20250106-pixeldailies</link>
+        <pubDate>Mon, 06 Jan 2025 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #pearl</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2025/20250111-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #pearl</p>
+          <p>This post done with the support of <a href="https://www.patreon.com/posts/pixel-art-sphere-108853066">Rappenem&#39;s sphere tutorial</a></p>
+
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20250111-pixeldailies</link>
+        <pubDate>Sat, 11 Jan 2025 11:25:00 GMT</pubDate>
       </item>
     
       </channel>
