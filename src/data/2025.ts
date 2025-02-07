@@ -37,6 +37,18 @@ const entries: PixelArtEntry[] = [
     date: "2025-01-11T22:25+11:00",
     tags: ["pixel_dailies", "pearl", "64x64", "the-crow"],
   },
+  {
+    src: "2025/20250207-cake.png",
+    title: "Milky Way cake from Koi",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2025-02-07T13:04+11:00",
+    tags: ["noprompt", "cake", "food", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
