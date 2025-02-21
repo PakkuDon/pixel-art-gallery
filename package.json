@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf dist && next build",
     "deploy": "gh-pages -t -d dist",
-    "predeploy": "IS_DEPLOY=true yarn build",
+    "predeploy": "IS_DEPLOY=true npm run build",
     "dev": "next dev",
     "format": "prettier --list-different --write .",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",

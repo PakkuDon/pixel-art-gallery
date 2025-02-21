@@ -15,36 +15,35 @@ The gallery itself is built using Next.js and TypeScript.
 ### Prerequisites
 
 - Node (Built using v18 but may work with earlier versions)
-- Yarn
 
 ### Local Development
 
 - Clone repo
-- `cd` into cloned repo and run `yarn install` to install dependencies
-- Run `yarn dev` to start local development server
+- `cd` into cloned repo and run `npm i` to install dependencies
+- Run `npm run dev` to start local development server
 - Visit `localhost:3000` or whichever port the above server has used to view the page
 
 ### Scripts
 
 ```sh
 # Starts local development server
-yarn dev
+npm run dev
 
 # Formats docs and code using Prettier
-yarn format
+npm run format
 
 # Lints `src` directory
-yarn lint
+npm run lint
 
 # Runs unit tests
-yarn test
+npm test
 
 # Generate production-ready assets. Artifacts are written to `dist/pixel-art-gallery`
 # as application is hosted on subpath in production
-yarn build
+npm run build
 
 # Runs `build` script and pushes generated assets to Github Pages
-yarn deploy
+npm run deploy
 ```
 
 ### Add pixel art entry
@@ -72,7 +71,7 @@ yarn deploy
 ```
 
 - Run development server to preview changes.
-- Run `yarn deploy` to build assets, link previews and generate RSS feed. This script will also deploy these to Github pages
+- Run `npm run deploy` to build assets, link previews and generate RSS feed. This script will also deploy these to Github pages
 
 ### Directory structure
 
