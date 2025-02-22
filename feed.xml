@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Fri, 07 Feb 2025 02:05:45 GMT</pubDate>
+        <pubDate>Sat, 22 Feb 2025 13:21:05 GMT</pubDate>
         
-      <item>
-        <title>Happy Easter!</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240331-easter.png" alt="" />]]>
-          <p>Happy Easter!</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20240331-easter</link>
-        <pubDate>Sun, 31 Mar 2024 12:59:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #prairie</title>
         <description>
@@ -638,6 +626,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20250207-cake</link>
         <pubDate>Fri, 07 Feb 2025 02:04:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #Chip</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2025/20250222-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #Chip</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20250222-pixeldailies</link>
+        <pubDate>Sat, 22 Feb 2025 12:49:00 GMT</pubDate>
       </item>
     
       </channel>
