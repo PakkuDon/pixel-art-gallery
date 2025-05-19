@@ -73,6 +73,18 @@ const entries: PixelArtEntry[] = [
     date: "2025-03-24T23:49+11:00",
     tags: ["pixel_dailies", "Jar", "food", "glass", "64x64", "gora63"],
   },
+  {
+    src: "2025/20250519-pixeldailies.png",
+    title: "Pixel Dailies prompt: #controller",
+    description: ``,
+    palette: {
+      name: "Endesga 36",
+      url: "https://lospec.com/palette-list/endesga-36",
+    },
+    resolution: "64x64",
+    date: "2025-05-19T23:56+10:00",
+    tags: ["pixel_dailies", "controller", "nintendo", "64x64", "endesga-36"],
+  },
 ]
 
 export { entries }
