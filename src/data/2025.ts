@@ -85,6 +85,18 @@ const entries: PixelArtEntry[] = [
     date: "2025-05-19T23:56+10:00",
     tags: ["pixel_dailies", "controller", "nintendo", "64x64", "endesga-36"],
   },
+  {
+    src: "2025/20250522-neighbour.png",
+    title: "Neighbour (2025)",
+    description: ``,
+    palette: {
+      name: "Nostalgia48",
+      url: "https://lospec.com/palette-list/nostalgia48",
+    },
+    resolution: "64x64",
+    date: "2025-05-22T22:59+10:00",
+    tags: ["noprompt", "house", "tree", "64x64", "nostalgia48"],
+  },
 ]
 
 export { entries }
