@@ -77,6 +77,7 @@ const Sidebar = () => {
                 entry={entry}
                 isSelected={isSelected}
                 searchQuery={searchQuery}
+                lazyLoad={index > 20}
               />
             )
           })}

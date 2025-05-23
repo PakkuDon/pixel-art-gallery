@@ -11,6 +11,7 @@ import "./SidebarEntry.css"
 
 interface SidebarEntryProps {
   entry: PixelArtEntry
+  lazyLoad?: boolean
   isSelected?: boolean
   searchQuery?: string
 }
@@ -19,6 +20,7 @@ const SidebarEntry = ({
   entry,
   isSelected,
   searchQuery,
+  lazyLoad,
 }: SidebarEntryProps) => {
   const queryString = searchQuery ? encodeURIFragment(`?q=${searchQuery}`) : ""
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
@@ -36,7 +38,7 @@ const SidebarEntry = ({
         alt={entry.src}
         width={width}
         height={height}
-        loading="lazy"
+        loading={lazyLoad ? "lazy" : undefined}
       />
     </Link>
   )
