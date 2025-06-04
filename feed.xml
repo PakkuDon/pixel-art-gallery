@@ -4,20 +4,8 @@
         <title>Pixel Art Gallery</title>
         <link>https://pakkudon.github.io/pixel-art-gallery/</link>
         <description>Pixel art by PakkuDon</description>
-        <pubDate>Thu, 22 May 2025 13:00:33 GMT</pubDate>
+        <pubDate>Wed, 04 Jun 2025 13:46:43 GMT</pubDate>
         
-      <item>
-        <title>Pixel Dailies prompt: #combination</title>
-        <description>
-          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2024/20240702-pixeldailies.png" alt="" />]]>
-          <p>Pixel Dailies prompt: #combination</p>
-          
-        </description>
-        <link>https://pakkudon.github.io/pixel-art-gallery/20240702-pixeldailies</link>
-        <pubDate>Tue, 02 Jul 2024 13:55:00 GMT</pubDate>
-      </item>
-    
-
       <item>
         <title>Pixel Dailies prompt: #TreasureChest</title>
         <description>
@@ -638,6 +626,18 @@
         </description>
         <link>https://pakkudon.github.io/pixel-art-gallery/20250522-neighbour</link>
         <pubDate>Thu, 22 May 2025 12:59:00 GMT</pubDate>
+      </item>
+    
+
+      <item>
+        <title>Pixel Dailies prompt: #simple</title>
+        <description>
+          <![CDATA[<img src="https://pakkudon.github.io/pixel-art-gallery/img/2025/20250604-pixeldailies.png" alt="" />]]>
+          <p>Pixel Dailies prompt: #simple</p>
+          
+        </description>
+        <link>https://pakkudon.github.io/pixel-art-gallery/20250604-pixeldailies</link>
+        <pubDate>Wed, 04 Jun 2025 13:44:00 GMT</pubDate>
       </item>
     
       </channel>
