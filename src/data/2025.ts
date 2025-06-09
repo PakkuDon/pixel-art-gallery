@@ -109,6 +109,26 @@ const entries: PixelArtEntry[] = [
     date: "2025-06-04T23:44+10:00",
     tags: ["pixel_dailies", "simple", "flower", "64x64", "the-crow"],
   },
+  {
+    src: "2025/20250609-creme-caramel.png",
+    title: "Creme caramel (2025)",
+    description: `Redraw of [20210115-pixeldailies](20210115-pixeldailies)`,
+    palette: {
+      name: "Apollo",
+      url: "https://lospec.com/palette-list/apollo",
+    },
+    resolution: "64x64",
+    date: "2025-06-09T23:21+10:00",
+    tags: [
+      "noprompt",
+      "redraw",
+      "food",
+      "caramel",
+      "dessert",
+      "64x64",
+      "apollo",
+    ],
+  },
 ]
 
 export { entries }
