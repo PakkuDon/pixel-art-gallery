@@ -28,7 +28,7 @@
 
 @media (min-width: 720px) {
   .entriesList {
-    grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(64px, 0.25fr));
     grid-auto-flow: initial;
     width: auto;
   }
