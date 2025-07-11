@@ -129,6 +129,18 @@ const entries: PixelArtEntry[] = [
       "apollo",
     ],
   },
+  {
+    src: "2025/20250712-pixeldailies.png",
+    title: "Pixel Dailies prompt: #timer",
+    description: ``,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2025-07-12T01:26+10:00",
+    tags: ["pixel_dailies", "timer", "hourglass", "glass", "64x64", "the-crow"],
+  },
 ]
 
 export { entries }
