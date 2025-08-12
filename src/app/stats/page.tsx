@@ -16,7 +16,6 @@ import { TagList } from "../../components/TagList/TagList"
 
 const RelativeTime = dynamic(
   () => import("../../components/RelativeTime/RelativeTime"),
-  { ssr: false },
 )
 
 PixelArtRepository.load()

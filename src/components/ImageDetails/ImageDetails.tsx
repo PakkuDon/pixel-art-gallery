@@ -13,9 +13,7 @@ import { extractFilename } from "../../util/extractFilename"
 import { PixelArtEntry } from "../../data"
 import "./ImageDetails.css"
 
-const RelativeTime = dynamic(() => import("../RelativeTime/RelativeTime"), {
-  ssr: false,
-})
+const RelativeTime = dynamic(() => import("../RelativeTime/RelativeTime"))
 
 const PaginationPlaceholder = () => (
   <div className={classnames("navigation", "content")}>
