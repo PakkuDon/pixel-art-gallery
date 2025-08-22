@@ -141,6 +141,26 @@ const entries: PixelArtEntry[] = [
     date: "2025-07-12T01:26+10:00",
     tags: ["pixel_dailies", "timer", "hourglass", "glass", "64x64", "the-crow"],
   },
+  {
+    src: "2025/20250822-pixeldailies.png",
+    title: "Pixel Dailies prompt: #apple",
+    description: `Redraw of [20241217-pixeldailies](/20241217-pixeldailies)`,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2025-08-22T23:35+10:00",
+    tags: [
+      "pixel_dailies",
+      "apple",
+      "food",
+      "fruit",
+      "redraw",
+      "64x64",
+      "the-crow",
+    ],
+  },
 ]
 
 export { entries }
