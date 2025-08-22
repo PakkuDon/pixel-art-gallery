@@ -8,7 +8,7 @@ const entries: PixelArtEntry[] = [
       From [Pixel Dailies](https://twitter.com/Pixel_Dailies/status/1476893400775344129):
       > Pixel something you did in 2021 that you're proud of, enjoyed, or are eager to share
 
-      Featuring a miniature of [20211001-pointe-de-pen-hir](20211001-pointe-de-pen-hir),
+      Featuring a miniature of [20211001-pointe-de-pen-hir](/20211001-pointe-de-pen-hir),
       the first 192x108px image in this gallery.
     `,
     palette: {
@@ -1777,7 +1777,7 @@ const entries: PixelArtEntry[] = [
     src: "2022/20220911-pixeldailies.png",
     title: "Pixel Dailies prompt: #Scenery",
     description: `
-      Redraw of [20220613-pixeldailies](20220613-pixeldailies). Originally started drawing this for [Pixel Dailies' #Remake prompt](https://twitter.com/Pixel_Dailies/status/1561329773372121088) then life happened
+      Redraw of [20220613-pixeldailies](/20220613-pixeldailies). Originally started drawing this for [Pixel Dailies' #Remake prompt](https://twitter.com/Pixel_Dailies/status/1561329773372121088) then life happened
 
       This is also my 300th post. Thanks again to those of you following along. I appreciate you. See you at the next one!
       

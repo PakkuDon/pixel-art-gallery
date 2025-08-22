@@ -112,7 +112,7 @@ const entries: PixelArtEntry[] = [
   {
     src: "2025/20250609-creme-caramel.png",
     title: "Creme caramel (2025)",
-    description: `Redraw of [20210115-pixeldailies](20210115-pixeldailies)`,
+    description: `Redraw of [20210115-pixeldailies](/20210115-pixeldailies)`,
     palette: {
       name: "Apollo",
       url: "https://lospec.com/palette-list/apollo",

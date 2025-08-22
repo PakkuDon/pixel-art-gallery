@@ -735,7 +735,7 @@ const entries: PixelArtEntry[] = [
     src: "2023/20230728-mini-gallery.png",
     title: "Mini gallery (Light theme)",
     description: `
-      [20230728-mini-gallery](20230728-mini-gallery) but recoloured
+      [20230728-mini-gallery](/20230728-mini-gallery) but recoloured
     `,
     palette: {
       name: "Apollo",
