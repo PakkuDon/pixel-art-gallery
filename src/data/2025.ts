@@ -161,6 +161,28 @@ const entries: PixelArtEntry[] = [
       "the-crow",
     ],
   },
+  {
+    src: "2025/20251010-crabapple-flowers.png",
+    title: "Crabapple flowers (2025)",
+    description: `Happy Pixel Art Day to all who celebrate!
+
+    This post also marks 5 years since my first pixel art post. Thanks again for dropping by! See you at the 500th post?
+    `,
+    palette: {
+      name: "The Crow",
+      url: "https://lospec.com/palette-list/the-crow",
+    },
+    resolution: "64x64",
+    date: "2025-10-10T23:49+11:00",
+    tags: [
+      "noprompt",
+      "anniversary_post",
+      "flower",
+      "plant",
+      "64x64",
+      "the-crow",
+    ],
+  },
 ]
 
 export { entries }
